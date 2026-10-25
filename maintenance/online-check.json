@@ -1,0 +1,243 @@
+{
+  "checked_at": "2026-10-25T16:36:42.622722+00:00",
+  "url": "https://yus3nable.github.io/nju-os-reading/",
+  "status": "passed",
+  "scope": "Homepage, first reading unit of all 30 lessons, final reading unit, CSS/JS, navigation/search indexes and three representative images. Byte comparison with the published build; browser interaction checked separately.",
+  "results": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 20821,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/01/001.html",
+      "status": 200,
+      "bytes": 27768,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/02/001.html",
+      "status": 200,
+      "bytes": 51029,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/03/001.html",
+      "status": 200,
+      "bytes": 25792,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/04/001.html",
+      "status": 200,
+      "bytes": 35229,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/05/001.html",
+      "status": 200,
+      "bytes": 23331,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/06/001.html",
+      "status": 200,
+      "bytes": 20906,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/07/001.html",
+      "status": 200,
+      "bytes": 25600,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/08/001.html",
+      "status": 200,
+      "bytes": 27954,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/09/001.html",
+      "status": 200,
+      "bytes": 17399,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/10/001.html",
+      "status": 200,
+      "bytes": 17628,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/11/001.html",
+      "status": 200,
+      "bytes": 21326,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/12/001.html",
+      "status": 200,
+      "bytes": 21830,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/13/001.html",
+      "status": 200,
+      "bytes": 20029,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/14/001.html",
+      "status": 200,
+      "bytes": 20525,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/15/001.html",
+      "status": 200,
+      "bytes": 19928,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/16/001.html",
+      "status": 200,
+      "bytes": 21091,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/17/001.html",
+      "status": 200,
+      "bytes": 17557,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/18/001.html",
+      "status": 200,
+      "bytes": 17945,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/19/001.html",
+      "status": 200,
+      "bytes": 19541,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/20/001.html",
+      "status": 200,
+      "bytes": 19395,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/21/001.html",
+      "status": 200,
+      "bytes": 19325,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/22/001.html",
+      "status": 200,
+      "bytes": 21483,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/23/001.html",
+      "status": 200,
+      "bytes": 21777,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/24/001.html",
+      "status": 200,
+      "bytes": 20873,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/25/001.html",
+      "status": 200,
+      "bytes": 22197,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/26/001.html",
+      "status": 200,
+      "bytes": 21185,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/27/001.html",
+      "status": 200,
+      "bytes": 23013,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/28/001.html",
+      "status": 200,
+      "bytes": 22000,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/29/001.html",
+      "status": 200,
+      "bytes": 21814,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/30/001.html",
+      "status": 200,
+      "bytes": 22892,
+      "content_matches_build": true
+    },
+    {
+      "path": "lessons/30/088.html",
+      "status": 200,
+      "bytes": 22705,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/reader.css",
+      "status": 200,
+      "bytes": 9786,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/reader.js",
+      "status": 200,
+      "bytes": 5831,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/search.json",
+      "status": 200,
+      "bytes": 2839070,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/navigation.json",
+      "status": 200,
+      "bytes": 178225,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/images/01/0001.webp",
+      "status": 200,
+      "bytes": 60100,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/images/15/0030.webp",
+      "status": 200,
+      "bytes": 33526,
+      "content_matches_build": true
+    },
+    {
+      "path": "assets/images/30/0056.webp",
+      "status": 200,
+      "bytes": 38118,
+      "content_matches_build": true
+    }
+  ],
+  "transport_retries": 5
+}
