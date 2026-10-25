@@ -1,0 +1,876 @@
+{
+  "number": 29,
+  "title": "虚拟机和容器",
+  "source": "https://www.bilibili.com/video/BV1uaEB66EAH/",
+  "pdf": "29 - 虚拟机和容器 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 111,
+  "images": 53,
+  "text_lines": 779,
+  "code_blocks": 10,
+  "sections": [
+    {
+      "lesson": 29,
+      "section": 1,
+      "title": "全系统模拟的性能问题",
+      "time": "00:00:00—00:00:49",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/29/001.md",
+      "route": "lessons/29/001.html"
+    },
+    {
+      "lesson": 29,
+      "section": 2,
+      "title": "同学的 JIT 与游戏演示",
+      "time": "00:00:49—00:01:35",
+      "source_pages": [
+        9,
+        13
+      ],
+      "path": "chapters/29/002.md",
+      "route": "lessons/29/002.html"
+    },
+    {
+      "lesson": 29,
+      "section": 3,
+      "title": "状态机与基本块",
+      "time": "00:01:35—00:03:09",
+      "source_pages": [
+        14,
+        15
+      ],
+      "path": "chapters/29/003.md",
+      "route": "lessons/29/003.html"
+    },
+    {
+      "lesson": 29,
+      "section": 4,
+      "title": "把基本块写成 C 程序",
+      "time": "00:03:09—00:04:00",
+      "source_pages": [
+        16,
+        18
+      ],
+      "path": "chapters/29/004.md",
+      "route": "lessons/29/004.html"
+    },
+    {
+      "lesson": 29,
+      "section": 5,
+      "title": "共享库、重定位与直接调用",
+      "time": "00:04:00—00:05:13",
+      "source_pages": [
+        18,
+        19
+      ],
+      "path": "chapters/29/005.md",
+      "route": "lessons/29/005.html"
+    },
+    {
+      "lesson": 29,
+      "section": 6,
+      "title": "每次调用 GCC 的代价",
+      "time": "00:05:13—00:05:41",
+      "source_pages": [
+        20,
+        20
+      ],
+      "path": "chapters/29/006.md",
+      "route": "lessons/29/006.html"
+    },
+    {
+      "lesson": 29,
+      "section": 7,
+      "title": "解释启动、热点计数与后台编译",
+      "time": "00:05:41—00:07:06",
+      "source_pages": [
+        20,
+        24
+      ],
+      "path": "chapters/29/007.md",
+      "route": "lessons/29/007.html"
+    },
+    {
+      "lesson": 29,
+      "section": 8,
+      "title": "语言虚拟机与折中的优化方案",
+      "time": "00:07:06—00:08:16",
+      "source_pages": [
+        24,
+        24
+      ],
+      "path": "chapters/29/008.md",
+      "route": "lessons/29/008.html"
+    },
+    {
+      "lesson": 29,
+      "section": 9,
+      "title": "QEMU dyngen 与指令模板",
+      "time": "00:08:16—00:09:31",
+      "source_pages": [
+        25,
+        25
+      ],
+      "path": "chapters/29/009.md",
+      "route": "lessons/29/009.html"
+    },
+    {
+      "lesson": 29,
+      "section": 10,
+      "title": "addi、临时寄存器与三条操作",
+      "time": "00:09:31—00:11:38",
+      "source_pages": [
+        25,
+        27
+      ],
+      "path": "chapters/29/010.md",
+      "route": "lessons/29/010.html"
+    },
+    {
+      "lesson": 29,
+      "section": 11,
+      "title": "可编译却暂时不能链接的 C 函数",
+      "time": "00:11:38—00:13:01",
+      "source_pages": [
+        27,
+        27
+      ],
+      "path": "chapters/29/011.md",
+      "route": "lessons/29/011.html"
+    },
+    {
+      "lesson": 29,
+      "section": 12,
+      "title": "复制指令，再修补立即数",
+      "time": "00:13:01—00:15:00",
+      "source_pages": [
+        27,
+        28
+      ],
+      "path": "chapters/29/012.md",
+      "route": "lessons/29/012.html"
+    },
+    {
+      "lesson": 29,
+      "section": 13,
+      "title": "三条本机指令与模拟效率",
+      "time": "00:15:00—00:15:49",
+      "source_pages": [
+        28,
+        29
+      ],
+      "path": "chapters/29/013.md",
+      "route": "lessons/29/013.html"
+    },
+    {
+      "lesson": 29,
+      "section": 14,
+      "title": "从 WSL 回望 VMware",
+      "time": "00:15:49—00:16:57",
+      "source_pages": [
+        30,
+        31
+      ],
+      "path": "chapters/29/014.md",
+      "route": "lessons/29/014.html"
+    },
+    {
+      "lesson": 29,
+      "section": 15,
+      "title": "Disco 与虚拟机监视器",
+      "time": "00:16:57—00:18:12",
+      "source_pages": [
+        31,
+        31
+      ],
+      "path": "chapters/29/015.md",
+      "route": "lessons/29/015.html"
+    },
+    {
+      "lesson": 29,
+      "section": 16,
+      "title": "大型机时代的虚拟化需求",
+      "time": "00:18:12—00:19:31",
+      "source_pages": [
+        32,
+        32
+      ],
+      "path": "chapters/29/016.md",
+      "route": "lessons/29/016.html"
+    },
+    {
+      "lesson": 29,
+      "section": 17,
+      "title": "互联网泡沫与 ISP",
+      "time": "00:19:31—00:21:31",
+      "source_pages": [
+        32,
+        33
+      ],
+      "path": "chapters/29/017.md",
+      "route": "lessons/29/017.html"
+    },
+    {
+      "lesson": 29,
+      "section": 18,
+      "title": "一台物理机当十台来卖",
+      "time": "00:21:31—00:23:01",
+      "source_pages": [
+        33,
+        33
+      ],
+      "path": "chapters/29/018.md",
+      "route": "lessons/29/018.html"
+    },
+    {
+      "lesson": 29,
+      "section": 19,
+      "title": "超卖、空闲率与课程网站",
+      "time": "00:23:01—00:24:00",
+      "source_pages": [
+        34,
+        34
+      ],
+      "path": "chapters/29/019.md",
+      "route": "lessons/29/019.html"
+    },
+    {
+      "lesson": 29,
+      "section": 20,
+      "title": "VMware：技术与财富自由",
+      "time": "00:24:00—00:25:32",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/29/020.md",
+      "route": "lessons/29/020.html"
+    },
+    {
+      "lesson": 29,
+      "section": 21,
+      "title": "硅谷创业公司与 Y Combinator",
+      "time": "00:25:32—00:26:34",
+      "source_pages": [
+        36,
+        36
+      ],
+      "path": "chapters/29/021.md",
+      "route": "lessons/29/021.html"
+    },
+    {
+      "lesson": 29,
+      "section": 22,
+      "title": "递归、lambda 与阶乘",
+      "time": "00:26:34—00:28:01",
+      "source_pages": [
+        37,
+        37
+      ],
+      "path": "chapters/29/022.md",
+      "route": "lessons/29/022.html"
+    },
+    {
+      "lesson": 29,
+      "section": 23,
+      "title": "研究实践与发论文的意义",
+      "time": "00:28:01—00:29:00",
+      "source_pages": [
+        37,
+        38
+      ],
+      "path": "chapters/29/023.md",
+      "route": "lessons/29/023.html"
+    },
+    {
+      "lesson": 29,
+      "section": 24,
+      "title": "Benchmark crime 与挑选数据",
+      "time": "00:29:00—00:29:58",
+      "source_pages": [
+        39,
+        43
+      ],
+      "path": "chapters/29/024.md",
+      "route": "lessons/29/024.html"
+    },
+    {
+      "lesson": 29,
+      "section": 25,
+      "title": "虚假的 SOTA 与被污染的语料",
+      "time": "00:29:58—00:30:41",
+      "source_pages": [
+        44,
+        44
+      ],
+      "path": "chapters/29/025.md",
+      "route": "lessons/29/025.html"
+    },
+    {
+      "lesson": 29,
+      "section": 26,
+      "title": "Disco、LFS 与研究传承",
+      "time": "00:30:41—00:32:34",
+      "source_pages": [
+        44,
+        45
+      ],
+      "path": "chapters/29/026.md",
+      "route": "lessons/29/026.html"
+    },
+    {
+      "lesson": 29,
+      "section": 27,
+      "title": "技能、见闻与判断",
+      "time": "00:32:34—00:33:48",
+      "source_pages": [
+        45,
+        46
+      ],
+      "path": "chapters/29/027.md",
+      "route": "lessons/29/027.html"
+    },
+    {
+      "lesson": 29,
+      "section": 28,
+      "title": "NEMU 的 Differential Testing",
+      "time": "00:33:48—00:34:43",
+      "source_pages": [
+        47,
+        47
+      ],
+      "path": "chapters/29/028.md",
+      "route": "lessons/29/028.html"
+    },
+    {
+      "lesson": 29,
+      "section": 29,
+      "title": "用工具处理复杂性",
+      "time": "00:34:43—00:35:27",
+      "source_pages": [
+        47,
+        47
+      ],
+      "path": "chapters/29/029.md",
+      "route": "lessons/29/029.html"
+    },
+    {
+      "lesson": 29,
+      "section": 30,
+      "title": "离散数学、指令集与形式证明",
+      "time": "00:35:27—00:36:20",
+      "source_pages": [
+        48,
+        48
+      ],
+      "path": "chapters/29/030.md",
+      "route": "lessons/29/030.html"
+    },
+    {
+      "lesson": 29,
+      "section": 31,
+      "title": "更多值得见识的工作",
+      "time": "00:36:20—00:36:43",
+      "source_pages": [
+        48,
+        48
+      ],
+      "path": "chapters/29/031.md",
+      "route": "lessons/29/031.html"
+    },
+    {
+      "lesson": 29,
+      "section": 32,
+      "title": "复旦实验室、IPADS 与研究品味",
+      "time": "00:36:43—00:38:16",
+      "source_pages": [
+        48,
+        50
+      ],
+      "path": "chapters/29/032.md",
+      "route": "lessons/29/032.html"
+    },
+    {
+      "lesson": 29,
+      "section": 33,
+      "title": "考试问题与 reward hacking",
+      "time": "00:38:16—00:38:36",
+      "source_pages": [
+        50,
+        50
+      ],
+      "path": "chapters/29/033.md",
+      "route": "lessons/29/033.html"
+    },
+    {
+      "lesson": 29,
+      "section": 34,
+      "title": "分数之外的动力",
+      "time": "00:38:36—00:40:05",
+      "source_pages": [
+        50,
+        51
+      ],
+      "path": "chapters/29/034.md",
+      "route": "lessons/29/034.html"
+    },
+    {
+      "lesson": 29,
+      "section": 35,
+      "title": "品味与创造更大的东西",
+      "time": "00:40:05—00:40:25",
+      "source_pages": [
+        51,
+        52
+      ],
+      "path": "chapters/29/035.md",
+      "route": "lessons/29/035.html"
+    },
+    {
+      "lesson": 29,
+      "section": 36,
+      "title": "同体系结构的进程直接执行",
+      "time": "00:40:25—00:41:18",
+      "source_pages": [
+        53,
+        53
+      ],
+      "path": "chapters/29/036.md",
+      "route": "lessons/29/036.html"
+    },
+    {
+      "lesson": 29,
+      "section": 37,
+      "title": "系统调用与 Ring 0、Ring 3",
+      "time": "00:41:18—00:42:01",
+      "source_pages": [
+        53,
+        53
+      ],
+      "path": "chapters/29/037.md",
+      "route": "lessons/29/037.html"
+    },
+    {
+      "lesson": 29,
+      "section": 38,
+      "title": "关中断、死循环与必须模拟的行为",
+      "time": "00:42:01—00:42:31",
+      "source_pages": [
+        54,
+        54
+      ],
+      "path": "chapters/29/038.md",
+      "route": "lessons/29/038.html"
+    },
+    {
+      "lesson": 29,
+      "section": 39,
+      "title": "CR3 与可以被修改的页表",
+      "time": "00:42:31—00:44:30",
+      "source_pages": [
+        54,
+        57
+      ],
+      "path": "chapters/29/039.md",
+      "route": "lessons/29/039.html"
+    },
+    {
+      "lesson": 29,
+      "section": 40,
+      "title": "内核里的大多数代码是普通指令",
+      "time": "00:44:30—00:46:01",
+      "source_pages": [
+        58,
+        60
+      ],
+      "path": "chapters/29/040.md",
+      "route": "lessons/29/040.html"
+    },
+    {
+      "lesson": 29,
+      "section": 41,
+      "title": "把内核放到 Ring 1",
+      "time": "00:46:01—00:47:02",
+      "source_pages": [
+        60,
+        61
+      ],
+      "path": "chapters/29/041.md",
+      "route": "lessons/29/041.html"
+    },
+    {
+      "lesson": 29,
+      "section": 42,
+      "title": "异常、驱动与 Hypervisor",
+      "time": "00:47:02—00:47:38",
+      "source_pages": [
+        62,
+        62
+      ],
+      "path": "chapters/29/042.md",
+      "route": "lessons/29/042.html"
+    },
+    {
+      "lesson": 29,
+      "section": 43,
+      "title": "Shadow Page Table 的两级映射",
+      "time": "00:47:38—00:49:17",
+      "source_pages": [
+        62,
+        63
+      ],
+      "path": "chapters/29/043.md",
+      "route": "lessons/29/043.html"
+    },
+    {
+      "lesson": 29,
+      "section": 44,
+      "title": "本机速度与虚拟化黄金时代",
+      "time": "00:49:17—00:50:10",
+      "source_pages": [
+        64,
+        65
+      ],
+      "path": "chapters/29/044.md",
+      "route": "lessons/29/044.html"
+    },
+    {
+      "lesson": 29,
+      "section": 45,
+      "title": "硬件虚拟化、EPT 与 VirtIO",
+      "time": "00:50:10—00:52:05",
+      "source_pages": [
+        66,
+        66
+      ],
+      "path": "chapters/29/045.md",
+      "route": "lessons/29/045.html"
+    },
+    {
+      "lesson": 29,
+      "section": 46,
+      "title": "记录、重放与迁移虚拟机",
+      "time": "00:52:05—00:53:38",
+      "source_pages": [
+        66,
+        67
+      ],
+      "path": "chapters/29/046.md",
+      "route": "lessons/29/046.html"
+    },
+    {
+      "lesson": 29,
+      "section": 47,
+      "title": "操作系统能否虚拟化自己",
+      "time": "00:53:38—00:54:50",
+      "source_pages": [
+        67,
+        68
+      ],
+      "path": "chapters/29/047.md",
+      "route": "lessons/29/047.html"
+    },
+    {
+      "lesson": 29,
+      "section": 48,
+      "title": "从应用程序与 syscall 重新出发",
+      "time": "00:54:50—00:55:25",
+      "source_pages": [
+        69,
+        69
+      ],
+      "path": "chapters/29/048.md",
+      "route": "lessons/29/048.html"
+    },
+    {
+      "lesson": 29,
+      "section": 49,
+      "title": "两份 initramfs 与 OSID",
+      "time": "00:55:25—00:57:04",
+      "source_pages": [
+        69,
+        71
+      ],
+      "path": "chapters/29/049.md",
+      "route": "lessons/29/049.html"
+    },
+    {
+      "lesson": 29,
+      "section": 50,
+      "title": "相同 PID、不同的进程世界",
+      "time": "00:57:04—00:58:17",
+      "source_pages": [
+        71,
+        72
+      ],
+      "path": "chapters/29/050.md",
+      "route": "lessons/29/050.html"
+    },
+    {
+      "lesson": 29,
+      "section": 51,
+      "title": "PID 回收带来的竞态",
+      "time": "00:58:17—00:59:52",
+      "source_pages": [
+        73,
+        75
+      ],
+      "path": "chapters/29/051.md",
+      "route": "lessons/29/051.html"
+    },
+    {
+      "lesson": 29,
+      "section": 52,
+      "title": "pidfd：用文件描述符持有进程",
+      "time": "00:59:52—01:01:00",
+      "source_pages": [
+        75,
+        78
+      ],
+      "path": "chapters/29/052.md",
+      "route": "lessons/29/052.html"
+    },
+    {
+      "lesson": 29,
+      "section": 53,
+      "title": "历史决策与共享资源池",
+      "time": "01:01:00—01:02:23",
+      "source_pages": [
+        78,
+        79
+      ],
+      "path": "chapters/29/053.md",
+      "route": "lessons/29/053.html"
+    },
+    {
+      "lesson": 29,
+      "section": 54,
+      "title": "1979 年的 chroot",
+      "time": "01:02:23—01:02:50",
+      "source_pages": [
+        80,
+        81
+      ],
+      "path": "chapters/29/054.md",
+      "route": "lessons/29/054.html"
+    },
+    {
+      "lesson": 29,
+      "section": 55,
+      "title": "chroot 失败：找不到 /bin/bash",
+      "time": "01:02:50—01:03:34",
+      "source_pages": [
+        82,
+        84
+      ],
+      "path": "chapters/29/055.md",
+      "route": "lessons/29/055.html"
+    },
+    {
+      "lesson": 29,
+      "section": 56,
+      "title": "文件系统视图与命名空间",
+      "time": "01:03:34—01:05:03",
+      "source_pages": [
+        84,
+        88
+      ],
+      "path": "chapters/29/056.md",
+      "route": "lessons/29/056.html"
+    },
+    {
+      "lesson": 29,
+      "section": 57,
+      "title": "用户、网络和其他系统对象",
+      "time": "01:05:03—01:06:21",
+      "source_pages": [
+        89,
+        91
+      ],
+      "path": "chapters/29/057.md",
+      "route": "lessons/29/057.html"
+    },
+    {
+      "lesson": 29,
+      "section": 58,
+      "title": "lsns、strace 与 /proc 下的命名空间",
+      "time": "01:06:21—01:08:06",
+      "source_pages": [
+        91,
+        97
+      ],
+      "path": "chapters/29/058.md",
+      "route": "lessons/29/058.html"
+    },
+    {
+      "lesson": 29,
+      "section": 59,
+      "title": "Agent 解释 systemd 的隔离布局",
+      "time": "01:08:06—01:08:49",
+      "source_pages": [
+        98,
+        98
+      ],
+      "path": "chapters/29/059.md",
+      "route": "lessons/29/059.html"
+    },
+    {
+      "lesson": 29,
+      "section": 60,
+      "title": "隔离之外还要控制资源",
+      "time": "01:08:49—01:10:31",
+      "source_pages": [
+        98,
+        99
+      ],
+      "path": "chapters/29/060.md",
+      "route": "lessons/29/060.html"
+    },
+    {
+      "lesson": 29,
+      "section": 61,
+      "title": "cgroups 与树状资源策略",
+      "time": "01:10:31—01:11:44",
+      "source_pages": [
+        100,
+        103
+      ],
+      "path": "chapters/29/061.md",
+      "route": "lessons/29/061.html"
+    },
+    {
+      "lesson": 29,
+      "section": 62,
+      "title": "OverlayFS、容器与 Docker",
+      "time": "01:11:44—01:12:17",
+      "source_pages": [
+        103,
+        104
+      ],
+      "path": "chapters/29/062.md",
+      "route": "lessons/29/062.html"
+    },
+    {
+      "lesson": 29,
+      "section": 63,
+      "title": "FreeBSD Jails 与容器安全",
+      "time": "01:12:17—01:14:02",
+      "source_pages": [
+        105,
+        105
+      ],
+      "path": "chapters/29/063.md",
+      "route": "lessons/29/063.html"
+    },
+    {
+      "lesson": 29,
+      "section": 64,
+      "title": "LXC、Docker 与 The Bitter Lesson",
+      "time": "01:14:02—01:15:35",
+      "source_pages": [
+        105,
+        106
+      ],
+      "path": "chapters/29/064.md",
+      "route": "lessons/29/064.html"
+    },
+    {
+      "lesson": 29,
+      "section": 65,
+      "title": "钱、技术浪潮与个人选择",
+      "time": "01:15:35—01:17:01",
+      "source_pages": [
+        106,
+        106
+      ],
+      "path": "chapters/29/065.md",
+      "route": "lessons/29/065.html"
+    },
+    {
+      "lesson": 29,
+      "section": 66,
+      "title": "云时代的虚拟机和容器",
+      "time": "01:17:01—01:18:17",
+      "source_pages": [
+        107,
+        108
+      ],
+      "path": "chapters/29/066.md",
+      "route": "lessons/29/066.html"
+    },
+    {
+      "lesson": 29,
+      "section": 67,
+      "title": "Kubernetes 的声明式编排",
+      "time": "01:18:17—01:19:29",
+      "source_pages": [
+        108,
+        108
+      ],
+      "path": "chapters/29/067.md",
+      "route": "lessons/29/067.html"
+    },
+    {
+      "lesson": 29,
+      "section": 68,
+      "title": "Gateway、路由与负载均衡",
+      "time": "01:19:29—01:20:15",
+      "source_pages": [
+        109,
+        109
+      ],
+      "path": "chapters/29/068.md",
+      "route": "lessons/29/068.html"
+    },
+    {
+      "lesson": 29,
+      "section": 69,
+      "title": "容器调度与多维背包",
+      "time": "01:20:15—01:21:12",
+      "source_pages": [
+        109,
+        109
+      ],
+      "path": "chapters/29/069.md",
+      "route": "lessons/29/069.html"
+    },
+    {
+      "lesson": 29,
+      "section": 70,
+      "title": "研究品味与问题的价值",
+      "time": "01:21:12—01:22:01",
+      "source_pages": [
+        110,
+        110
+      ],
+      "path": "chapters/29/070.md",
+      "route": "lessons/29/070.html"
+    },
+    {
+      "lesson": 29,
+      "section": 71,
+      "title": "静态假设与动态的集群",
+      "time": "01:22:01—01:23:30",
+      "source_pages": [
+        110,
+        110
+      ],
+      "path": "chapters/29/071.md",
+      "route": "lessons/29/071.html"
+    },
+    {
+      "lesson": 29,
+      "section": 72,
+      "title": "存储集群与课程结束的话",
+      "time": "01:23:30—01:23:54",
+      "source_pages": [
+        111,
+        111
+      ],
+      "path": "chapters/29/072.md",
+      "route": "lessons/29/072.html"
+    }
+  ]
+}

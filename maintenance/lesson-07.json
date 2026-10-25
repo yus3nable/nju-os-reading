@@ -1,0 +1,180 @@
+{
+  "number": 7,
+  "title": "访问操作系统对象；文件描述符",
+  "source": "https://www.bilibili.com/video/BV1QFQmB7EQD",
+  "pdf": "07 - 访问操作系统对象；文件描述符 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 120,
+  "images": 105,
+  "text_lines": 716,
+  "code_blocks": 7,
+  "sections": [
+    {
+      "lesson": 7,
+      "section": 1,
+      "title": "实验更新：用 AI 理解和同步框架",
+      "time": "00:00:00—00:06:56",
+      "source_pages": [
+        3,
+        15
+      ],
+      "path": "chapters/07/001.md",
+      "route": "lessons/07/001.html"
+    },
+    {
+      "lesson": 7,
+      "section": 2,
+      "title": "回顾进程与地址空间",
+      "time": "00:06:56—00:10:09",
+      "source_pages": [
+        15,
+        16
+      ],
+      "path": "chapters/07/002.md",
+      "route": "lessons/07/002.html"
+    },
+    {
+      "lesson": 7,
+      "section": 3,
+      "title": "操作系统中的对象与 API",
+      "time": "00:10:09—00:17:42",
+      "source_pages": [
+        17,
+        25
+      ],
+      "path": "chapters/07/003.md",
+      "route": "lessons/07/003.html"
+    },
+    {
+      "lesson": 7,
+      "section": 4,
+      "title": "UNIX：Everything is a File",
+      "time": "00:17:42—00:22:57",
+      "source_pages": [
+        26,
+        28
+      ],
+      "path": "chapters/07/004.md",
+      "route": "lessons/07/004.html"
+    },
+    {
+      "lesson": 7,
+      "section": 5,
+      "title": "用文件系统构建课程评测后台",
+      "time": "00:22:57—00:30:35",
+      "source_pages": [
+        29,
+        34
+      ],
+      "path": "chapters/07/005.md",
+      "route": "lessons/07/005.html"
+    },
+    {
+      "lesson": 7,
+      "section": 6,
+      "title": "文件系统目录与 UNIX Philosophy",
+      "time": "00:30:35—00:42:42",
+      "source_pages": [
+        35,
+        50
+      ],
+      "path": "chapters/07/006.md",
+      "route": "lessons/07/006.html"
+    },
+    {
+      "lesson": 7,
+      "section": 7,
+      "title": "操作系统内部的文件对象",
+      "time": "00:42:42—00:48:47",
+      "source_pages": [
+        51,
+        58
+      ],
+      "path": "chapters/07/007.md",
+      "route": "lessons/07/007.html"
+    },
+    {
+      "lesson": 7,
+      "section": 8,
+      "title": "文件描述符与 Windows Handle",
+      "time": "00:48:47—00:59:14",
+      "source_pages": [
+        59,
+        69
+      ],
+      "path": "chapters/07/008.md",
+      "route": "lessons/07/008.html"
+    },
+    {
+      "lesson": 7,
+      "section": 9,
+      "title": "fork 之后，文件和偏移量怎样复制",
+      "time": "00:59:14—01:07:16",
+      "source_pages": [
+        70,
+        74
+      ],
+      "path": "chapters/07/009.md",
+      "route": "lessons/07/009.html"
+    },
+    {
+      "lesson": 7,
+      "section": 10,
+      "title": "查看进程打开的操作系统对象",
+      "time": "01:07:16—01:11:30",
+      "source_pages": [
+        75,
+        80
+      ],
+      "path": "chapters/07/010.md",
+      "route": "lessons/07/010.html"
+    },
+    {
+      "lesson": 7,
+      "section": 11,
+      "title": "管道：读写与进程间通信",
+      "time": "01:11:30—01:16:10",
+      "source_pages": [
+        81,
+        89
+      ],
+      "path": "chapters/07/011.md",
+      "route": "lessons/07/011.html"
+    },
+    {
+      "lesson": 7,
+      "section": 12,
+      "title": "匿名管道与文件描述符的继承",
+      "time": "01:16:10—01:20:09",
+      "source_pages": [
+        90,
+        95
+      ],
+      "path": "chapters/07/012.md",
+      "route": "lessons/07/012.html"
+    },
+    {
+      "lesson": 7,
+      "section": 13,
+      "title": "调试管道：观察每一步的进程状态",
+      "time": "01:20:09—01:26:31",
+      "source_pages": [
+        96,
+        114
+      ],
+      "path": "chapters/07/013.md",
+      "route": "lessons/07/013.html"
+    },
+    {
+      "lesson": 7,
+      "section": 14,
+      "title": "testkit：隔离测试、超时与共享内存",
+      "time": "01:26:31—01:28:41",
+      "source_pages": [
+        115,
+        120
+      ],
+      "path": "chapters/07/014.md",
+      "route": "lessons/07/014.html"
+    }
+  ]
+}

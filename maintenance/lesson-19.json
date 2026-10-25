@@ -1,0 +1,348 @@
+{
+  "number": 19,
+  "title": "协程、Goroutine、异步编程",
+  "source": "https://www.bilibili.com/video/BV1dVRdBpEze/",
+  "pdf": "19 - 协程、Goroutine、异步编程 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 112,
+  "images": 64,
+  "text_lines": 802,
+  "code_blocks": 16,
+  "sections": [
+    {
+      "lesson": 19,
+      "section": 1,
+      "title": "计算图与 malloc/free 作业",
+      "time": "00:00:00—00:02:05",
+      "source_pages": [
+        4,
+        6
+      ],
+      "path": "chapters/19/001.md",
+      "route": "lessons/19/001.html"
+    },
+    {
+      "lesson": 19,
+      "section": 2,
+      "title": "性能优化要面对真实的 workload",
+      "time": "00:02:05—00:04:04",
+      "source_pages": [
+        7,
+        7
+      ],
+      "path": "chapters/19/002.md",
+      "route": "lessons/19/002.html"
+    },
+    {
+      "lesson": 19,
+      "section": 3,
+      "title": "对象大小、分配频率与生命周期",
+      "time": "00:04:04—00:06:32",
+      "source_pages": [
+        7,
+        10
+      ],
+      "path": "chapters/19/003.md",
+      "route": "lessons/19/003.html"
+    },
+    {
+      "lesson": 19,
+      "section": 4,
+      "title": "把小对象分配留在本地",
+      "time": "00:06:32—00:09:33",
+      "source_pages": [
+        10,
+        13
+      ],
+      "path": "chapters/19/004.md",
+      "route": "lessons/19/004.html"
+    },
+    {
+      "lesson": 19,
+      "section": 5,
+      "title": "按大小划分 slab 与 Fast/Slow Paths",
+      "time": "00:09:33—00:11:30",
+      "source_pages": [
+        13,
+        17
+      ],
+      "path": "chapters/19/005.md",
+      "route": "lessons/19/005.html"
+    },
+    {
+      "lesson": 19,
+      "section": 6,
+      "title": "分配器的现实复杂度与性能价值",
+      "time": "00:11:30—00:13:27",
+      "source_pages": [
+        18,
+        18
+      ],
+      "path": "chapters/19/006.md",
+      "route": "lessons/19/006.html"
+    },
+    {
+      "lesson": 19,
+      "section": 7,
+      "title": "操作系统线程需要哪些资源",
+      "time": "00:13:27—00:16:31",
+      "source_pages": [
+        18,
+        22
+      ],
+      "path": "chapters/19/007.md",
+      "route": "lessons/19/007.html"
+    },
+    {
+      "lesson": 19,
+      "section": 8,
+      "title": "用休眠线程测量资源开销",
+      "time": "00:16:31—00:19:08",
+      "source_pages": [
+        22,
+        25
+      ],
+      "path": "chapters/19/008.md",
+      "route": "lessons/19/008.html"
+    },
+    {
+      "lesson": 19,
+      "section": 9,
+      "title": "上下文切换与随时随地的并行计算",
+      "time": "00:19:08—00:23:04",
+      "source_pages": [
+        26,
+        30
+      ],
+      "path": "chapters/19/009.md",
+      "route": "lessons/19/009.html"
+    },
+    {
+      "lesson": 19,
+      "section": 10,
+      "title": "轻量化线程与描述计算图两条路线",
+      "time": "00:23:04—00:25:30",
+      "source_pages": [
+        30,
+        30
+      ],
+      "path": "chapters/19/010.md",
+      "route": "lessons/19/010.html"
+    },
+    {
+      "lesson": 19,
+      "section": 11,
+      "title": "用 Python generator 创建一百万个执行流",
+      "time": "00:25:30—00:28:00",
+      "source_pages": [
+        31,
+        34
+      ],
+      "path": "chapters/19/011.md",
+      "route": "lessons/19/011.html"
+    },
+    {
+      "lesson": 19,
+      "section": 12,
+      "title": "Simple-C、栈帧与协程状态",
+      "time": "00:28:00—00:31:01",
+      "source_pages": [
+        35,
+        37
+      ],
+      "path": "chapters/19/012.md",
+      "route": "lessons/19/012.html"
+    },
+    {
+      "lesson": 19,
+      "section": 13,
+      "title": "C 中的栈切换与 C++20 co_yield",
+      "time": "00:31:01—00:35:00",
+      "source_pages": [
+        37,
+        47
+      ],
+      "path": "chapters/19/013.md",
+      "route": "lessons/19/013.html"
+    },
+    {
+      "lesson": 19,
+      "section": 14,
+      "title": "阻塞调用与 mutex 加 yield 的死锁",
+      "time": "00:35:00—00:38:30",
+      "source_pages": [
+        48,
+        51
+      ],
+      "path": "chapters/19/014.md",
+      "route": "lessons/19/014.html"
+    },
+    {
+      "lesson": 19,
+      "section": 15,
+      "title": "非阻塞 I/O、epoll 与文件描述符",
+      "time": "00:38:30—00:43:31",
+      "source_pages": [
+        52,
+        58
+      ],
+      "path": "chapters/19/015.md",
+      "route": "lessons/19/015.html"
+    },
+    {
+      "lesson": 19,
+      "section": 16,
+      "title": "让语言和标准库配合：Goroutine",
+      "time": "00:43:31—00:48:40",
+      "source_pages": [
+        58,
+        62
+      ],
+      "path": "chapters/19/016.md",
+      "route": "lessons/19/016.html"
+    },
+    {
+      "lesson": 19,
+      "section": 17,
+      "title": "用 channel 同时完成同步与通信",
+      "time": "00:48:40—00:51:54",
+      "source_pages": [
+        63,
+        65
+      ],
+      "path": "chapters/19/017.md",
+      "route": "lessons/19/017.html"
+    },
+    {
+      "lesson": 19,
+      "section": 18,
+      "title": "Go 版 Mandelbrot 与现场同步问题",
+      "time": "00:51:54—00:54:00",
+      "source_pages": [
+        66,
+        72
+      ],
+      "path": "chapters/19/018.md",
+      "route": "lessons/19/018.html"
+    },
+    {
+      "lesson": 19,
+      "section": 19,
+      "title": "JavaScript 的诞生与语言设计",
+      "time": "00:54:00—00:56:30",
+      "source_pages": [
+        73,
+        76
+      ],
+      "path": "chapters/19/019.md",
+      "route": "lessons/19/019.html"
+    },
+    {
+      "lesson": 19,
+      "section": 20,
+      "title": "Web 1.0、HTTP 与早期网页",
+      "time": "00:56:30—00:59:31",
+      "source_pages": [
+        76,
+        81
+      ],
+      "path": "chapters/19/020.md",
+      "route": "lessons/19/020.html"
+    },
+    {
+      "lesson": 19,
+      "section": 21,
+      "title": "Ajax、DOM 与 jQuery",
+      "time": "00:59:31—01:03:04",
+      "source_pages": [
+        81,
+        84
+      ],
+      "path": "chapters/19/021.md",
+      "route": "lessons/19/021.html"
+    },
+    {
+      "lesson": 19,
+      "section": 22,
+      "title": "修改网页外观与浏览器应用",
+      "time": "01:03:04—01:05:30",
+      "source_pages": [
+        85,
+        89
+      ],
+      "path": "chapters/19/022.md",
+      "route": "lessons/19/022.html"
+    },
+    {
+      "lesson": 19,
+      "section": 23,
+      "title": "事件队列与 run to completion",
+      "time": "01:05:30—01:08:00",
+      "source_pages": [
+        90,
+        90
+      ],
+      "path": "chapters/19/023.md",
+      "route": "lessons/19/023.html"
+    },
+    {
+      "lesson": 19,
+      "section": 24,
+      "title": "异步回调如何生成计算图",
+      "time": "01:08:00—01:12:04",
+      "source_pages": [
+        91,
+        95
+      ],
+      "path": "chapters/19/024.md",
+      "route": "lessons/19/024.html"
+    },
+    {
+      "lesson": 19,
+      "section": 25,
+      "title": "Promise、Future 与 Promise.all",
+      "time": "01:12:04—01:15:00",
+      "source_pages": [
+        96,
+        102
+      ],
+      "path": "chapters/19/025.md",
+      "route": "lessons/19/025.html"
+    },
+    {
+      "lesson": 19,
+      "section": 26,
+      "title": "用 async/await 写顺序逻辑",
+      "time": "01:15:00—01:17:00",
+      "source_pages": [
+        103,
+        106
+      ],
+      "path": "chapters/19/026.md",
+      "route": "lessons/19/026.html"
+    },
+    {
+      "lesson": 19,
+      "section": 27,
+      "title": "请求示例：等待 Promise 与实际返回结果",
+      "time": "01:17:00—01:19:34",
+      "source_pages": [
+        106,
+        109
+      ],
+      "path": "chapters/19/027.md",
+      "route": "lessons/19/027.html"
+    },
+    {
+      "lesson": 19,
+      "section": 28,
+      "title": "JavaScript 的全栈生态与课程收尾",
+      "time": "01:19:34—01:22:35",
+      "source_pages": [
+        110,
+        112
+      ],
+      "path": "chapters/19/028.md",
+      "route": "lessons/19/028.html"
+    }
+  ]
+}

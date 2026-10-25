@@ -1,0 +1,72 @@
+{
+  "number": 1,
+  "title": "Agentic AI 时代的操作系统课：绪论",
+  "source": "https://www.bilibili.com/video/BV1opAfzpEf9",
+  "pdf": "01 - Agentic AI 时代的操作系统课：绪论 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 103,
+  "images": 73,
+  "text_lines": 633,
+  "code_blocks": 0,
+  "sections": [
+    {
+      "lesson": 1,
+      "section": 1,
+      "title": "开场、课程安排与反馈",
+      "time": "00:00:00—00:12:49",
+      "source_pages": [
+        3,
+        16
+      ],
+      "path": "chapters/01/001.md",
+      "route": "lessons/01/001.html"
+    },
+    {
+      "lesson": 1,
+      "section": 2,
+      "title": "AI 时代还学操作系统吗？",
+      "time": "00:12:49—00:38:55",
+      "source_pages": [
+        16,
+        29
+      ],
+      "path": "chapters/01/002.md",
+      "route": "lessons/01/002.html"
+    },
+    {
+      "lesson": 1,
+      "section": 3,
+      "title": "什么是操作系统",
+      "time": "00:38:55—01:05:52",
+      "source_pages": [
+        29,
+        64
+      ],
+      "path": "chapters/01/003.md",
+      "route": "lessons/01/003.html"
+    },
+    {
+      "lesson": 1,
+      "section": 4,
+      "title": "操作系统的发展历史",
+      "time": "01:05:52—01:32:39",
+      "source_pages": [
+        64,
+        97
+      ],
+      "path": "chapters/01/004.md",
+      "route": "lessons/01/004.html"
+    },
+    {
+      "lesson": 1,
+      "section": 5,
+      "title": "怎么学习操作系统",
+      "time": "01:32:39—01:36:38",
+      "source_pages": [
+        97,
+        103
+      ],
+      "path": "chapters/01/005.md",
+      "route": "lessons/01/005.html"
+    }
+  ]
+}

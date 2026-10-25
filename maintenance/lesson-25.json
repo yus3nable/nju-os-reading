@@ -1,0 +1,732 @@
+{
+  "number": 25,
+  "title": "文件系统 API (2)",
+  "source": "https://www.bilibili.com/video/BV12gVs6SExQ/",
+  "pdf": "25 - 文件系统 API (2) [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 131,
+  "images": 71,
+  "text_lines": 835,
+  "code_blocks": 22,
+  "sections": [
+    {
+      "lesson": 25,
+      "section": 1,
+      "title": "从增删改查到文件系统级 API",
+      "time": "00:00:00—00:02:06",
+      "source_pages": [
+        7,
+        8
+      ],
+      "path": "chapters/25/001.md",
+      "route": "lessons/25/001.html"
+    },
+    {
+      "lesson": 25,
+      "section": 2,
+      "title": "数据结构的历史版本与整体操作",
+      "time": "00:02:06—00:04:05",
+      "source_pages": [
+        8,
+        10
+      ],
+      "path": "chapters/25/002.md",
+      "route": "lessons/25/002.html"
+    },
+    {
+      "lesson": 25,
+      "section": 3,
+      "title": "监控需求与 Web 服务重载",
+      "time": "00:04:05—00:06:09",
+      "source_pages": [
+        10,
+        14
+      ],
+      "path": "chapters/25/003.md",
+      "route": "lessons/25/003.html"
+    },
+    {
+      "lesson": 25,
+      "section": 4,
+      "title": "用 stat 和 diff 检查修改时间",
+      "time": "00:06:09—00:08:00",
+      "source_pages": [
+        14,
+        17
+      ],
+      "path": "chapters/25/004.md",
+      "route": "lessons/25/004.html"
+    },
+    {
+      "lesson": 25,
+      "section": 5,
+      "title": "遍历成本与内核缓存",
+      "time": "00:08:00—00:09:01",
+      "source_pages": [
+        17,
+        17
+      ],
+      "path": "chapters/25/005.md",
+      "route": "lessons/25/005.html"
+    },
+    {
+      "lesson": 25,
+      "section": 6,
+      "title": "inotify 的文件描述符接口",
+      "time": "00:09:01—00:10:15",
+      "source_pages": [
+        17,
+        20
+      ],
+      "path": "chapters/25/006.md",
+      "route": "lessons/25/006.html"
+    },
+    {
+      "lesson": 25,
+      "section": 7,
+      "title": "监控事件与实际使用场景",
+      "time": "00:10:15—00:11:24",
+      "source_pages": [
+        20,
+        22
+      ],
+      "path": "chapters/25/007.md",
+      "route": "lessons/25/007.html"
+    },
+    {
+      "lesson": 25,
+      "section": 8,
+      "title": "用 watchdog 观察文件事件",
+      "time": "00:11:24—00:12:31",
+      "source_pages": [
+        23,
+        25
+      ],
+      "path": "chapters/25/008.md",
+      "route": "lessons/25/008.html"
+    },
+    {
+      "lesson": 25,
+      "section": 9,
+      "title": "父目录的修改时间会逐层传播吗",
+      "time": "00:12:31—00:13:30",
+      "source_pages": [
+        26,
+        28
+      ],
+      "path": "chapters/25/009.md",
+      "route": "lessons/25/009.html"
+    },
+    {
+      "lesson": 25,
+      "section": 10,
+      "title": "从文件监控想到整个系统的状态",
+      "time": "00:13:30—00:16:01",
+      "source_pages": [
+        28,
+        31
+      ],
+      "path": "chapters/25/010.md",
+      "route": "lessons/25/010.html"
+    },
+    {
+      "lesson": 25,
+      "section": 11,
+      "title": "把自己的 probe 插入内核执行",
+      "time": "00:16:01—00:17:30",
+      "source_pages": [
+        31,
+        34
+      ],
+      "path": "chapters/25/011.md",
+      "route": "lessons/25/011.html"
+    },
+    {
+      "lesson": 25,
+      "section": 12,
+      "title": "eBPF 的网络起点",
+      "time": "00:17:30—00:18:51",
+      "source_pages": [
+        35,
+        35
+      ],
+      "path": "chapters/25/012.md",
+      "route": "lessons/25/012.html"
+    },
+    {
+      "lesson": 25,
+      "section": 13,
+      "title": "在内核里决定如何处理数据包",
+      "time": "00:18:51—00:20:00",
+      "source_pages": [
+        35,
+        36
+      ],
+      "path": "chapters/25/013.md",
+      "route": "lessons/25/013.html"
+    },
+    {
+      "lesson": 25,
+      "section": 14,
+      "title": "eBPF 虚拟机、helper 与验证器",
+      "time": "00:20:00—00:22:03",
+      "source_pages": [
+        36,
+        36
+      ],
+      "path": "chapters/25/014.md",
+      "route": "lessons/25/014.html"
+    },
+    {
+      "lesson": 25,
+      "section": 15,
+      "title": "从 C 程序到内核中的 hook",
+      "time": "00:22:03—00:23:00",
+      "source_pages": [
+        37,
+        38
+      ],
+      "path": "chapters/25/015.md",
+      "route": "lessons/25/015.html"
+    },
+    {
+      "lesson": 25,
+      "section": 16,
+      "title": "验证器和编译器也会有 bug",
+      "time": "00:23:00—00:23:31",
+      "source_pages": [
+        38,
+        38
+      ],
+      "path": "chapters/25/016.md",
+      "route": "lessons/25/016.html"
+    },
+    {
+      "lesson": 25,
+      "section": 17,
+      "title": "用按键轨迹辅助学习的设想",
+      "time": "00:23:31—00:25:30",
+      "source_pages": [
+        38,
+        39
+      ],
+      "path": "chapters/25/017.md",
+      "route": "lessons/25/017.html"
+    },
+    {
+      "lesson": 25,
+      "section": 18,
+      "title": "把低效原型交给 AI 寻找机制",
+      "time": "00:25:30—00:28:01",
+      "source_pages": [
+        39,
+        42
+      ],
+      "path": "chapters/25/018.md",
+      "route": "lessons/25/018.html"
+    },
+    {
+      "lesson": 25,
+      "section": 19,
+      "title": "Specification is all you need",
+      "time": "00:28:01—00:29:31",
+      "source_pages": [
+        43,
+        43
+      ],
+      "path": "chapters/25/019.md",
+      "route": "lessons/25/019.html"
+    },
+    {
+      "lesson": 25,
+      "section": 20,
+      "title": "Just-in-Time Systems 的设想",
+      "time": "00:29:31—00:31:31",
+      "source_pages": [
+        43,
+        44
+      ],
+      "path": "chapters/25/020.md",
+      "route": "lessons/25/020.html"
+    },
+    {
+      "lesson": 25,
+      "section": 21,
+      "title": "快照与持久化数据结构",
+      "time": "00:31:31—00:32:30",
+      "source_pages": [
+        44,
+        47
+      ],
+      "path": "chapters/25/021.md",
+      "route": "lessons/25/021.html"
+    },
+    {
+      "lesson": 25,
+      "section": 22,
+      "title": "Git 的对象都在哪里",
+      "time": "00:32:30—00:34:00",
+      "source_pages": [
+        47,
+        48
+      ],
+      "path": "chapters/25/022.md",
+      "route": "lessons/25/022.html"
+    },
+    {
+      "lesson": 25,
+      "section": 23,
+      "title": "创建提交并查看 objects",
+      "time": "00:34:00—00:35:01",
+      "source_pages": [
+        49,
+        50
+      ],
+      "path": "chapters/25/023.md",
+      "route": "lessons/25/023.html"
+    },
+    {
+      "lesson": 25,
+      "section": 24,
+      "title": "文件的两个历史版本同时存在",
+      "time": "00:35:01—00:36:01",
+      "source_pages": [
+        51,
+        52
+      ],
+      "path": "chapters/25/024.md",
+      "route": "lessons/25/024.html"
+    },
+    {
+      "lesson": 25,
+      "section": 25,
+      "title": "让 AI 编写 git-cat 工具",
+      "time": "00:36:01—00:37:00",
+      "source_pages": [
+        53,
+        55
+      ],
+      "path": "chapters/25/025.md",
+      "route": "lessons/25/025.html"
+    },
+    {
+      "lesson": 25,
+      "section": 26,
+      "title": "blob、tree 与 commit",
+      "time": "00:37:00—00:38:31",
+      "source_pages": [
+        56,
+        58
+      ],
+      "path": "chapters/25/026.md",
+      "route": "lessons/25/026.html"
+    },
+    {
+      "lesson": 25,
+      "section": 27,
+      "title": "对象池与 HEAD 指针",
+      "time": "00:38:31—00:39:31",
+      "source_pages": [
+        59,
+        61
+      ],
+      "path": "chapters/25/027.md",
+      "route": "lessons/25/027.html"
+    },
+    {
+      "lesson": 25,
+      "section": 28,
+      "title": "分支也是一个文本指针",
+      "time": "00:39:31—00:42:00",
+      "source_pages": [
+        61,
+        64
+      ],
+      "path": "chapters/25/028.md",
+      "route": "lessons/25/028.html"
+    },
+    {
+      "lesson": 25,
+      "section": 29,
+      "title": "把未完成修改放入 stash",
+      "time": "00:42:00—00:43:00",
+      "source_pages": [
+        64,
+        66
+      ],
+      "path": "chapters/25/029.md",
+      "route": "lessons/25/029.html"
+    },
+    {
+      "lesson": 25,
+      "section": 30,
+      "title": "查看 stash 的对象与 parent",
+      "time": "00:43:00—00:44:01",
+      "source_pages": [
+        67,
+        69
+      ],
+      "path": "chapters/25/030.md",
+      "route": "lessons/25/030.html"
+    },
+    {
+      "lesson": 25,
+      "section": 31,
+      "title": "让 AI 阅读对象图",
+      "time": "00:44:01—00:45:02",
+      "source_pages": [
+        69,
+        71
+      ],
+      "path": "chapters/25/031.md",
+      "route": "lessons/25/031.html"
+    },
+    {
+      "lesson": 25,
+      "section": 32,
+      "title": "分叉的历史与三方合并",
+      "time": "00:45:02—00:47:01",
+      "source_pages": [
+        72,
+        75
+      ],
+      "path": "chapters/25/032.md",
+      "route": "lessons/25/032.html"
+    },
+    {
+      "lesson": 25,
+      "section": 33,
+      "title": "Fast-forward 与新的 merge commit",
+      "time": "00:47:01—00:48:30",
+      "source_pages": [
+        76,
+        78
+      ],
+      "path": "chapters/25/033.md",
+      "route": "lessons/25/033.html"
+    },
+    {
+      "lesson": 25,
+      "section": 34,
+      "title": "用 cherry-pick 取出一个补丁",
+      "time": "00:48:30—00:49:45",
+      "source_pages": [
+        79,
+        79
+      ],
+      "path": "chapters/25/034.md",
+      "route": "lessons/25/034.html"
+    },
+    {
+      "lesson": 25,
+      "section": 35,
+      "title": "Rebase 如何重放修改",
+      "time": "00:49:45—00:51:01",
+      "source_pages": [
+        79,
+        80
+      ],
+      "path": "chapters/25/035.md",
+      "route": "lessons/25/035.html"
+    },
+    {
+      "lesson": 25,
+      "section": 36,
+      "title": "冲突与自动重放的风险",
+      "time": "00:51:01—00:52:00",
+      "source_pages": [
+        81,
+        82
+      ],
+      "path": "chapters/25/036.md",
+      "route": "lessons/25/036.html"
+    },
+    {
+      "lesson": 25,
+      "section": 37,
+      "title": "一个工作区与多任务切换",
+      "time": "00:52:00—00:54:31",
+      "source_pages": [
+        83,
+        85
+      ],
+      "path": "chapters/25/037.md",
+      "route": "lessons/25/037.html"
+    },
+    {
+      "lesson": 25,
+      "section": 38,
+      "title": "Agent 时代的并行工作需求",
+      "time": "00:54:31—00:55:02",
+      "source_pages": [
+        85,
+        85
+      ],
+      "path": "chapters/25/038.md",
+      "route": "lessons/25/038.html"
+    },
+    {
+      "lesson": 25,
+      "section": 39,
+      "title": "reflog 与持久化对象",
+      "time": "00:55:02—00:56:02",
+      "source_pages": [
+        85,
+        88
+      ],
+      "path": "chapters/25/039.md",
+      "route": "lessons/25/039.html"
+    },
+    {
+      "lesson": 25,
+      "section": 40,
+      "title": "创建并查看 worktree",
+      "time": "00:56:02—00:58:02",
+      "source_pages": [
+        88,
+        92
+      ],
+      "path": "chapters/25/040.md",
+      "route": "lessons/25/040.html"
+    },
+    {
+      "lesson": 25,
+      "section": 41,
+      "title": "把整个文件系统做成持久化结构",
+      "time": "00:58:02—00:59:31",
+      "source_pages": [
+        92,
+        94
+      ],
+      "path": "chapters/25/041.md",
+      "route": "lessons/25/041.html"
+    },
+    {
+      "lesson": 25,
+      "section": 42,
+      "title": "Btrfs 的文件系统级快照",
+      "time": "00:59:31—01:00:35",
+      "source_pages": [
+        94,
+        94
+      ],
+      "path": "chapters/25/042.md",
+      "route": "lessons/25/042.html"
+    },
+    {
+      "lesson": 25,
+      "section": 43,
+      "title": "把两个目录拼成一个目录",
+      "time": "01:00:35—01:02:31",
+      "source_pages": [
+        94,
+        96
+      ],
+      "path": "chapters/25/043.md",
+      "route": "lessons/25/043.html"
+    },
+    {
+      "lesson": 25,
+      "section": 44,
+      "title": "upper、lower 与虚拟目录的查找",
+      "time": "01:02:31—01:03:30",
+      "source_pages": [
+        96,
+        97
+      ],
+      "path": "chapters/25/044.md",
+      "route": "lessons/25/044.html"
+    },
+    {
+      "lesson": 25,
+      "section": 45,
+      "title": "为十六张光盘写入不同的 CD-Key",
+      "time": "01:03:30—01:05:01",
+      "source_pages": [
+        98,
+        99
+      ],
+      "path": "chapters/25/045.md",
+      "route": "lessons/25/045.html"
+    },
+    {
+      "lesson": 25,
+      "section": 46,
+      "title": "在覆盖层中试升级系统",
+      "time": "01:05:01—01:07:32",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/25/046.md",
+      "route": "lessons/25/046.html"
+    },
+    {
+      "lesson": 25,
+      "section": 47,
+      "title": "提交修改与多层 OverlayFS",
+      "time": "01:07:32—01:08:30",
+      "source_pages": [
+        102,
+        102
+      ],
+      "path": "chapters/25/047.md",
+      "route": "lessons/25/047.html"
+    },
+    {
+      "lesson": 25,
+      "section": 48,
+      "title": "实际观察 upper 和 overlay 的修改",
+      "time": "01:08:30—01:10:31",
+      "source_pages": [
+        102,
+        106
+      ],
+      "path": "chapters/25/048.md",
+      "route": "lessons/25/048.html"
+    },
+    {
+      "lesson": 25,
+      "section": 49,
+      "title": "删除文件与 whiteout",
+      "time": "01:10:31—01:11:01",
+      "source_pages": [
+        107,
+        109
+      ],
+      "path": "chapters/25/049.md",
+      "route": "lessons/25/049.html"
+    },
+    {
+      "lesson": 25,
+      "section": 50,
+      "title": "考试和竞赛机器的目录隔离",
+      "time": "01:11:01—01:12:00",
+      "source_pages": [
+        109,
+        109
+      ],
+      "path": "chapters/25/050.md",
+      "route": "lessons/25/050.html"
+    },
+    {
+      "lesson": 25,
+      "section": 51,
+      "title": "Docker 的镜像层",
+      "time": "01:12:00—01:14:01",
+      "source_pages": [
+        109,
+        111
+      ],
+      "path": "chapters/25/051.md",
+      "route": "lessons/25/051.html"
+    },
+    {
+      "lesson": 25,
+      "section": 52,
+      "title": "修改 RUN 命令后的重新执行",
+      "time": "01:14:01—01:15:00",
+      "source_pages": [
+        111,
+        112
+      ],
+      "path": "chapters/25/052.md",
+      "route": "lessons/25/052.html"
+    },
+    {
+      "lesson": 25,
+      "section": 53,
+      "title": "共享 lower、分别创建 upper",
+      "time": "01:15:00—01:16:00",
+      "source_pages": [
+        112,
+        113
+      ],
+      "path": "chapters/25/053.md",
+      "route": "lessons/25/053.html"
+    },
+    {
+      "lesson": 25,
+      "section": 54,
+      "title": "从非常规语义到自定义文件系统",
+      "time": "01:16:00—01:17:05",
+      "source_pages": [
+        114,
+        115
+      ],
+      "path": "chapters/25/054.md",
+      "route": "lessons/25/054.html"
+    },
+    {
+      "lesson": 25,
+      "section": 55,
+      "title": "FUSE 与 fuse_operations",
+      "time": "01:17:05—01:18:01",
+      "source_pages": [
+        116,
+        117
+      ],
+      "path": "chapters/25/055.md",
+      "route": "lessons/25/055.html"
+    },
+    {
+      "lesson": 25,
+      "section": 56,
+      "title": "把 Galgame 做成文件系统",
+      "time": "01:18:01—01:19:33",
+      "source_pages": [
+        118,
+        123
+      ],
+      "path": "chapters/25/056.md",
+      "route": "lessons/25/056.html"
+    },
+    {
+      "lesson": 25,
+      "section": 57,
+      "title": "写入文件驱动游戏状态",
+      "time": "01:19:33—01:20:33",
+      "source_pages": [
+        123,
+        127
+      ],
+      "path": "chapters/25/057.md",
+      "route": "lessons/25/057.html"
+    },
+    {
+      "lesson": 25,
+      "section": 58,
+      "title": "把远程目录和数据库接到文件系统",
+      "time": "01:20:33—01:21:30",
+      "source_pages": [
+        128,
+        128
+      ],
+      "path": "chapters/25/058.md",
+      "route": "lessons/25/058.html"
+    },
+    {
+      "lesson": 25,
+      "section": 59,
+      "title": "把 JSON 等数据挂载成目录",
+      "time": "01:21:30—01:22:02",
+      "source_pages": [
+        128,
+        129
+      ],
+      "path": "chapters/25/059.md",
+      "route": "lessons/25/059.html"
+    },
+    {
+      "lesson": 25,
+      "section": 60,
+      "title": "隐藏目录与 Everything is a file",
+      "time": "01:22:02—01:22:38",
+      "source_pages": [
+        130,
+        131
+      ],
+      "path": "chapters/25/060.md",
+      "route": "lessons/25/060.html"
+    }
+  ]
+}

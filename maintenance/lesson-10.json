@@ -1,0 +1,156 @@
+{
+  "number": 10,
+  "title": "调试 C 标准库",
+  "source": "https://www.bilibili.com/video/BV1yu9cBCEAb",
+  "pdf": "10 - 调试 C 标准库 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 146,
+  "images": 120,
+  "text_lines": 781,
+  "code_blocks": 17,
+  "sections": [
+    {
+      "lesson": 10,
+      "section": 1,
+      "title": "Online Judge 与上一节调试失败的原因",
+      "time": "00:00:00—00:01:59",
+      "source_pages": [
+        3,
+        6
+      ],
+      "path": "chapters/10/001.md",
+      "route": "lessons/10/001.html"
+    },
+    {
+      "lesson": 10,
+      "section": 2,
+      "title": "从系统调用到 libc 与程序入口",
+      "time": "00:01:59—00:08:02",
+      "source_pages": [
+        6,
+        11
+      ],
+      "path": "chapters/10/002.md",
+      "route": "lessons/10/002.html"
+    },
+    {
+      "lesson": 10,
+      "section": 3,
+      "title": "调试信息：从 -g、ELF 到 DWARF",
+      "time": "00:08:02—00:19:30",
+      "source_pages": [
+        12,
+        30
+      ],
+      "path": "chapters/10/003.md",
+      "route": "lessons/10/003.html"
+    },
+    {
+      "lesson": 10,
+      "section": 4,
+      "title": "编译选项与 JavaScript Source Map",
+      "time": "00:19:30—00:27:33",
+      "source_pages": [
+        30,
+        41
+      ],
+      "path": "chapters/10/004.md",
+      "route": "lessons/10/004.html"
+    },
+    {
+      "lesson": 10,
+      "section": 5,
+      "title": "调试信息、性能采样与 Sanitizer",
+      "time": "00:27:33—00:35:16",
+      "source_pages": [
+        42,
+        53
+      ],
+      "path": "chapters/10/005.md",
+      "route": "lessons/10/005.html"
+    },
+    {
+      "lesson": 10,
+      "section": 6,
+      "title": "从 _start 单步走到 main 和 exit",
+      "time": "00:35:16—00:40:54",
+      "source_pages": [
+        54,
+        69
+      ],
+      "path": "chapters/10/006.md",
+      "route": "lessons/10/006.html"
+    },
+    {
+      "lesson": 10,
+      "section": 7,
+      "title": "在 IDE 中调试 printf",
+      "time": "00:40:54—00:44:29",
+      "source_pages": [
+        70,
+        76
+      ],
+      "path": "chapters/10/007.md",
+      "route": "lessons/10/007.html"
+    },
+    {
+      "lesson": 10,
+      "section": 8,
+      "title": "可变参数与寄存器传参",
+      "time": "00:44:29—00:48:26",
+      "source_pages": [
+        77,
+        84
+      ],
+      "path": "chapters/10/008.md",
+      "route": "lessons/10/008.html"
+    },
+    {
+      "lesson": 10,
+      "section": 9,
+      "title": "setjmp、longjmp 与寄存器保存",
+      "time": "00:48:26—00:56:24",
+      "source_pages": [
+        85,
+        99
+      ],
+      "path": "chapters/10/009.md",
+      "route": "lessons/10/009.html"
+    },
+    {
+      "lesson": 10,
+      "section": 10,
+      "title": "gettimeofday：没有出现在 strace 中的调用",
+      "time": "00:56:24—01:06:47",
+      "source_pages": [
+        99,
+        121
+      ],
+      "path": "chapters/10/010.md",
+      "route": "lessons/10/010.html"
+    },
+    {
+      "lesson": 10,
+      "section": 11,
+      "title": "指令跟踪为何陷入重试循环",
+      "time": "01:06:47—01:10:58",
+      "source_pages": [
+        122,
+        130
+      ],
+      "path": "chapters/10/011.md",
+      "route": "lessons/10/011.html"
+    },
+    {
+      "lesson": 10,
+      "section": 12,
+      "title": "malloc、free 与内存管理的约束",
+      "time": "01:10:58—01:20:53",
+      "source_pages": [
+        130,
+        146
+      ],
+      "path": "chapters/10/012.md",
+      "route": "lessons/10/012.html"
+    }
+  ]
+}

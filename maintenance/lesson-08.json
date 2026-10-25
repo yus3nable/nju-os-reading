@@ -1,0 +1,240 @@
+{
+  "number": 8,
+  "title": "(Aside) 终端和 UNIX Shell",
+  "source": "https://www.bilibili.com/video/BV1nQXsBuEUz",
+  "pdf": "08 (Aside) - 终端和 UNIX Shell [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 144,
+  "images": 116,
+  "text_lines": 852,
+  "code_blocks": 17,
+  "sections": [
+    {
+      "lesson": 8,
+      "section": 1,
+      "title": "从键盘到打字机",
+      "time": "00:00:00—00:10:50",
+      "source_pages": [
+        4,
+        15
+      ],
+      "path": "chapters/08/001.md",
+      "route": "lessons/08/001.html"
+    },
+    {
+      "lesson": 8,
+      "section": 2,
+      "title": "电传打字机与视频终端",
+      "time": "00:10:50—00:20:40",
+      "source_pages": [
+        15,
+        27
+      ],
+      "path": "chapters/08/002.md",
+      "route": "lessons/08/002.html"
+    },
+    {
+      "lesson": 8,
+      "section": 3,
+      "title": "终端如何传递按键",
+      "time": "00:20:40—00:27:42",
+      "source_pages": [
+        27,
+        36
+      ],
+      "path": "chapters/08/003.md",
+      "route": "lessons/08/003.html"
+    },
+    {
+      "lesson": 8,
+      "section": 4,
+      "title": "伪终端与终端中的终端",
+      "time": "00:27:42—00:32:36",
+      "source_pages": [
+        37,
+        45
+      ],
+      "path": "chapters/08/004.md",
+      "route": "lessons/08/004.html"
+    },
+    {
+      "lesson": 8,
+      "section": 5,
+      "title": "记录和回放终端",
+      "time": "00:32:36—00:35:35",
+      "source_pages": [
+        46,
+        49
+      ],
+      "path": "chapters/08/005.md",
+      "route": "lessons/08/005.html"
+    },
+    {
+      "lesson": 8,
+      "section": 6,
+      "title": "终端中的像素与图像",
+      "time": "00:35:35—00:40:14",
+      "source_pages": [
+        50,
+        57
+      ],
+      "path": "chapters/08/006.md",
+      "route": "lessons/08/006.html"
+    },
+    {
+      "lesson": 8,
+      "section": 7,
+      "title": "行编辑、登录与控制终端",
+      "time": "00:40:14—00:48:25",
+      "source_pages": [
+        58,
+        70
+      ],
+      "path": "chapters/08/007.md",
+      "route": "lessons/08/007.html"
+    },
+    {
+      "lesson": 8,
+      "section": 8,
+      "title": "用字符构建交互界面",
+      "time": "00:48:25—00:50:42",
+      "source_pages": [
+        71,
+        78
+      ],
+      "path": "chapters/08/008.md",
+      "route": "lessons/08/008.html"
+    },
+    {
+      "lesson": 8,
+      "section": 9,
+      "title": "Ctrl-C 与终端驱动",
+      "time": "00:50:42—00:56:39",
+      "source_pages": [
+        79,
+        85
+      ],
+      "path": "chapters/08/009.md",
+      "route": "lessons/08/009.html"
+    },
+    {
+      "lesson": 8,
+      "section": 10,
+      "title": "信号究竟发给哪些进程",
+      "time": "00:56:39—00:59:20",
+      "source_pages": [
+        86,
+        89
+      ],
+      "path": "chapters/08/010.md",
+      "route": "lessons/08/010.html"
+    },
+    {
+      "lesson": 8,
+      "section": 11,
+      "title": "注册和触发信号处理程序",
+      "time": "00:59:20—01:04:00",
+      "source_pages": [
+        90,
+        97
+      ],
+      "path": "chapters/08/011.md",
+      "route": "lessons/08/011.html"
+    },
+    {
+      "lesson": 8,
+      "section": 12,
+      "title": "会话、进程组与作业切换",
+      "time": "01:04:00—01:11:27",
+      "source_pages": [
+        98,
+        107
+      ],
+      "path": "chapters/08/012.md",
+      "route": "lessons/08/012.html"
+    },
+    {
+      "lesson": 8,
+      "section": 13,
+      "title": "断线、SIGHUP 与会话 API",
+      "time": "01:11:27—01:14:09",
+      "source_pages": [
+        108,
+        111
+      ],
+      "path": "chapters/08/013.md",
+      "route": "lessons/08/013.html"
+    },
+    {
+      "lesson": 8,
+      "section": 14,
+      "title": "作业控制的历史与替代设计",
+      "time": "01:14:09—01:18:37",
+      "source_pages": [
+        112,
+        115
+      ],
+      "path": "chapters/08/014.md",
+      "route": "lessons/08/014.html"
+    },
+    {
+      "lesson": 8,
+      "section": 15,
+      "title": "Shell 是一门编程语言",
+      "time": "01:18:37—01:23:40",
+      "source_pages": [
+        116,
+        122
+      ],
+      "path": "chapters/08/015.md",
+      "route": "lessons/08/015.html"
+    },
+    {
+      "lesson": 8,
+      "section": 16,
+      "title": "文本替换与重定向",
+      "time": "01:23:40—01:27:44",
+      "source_pages": [
+        123,
+        129
+      ],
+      "path": "chapters/08/016.md",
+      "route": "lessons/08/016.html"
+    },
+    {
+      "lesson": 8,
+      "section": 17,
+      "title": "控制流、管道与文件描述符",
+      "time": "01:27:44—01:30:30",
+      "source_pages": [
+        129,
+        133
+      ],
+      "path": "chapters/08/017.md",
+      "route": "lessons/08/017.html"
+    },
+    {
+      "lesson": 8,
+      "section": 18,
+      "title": "在 AI 帮助下阅读手册",
+      "time": "01:30:30—01:34:00",
+      "source_pages": [
+        134,
+        141
+      ],
+      "path": "chapters/08/018.md",
+      "route": "lessons/08/018.html"
+    },
+    {
+      "lesson": 8,
+      "section": 19,
+      "title": "Shell 的取舍与零依赖实现",
+      "time": "01:34:00—01:35:08",
+      "source_pages": [
+        142,
+        144
+      ],
+      "path": "chapters/08/019.md",
+      "route": "lessons/08/019.html"
+    }
+  ]
+}

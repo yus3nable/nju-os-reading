@@ -1,0 +1,648 @@
+{
+  "number": 22,
+  "title": "输入输出设备和驱动",
+  "source": "https://www.bilibili.com/video/BV1dYLq6gE8W/",
+  "pdf": "22 - 输入输出设备和驱动 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 140,
+  "images": 79,
+  "text_lines": 928,
+  "code_blocks": 29,
+  "sections": [
+    {
+      "lesson": 22,
+      "section": 1,
+      "title": "回顾进程、并发与操作系统对象",
+      "time": "00:00:00—00:02:02",
+      "source_pages": [
+        7,
+        8
+      ],
+      "path": "chapters/22/001.md",
+      "route": "lessons/22/001.html"
+    },
+    {
+      "lesson": 22,
+      "section": 2,
+      "title": "使用电脑时看到的输入输出设备",
+      "time": "00:02:02—00:03:31",
+      "source_pages": [
+        8,
+        11
+      ],
+      "path": "chapters/22/002.md",
+      "route": "lessons/22/002.html"
+    },
+    {
+      "lesson": 22,
+      "section": 3,
+      "title": "I/O：计算与物理世界之间的接口",
+      "time": "00:03:31—00:05:30",
+      "source_pages": [
+        12,
+        12
+      ],
+      "path": "chapters/22/003.md",
+      "route": "lessons/22/003.html"
+    },
+    {
+      "lesson": 22,
+      "section": 4,
+      "title": "设备寄存器、端口与内存映射",
+      "time": "00:05:30—00:07:00",
+      "source_pages": [
+        12,
+        13
+      ],
+      "path": "chapters/22/004.md",
+      "route": "lessons/22/004.html"
+    },
+    {
+      "lesson": 22,
+      "section": 5,
+      "title": "状态、命令、数据和中断",
+      "time": "00:07:00—00:08:01",
+      "source_pages": [
+        13,
+        13
+      ],
+      "path": "chapters/22/005.md",
+      "route": "lessons/22/005.html"
+    },
+    {
+      "lesson": 22,
+      "section": 6,
+      "title": "中断怎样唤醒设备处理线程",
+      "time": "00:08:01—00:09:22",
+      "source_pages": [
+        14,
+        16
+      ],
+      "path": "chapters/22/006.md",
+      "route": "lessons/22/006.html"
+    },
+    {
+      "lesson": 22,
+      "section": 7,
+      "title": "从一个 LED 灯开始",
+      "time": "00:09:22—00:10:23",
+      "source_pages": [
+        17,
+        18
+      ],
+      "path": "chapters/22/007.md",
+      "route": "lessons/22/007.html"
+    },
+    {
+      "lesson": 22,
+      "section": 8,
+      "title": "显微镜画面与树莓派 LED 演示",
+      "time": "00:10:23—00:11:13",
+      "source_pages": [
+        19,
+        23
+      ],
+      "path": "chapters/22/008.md",
+      "route": "lessons/22/008.html"
+    },
+    {
+      "lesson": 22,
+      "section": 9,
+      "title": "写 brightness 文件控制灯",
+      "time": "00:11:13—00:12:00",
+      "source_pages": [
+        23,
+        29
+      ],
+      "path": "chapters/22/009.md",
+      "route": "lessons/22/009.html"
+    },
+    {
+      "lesson": 22,
+      "section": 10,
+      "title": "GPIO 与物理世界的动作",
+      "time": "00:12:00—00:13:01",
+      "source_pages": [
+        30,
+        30
+      ],
+      "path": "chapters/22/010.md",
+      "route": "lessons/22/010.html"
+    },
+    {
+      "lesson": 22,
+      "section": 11,
+      "title": "串口、UART 与终端",
+      "time": "00:13:01—00:14:30",
+      "source_pages": [
+        30,
+        32
+      ],
+      "path": "chapters/22/011.md",
+      "route": "lessons/22/011.html"
+    },
+    {
+      "lesson": 22,
+      "section": 12,
+      "title": "x86 I/O 地址空间和串口读写",
+      "time": "00:14:30—00:16:57",
+      "source_pages": [
+        32,
+        35
+      ],
+      "path": "chapters/22/012.md",
+      "route": "lessons/22/012.html"
+    },
+    {
+      "lesson": 22,
+      "section": 13,
+      "title": "PS/2 键盘控制器",
+      "time": "00:16:57—00:19:27",
+      "source_pages": [
+        36,
+        36
+      ],
+      "path": "chapters/22/013.md",
+      "route": "lessons/22/013.html"
+    },
+    {
+      "lesson": 22,
+      "section": 14,
+      "title": "ATA 磁盘控制器",
+      "time": "00:19:27—00:20:43",
+      "source_pages": [
+        37,
+        39
+      ],
+      "path": "chapters/22/014.md",
+      "route": "lessons/22/014.html"
+    },
+    {
+      "lesson": 22,
+      "section": 15,
+      "title": "打印机也是一组寄存器",
+      "time": "00:20:43—00:22:02",
+      "source_pages": [
+        39,
+        41
+      ],
+      "path": "chapters/22/015.md",
+      "route": "lessons/22/015.html"
+    },
+    {
+      "lesson": 22,
+      "section": 16,
+      "title": "提笔、落笔与 X/Y 轴移动",
+      "time": "00:22:02—00:24:00",
+      "source_pages": [
+        42,
+        44
+      ],
+      "path": "chapters/22/016.md",
+      "route": "lessons/22/016.html"
+    },
+    {
+      "lesson": 22,
+      "section": 17,
+      "title": "打印机解释程序",
+      "time": "00:24:00—00:26:01",
+      "source_pages": [
+        44,
+        47
+      ],
+      "path": "chapters/22/017.md",
+      "route": "lessons/22/017.html"
+    },
+    {
+      "lesson": 22,
+      "section": 18,
+      "title": "PCL、PostScript 和打印语言",
+      "time": "00:26:01—00:27:15",
+      "source_pages": [
+        48,
+        49
+      ],
+      "path": "chapters/22/018.md",
+      "route": "lessons/22/018.html"
+    },
+    {
+      "lesson": 22,
+      "section": 19,
+      "title": "让模型提供措辞选项与 HTML 卡片",
+      "time": "00:27:15—00:28:32",
+      "source_pages": [
+        49,
+        51
+      ],
+      "path": "chapters/22/019.md",
+      "route": "lessons/22/019.html"
+    },
+    {
+      "lesson": 22,
+      "section": 20,
+      "title": "PostScript 的路径与图形状态机",
+      "time": "00:28:32—00:29:47",
+      "source_pages": [
+        51,
+        55
+      ],
+      "path": "chapters/22/020.md",
+      "route": "lessons/22/020.html"
+    },
+    {
+      "lesson": 22,
+      "section": 21,
+      "title": "把 page.ps 转成 PDF",
+      "time": "00:29:47—00:31:01",
+      "source_pages": [
+        55,
+        60
+      ],
+      "path": "chapters/22/021.md",
+      "route": "lessons/22/021.html"
+    },
+    {
+      "lesson": 22,
+      "section": 22,
+      "title": "PDF、编译器与 lp/lpr",
+      "time": "00:31:01—00:32:18",
+      "source_pages": [
+        60,
+        62
+      ],
+      "path": "chapters/22/022.md",
+      "route": "lessons/22/022.html"
+    },
+    {
+      "lesson": 22,
+      "section": 23,
+      "title": "UVC 摄像头的标准协议",
+      "time": "00:32:18—00:34:53",
+      "source_pages": [
+        63,
+        65
+      ],
+      "path": "chapters/22/023.md",
+      "route": "lessons/22/023.html"
+    },
+    {
+      "lesson": 22,
+      "section": 24,
+      "title": "共享内存与协处理器",
+      "time": "00:34:53—00:36:00",
+      "source_pages": [
+        65,
+        65
+      ],
+      "path": "chapters/22/024.md",
+      "route": "lessons/22/024.html"
+    },
+    {
+      "lesson": 22,
+      "section": 25,
+      "title": "DMA：专门搬运数据的处理器",
+      "time": "00:36:00—00:38:30",
+      "source_pages": [
+        66,
+        69
+      ],
+      "path": "chapters/22/025.md",
+      "route": "lessons/22/025.html"
+    },
+    {
+      "lesson": 22,
+      "section": 26,
+      "title": "GPU、NPU 与内存搬运",
+      "time": "00:38:30—00:41:00",
+      "source_pages": [
+        70,
+        74
+      ],
+      "path": "chapters/22/026.md",
+      "route": "lessons/22/026.html"
+    },
+    {
+      "lesson": 22,
+      "section": 27,
+      "title": "总线：动态接入更多设备",
+      "time": "00:41:00—00:43:00",
+      "source_pages": [
+        74,
+        77
+      ],
+      "path": "chapters/22/027.md",
+      "route": "lessons/22/027.html"
+    },
+    {
+      "lesson": 22,
+      "section": 28,
+      "title": "PCIe 插槽与设备发现",
+      "time": "00:43:00—00:45:00",
+      "source_pages": [
+        77,
+        79
+      ],
+      "path": "chapters/22/028.md",
+      "route": "lessons/22/028.html"
+    },
+    {
+      "lesson": 22,
+      "section": 29,
+      "title": "lspci、lsusb 和即插即用",
+      "time": "00:45:00—00:46:15",
+      "source_pages": [
+        79,
+        82
+      ],
+      "path": "chapters/22/029.md",
+      "route": "lessons/22/029.html"
+    },
+    {
+      "lesson": 22,
+      "section": 30,
+      "title": "Windows 98 演示中的故障",
+      "time": "00:46:15—00:47:30",
+      "source_pages": [
+        82,
+        84
+      ],
+      "path": "chapters/22/030.md",
+      "route": "lessons/22/030.html"
+    },
+    {
+      "lesson": 22,
+      "section": 31,
+      "title": "PCIe 带宽、DMA 与供电",
+      "time": "00:47:30—00:50:00",
+      "source_pages": [
+        85,
+        87
+      ],
+      "path": "chapters/22/031.md",
+      "route": "lessons/22/031.html"
+    },
+    {
+      "lesson": 22,
+      "section": 32,
+      "title": "CXL 与分离式数据中心",
+      "time": "00:50:00—00:52:58",
+      "source_pages": [
+        87,
+        88
+      ],
+      "path": "chapters/22/032.md",
+      "route": "lessons/22/032.html"
+    },
+    {
+      "lesson": 22,
+      "section": 33,
+      "title": "应用程序为何需要设备抽象",
+      "time": "00:52:58—00:54:31",
+      "source_pages": [
+        88,
+        91
+      ],
+      "path": "chapters/22/033.md",
+      "route": "lessons/22/033.html"
+    },
+    {
+      "lesson": 22,
+      "section": 34,
+      "title": "Everything is a File 与设备驱动",
+      "time": "00:54:31—00:56:04",
+      "source_pages": [
+        91,
+        94
+      ],
+      "path": "chapters/22/034.md",
+      "route": "lessons/22/034.html"
+    },
+    {
+      "lesson": 22,
+      "section": 35,
+      "title": "显卡兼容模式和 framebuffer",
+      "time": "00:56:04—00:57:31",
+      "source_pages": [
+        94,
+        95
+      ],
+      "path": "chapters/22/035.md",
+      "route": "lessons/22/035.html"
+    },
+    {
+      "lesson": 22,
+      "section": 36,
+      "title": "把系统调用翻译成设备操作",
+      "time": "00:57:31—00:59:31",
+      "source_pages": [
+        96,
+        96
+      ],
+      "path": "chapters/22/036.md",
+      "route": "lessons/22/036.html"
+    },
+    {
+      "lesson": 22,
+      "section": 37,
+      "title": "空设备 /dev/null 的实现",
+      "time": "00:59:31—01:00:32",
+      "source_pages": [
+        96,
+        97
+      ],
+      "path": "chapters/22/037.md",
+      "route": "lessons/22/037.html"
+    },
+    {
+      "lesson": 22,
+      "section": 38,
+      "title": "一个打印日志的模拟设备驱动",
+      "time": "01:00:32—01:02:00",
+      "source_pages": [
+        97,
+        98
+      ],
+      "path": "chapters/22/038.md",
+      "route": "lessons/22/038.html"
+    },
+    {
+      "lesson": 22,
+      "section": 39,
+      "title": "读取字符串与写入密码",
+      "time": "01:02:00—01:03:25",
+      "source_pages": [
+        99,
+        103
+      ],
+      "path": "chapters/22/039.md",
+      "route": "lessons/22/039.html"
+    },
+    {
+      "lesson": 22,
+      "section": 40,
+      "title": "编译、加载和访问设备文件",
+      "time": "01:03:25—01:05:01",
+      "source_pages": [
+        103,
+        108
+      ],
+      "path": "chapters/22/040.md",
+      "route": "lessons/22/040.html"
+    },
+    {
+      "lesson": 22,
+      "section": 41,
+      "title": "正确密码与内核日志",
+      "time": "01:05:01—01:06:00",
+      "source_pages": [
+        108,
+        110
+      ],
+      "path": "chapters/22/041.md",
+      "route": "lessons/22/041.html"
+    },
+    {
+      "lesson": 22,
+      "section": 42,
+      "title": "字节数据以外的控制功能",
+      "time": "01:06:00—01:07:48",
+      "source_pages": [
+        111,
+        113
+      ],
+      "path": "chapters/22/042.md",
+      "route": "lessons/22/042.html"
+    },
+    {
+      "lesson": 22,
+      "section": 43,
+      "title": "ioctl 承载设备配置",
+      "time": "01:07:48—01:11:30",
+      "source_pages": [
+        113,
+        115
+      ],
+      "path": "chapters/22/043.md",
+      "route": "lessons/22/043.html"
+    },
+    {
+      "lesson": 22,
+      "section": 44,
+      "title": "隐藏规范与 Linux 兼容性",
+      "time": "01:11:30—01:13:30",
+      "source_pages": [
+        116,
+        117
+      ],
+      "path": "chapters/22/044.md",
+      "route": "lessons/22/044.html"
+    },
+    {
+      "lesson": 22,
+      "section": 45,
+      "title": "用 ioctl 启动设备任务",
+      "time": "01:13:30—01:14:00",
+      "source_pages": [
+        117,
+        117
+      ],
+      "path": "chapters/22/045.md",
+      "route": "lessons/22/045.html"
+    },
+    {
+      "lesson": 22,
+      "section": 46,
+      "title": "KVM 示例与 CrazyOS 的回顾",
+      "time": "01:14:00—01:15:30",
+      "source_pages": [
+        118,
+        121
+      ],
+      "path": "chapters/22/046.md",
+      "route": "lessons/22/046.html"
+    },
+    {
+      "lesson": 22,
+      "section": 47,
+      "title": "创建虚拟机并设置内存",
+      "time": "01:15:30—01:17:01",
+      "source_pages": [
+        122,
+        124
+      ],
+      "path": "chapters/22/047.md",
+      "route": "lessons/22/047.html"
+    },
+    {
+      "lesson": 22,
+      "section": 48,
+      "title": "vCPU、KVM_RUN 与 VM exit",
+      "time": "01:17:01—01:20:00",
+      "source_pages": [
+        124,
+        131
+      ],
+      "path": "chapters/22/048.md",
+      "route": "lessons/22/048.html"
+    },
+    {
+      "lesson": 22,
+      "section": 49,
+      "title": "从 UVC 摄像头抓取一帧",
+      "time": "01:20:00—01:21:30",
+      "source_pages": [
+        131,
+        135
+      ],
+      "path": "chapters/22/049.md",
+      "route": "lessons/22/049.html"
+    },
+    {
+      "lesson": 22,
+      "section": 50,
+      "title": "用 strace 追踪摄像头程序",
+      "time": "01:21:30—01:23:01",
+      "source_pages": [
+        135,
+        136
+      ],
+      "path": "chapters/22/050.md",
+      "route": "lessons/22/050.html"
+    },
+    {
+      "lesson": 22,
+      "section": 51,
+      "title": "缓冲区、mmap 与流式读取",
+      "time": "01:23:01—01:24:31",
+      "source_pages": [
+        137,
+        139
+      ],
+      "path": "chapters/22/051.md",
+      "route": "lessons/22/051.html"
+    },
+    {
+      "lesson": 22,
+      "section": 52,
+      "title": "GPU 驱动与设备对象",
+      "time": "01:24:31—01:25:30",
+      "source_pages": [
+        140,
+        140
+      ],
+      "path": "chapters/22/052.md",
+      "route": "lessons/22/052.html"
+    },
+    {
+      "lesson": 22,
+      "section": 53,
+      "title": "从寄存器到 USB OTG",
+      "time": "01:25:30—01:26:56",
+      "source_pages": [
+        140,
+        140
+      ],
+      "path": "chapters/22/053.md",
+      "route": "lessons/22/053.html"
+    }
+  ]
+}

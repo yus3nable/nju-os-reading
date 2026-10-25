@@ -1,0 +1,120 @@
+{
+  "number": 6,
+  "title": "(入侵) 进程的地址空间；mmap, munmap, mprotect",
+  "source": "https://www.bilibili.com/video/BV18nAjz9EcW",
+  "pdf": "06 - (入侵) 进程的地址空间；mmap, munmap, mprotect [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 130,
+  "images": 112,
+  "text_lines": 686,
+  "code_blocks": 7,
+  "sections": [
+    {
+      "lesson": 6,
+      "section": 1,
+      "title": "回顾：进程状态与 CrazyOS 的内存",
+      "time": "00:00:00—00:03:55",
+      "source_pages": [
+        3,
+        9
+      ],
+      "path": "chapters/06/001.md",
+      "route": "lessons/06/001.html"
+    },
+    {
+      "lesson": 6,
+      "section": 2,
+      "title": "地址空间、指针与 volatile",
+      "time": "00:03:55—00:12:54",
+      "source_pages": [
+        10,
+        23
+      ],
+      "path": "chapters/06/002.md",
+      "route": "lessons/06/002.html"
+    },
+    {
+      "lesson": 6,
+      "section": 3,
+      "title": "每个字节从何而来：链接、加载与 ABI",
+      "time": "00:12:54—00:19:53",
+      "source_pages": [
+        24,
+        31
+      ],
+      "path": "chapters/06/003.md",
+      "route": "lessons/06/003.html"
+    },
+    {
+      "lesson": 6,
+      "section": 4,
+      "title": "探索真实进程：地址空间与 procfs",
+      "time": "00:19:53—00:29:03",
+      "source_pages": [
+        32,
+        50
+      ],
+      "path": "chapters/06/004.md",
+      "route": "lessons/06/004.html"
+    },
+    {
+      "lesson": 6,
+      "section": 5,
+      "title": "地址空间管理：brk、mmap、munmap 与 mprotect",
+      "time": "00:29:03—00:38:20",
+      "source_pages": [
+        51,
+        60
+      ],
+      "path": "chapters/06/005.md",
+      "route": "lessons/06/005.html"
+    },
+    {
+      "lesson": 6,
+      "section": 6,
+      "title": "使用 mmap：大内存分配与文件映射",
+      "time": "00:38:20—00:47:08",
+      "source_pages": [
+        61,
+        74
+      ],
+      "path": "chapters/06/006.md",
+      "route": "lessons/06/006.html"
+    },
+    {
+      "lesson": 6,
+      "section": 7,
+      "title": "从调试器到 Game Genie：读写另一个进程的内存",
+      "time": "00:47:08—00:56:34",
+      "source_pages": [
+        75,
+        87
+      ],
+      "path": "chapters/06/007.md",
+      "route": "lessons/06/007.html"
+    },
+    {
+      "lesson": 6,
+      "section": 8,
+      "title": "内存扫描、游戏状态与虚拟时间",
+      "time": "00:56:34—01:08:57",
+      "source_pages": [
+        88,
+        115
+      ],
+      "path": "chapters/06/008.md",
+      "route": "lessons/06/008.html"
+    },
+    {
+      "lesson": 6,
+      "section": 9,
+      "title": "新的应用可能性与地址空间接口回顾",
+      "time": "01:08:57—01:18:39",
+      "source_pages": [
+        116,
+        130
+      ],
+      "path": "chapters/06/009.md",
+      "route": "lessons/06/009.html"
+    }
+  ]
+}

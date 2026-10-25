@@ -1,0 +1,96 @@
+{
+  "number": 5,
+  "title": "程序和进程；fork, execve, exit",
+  "source": "https://www.bilibili.com/video/BV1N8w9zJENu",
+  "pdf": "05 - 程序和进程；fork, execve, exit [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 157,
+  "images": 132,
+  "text_lines": 742,
+  "code_blocks": 12,
+  "sections": [
+    {
+      "lesson": 5,
+      "section": 1,
+      "title": "回顾、Book 8088 与课程说明",
+      "time": "00:00:00—00:06:39",
+      "source_pages": [
+        3,
+        12
+      ],
+      "path": "chapters/05/001.md",
+      "route": "lessons/05/001.html"
+    },
+    {
+      "lesson": 5,
+      "section": 2,
+      "title": "CrazyOS：让多个程序轮流运行",
+      "time": "00:06:39—00:20:13",
+      "source_pages": [
+        12,
+        38
+      ],
+      "path": "chapters/05/002.md",
+      "route": "lessons/05/002.html"
+    },
+    {
+      "lesson": 5,
+      "section": 3,
+      "title": "程序、进程与操作系统保存的状态",
+      "time": "00:20:13—00:33:59",
+      "source_pages": [
+        39,
+        69
+      ],
+      "path": "chapters/05/003.md",
+      "route": "lessons/05/003.html"
+    },
+    {
+      "lesson": 5,
+      "section": 4,
+      "title": "创建进程：spawn、fork 与进程树",
+      "time": "00:33:59—00:50:29",
+      "source_pages": [
+        70,
+        97
+      ],
+      "path": "chapters/05/004.md",
+      "route": "lessons/05/004.html"
+    },
+    {
+      "lesson": 5,
+      "section": 5,
+      "title": "fork 的应用：预处理、搜索与快照",
+      "time": "00:50:29—01:01:55",
+      "source_pages": [
+        98,
+        115
+      ],
+      "path": "chapters/05/005.md",
+      "route": "lessons/05/005.html"
+    },
+    {
+      "lesson": 5,
+      "section": 6,
+      "title": "输出 6 行还是 8 行：状态复制与缓冲区",
+      "time": "01:01:55—01:12:11",
+      "source_pages": [
+        115,
+        132
+      ],
+      "path": "chapters/05/006.md",
+      "route": "lessons/05/006.html"
+    },
+    {
+      "lesson": 5,
+      "section": 7,
+      "title": "execve、环境变量与进程退出",
+      "time": "01:12:11—01:25:08",
+      "source_pages": [
+        132,
+        157
+      ],
+      "path": "chapters/05/007.md",
+      "route": "lessons/05/007.html"
+    }
+  ]
+}

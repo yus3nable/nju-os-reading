@@ -1,0 +1,8 @@
+build/
+.preview/
+.venv/
+__pycache__/
+.DS_Store
+maintenance/screenshots/
+*.pdf
+maintenance/audit-run.txt

@@ -1,0 +1,432 @@
+{
+  "number": 21,
+  "title": "一个 Token 的旅程",
+  "source": "https://www.bilibili.com/video/BV1zS5R6tEWZ/",
+  "pdf": "21 - 一个 Token 的旅程 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 101,
+  "images": 58,
+  "text_lines": 811,
+  "code_blocks": 12,
+  "sections": [
+    {
+      "lesson": 21,
+      "section": 1,
+      "title": "并发编程的困难与本课安排",
+      "time": "00:00:00—00:01:29",
+      "source_pages": [
+        5,
+        7
+      ],
+      "path": "chapters/21/001.md",
+      "route": "lessons/21/001.html"
+    },
+    {
+      "lesson": 21,
+      "section": 2,
+      "title": "从 spawn、join 到轻量线程",
+      "time": "00:01:29—00:03:08",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/21/002.md",
+      "route": "lessons/21/002.html"
+    },
+    {
+      "lesson": 21,
+      "section": 3,
+      "title": "CPU、SIMD 与 SIMT 的回顾",
+      "time": "00:03:08—00:06:00",
+      "source_pages": [
+        10,
+        11
+      ],
+      "path": "chapters/21/003.md",
+      "route": "lessons/21/003.html"
+    },
+    {
+      "lesson": 21,
+      "section": 4,
+      "title": "用 DeepSeek API 发起请求",
+      "time": "00:06:00—00:07:25",
+      "source_pages": [
+        12,
+        15
+      ],
+      "path": "chapters/21/004.md",
+      "route": "lessons/21/004.html"
+    },
+    {
+      "lesson": 21,
+      "section": 5,
+      "title": "作业提交脚本与 Python 聊天",
+      "time": "00:07:25—00:09:16",
+      "source_pages": [
+        15,
+        18
+      ],
+      "path": "chapters/21/005.md",
+      "route": "lessons/21/005.html"
+    },
+    {
+      "lesson": 21,
+      "section": 6,
+      "title": "用 strace 打开一个网络程序",
+      "time": "00:09:16—00:10:47",
+      "source_pages": [
+        19,
+        21
+      ],
+      "path": "chapters/21/006.md",
+      "route": "lessons/21/006.html"
+    },
+    {
+      "lesson": 21,
+      "section": 7,
+      "title": "401、系统调用与 DNS 查询",
+      "time": "00:10:47—00:13:02",
+      "source_pages": [
+        21,
+        26
+      ],
+      "path": "chapters/21/007.md",
+      "route": "lessons/21/007.html"
+    },
+    {
+      "lesson": 21,
+      "section": 8,
+      "title": "域名、IP 与逐跳转发",
+      "time": "00:13:02—00:15:31",
+      "source_pages": [
+        27,
+        31
+      ],
+      "path": "chapters/21/008.md",
+      "route": "lessons/21/008.html"
+    },
+    {
+      "lesson": 21,
+      "section": 9,
+      "title": "负载均衡与实际 HTTP 响应",
+      "time": "00:15:31—00:18:01",
+      "source_pages": [
+        31,
+        35
+      ],
+      "path": "chapters/21/009.md",
+      "route": "lessons/21/009.html"
+    },
+    {
+      "lesson": 21,
+      "section": 10,
+      "title": "业务节点的鉴权、计费与审计",
+      "time": "00:18:01—00:20:43",
+      "source_pages": [
+        35,
+        37
+      ],
+      "path": "chapters/21/010.md",
+      "route": "lessons/21/010.html"
+    },
+    {
+      "lesson": 21,
+      "section": 11,
+      "title": "数据中心的上下半场",
+      "time": "00:20:43—00:23:10",
+      "source_pages": [
+        37,
+        39
+      ],
+      "path": "chapters/21/011.md",
+      "route": "lessons/21/011.html"
+    },
+    {
+      "lesson": 21,
+      "section": 12,
+      "title": "产业链、市场与技术的变化",
+      "time": "00:23:10—00:26:52",
+      "source_pages": [
+        39,
+        41
+      ],
+      "path": "chapters/21/012.md",
+      "route": "lessons/21/012.html"
+    },
+    {
+      "lesson": 21,
+      "section": 13,
+      "title": "实时、半离线和离线数据处理",
+      "time": "00:26:52—00:30:31",
+      "source_pages": [
+        41,
+        43
+      ],
+      "path": "chapters/21/013.md",
+      "route": "lessons/21/013.html"
+    },
+    {
+      "lesson": 21,
+      "section": 14,
+      "title": "从 C10K 到 C10M",
+      "time": "00:30:31—00:33:18",
+      "source_pages": [
+        44,
+        47
+      ],
+      "path": "chapters/21/014.md",
+      "route": "lessons/21/014.html"
+    },
+    {
+      "lesson": 21,
+      "section": 15,
+      "title": "吞吐量、尾延迟和突发请求",
+      "time": "00:33:18—00:37:30",
+      "source_pages": [
+        48,
+        49
+      ],
+      "path": "chapters/21/015.md",
+      "route": "lessons/21/015.html"
+    },
+    {
+      "lesson": 21,
+      "section": 16,
+      "title": "CAP：一致性、可用性与网络分区",
+      "time": "00:37:30—00:39:00",
+      "source_pages": [
+        49,
+        51
+      ],
+      "path": "chapters/21/016.md",
+      "route": "lessons/21/016.html"
+    },
+    {
+      "lesson": 21,
+      "section": 17,
+      "title": "屏蔽朋友圈与跨数据中心复制",
+      "time": "00:39:00—00:43:00",
+      "source_pages": [
+        51,
+        54
+      ],
+      "path": "chapters/21/017.md",
+      "route": "lessons/21/017.html"
+    },
+    {
+      "lesson": 21,
+      "section": 18,
+      "title": "CAP 的选择与 API key 管理",
+      "time": "00:43:00—00:46:30",
+      "source_pages": [
+        54,
+        57
+      ],
+      "path": "chapters/21/018.md",
+      "route": "lessons/21/018.html"
+    },
+    {
+      "lesson": 21,
+      "section": 19,
+      "title": "重新设计分布式系统接口",
+      "time": "00:46:30—00:48:30",
+      "source_pages": [
+        57,
+        59
+      ],
+      "path": "chapters/21/019.md",
+      "route": "lessons/21/019.html"
+    },
+    {
+      "lesson": 21,
+      "section": 20,
+      "title": "文件、数据库与 MapReduce",
+      "time": "00:48:30—00:51:35",
+      "source_pages": [
+        59,
+        62
+      ],
+      "path": "chapters/21/020.md",
+      "route": "lessons/21/020.html"
+    },
+    {
+      "lesson": 21,
+      "section": 21,
+      "title": "用计算图表达 Serverless 业务",
+      "time": "00:51:35—00:55:30",
+      "source_pages": [
+        62,
+        66
+      ],
+      "path": "chapters/21/021.md",
+      "route": "lessons/21/021.html"
+    },
+    {
+      "lesson": 21,
+      "section": 22,
+      "title": "重试、幂等性与计费",
+      "time": "00:55:30—00:57:30",
+      "source_pages": [
+        66,
+        68
+      ],
+      "path": "chapters/21/022.md",
+      "route": "lessons/21/022.html"
+    },
+    {
+      "lesson": 21,
+      "section": 23,
+      "title": "存储和计算分离后的成本",
+      "time": "00:57:30—01:00:36",
+      "source_pages": [
+        68,
+        70
+      ],
+      "path": "chapters/21/023.md",
+      "route": "lessons/21/023.html"
+    },
+    {
+      "lesson": 21,
+      "section": 24,
+      "title": "进入 SIMT 世界：gpt.c",
+      "time": "01:00:36—01:02:44",
+      "source_pages": [
+        70,
+        73
+      ],
+      "path": "chapters/21/024.md",
+      "route": "lessons/21/024.html"
+    },
+    {
+      "lesson": 21,
+      "section": 25,
+      "title": "嵌套循环、张量与图像",
+      "time": "01:02:44—01:06:40",
+      "source_pages": [
+        74,
+        77
+      ],
+      "path": "chapters/21/025.md",
+      "route": "lessons/21/025.html"
+    },
+    {
+      "lesson": 21,
+      "section": 26,
+      "title": "Attention：Q、K、V 与短时记忆",
+      "time": "01:06:40—01:09:52",
+      "source_pages": [
+        77,
+        82
+      ],
+      "path": "chapters/21/026.md",
+      "route": "lessons/21/026.html"
+    },
+    {
+      "lesson": 21,
+      "section": 27,
+      "title": "从内积到 CUDA kernel",
+      "time": "01:09:52—01:12:00",
+      "source_pages": [
+        82,
+        84
+      ],
+      "path": "chapters/21/027.md",
+      "route": "lessons/21/027.html"
+    },
+    {
+      "lesson": 21,
+      "section": 28,
+      "title": "Kernel 排队与计算图融合",
+      "time": "01:12:00—01:14:10",
+      "source_pages": [
+        84,
+        87
+      ],
+      "path": "chapters/21/028.md",
+      "route": "lessons/21/028.html"
+    },
+    {
+      "lesson": 21,
+      "section": 29,
+      "title": "SIMT、SIMD 与 Tensor Core",
+      "time": "01:14:10—01:17:00",
+      "source_pages": [
+        88,
+        88
+      ],
+      "path": "chapters/21/029.md",
+      "route": "lessons/21/029.html"
+    },
+    {
+      "lesson": 21,
+      "section": 30,
+      "title": "矩阵布局、分块和数据搬运",
+      "time": "01:17:00—01:19:40",
+      "source_pages": [
+        89,
+        92
+      ],
+      "path": "chapters/21/030.md",
+      "route": "lessons/21/030.html"
+    },
+    {
+      "lesson": 21,
+      "section": 31,
+      "title": "GPU 上生长出的软件生态",
+      "time": "01:19:40—01:24:57",
+      "source_pages": [
+        92,
+        95
+      ],
+      "path": "chapters/21/031.md",
+      "route": "lessons/21/031.html"
+    },
+    {
+      "lesson": 21,
+      "section": 32,
+      "title": "生成 Token：Prefill、Decode 与 KV cache",
+      "time": "01:24:57—01:27:05",
+      "source_pages": [
+        95,
+        97
+      ],
+      "path": "chapters/21/032.md",
+      "route": "lessons/21/032.html"
+    },
+    {
+      "lesson": 21,
+      "section": 33,
+      "title": "分析系统的方法与分布式推理",
+      "time": "01:27:05—01:28:14",
+      "source_pages": [
+        97,
+        99
+      ],
+      "path": "chapters/21/033.md",
+      "route": "lessons/21/033.html"
+    },
+    {
+      "lesson": 21,
+      "section": 34,
+      "title": "Token 返回后的审计和响应",
+      "time": "01:28:14—01:28:50",
+      "source_pages": [
+        99,
+        99
+      ],
+      "path": "chapters/21/034.md",
+      "route": "lessons/21/034.html"
+    },
+    {
+      "lesson": 21,
+      "section": 35,
+      "title": "旅程没有终点",
+      "time": "01:28:50—01:30:44",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/21/035.md",
+      "route": "lessons/21/035.html"
+    }
+  ]
+}

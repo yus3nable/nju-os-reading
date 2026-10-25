@@ -1,0 +1,180 @@
+{
+  "number": 9,
+  "title": "C 标准库原理",
+  "source": "https://www.bilibili.com/video/BV1GHXCBkEZf",
+  "pdf": "09 - C 标准库原理 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 118,
+  "images": 100,
+  "text_lines": 770,
+  "code_blocks": 19,
+  "sections": [
+    {
+      "lesson": 9,
+      "section": 1,
+      "title": "M2 提交与学习练习",
+      "time": "00:00:00—00:01:27",
+      "source_pages": [
+        3,
+        4
+      ],
+      "path": "chapters/09/001.md",
+      "route": "lessons/09/001.html"
+    },
+    {
+      "lesson": 9,
+      "section": 2,
+      "title": "回顾：进程、地址空间与文件描述符",
+      "time": "00:01:27—00:09:10",
+      "source_pages": [
+        5,
+        14
+      ],
+      "path": "chapters/09/002.md",
+      "route": "lessons/09/002.html"
+    },
+    {
+      "lesson": 9,
+      "section": 3,
+      "title": "从 C 到指令集：函数调用与 FFI",
+      "time": "00:09:10—00:14:02",
+      "source_pages": [
+        15,
+        18
+      ],
+      "path": "chapters/09/003.md",
+      "route": "lessons/09/003.html"
+    },
+    {
+      "lesson": 9,
+      "section": 4,
+      "title": "内联汇编的接口与编译器约束",
+      "time": "00:14:02—00:23:10",
+      "source_pages": [
+        19,
+        27
+      ],
+      "path": "chapters/09/004.md",
+      "route": "lessons/09/004.html"
+    },
+    {
+      "lesson": 9,
+      "section": 5,
+      "title": "C 语言与可移植的标准库",
+      "time": "00:23:10—00:29:45",
+      "source_pages": [
+        28,
+        31
+      ],
+      "path": "chapters/09/005.md",
+      "route": "lessons/09/005.html"
+    },
+    {
+      "lesson": 9,
+      "section": 6,
+      "title": "选择并编译 musl",
+      "time": "00:29:45—00:36:48",
+      "source_pages": [
+        32,
+        44
+      ],
+      "path": "chapters/09/006.md",
+      "route": "lessons/09/006.html"
+    },
+    {
+      "lesson": 9,
+      "section": 7,
+      "title": "Freestanding：类型、宏与可变参数",
+      "time": "00:36:48—00:45:20",
+      "source_pages": [
+        45,
+        56
+      ],
+      "path": "chapters/09/007.md",
+      "route": "lessons/09/007.html"
+    },
+    {
+      "lesson": 9,
+      "section": 8,
+      "title": "计算函数、浮点数与 NaN",
+      "time": "00:45:20—00:48:18",
+      "source_pages": [
+        57,
+        60
+      ],
+      "path": "chapters/09/008.md",
+      "route": "lessons/09/008.html"
+    },
+    {
+      "lesson": 9,
+      "section": 9,
+      "title": "setjmp 与 longjmp：保存和恢复执行位置",
+      "time": "00:48:18—00:55:44",
+      "source_pages": [
+        61,
+        75
+      ],
+      "path": "chapters/09/009.md",
+      "route": "lessons/09/009.html"
+    },
+    {
+      "lesson": 9,
+      "section": 10,
+      "title": "FILE 结构与 printf 的实现",
+      "time": "00:55:44—01:01:07",
+      "source_pages": [
+        76,
+        84
+      ],
+      "path": "chapters/09/010.md",
+      "route": "lessons/09/010.html"
+    },
+    {
+      "lesson": 9,
+      "section": 11,
+      "title": "进程退出、system 与 popen",
+      "time": "01:01:07—01:06:16",
+      "source_pages": [
+        85,
+        90
+      ],
+      "path": "chapters/09/011.md",
+      "route": "lessons/09/011.html"
+    },
+    {
+      "lesson": 9,
+      "section": 12,
+      "title": "错误处理：返回值、errno 与 perror",
+      "time": "01:06:16—01:12:05",
+      "source_pages": [
+        90,
+        98
+      ],
+      "path": "chapters/09/012.md",
+      "route": "lessons/09/012.html"
+    },
+    {
+      "lesson": 9,
+      "section": 13,
+      "title": "环境变量与 environ",
+      "time": "01:12:05—01:20:45",
+      "source_pages": [
+        98,
+        111
+      ],
+      "path": "chapters/09/013.md",
+      "route": "lessons/09/013.html"
+    },
+    {
+      "lesson": 9,
+      "section": 14,
+      "title": "CRT：从 _start 走到 main 和 exit",
+      "time": "01:20:45—01:25:12",
+      "source_pages": [
+        111,
+        118
+      ],
+      "path": "chapters/09/014.md",
+      "route": "lessons/09/014.html"
+    }
+  ]
+}

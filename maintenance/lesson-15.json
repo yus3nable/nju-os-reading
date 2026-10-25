@@ -1,0 +1,300 @@
+{
+  "number": 15,
+  "title": "并发控制：条件变量和万能同步方法",
+  "source": "https://www.bilibili.com/video/BV1t3dQBAEzd/",
+  "pdf": "15 - 并发控制：条件变量和万能同步方法 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 116,
+  "images": 68,
+  "text_lines": 770,
+  "code_blocks": 16,
+  "sections": [
+    {
+      "lesson": 15,
+      "section": 1,
+      "title": "测验安排与互斥留下的问题",
+      "time": "00:00:00—00:03:00",
+      "source_pages": [
+        4,
+        7
+      ],
+      "path": "chapters/15/001.md",
+      "route": "lessons/15/001.html"
+    },
+    {
+      "lesson": 15,
+      "section": 2,
+      "title": "同步怎样约束线程的先后关系",
+      "time": "00:03:00—00:04:25",
+      "source_pages": [
+        7,
+        8
+      ],
+      "path": "chapters/15/002.md",
+      "route": "lessons/15/002.html"
+    },
+    {
+      "lesson": 15,
+      "section": 3,
+      "title": "时钟、电路和现实中的同步",
+      "time": "00:04:25—00:06:51",
+      "source_pages": [
+        9,
+        10
+      ],
+      "path": "chapters/15/003.md",
+      "route": "lessons/15/003.html"
+    },
+    {
+      "lesson": 15,
+      "section": 4,
+      "title": "乐团合奏与计算机的双缓冲",
+      "time": "00:06:51—00:10:02",
+      "source_pages": [
+        11,
+        17
+      ],
+      "path": "chapters/15/004.md",
+      "route": "lessons/15/004.html"
+    },
+    {
+      "lesson": 15,
+      "section": 5,
+      "title": "把等待条件写成代码",
+      "time": "00:10:02—00:13:41",
+      "source_pages": [
+        17,
+        19
+      ],
+      "path": "chapters/15/005.md",
+      "route": "lessons/15/005.html"
+    },
+    {
+      "lesson": 15,
+      "section": 6,
+      "title": "同步点与 happens-before",
+      "time": "00:13:41—00:16:44",
+      "source_pages": [
+        20,
+        22
+      ],
+      "path": "chapters/15/006.md",
+      "route": "lessons/15/006.html"
+    },
+    {
+      "lesson": 15,
+      "section": 7,
+      "title": "实现一个同步的乐团",
+      "time": "00:16:44—00:19:10",
+      "source_pages": [
+        23,
+        26
+      ],
+      "path": "chapters/15/007.md",
+      "route": "lessons/15/007.html"
+    },
+    {
+      "lesson": 15,
+      "section": 8,
+      "title": "用代码写乐谱与合成音源",
+      "time": "00:19:10—00:21:14",
+      "source_pages": [
+        26,
+        29
+      ],
+      "path": "chapters/15/008.md",
+      "route": "lessons/15/008.html"
+    },
+    {
+      "lesson": 15,
+      "section": 9,
+      "title": "忙等乐团中的锁与数据可见性",
+      "time": "00:21:14—00:23:54",
+      "source_pages": [
+        30,
+        34
+      ],
+      "path": "chapters/15/009.md",
+      "route": "lessons/15/009.html"
+    },
+    {
+      "lesson": 15,
+      "section": 10,
+      "title": "从忙等发明条件变量",
+      "time": "00:23:54—00:26:14",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/15/010.md",
+      "route": "lessons/15/010.html"
+    },
+    {
+      "lesson": 15,
+      "section": 11,
+      "title": "释放锁与进入等待必须一起完成",
+      "time": "00:26:14—00:29:23",
+      "source_pages": [
+        36,
+        38
+      ],
+      "path": "chapters/15/011.md",
+      "route": "lessons/15/011.html"
+    },
+    {
+      "lesson": 15,
+      "section": 12,
+      "title": "唤醒以后先取得锁，再检查条件",
+      "time": "00:29:23—00:32:07",
+      "source_pages": [
+        39,
+        41
+      ],
+      "path": "chapters/15/012.md",
+      "route": "lessons/15/012.html"
+    },
+    {
+      "lesson": 15,
+      "section": 13,
+      "title": "while 退出时可以保证什么",
+      "time": "00:32:07—00:35:09",
+      "source_pages": [
+        42,
+        47
+      ],
+      "path": "chapters/15/013.md",
+      "route": "lessons/15/013.html"
+    },
+    {
+      "lesson": 15,
+      "section": 14,
+      "title": "把同一模板用于 join 和其他同步",
+      "time": "00:35:09—00:38:01",
+      "source_pages": [
+        47,
+        48
+      ],
+      "path": "chapters/15/014.md",
+      "route": "lessons/15/014.html"
+    },
+    {
+      "lesson": 15,
+      "section": 15,
+      "title": "生产者与消费者共享有界缓冲区",
+      "time": "00:38:01—00:42:00",
+      "source_pages": [
+        48,
+        53
+      ],
+      "path": "chapters/15/015.md",
+      "route": "lessons/15/015.html"
+    },
+    {
+      "lesson": 15,
+      "section": 16,
+      "title": "用左右括号表示生产和消费",
+      "time": "00:42:00—00:43:25",
+      "source_pages": [
+        54,
+        54
+      ],
+      "path": "chapters/15/016.md",
+      "route": "lessons/15/016.html"
+    },
+    {
+      "lesson": 15,
+      "section": 17,
+      "title": "写清条件，再使用同步模板",
+      "time": "00:43:25—00:46:23",
+      "source_pages": [
+        54,
+        58
+      ],
+      "path": "chapters/15/017.md",
+      "route": "lessons/15/017.html"
+    },
+    {
+      "lesson": 15,
+      "section": 18,
+      "title": "运行括号程序并用脚本检查",
+      "time": "00:46:23—00:48:56",
+      "source_pages": [
+        58,
+        67
+      ],
+      "path": "chapters/15/018.md",
+      "route": "lessons/15/018.html"
+    },
+    {
+      "lesson": 15,
+      "section": 19,
+      "title": "if 和 signal 的错误变体",
+      "time": "00:48:56—00:51:26",
+      "source_pages": [
+        68,
+        75
+      ],
+      "path": "chapters/15/019.md",
+      "route": "lessons/15/019.html"
+    },
+    {
+      "lesson": 15,
+      "section": 20,
+      "title": "用状态机同步三种字符线程",
+      "time": "00:51:26—00:58:24",
+      "source_pages": [
+        76,
+        87
+      ],
+      "path": "chapters/15/020.md",
+      "route": "lessons/15/020.html"
+    },
+    {
+      "lesson": 15,
+      "section": 21,
+      "title": "计算图中的节点、依赖和共享内存",
+      "time": "00:58:24—01:01:20",
+      "source_pages": [
+        88,
+        91
+      ],
+      "path": "chapters/15/021.md",
+      "route": "lessons/15/021.html"
+    },
+    {
+      "lesson": 15,
+      "section": 22,
+      "title": "神经网络、Makefile 与动态规划",
+      "time": "01:01:20—01:06:23",
+      "source_pages": [
+        92,
+        98
+      ],
+      "path": "chapters/15/022.md",
+      "route": "lessons/15/022.html"
+    },
+    {
+      "lesson": 15,
+      "section": 23,
+      "title": "两种执行计算图的方法",
+      "time": "01:06:23—01:11:21",
+      "source_pages": [
+        99,
+        105
+      ],
+      "path": "chapters/15/023.md",
+      "route": "lessons/15/023.html"
+    },
+    {
+      "lesson": 15,
+      "section": 24,
+      "title": "运行六个计算任务并回顾同步条件",
+      "time": "01:11:21—01:17:12",
+      "source_pages": [
+        105,
+        116
+      ],
+      "path": "chapters/15/024.md",
+      "route": "lessons/15/024.html"
+    }
+  ]
+}

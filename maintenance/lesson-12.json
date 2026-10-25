@@ -1,0 +1,192 @@
+{
+  "number": 12,
+  "title": "从零开始构建 Linux 应用世界",
+  "source": "https://www.bilibili.com/video/BV17JDWBsEMi/",
+  "pdf": "12 - 从零开始构建 Linux 应用世界 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 157,
+  "images": 120,
+  "text_lines": 861,
+  "code_blocks": 14,
+  "sections": [
+    {
+      "lesson": 12,
+      "section": 1,
+      "title": "回顾：系统调用与初始状态",
+      "time": "00:00:00—00:05:18",
+      "source_pages": [
+        3,
+        8
+      ],
+      "path": "chapters/12/001.md",
+      "route": "lessons/12/001.html"
+    },
+    {
+      "lesson": 12,
+      "section": 2,
+      "title": "UNIX 与 Minix 的起点",
+      "time": "00:05:18—00:11:37",
+      "source_pages": [
+        9,
+        18
+      ],
+      "path": "chapters/12/002.md",
+      "route": "lessons/12/002.html"
+    },
+    {
+      "lesson": 12,
+      "section": 3,
+      "title": "在模拟器中运行 Minix",
+      "time": "00:11:37—00:18:19",
+      "source_pages": [
+        18,
+        30
+      ],
+      "path": "chapters/12/003.md",
+      "route": "lessons/12/003.html"
+    },
+    {
+      "lesson": 12,
+      "section": 4,
+      "title": "微内核与 Linux 的诞生",
+      "time": "00:18:19—00:25:05",
+      "source_pages": [
+        30,
+        33
+      ],
+      "path": "chapters/12/004.md",
+      "route": "lessons/12/004.html"
+    },
+    {
+      "lesson": 12,
+      "section": 5,
+      "title": "名场面、创新与时代",
+      "time": "00:25:05—00:30:34",
+      "source_pages": [
+        34,
+        38
+      ],
+      "path": "chapters/12/005.md",
+      "route": "lessons/12/005.html"
+    },
+    {
+      "lesson": 12,
+      "section": 6,
+      "title": "Tanenbaum 与 Linus 的论战",
+      "time": "00:30:34—00:36:19",
+      "source_pages": [
+        39,
+        50
+      ],
+      "path": "chapters/12/006.md",
+      "route": "lessons/12/006.html"
+    },
+    {
+      "lesson": 12,
+      "section": 7,
+      "title": "用 AI 阅读资料与实现想法",
+      "time": "00:36:19—00:46:14",
+      "source_pages": [
+        50,
+        61
+      ],
+      "path": "chapters/12/007.md",
+      "route": "lessons/12/007.html"
+    },
+    {
+      "lesson": 12,
+      "section": 8,
+      "title": "从 CPU Reset 到第一个进程",
+      "time": "00:46:14—00:49:24",
+      "source_pages": [
+        61,
+        66
+      ],
+      "path": "chapters/12/008.md",
+      "route": "lessons/12/008.html"
+    },
+    {
+      "lesson": 12,
+      "section": 9,
+      "title": "最小二进制与 initramfs",
+      "time": "00:49:24—00:56:35",
+      "source_pages": [
+        67,
+        82
+      ],
+      "path": "chapters/12/009.md",
+      "route": "lessons/12/009.html"
+    },
+    {
+      "lesson": 12,
+      "section": 10,
+      "title": "解开真实系统的 initrd",
+      "time": "00:56:35—01:03:18",
+      "source_pages": [
+        83,
+        100
+      ],
+      "path": "chapters/12/010.md",
+      "route": "lessons/12/010.html"
+    },
+    {
+      "lesson": 12,
+      "section": 11,
+      "title": "switch_root 与真实根文件系统",
+      "time": "01:03:18—01:05:16",
+      "source_pages": [
+        101,
+        105
+      ],
+      "path": "chapters/12/011.md",
+      "route": "lessons/12/011.html"
+    },
+    {
+      "lesson": 12,
+      "section": 12,
+      "title": "BusyBox：从空白系统开始",
+      "time": "01:05:16—01:10:58",
+      "source_pages": [
+        106,
+        121
+      ],
+      "path": "chapters/12/012.md",
+      "route": "lessons/12/012.html"
+    },
+    {
+      "lesson": 12,
+      "section": 13,
+      "title": "命令背后的系统调用",
+      "time": "01:10:58—01:13:58",
+      "source_pages": [
+        122,
+        128
+      ],
+      "path": "chapters/12/013.md",
+      "route": "lessons/12/013.html"
+    },
+    {
+      "lesson": 12,
+      "section": 14,
+      "title": "挂载磁盘、切换根与启动网络",
+      "time": "01:13:58—01:20:00",
+      "source_pages": [
+        129,
+        147
+      ],
+      "path": "chapters/12/014.md",
+      "route": "lessons/12/014.html"
+    },
+    {
+      "lesson": 12,
+      "section": 15,
+      "title": "应用视角与软件生态",
+      "time": "01:20:00—01:26:22",
+      "source_pages": [
+        148,
+        157
+      ],
+      "path": "chapters/12/015.md",
+      "route": "lessons/12/015.html"
+    }
+  ]
+}

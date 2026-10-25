@@ -1,0 +1,408 @@
+{
+  "number": 20,
+  "title": "CPU、SIMD 和 GPU",
+  "source": "https://www.bilibili.com/video/BV1df536aEMk/",
+  "pdf": "20 - CPU、SIMD 和 GPU [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 113,
+  "images": 62,
+  "text_lines": 840,
+  "code_blocks": 15,
+  "sections": [
+    {
+      "lesson": 20,
+      "section": 1,
+      "title": "从计算图回顾 CPU 上的并行模型",
+      "time": "00:00:00—00:01:41",
+      "source_pages": [
+        5,
+        6
+      ],
+      "path": "chapters/20/001.md",
+      "route": "lessons/20/001.html"
+    },
+    {
+      "lesson": 20,
+      "section": 2,
+      "title": "顺序执行的语义与并行的逻辑门",
+      "time": "00:01:41—00:05:54",
+      "source_pages": [
+        6,
+        10
+      ],
+      "path": "chapters/20/002.md",
+      "route": "lessons/20/002.html"
+    },
+    {
+      "lesson": 20,
+      "section": 3,
+      "title": "怎样测量每个时钟周期执行的指令数",
+      "time": "00:05:54—00:07:31",
+      "source_pages": [
+        11,
+        11
+      ],
+      "path": "chapters/20/003.md",
+      "route": "lessons/20/003.html"
+    },
+    {
+      "lesson": 20,
+      "section": 4,
+      "title": "BogoMIPS 与没有精确计时器时的延迟",
+      "time": "00:07:31—00:10:05",
+      "source_pages": [
+        11,
+        13
+      ],
+      "path": "chapters/20/004.md",
+      "route": "lessons/20/004.html"
+    },
+    {
+      "lesson": 20,
+      "section": 5,
+      "title": "ILP Benchmark：依赖链与独立指令",
+      "time": "00:10:05—00:13:32",
+      "source_pages": [
+        14,
+        20
+      ],
+      "path": "chapters/20/005.md",
+      "route": "lessons/20/005.html"
+    },
+    {
+      "lesson": 20,
+      "section": 6,
+      "title": "指令调度为何消耗电路与能量",
+      "time": "00:13:32—00:15:38",
+      "source_pages": [
+        21,
+        22
+      ],
+      "path": "chapters/20/006.md",
+      "route": "lessons/20/006.html"
+    },
+    {
+      "lesson": 20,
+      "section": 7,
+      "title": "制程、功耗墙与系统中的各种税",
+      "time": "00:15:38—00:20:30",
+      "source_pages": [
+        23,
+        24
+      ],
+      "path": "chapters/20/007.md",
+      "route": "lessons/20/007.html"
+    },
+    {
+      "lesson": 20,
+      "section": 8,
+      "title": "在功耗限制下提高 performance/watt",
+      "time": "00:20:30—00:23:30",
+      "source_pages": [
+        24,
+        28
+      ],
+      "path": "chapters/20/008.md",
+      "route": "lessons/20/008.html"
+    },
+    {
+      "lesson": 20,
+      "section": 9,
+      "title": "让一条指令多做一些事：SIMD 与 MMX",
+      "time": "00:23:30—00:28:01",
+      "source_pages": [
+        28,
+        34
+      ],
+      "path": "chapters/20/009.md",
+      "route": "lessons/20/009.html"
+    },
+    {
+      "lesson": 20,
+      "section": 10,
+      "title": "Bitset：用一个整数存下多个元素",
+      "time": "00:28:01—00:29:30",
+      "source_pages": [
+        34,
+        34
+      ],
+      "path": "chapters/20/010.md",
+      "route": "lessons/20/010.html"
+    },
+    {
+      "lesson": 20,
+      "section": 11,
+      "title": "popcount 的位运算、分治与查表",
+      "time": "00:29:30—00:32:34",
+      "source_pages": [
+        35,
+        39
+      ],
+      "path": "chapters/20/011.md",
+      "route": "lessons/20/011.html"
+    },
+    {
+      "lesson": 20,
+      "section": 12,
+      "title": "从 MMX 到 SSE、AVX 与 AVX-512",
+      "time": "00:32:34—00:36:00",
+      "source_pages": [
+        39,
+        42
+      ],
+      "path": "chapters/20/012.md",
+      "route": "lessons/20/012.html"
+    },
+    {
+      "lesson": 20,
+      "section": 13,
+      "title": "SIMD 仍然需要指令调度",
+      "time": "00:36:00—00:37:30",
+      "source_pages": [
+        42,
+        43
+      ],
+      "path": "chapters/20/013.md",
+      "route": "lessons/20/013.html"
+    },
+    {
+      "lesson": 20,
+      "section": 14,
+      "title": "VLIW：把调度交给编译器",
+      "time": "00:37:30—00:39:40",
+      "source_pages": [
+        44,
+        45
+      ],
+      "path": "chapters/20/014.md",
+      "route": "lessons/20/014.html"
+    },
+    {
+      "lesson": 20,
+      "section": 15,
+      "title": "更简单的处理器与共享译码部件",
+      "time": "00:39:40—00:41:21",
+      "source_pages": [
+        46,
+        47
+      ],
+      "path": "chapters/20/015.md",
+      "route": "lessons/20/015.html"
+    },
+    {
+      "lesson": 20,
+      "section": 16,
+      "title": "从早期游戏机看图形处理需求",
+      "time": "00:41:21—00:43:02",
+      "source_pages": [
+        48,
+        51
+      ],
+      "path": "chapters/20/016.md",
+      "route": "lessons/20/016.html"
+    },
+    {
+      "lesson": 20,
+      "section": 17,
+      "title": "NES 如何在有限指令预算内绘制画面",
+      "time": "00:43:02—00:45:01",
+      "source_pages": [
+        51,
+        52
+      ],
+      "path": "chapters/20/017.md",
+      "route": "lessons/20/017.html"
+    },
+    {
+      "lesson": 20,
+      "section": 18,
+      "title": "Tile、调色板与背景卷轴",
+      "time": "00:45:01—00:48:30",
+      "source_pages": [
+        53,
+        57
+      ],
+      "path": "chapters/20/018.md",
+      "route": "lessons/20/018.html"
+    },
+    {
+      "lesson": 20,
+      "section": 19,
+      "title": "Sprite 的属性、翻转与动画",
+      "time": "00:48:30—00:50:30",
+      "source_pages": [
+        58,
+        63
+      ],
+      "path": "chapters/20/019.md",
+      "route": "lessons/20/019.html"
+    },
+    {
+      "lesson": 20,
+      "section": 20,
+      "title": "固定渲染管线怎样把描述变成像素",
+      "time": "00:50:30—00:54:35",
+      "source_pages": [
+        63,
+        67
+      ],
+      "path": "chapters/20/020.md",
+      "route": "lessons/20/020.html"
+    },
+    {
+      "lesson": 20,
+      "section": 21,
+      "title": "从 PPU 到 2D 图形渲染引擎",
+      "time": "00:54:35—00:59:31",
+      "source_pages": [
+        67,
+        73
+      ],
+      "path": "chapters/20/021.md",
+      "route": "lessons/20/021.html"
+    },
+    {
+      "lesson": 20,
+      "section": 22,
+      "title": "齐次坐标与从 2D 到 3D",
+      "time": "00:59:31—01:01:30",
+      "source_pages": [
+        74,
+        76
+      ],
+      "path": "chapters/20/022.md",
+      "route": "lessons/20/022.html"
+    },
+    {
+      "lesson": 20,
+      "section": 23,
+      "title": "深度信息与贴图失真",
+      "time": "01:01:30—01:03:01",
+      "source_pages": [
+        77,
+        80
+      ],
+      "path": "chapters/20/023.md",
+      "route": "lessons/20/023.html"
+    },
+    {
+      "lesson": 20,
+      "section": 24,
+      "title": "Vertex shader：用程序修改顶点",
+      "time": "01:03:01—01:06:20",
+      "source_pages": [
+        81,
+        82
+      ],
+      "path": "chapters/20/024.md",
+      "route": "lessons/20/024.html"
+    },
+    {
+      "lesson": 20,
+      "section": 25,
+      "title": "Pixel shader、照片调整与法线贴图",
+      "time": "01:06:20—01:10:30",
+      "source_pages": [
+        83,
+        86
+      ],
+      "path": "chapters/20/025.md",
+      "route": "lessons/20/025.html"
+    },
+    {
+      "lesson": 20,
+      "section": 26,
+      "title": "OpenGL shader 字符串与未运行的示例",
+      "time": "01:10:30—01:12:00",
+      "source_pages": [
+        86,
+        89
+      ],
+      "path": "chapters/20/026.md",
+      "route": "lessons/20/026.html"
+    },
+    {
+      "lesson": 20,
+      "section": 27,
+      "title": "把科学计算变成图像处理",
+      "time": "01:12:00—01:14:31",
+      "source_pages": [
+        90,
+        90
+      ],
+      "path": "chapters/20/027.md",
+      "route": "lessons/20/027.html"
+    },
+    {
+      "lesson": 20,
+      "section": 28,
+      "title": "为每个像素执行同一段代码：CUDA 模型",
+      "time": "01:14:31—01:18:00",
+      "source_pages": [
+        91,
+        98
+      ],
+      "path": "chapters/20/028.md",
+      "route": "lessons/20/028.html"
+    },
+    {
+      "lesson": 20,
+      "section": 29,
+      "title": "SIMT：独立寄存器与共享的 PC",
+      "time": "01:18:00—01:22:30",
+      "source_pages": [
+        99,
+        103
+      ],
+      "path": "chapters/20/029.md",
+      "route": "lessons/20/029.html"
+    },
+    {
+      "lesson": 20,
+      "section": 30,
+      "title": "单步执行与 Memory coalescing",
+      "time": "01:22:30—01:25:30",
+      "source_pages": [
+        104,
+        105
+      ],
+      "path": "chapters/20/030.md",
+      "route": "lessons/20/030.html"
+    },
+    {
+      "lesson": 20,
+      "section": 31,
+      "title": "在多个 warp 之间切换以等待内存",
+      "time": "01:25:30—01:27:00",
+      "source_pages": [
+        106,
+        106
+      ],
+      "path": "chapters/20/031.md",
+      "route": "lessons/20/031.html"
+    },
+    {
+      "lesson": 20,
+      "section": 32,
+      "title": "访存方式与分支给 CUDA 带来的代价",
+      "time": "01:27:00—01:29:00",
+      "source_pages": [
+        106,
+        109
+      ],
+      "path": "chapters/20/032.md",
+      "route": "lessons/20/032.html"
+    },
+    {
+      "lesson": 20,
+      "section": 33,
+      "title": "课件性能记录与 GPU 汇编",
+      "time": "01:29:00—01:29:45",
+      "source_pages": [
+        110,
+        113
+      ],
+      "path": "chapters/20/033.md",
+      "route": "lessons/20/033.html"
+    }
+  ]
+}

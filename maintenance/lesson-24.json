@@ -1,0 +1,720 @@
+{
+  "number": 24,
+  "title": "文件系统 API (1)",
+  "source": "https://www.bilibili.com/video/BV1hAGr6vEi9/",
+  "pdf": "24 - 文件系统 API (1) [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 140,
+  "images": 82,
+  "text_lines": 786,
+  "code_blocks": 21,
+  "sections": [
+    {
+      "lesson": 24,
+      "section": 1,
+      "title": "块设备抽象的回顾",
+      "time": "00:00:00—00:01:08",
+      "source_pages": [
+        7,
+        8
+      ],
+      "path": "chapters/24/001.md",
+      "route": "lessons/24/001.html"
+    },
+    {
+      "lesson": 24,
+      "section": 2,
+      "title": "设备、分区与进程的访问",
+      "time": "00:01:08—00:02:37",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/24/002.md",
+      "route": "lessons/24/002.html"
+    },
+    {
+      "lesson": 24,
+      "section": 3,
+      "title": "文件系统需要提供什么抽象",
+      "time": "00:02:37—00:03:32",
+      "source_pages": [
+        10,
+        11
+      ],
+      "path": "chapters/24/003.md",
+      "route": "lessons/24/003.html"
+    },
+    {
+      "lesson": 24,
+      "section": 4,
+      "title": "从内存的数据结构走向存储",
+      "time": "00:03:32—00:05:30",
+      "source_pages": [
+        12,
+        13
+      ],
+      "path": "chapters/24/004.md",
+      "route": "lessons/24/004.html"
+    },
+    {
+      "lesson": 24,
+      "section": 5,
+      "title": "文件：可变长的虚拟磁盘",
+      "time": "00:05:30—00:07:30",
+      "source_pages": [
+        14,
+        14
+      ],
+      "path": "chapters/24/005.md",
+      "route": "lessons/24/005.html"
+    },
+    {
+      "lesson": 24,
+      "section": 6,
+      "title": "用数字命名对象的问题",
+      "time": "00:07:30—00:09:51",
+      "source_pages": [
+        14,
+        17
+      ],
+      "path": "chapters/24/006.md",
+      "route": "lessons/24/006.html"
+    },
+    {
+      "lesson": 24,
+      "section": 7,
+      "title": "目录树与信息的局部性",
+      "time": "00:09:51—00:11:03",
+      "source_pages": [
+        18,
+        20
+      ],
+      "path": "chapters/24/007.md",
+      "route": "lessons/24/007.html"
+    },
+    {
+      "lesson": 24,
+      "section": 8,
+      "title": "目录也是带名字的指针",
+      "time": "00:11:03—00:12:30",
+      "source_pages": [
+        20,
+        21
+      ],
+      "path": "chapters/24/008.md",
+      "route": "lessons/24/008.html"
+    },
+    {
+      "lesson": 24,
+      "section": 9,
+      "title": "隐藏文件与 ls 的过滤",
+      "time": "00:12:30—00:14:30",
+      "source_pages": [
+        22,
+        24
+      ],
+      "path": "chapters/24/009.md",
+      "route": "lessons/24/009.html"
+    },
+    {
+      "lesson": 24,
+      "section": 10,
+      "title": "用文件系统管理个人数据",
+      "time": "00:14:30—00:15:31",
+      "source_pages": [
+        25,
+        25
+      ],
+      "path": "chapters/24/010.md",
+      "route": "lessons/24/010.html"
+    },
+    {
+      "lesson": 24,
+      "section": 11,
+      "title": "多棵目录树如何进入一个系统",
+      "time": "00:15:31—00:18:00",
+      "source_pages": [
+        25,
+        29
+      ],
+      "path": "chapters/24/011.md",
+      "route": "lessons/24/011.html"
+    },
+    {
+      "lesson": 24,
+      "section": 12,
+      "title": "Windows 的对象根与网络路径",
+      "time": "00:18:00—00:19:30",
+      "source_pages": [
+        29,
+        29
+      ],
+      "path": "chapters/24/012.md",
+      "route": "lessons/24/012.html"
+    },
+    {
+      "lesson": 24,
+      "section": 13,
+      "title": "盘符、历史兼容与命名空间",
+      "time": "00:19:30—00:21:30",
+      "source_pages": [
+        30,
+        30
+      ],
+      "path": "chapters/24/013.md",
+      "route": "lessons/24/013.html"
+    },
+    {
+      "lesson": 24,
+      "section": 14,
+      "title": "把一棵目录树放进当前系统",
+      "time": "00:21:30—00:22:01",
+      "source_pages": [
+        30,
+        32
+      ],
+      "path": "chapters/24/014.md",
+      "route": "lessons/24/014.html"
+    },
+    {
+      "lesson": 24,
+      "section": 15,
+      "title": "最小 Linux 的初始文件系统",
+      "time": "00:22:01—00:23:00",
+      "source_pages": [
+        32,
+        33
+      ],
+      "path": "chapters/24/015.md",
+      "route": "lessons/24/015.html"
+    },
+    {
+      "lesson": 24,
+      "section": 16,
+      "title": "mount 与光盘驱动器",
+      "time": "00:23:00—00:24:30",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/24/016.md",
+      "route": "lessons/24/016.html"
+    },
+    {
+      "lesson": 24,
+      "section": 17,
+      "title": "ISO 9660 与 CD001 标识",
+      "time": "00:24:30—00:26:01",
+      "source_pages": [
+        37,
+        39
+      ],
+      "path": "chapters/24/017.md",
+      "route": "lessons/24/017.html"
+    },
+    {
+      "lesson": 24,
+      "section": 18,
+      "title": "首次挂载失败，再次只读挂载",
+      "time": "00:26:01—00:27:01",
+      "source_pages": [
+        40,
+        42
+      ],
+      "path": "chapters/24/018.md",
+      "route": "lessons/24/018.html"
+    },
+    {
+      "lesson": 24,
+      "section": 19,
+      "title": "读取中文 Windows 98 自述文件",
+      "time": "00:27:01—00:28:00",
+      "source_pages": [
+        42,
+        44
+      ],
+      "path": "chapters/24/019.md",
+      "route": "lessons/24/019.html"
+    },
+    {
+      "lesson": 24,
+      "section": 20,
+      "title": "跟踪一次失败的 mount",
+      "time": "00:28:00—00:30:00",
+      "source_pages": [
+        45,
+        47
+      ],
+      "path": "chapters/24/020.md",
+      "route": "lessons/24/020.html"
+    },
+    {
+      "lesson": 24,
+      "section": 21,
+      "title": "用 eject 弹出光盘",
+      "time": "00:30:00—00:31:30",
+      "source_pages": [
+        47,
+        50
+      ],
+      "path": "chapters/24/021.md",
+      "route": "lessons/24/021.html"
+    },
+    {
+      "lesson": 24,
+      "section": 22,
+      "title": "把磁盘镜像挂载成目录",
+      "time": "00:31:30—00:33:00",
+      "source_pages": [
+        50,
+        52
+      ],
+      "path": "chapters/24/022.md",
+      "route": "lessons/24/022.html"
+    },
+    {
+      "lesson": 24,
+      "section": 23,
+      "title": "loopback device 把文件变成块设备",
+      "time": "00:33:00—00:34:31",
+      "source_pages": [
+        53,
+        55
+      ],
+      "path": "chapters/24/023.md",
+      "route": "lessons/24/023.html"
+    },
+    {
+      "lesson": 24,
+      "section": 24,
+      "title": "卸载后重新观察挂载过程",
+      "time": "00:34:31—00:35:31",
+      "source_pages": [
+        56,
+        56
+      ],
+      "path": "chapters/24/024.md",
+      "route": "lessons/24/024.html"
+    },
+    {
+      "lesson": 24,
+      "section": 25,
+      "title": "文件系统探测与 loop 设备分配",
+      "time": "00:35:31—00:37:20",
+      "source_pages": [
+        56,
+        58
+      ],
+      "path": "chapters/24/025.md",
+      "route": "lessons/24/025.html"
+    },
+    {
+      "lesson": 24,
+      "section": 26,
+      "title": "FHS 与统一的目录布局",
+      "time": "00:37:20—00:38:31",
+      "source_pages": [
+        58,
+        59
+      ],
+      "path": "chapters/24/026.md",
+      "route": "lessons/24/026.html"
+    },
+    {
+      "lesson": 24,
+      "section": 27,
+      "title": "目录树的增删改查",
+      "time": "00:38:31—00:39:35",
+      "source_pages": [
+        60,
+        62
+      ],
+      "path": "chapters/24/027.md",
+      "route": "lessons/24/027.html"
+    },
+    {
+      "lesson": 24,
+      "section": 28,
+      "title": "globbing 与 shell 展开",
+      "time": "00:39:35—00:40:30",
+      "source_pages": [
+        62,
+        63
+      ],
+      "path": "chapters/24/028.md",
+      "route": "lessons/24/028.html"
+    },
+    {
+      "lesson": 24,
+      "section": 29,
+      "title": "getdents、fzf 与文件查找",
+      "time": "00:40:30—00:41:07",
+      "source_pages": [
+        64,
+        65
+      ],
+      "path": "chapters/24/029.md",
+      "route": "lessons/24/029.html"
+    },
+    {
+      "lesson": 24,
+      "section": 30,
+      "title": "硬链接：多个名字指向同一文件",
+      "time": "00:41:07—00:43:00",
+      "source_pages": [
+        66,
+        68
+      ],
+      "path": "chapters/24/030.md",
+      "route": "lessons/24/030.html"
+    },
+    {
+      "lesson": 24,
+      "section": 31,
+      "title": "修改文件与相同的 inode",
+      "time": "00:43:00—00:44:00",
+      "source_pages": [
+        69,
+        71
+      ],
+      "path": "chapters/24/031.md",
+      "route": "lessons/24/031.html"
+    },
+    {
+      "lesson": 24,
+      "section": 32,
+      "title": "unlink、引用计数与环",
+      "time": "00:44:00—00:45:01",
+      "source_pages": [
+        72,
+        73
+      ],
+      "path": "chapters/24/032.md",
+      "route": "lessons/24/032.html"
+    },
+    {
+      "lesson": 24,
+      "section": 33,
+      "title": "快捷方式与符号链接",
+      "time": "00:45:01—00:46:32",
+      "source_pages": [
+        74,
+        75
+      ],
+      "path": "chapters/24/033.md",
+      "route": "lessons/24/033.html"
+    },
+    {
+      "lesson": 24,
+      "section": 34,
+      "title": "路径替换与失效的符号链接",
+      "time": "00:46:32—00:48:00",
+      "source_pages": [
+        76,
+        80
+      ],
+      "path": "chapters/24/034.md",
+      "route": "lessons/24/034.html"
+    },
+    {
+      "lesson": 24,
+      "section": 35,
+      "title": "用目录和链接构建冒险游戏",
+      "time": "00:48:00—00:49:02",
+      "source_pages": [
+        81,
+        82
+      ],
+      "path": "chapters/24/035.md",
+      "route": "lessons/24/035.html"
+    },
+    {
+      "lesson": 24,
+      "section": 36,
+      "title": "每个状态是目录，每个选项是链接",
+      "time": "00:49:02—00:50:01",
+      "source_pages": [
+        83,
+        86
+      ],
+      "path": "chapters/24/036.md",
+      "route": "lessons/24/036.html"
+    },
+    {
+      "lesson": 24,
+      "section": 37,
+      "title": "cd 路径保存历史，cd .. 回退",
+      "time": "00:50:01—00:52:01",
+      "source_pages": [
+        87,
+        90
+      ],
+      "path": "chapters/24/037.md",
+      "route": "lessons/24/037.html"
+    },
+    {
+      "lesson": 24,
+      "section": 38,
+      "title": "图片一致性与 Agentic 工作流",
+      "time": "00:52:01—00:52:31",
+      "source_pages": [
+        91,
+        95
+      ],
+      "path": "chapters/24/038.md",
+      "route": "lessons/24/038.html"
+    },
+    {
+      "lesson": 24,
+      "section": 39,
+      "title": "用链接构造虚拟的文件系统",
+      "time": "00:52:31—00:54:00",
+      "source_pages": [
+        96,
+        98
+      ],
+      "path": "chapters/24/039.md",
+      "route": "lessons/24/039.html"
+    },
+    {
+      "lesson": 24,
+      "section": 40,
+      "title": "Nix 与持久化数据结构",
+      "time": "00:54:00—00:55:30",
+      "source_pages": [
+        98,
+        99
+      ],
+      "path": "chapters/24/040.md",
+      "route": "lessons/24/040.html"
+    },
+    {
+      "lesson": 24,
+      "section": 41,
+      "title": "环境、generation 与回滚",
+      "time": "00:55:30—00:56:30",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/24/041.md",
+      "route": "lessons/24/041.html"
+    },
+    {
+      "lesson": 24,
+      "section": 42,
+      "title": "让 Agent 创建 Nix 环境",
+      "time": "00:56:30—00:58:01",
+      "source_pages": [
+        102,
+        104
+      ],
+      "path": "chapters/24/042.md",
+      "route": "lessons/24/042.html"
+    },
+    {
+      "lesson": 24,
+      "section": 43,
+      "title": "给文件增加属性",
+      "time": "00:58:01—00:59:32",
+      "source_pages": [
+        105,
+        107
+      ],
+      "path": "chapters/24/043.md",
+      "route": "lessons/24/043.html"
+    },
+    {
+      "lesson": 24,
+      "section": 44,
+      "title": "类型、inode 与访问权限",
+      "time": "00:59:32—01:01:01",
+      "source_pages": [
+        108,
+        109
+      ],
+      "path": "chapters/24/044.md",
+      "route": "lessons/24/044.html"
+    },
+    {
+      "lesson": 24,
+      "section": 45,
+      "title": "用户、用户组与 rwx",
+      "time": "01:01:01—01:01:31",
+      "source_pages": [
+        110,
+        110
+      ],
+      "path": "chapters/24/045.md",
+      "route": "lessons/24/045.html"
+    },
+    {
+      "lesson": 24,
+      "section": 46,
+      "title": "root 创建的文件与元数据权限",
+      "time": "01:01:31—01:02:31",
+      "source_pages": [
+        110,
+        113
+      ],
+      "path": "chapters/24/046.md",
+      "route": "lessons/24/046.html"
+    },
+    {
+      "lesson": 24,
+      "section": 47,
+      "title": "执行权限与 Permission denied",
+      "time": "01:02:31—01:03:30",
+      "source_pages": [
+        113,
+        117
+      ],
+      "path": "chapters/24/047.md",
+      "route": "lessons/24/047.html"
+    },
+    {
+      "lesson": 24,
+      "section": 48,
+      "title": "权限和文件系统的演化",
+      "time": "01:03:30—01:04:30",
+      "source_pages": [
+        117,
+        117
+      ],
+      "path": "chapters/24/048.md",
+      "route": "lessons/24/048.html"
+    },
+    {
+      "lesson": 24,
+      "section": 49,
+      "title": "文件的 personality 与隐藏策略",
+      "time": "01:04:30—01:06:00",
+      "source_pages": [
+        117,
+        118
+      ],
+      "path": "chapters/24/049.md",
+      "route": "lessons/24/049.html"
+    },
+    {
+      "lesson": 24,
+      "section": 50,
+      "title": "procfs 中可访问但不列出的线程",
+      "time": "01:06:00—01:07:30",
+      "source_pages": [
+        118,
+        119
+      ],
+      "path": "chapters/24/050.md",
+      "route": "lessons/24/050.html"
+    },
+    {
+      "lesson": 24,
+      "section": 51,
+      "title": "procfs 如何动态生成目录内容",
+      "time": "01:07:30—01:10:01",
+      "source_pages": [
+        120,
+        123
+      ],
+      "path": "chapters/24/051.md",
+      "route": "lessons/24/051.html"
+    },
+    {
+      "lesson": 24,
+      "section": 52,
+      "title": "扩展属性：文件上的键值字典",
+      "time": "01:10:01—01:11:30",
+      "source_pages": [
+        123,
+        126
+      ],
+      "path": "chapters/24/052.md",
+      "route": "lessons/24/052.html"
+    },
+    {
+      "lesson": 24,
+      "section": 53,
+      "title": "普通复制可能丢失扩展属性",
+      "time": "01:11:30—01:12:34",
+      "source_pages": [
+        127,
+        129
+      ],
+      "path": "chapters/24/053.md",
+      "route": "lessons/24/053.html"
+    },
+    {
+      "lesson": 24,
+      "section": 54,
+      "title": "检查工具能力并保留 xattrs",
+      "time": "01:12:34—01:14:01",
+      "source_pages": [
+        130,
+        133
+      ],
+      "path": "chapters/24/054.md",
+      "route": "lessons/24/054.html"
+    },
+    {
+      "lesson": 24,
+      "section": 55,
+      "title": "向量索引与扩展属性的用途",
+      "time": "01:14:01—01:15:03",
+      "source_pages": [
+        134,
+        134
+      ],
+      "path": "chapters/24/055.md",
+      "route": "lessons/24/055.html"
+    },
+    {
+      "lesson": 24,
+      "section": 56,
+      "title": "跨文件系统复制的兼容性",
+      "time": "01:15:03—01:16:00",
+      "source_pages": [
+        134,
+        134
+      ],
+      "path": "chapters/24/056.md",
+      "route": "lessons/24/056.html"
+    },
+    {
+      "lesson": 24,
+      "section": 57,
+      "title": "ACL 与更细粒度的访问控制",
+      "time": "01:16:00—01:17:00",
+      "source_pages": [
+        135,
+        136
+      ],
+      "path": "chapters/24/057.md",
+      "route": "lessons/24/057.html"
+    },
+    {
+      "lesson": 24,
+      "section": 58,
+      "title": "现场尝试限制某个用户的访问",
+      "time": "01:17:00—01:18:31",
+      "source_pages": [
+        137,
+        140
+      ],
+      "path": "chapters/24/058.md",
+      "route": "lessons/24/058.html"
+    },
+    {
+      "lesson": 24,
+      "section": 59,
+      "title": "理解机制和 API 提供的保证",
+      "time": "01:18:31—01:19:11",
+      "source_pages": [
+        140,
+        140
+      ],
+      "path": "chapters/24/059.md",
+      "route": "lessons/24/059.html"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "number": 23,
+  "title": "存储设备原理",
+  "source": "https://www.bilibili.com/video/BV1RHLh6pEqn/",
+  "pdf": "23 - 存储设备原理 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 120,
+  "images": 71,
+  "text_lines": 690,
+  "code_blocks": 6,
+  "sections": [
+    {
+      "lesson": 23,
+      "section": 1,
+      "title": "从 DeepSeek 招聘谈 AI 编程",
+      "time": "00:00:00—00:02:07",
+      "source_pages": [
+        7,
+        10
+      ],
+      "path": "chapters/23/001.md",
+      "route": "lessons/23/001.html"
+    },
+    {
+      "lesson": 23,
+      "section": 2,
+      "title": "从设备驱动进入持久化",
+      "time": "00:02:07—00:04:01",
+      "source_pages": [
+        10,
+        13
+      ],
+      "path": "chapters/23/002.md",
+      "route": "lessons/23/002.html"
+    },
+    {
+      "lesson": 23,
+      "section": 3,
+      "title": "什么是持久化",
+      "time": "00:04:01—00:05:30",
+      "source_pages": [
+        13,
+        15
+      ],
+      "path": "chapters/23/003.md",
+      "route": "lessons/23/003.html"
+    },
+    {
+      "lesson": 23,
+      "section": 4,
+      "title": "用可改写的状态保存一个 bit",
+      "time": "00:05:30—00:06:48",
+      "source_pages": [
+        16,
+        16
+      ],
+      "path": "chapters/23/004.md",
+      "route": "lessons/23/004.html"
+    },
+    {
+      "lesson": 23,
+      "section": 5,
+      "title": "让电路读写这个 bit",
+      "time": "00:06:48—00:07:30",
+      "source_pages": [
+        16,
+        18
+      ],
+      "path": "chapters/23/005.md",
+      "route": "lessons/23/005.html"
+    },
+    {
+      "lesson": 23,
+      "section": 6,
+      "title": "磁带：用磁场保存数据",
+      "time": "00:07:30—00:09:32",
+      "source_pages": [
+        19,
+        20
+      ],
+      "path": "chapters/23/006.md",
+      "route": "lessons/23/006.html"
+    },
+    {
+      "lesson": 23,
+      "section": 7,
+      "title": "学习机与磁带上的 BASIC 程序",
+      "time": "00:09:32—00:10:05",
+      "source_pages": [
+        21,
+        21
+      ],
+      "path": "chapters/23/007.md",
+      "route": "lessons/23/007.html"
+    },
+    {
+      "lesson": 23,
+      "section": 8,
+      "title": "磁带的密度和存储特性",
+      "time": "00:10:05—00:12:31",
+      "source_pages": [
+        21,
+        24
+      ],
+      "path": "chapters/23/008.md",
+      "route": "lessons/23/008.html"
+    },
+    {
+      "lesson": 23,
+      "section": 9,
+      "title": "随机访问为什么难",
+      "time": "00:12:31—00:14:53",
+      "source_pages": [
+        25,
+        27
+      ],
+      "path": "chapters/23/009.md",
+      "route": "lessons/23/009.html"
+    },
+    {
+      "lesson": 23,
+      "section": 10,
+      "title": "冷数据、音频与录像带",
+      "time": "00:14:53—00:16:44",
+      "source_pages": [
+        27,
+        27
+      ],
+      "path": "chapters/23/010.md",
+      "route": "lessons/23/010.html"
+    },
+    {
+      "lesson": 23,
+      "section": 11,
+      "title": "磁鼓：缩短等待旋转的时间",
+      "time": "00:16:44—00:19:03",
+      "source_pages": [
+        28,
+        31
+      ],
+      "path": "chapters/23/011.md",
+      "route": "lessons/23/011.html"
+    },
+    {
+      "lesson": 23,
+      "section": 12,
+      "title": "磁盘：在二维平面上排列磁道",
+      "time": "00:19:03—00:20:38",
+      "source_pages": [
+        32,
+        33
+      ],
+      "path": "chapters/23/012.md",
+      "route": "lessons/23/012.html"
+    },
+    {
+      "lesson": 23,
+      "section": 13,
+      "title": "硬盘实物与盘片封装",
+      "time": "00:20:38—00:21:32",
+      "source_pages": [
+        34,
+        34
+      ],
+      "path": "chapters/23/013.md",
+      "route": "lessons/23/013.html"
+    },
+    {
+      "lesson": 23,
+      "section": 14,
+      "title": "提高磁盘的存储密度",
+      "time": "00:21:32—00:22:31",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/23/014.md",
+      "route": "lessons/23/014.html"
+    },
+    {
+      "lesson": 23,
+      "section": 15,
+      "title": "机械硬盘的性能、可靠性与恢复",
+      "time": "00:22:31—00:27:01",
+      "source_pages": [
+        37,
+        40
+      ],
+      "path": "chapters/23/015.md",
+      "route": "lessons/23/015.html"
+    },
+    {
+      "lesson": 23,
+      "section": 16,
+      "title": "寻道、旋转与电梯调度",
+      "time": "00:27:01—00:28:31",
+      "source_pages": [
+        41,
+        43
+      ],
+      "path": "chapters/23/016.md",
+      "route": "lessons/23/016.html"
+    },
+    {
+      "lesson": 23,
+      "section": 17,
+      "title": "软盘：把盘片带走",
+      "time": "00:28:31—00:30:01",
+      "source_pages": [
+        43,
+        46
+      ],
+      "path": "chapters/23/017.md",
+      "route": "lessons/23/017.html"
+    },
+    {
+      "lesson": 23,
+      "section": 18,
+      "title": "保护盖与物理写保护",
+      "time": "00:30:01—00:31:31",
+      "source_pages": [
+        46,
+        47
+      ],
+      "path": "chapters/23/018.md",
+      "route": "lessons/23/018.html"
+    },
+    {
+      "lesson": 23,
+      "section": 19,
+      "title": "用多张软盘发行软件",
+      "time": "00:31:31—00:33:04",
+      "source_pages": [
+        48,
+        50
+      ],
+      "path": "chapters/23/019.md",
+      "route": "lessons/23/019.html"
+    },
+    {
+      "lesson": 23,
+      "section": 20,
+      "title": "软盘的成本和使用场景",
+      "time": "00:33:04—00:35:01",
+      "source_pages": [
+        51,
+        51
+      ],
+      "path": "chapters/23/020.md",
+      "route": "lessons/23/020.html"
+    },
+    {
+      "lesson": 23,
+      "section": 21,
+      "title": "一张软盘带走整个系统",
+      "time": "00:35:01—00:36:18",
+      "source_pages": [
+        51,
+        52
+      ],
+      "path": "chapters/23/021.md",
+      "route": "lessons/23/021.html"
+    },
+    {
+      "lesson": 23,
+      "section": 22,
+      "title": "换一种方法：挖坑保存数据",
+      "time": "00:36:18—00:37:20",
+      "source_pages": [
+        53,
+        54
+      ],
+      "path": "chapters/23/022.md",
+      "route": "lessons/23/022.html"
+    },
+    {
+      "lesson": 23,
+      "section": 23,
+      "title": "显微镜下的像素和芯片",
+      "time": "00:37:20—00:38:10",
+      "source_pages": [
+        55,
+        59
+      ],
+      "path": "chapters/23/023.md",
+      "route": "lessons/23/023.html"
+    },
+    {
+      "lesson": 23,
+      "section": 24,
+      "title": "光盘：用激光读取小坑",
+      "time": "00:38:10—00:40:00",
+      "source_pages": [
+        60,
+        61
+      ],
+      "path": "chapters/23/024.md",
+      "route": "lessons/23/024.html"
+    },
+    {
+      "lesson": 23,
+      "section": 25,
+      "title": "数字光盘与模拟唱片",
+      "time": "00:40:00—00:41:07",
+      "source_pages": [
+        62,
+        63
+      ],
+      "path": "chapters/23/025.md",
+      "route": "lessons/23/025.html"
+    },
+    {
+      "lesson": 23,
+      "section": 26,
+      "title": "母盘与低成本复制",
+      "time": "00:41:07—00:43:01",
+      "source_pages": [
+        64,
+        67
+      ],
+      "path": "chapters/23/026.md",
+      "route": "lessons/23/026.html"
+    },
+    {
+      "lesson": 23,
+      "section": 27,
+      "title": "软件分发与光盘的特性",
+      "time": "00:43:01—00:45:00",
+      "source_pages": [
+        67,
+        69
+      ],
+      "path": "chapters/23/027.md",
+      "route": "lessons/23/027.html"
+    },
+    {
+      "lesson": 23,
+      "section": 28,
+      "title": "可写光盘与互联网分发",
+      "time": "00:45:00—00:46:30",
+      "source_pages": [
+        69,
+        69
+      ],
+      "path": "chapters/23/028.md",
+      "route": "lessons/23/028.html"
+    },
+    {
+      "lesson": 23,
+      "section": 29,
+      "title": "随机读与追加写",
+      "time": "00:46:30—00:47:31",
+      "source_pages": [
+        69,
+        71
+      ],
+      "path": "chapters/23/029.md",
+      "route": "lessons/23/029.html"
+    },
+    {
+      "lesson": 23,
+      "section": 30,
+      "title": "复制路径实现持久化数据结构",
+      "time": "00:47:31—00:50:00",
+      "source_pages": [
+        72,
+        74
+      ],
+      "path": "chapters/23/030.md",
+      "route": "lessons/23/030.html"
+    },
+    {
+      "lesson": 23,
+      "section": 31,
+      "title": "用不同的根指针保存历史",
+      "time": "00:50:00—00:51:00",
+      "source_pages": [
+        74,
+        76
+      ],
+      "path": "chapters/23/031.md",
+      "route": "lessons/23/031.html"
+    },
+    {
+      "lesson": 23,
+      "section": 32,
+      "title": "Project Silica：在玻璃内部存储",
+      "time": "00:51:00—00:53:30",
+      "source_pages": [
+        76,
+        81
+      ],
+      "path": "chapters/23/032.md",
+      "route": "lessons/23/032.html"
+    },
+    {
+      "lesson": 23,
+      "section": 33,
+      "title": "从磁和坑走向闪存",
+      "time": "00:53:30—00:54:30",
+      "source_pages": [
+        82,
+        83
+      ],
+      "path": "chapters/23/033.md",
+      "route": "lessons/23/033.html"
+    },
+    {
+      "lesson": 23,
+      "section": 34,
+      "title": "浮栅与 MLC、TLC、QLC",
+      "time": "00:54:30—00:56:00",
+      "source_pages": [
+        84,
+        84
+      ],
+      "path": "chapters/23/034.md",
+      "route": "lessons/23/034.html"
+    },
+    {
+      "lesson": 23,
+      "section": 35,
+      "title": "闪存的封装、并行性与性能",
+      "time": "00:56:00—00:58:15",
+      "source_pages": [
+        84,
+        86
+      ],
+      "path": "chapters/23/035.md",
+      "route": "lessons/23/035.html"
+    },
+    {
+      "lesson": 23,
+      "section": 36,
+      "title": "U 盘与数据交换",
+      "time": "00:58:15—00:59:50",
+      "source_pages": [
+        86,
+        87
+      ],
+      "path": "chapters/23/036.md",
+      "route": "lessons/23/036.html"
+    },
+    {
+      "lesson": 23,
+      "section": 37,
+      "title": "闪存单元的写入寿命",
+      "time": "00:59:50—01:01:31",
+      "source_pages": [
+        88,
+        90
+      ],
+      "path": "chapters/23/037.md",
+      "route": "lessons/23/037.html"
+    },
+    {
+      "lesson": 23,
+      "section": 38,
+      "title": "用软件弥补物理限制",
+      "time": "01:01:31—01:02:30",
+      "source_pages": [
+        90,
+        93
+      ],
+      "path": "chapters/23/038.md",
+      "route": "lessons/23/038.html"
+    },
+    {
+      "lesson": 23,
+      "section": 39,
+      "title": "FTL 与逻辑到物理的映射",
+      "time": "01:02:30—01:04:01",
+      "source_pages": [
+        94,
+        95
+      ],
+      "path": "chapters/23/039.md",
+      "route": "lessons/23/039.html"
+    },
+    {
+      "lesson": 23,
+      "section": 40,
+      "title": "磨损均衡与映射表自身的持久化",
+      "time": "01:04:01—01:05:17",
+      "source_pages": [
+        96,
+        98
+      ],
+      "path": "chapters/23/040.md",
+      "route": "lessons/23/040.html"
+    },
+    {
+      "lesson": 23,
+      "section": 41,
+      "title": "沿着提纲继续研究",
+      "time": "01:05:17—01:06:32",
+      "source_pages": [
+        99,
+        100
+      ],
+      "path": "chapters/23/041.md",
+      "route": "lessons/23/041.html"
+    },
+    {
+      "lesson": 23,
+      "section": 42,
+      "title": "U 盘、SD 卡与 SSD 的系统差别",
+      "time": "01:06:32—01:07:30",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/23/042.md",
+      "route": "lessons/23/042.html"
+    },
+    {
+      "lesson": 23,
+      "section": 43,
+      "title": "设备协议与伪造容量",
+      "time": "01:07:30—01:09:01",
+      "source_pages": [
+        102,
+        102
+      ],
+      "path": "chapters/23/043.md",
+      "route": "lessons/23/043.html"
+    },
+    {
+      "lesson": 23,
+      "section": 44,
+      "title": "存储设备的抽象",
+      "time": "01:09:01—01:10:02",
+      "source_pages": [
+        102,
+        104
+      ],
+      "path": "chapters/23/044.md",
+      "route": "lessons/23/044.html"
+    },
+    {
+      "lesson": 23,
+      "section": 45,
+      "title": "定位的代价与按块访问",
+      "time": "01:10:02—01:12:31",
+      "source_pages": [
+        105,
+        106
+      ],
+      "path": "chapters/23/045.md",
+      "route": "lessons/23/045.html"
+    },
+    {
+      "lesson": 23,
+      "section": 46,
+      "title": "块设备与文件系统",
+      "time": "01:12:31—01:13:31",
+      "source_pages": [
+        107,
+        107
+      ],
+      "path": "chapters/23/046.md",
+      "route": "lessons/23/046.html"
+    },
+    {
+      "lesson": 23,
+      "section": 47,
+      "title": "只改一个字节带来的读写放大",
+      "time": "01:13:31—01:14:31",
+      "source_pages": [
+        107,
+        108
+      ],
+      "path": "chapters/23/047.md",
+      "route": "lessons/23/047.html"
+    },
+    {
+      "lesson": 23,
+      "section": 48,
+      "title": "Linux 块设备接口",
+      "time": "01:14:31—01:15:30",
+      "source_pages": [
+        109,
+        110
+      ],
+      "path": "chapters/23/048.md",
+      "route": "lessons/23/048.html"
+    },
+    {
+      "lesson": 23,
+      "section": 49,
+      "title": "用 Agent 观察系统内部的块读写",
+      "time": "01:15:30—01:17:30",
+      "source_pages": [
+        111,
+        113
+      ],
+      "path": "chapters/23/049.md",
+      "route": "lessons/23/049.html"
+    },
+    {
+      "lesson": 23,
+      "section": 50,
+      "title": "运行 find 并观察读请求",
+      "time": "01:17:30—01:17:58",
+      "source_pages": [
+        113,
+        116
+      ],
+      "path": "chapters/23/050.md",
+      "route": "lessons/23/050.html"
+    },
+    {
+      "lesson": 23,
+      "section": 51,
+      "title": "写入数据与 I/O 统计",
+      "time": "01:17:58—01:18:31",
+      "source_pages": [
+        117,
+        118
+      ],
+      "path": "chapters/23/051.md",
+      "route": "lessons/23/051.html"
+    },
+    {
+      "lesson": 23,
+      "section": 52,
+      "title": "从第一性原理提出想做的事",
+      "time": "01:18:31—01:19:30",
+      "source_pages": [
+        119,
+        120
+      ],
+      "path": "chapters/23/052.md",
+      "route": "lessons/23/052.html"
+    }
+  ]
+}

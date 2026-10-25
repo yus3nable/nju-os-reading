@@ -1,0 +1,216 @@
+{
+  "number": 13,
+  "title": "多处理器编程：从入门到放弃",
+  "source": "https://www.bilibili.com/video/BV1vgQGBREyJ/",
+  "pdf": "13 - 多处理器编程：从入门到放弃 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 112,
+  "images": 73,
+  "text_lines": 748,
+  "code_blocks": 14,
+  "sections": [
+    {
+      "lesson": 13,
+      "section": 1,
+      "title": "回顾：系统调用与应用生态",
+      "time": "00:00:00—00:03:48",
+      "source_pages": [
+        4,
+        6
+      ],
+      "path": "chapters/13/001.md",
+      "route": "lessons/13/001.html"
+    },
+    {
+      "lesson": 13,
+      "section": 2,
+      "title": "共享内存并发编程的动机",
+      "time": "00:03:48—00:09:56",
+      "source_pages": [
+        7,
+        14
+      ],
+      "path": "chapters/13/002.md",
+      "route": "lessons/13/002.html"
+    },
+    {
+      "lesson": 13,
+      "section": 3,
+      "title": "线程：独立的栈与共享的内存",
+      "time": "00:09:56—00:16:26",
+      "source_pages": [
+        15,
+        19
+      ],
+      "path": "chapters/13/003.md",
+      "route": "lessons/13/003.html"
+    },
+    {
+      "lesson": 13,
+      "section": 4,
+      "title": "并发、并行与两种执行模型",
+      "time": "00:16:26—00:19:31",
+      "source_pages": [
+        19,
+        22
+      ],
+      "path": "chapters/13/004.md",
+      "route": "lessons/13/004.html"
+    },
+    {
+      "lesson": 13,
+      "section": 5,
+      "title": "最小线程库：spawn 与 join",
+      "time": "00:19:31—00:23:52",
+      "source_pages": [
+        23,
+        29
+      ],
+      "path": "chapters/13/005.md",
+      "route": "lessons/13/005.html"
+    },
+    {
+      "lesson": 13,
+      "section": 6,
+      "title": "验证共享内存与线程栈",
+      "time": "00:23:52—00:31:12",
+      "source_pages": [
+        30,
+        42
+      ],
+      "path": "chapters/13/006.md",
+      "route": "lessons/13/006.html"
+    },
+    {
+      "lesson": 13,
+      "section": 7,
+      "title": "用 GDB 调试多线程程序",
+      "time": "00:31:12—00:35:40",
+      "source_pages": [
+        43,
+        49
+      ],
+      "path": "chapters/13/007.md",
+      "route": "lessons/13/007.html"
+    },
+    {
+      "lesson": 13,
+      "section": 8,
+      "title": "放弃确定性：状态迁移与执行顺序",
+      "time": "00:35:40—00:42:37",
+      "source_pages": [
+        50,
+        56
+      ],
+      "path": "chapters/13/008.md",
+      "route": "lessons/13/008.html"
+    },
+    {
+      "lesson": 13,
+      "section": 9,
+      "title": "转账与游戏物品复制",
+      "time": "00:42:37—00:47:01",
+      "source_pages": [
+        57,
+        68
+      ],
+      "path": "chapters/13/009.md",
+      "route": "lessons/13/009.html"
+    },
+    {
+      "lesson": 13,
+      "section": 10,
+      "title": "sum++ 与三个线程的最小值",
+      "time": "00:47:01—00:54:42",
+      "source_pages": [
+        69,
+        78
+      ],
+      "path": "chapters/13/010.md",
+      "route": "lessons/13/010.html"
+    },
+    {
+      "lesson": 13,
+      "section": 11,
+      "title": "互斥算法与线程安全的库函数",
+      "time": "00:54:42—00:58:40",
+      "source_pages": [
+        79,
+        82
+      ],
+      "path": "chapters/13/011.md",
+      "route": "lessons/13/011.html"
+    },
+    {
+      "lesson": 13,
+      "section": 12,
+      "title": "编译优化改变了执行过程",
+      "time": "00:58:40—01:03:04",
+      "source_pages": [
+        82,
+        86
+      ],
+      "path": "chapters/13/012.md",
+      "route": "lessons/13/012.html"
+    },
+    {
+      "lesson": 13,
+      "section": 13,
+      "title": "等待 flag 的循环为何失效",
+      "time": "01:03:04—01:07:11",
+      "source_pages": [
+        87,
+        90
+      ],
+      "path": "chapters/13/013.md",
+      "route": "lessons/13/013.html"
+    },
+    {
+      "lesson": 13,
+      "section": 14,
+      "title": "优化级别、compiler barrier 与 volatile",
+      "time": "01:07:11—01:12:47",
+      "source_pages": [
+        91,
+        96
+      ],
+      "path": "chapters/13/014.md",
+      "route": "lessons/13/014.html"
+    },
+    {
+      "lesson": 13,
+      "section": 15,
+      "title": "处理器也是编译器",
+      "time": "01:12:47—01:17:34",
+      "source_pages": [
+        97,
+        102
+      ],
+      "path": "chapters/13/015.md",
+      "route": "lessons/13/015.html"
+    },
+    {
+      "lesson": 13,
+      "section": 16,
+      "title": "观测先写后读与 0 0 的结果",
+      "time": "01:17:34—01:21:45",
+      "source_pages": [
+        102,
+        110
+      ],
+      "path": "chapters/13/016.md",
+      "route": "lessons/13/016.html"
+    },
+    {
+      "lesson": 13,
+      "section": 17,
+      "title": "放弃简化模型，约束共享内存能力",
+      "time": "01:21:45—01:22:49",
+      "source_pages": [
+        110,
+        112
+      ],
+      "path": "chapters/13/017.md",
+      "route": "lessons/13/017.html"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "status": "passed",
+  "scope": "All body characters (ignoring whitespace and timing prefix), native figure count, and code characters against the PDF text layer. This is conversion QA, not a fresh transcription review.",
+  "lessons": [
+    {
+      "lesson": 1,
+      "characters_match": true,
+      "source_characters": 29156,
+      "rendered_characters": 29156,
+      "images_source": 73,
+      "images_site": 73,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 2,
+      "characters_match": true,
+      "source_characters": 33100,
+      "rendered_characters": 33100,
+      "images_source": 92,
+      "images_site": 92,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 3,
+      "characters_match": true,
+      "source_characters": 34338,
+      "rendered_characters": 34338,
+      "images_source": 86,
+      "images_site": 86,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 4,
+      "characters_match": true,
+      "source_characters": 31653,
+      "rendered_characters": 31653,
+      "images_source": 90,
+      "images_site": 90,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 5,
+      "characters_match": true,
+      "source_characters": 33431,
+      "rendered_characters": 33431,
+      "images_source": 132,
+      "images_site": 132,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 6,
+      "characters_match": true,
+      "source_characters": 31829,
+      "rendered_characters": 31829,
+      "images_source": 112,
+      "images_site": 112,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 7,
+      "characters_match": true,
+      "source_characters": 35438,
+      "rendered_characters": 35438,
+      "images_source": 105,
+      "images_site": 105,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 8,
+      "characters_match": true,
+      "source_characters": 38141,
+      "rendered_characters": 38141,
+      "images_source": 116,
+      "images_site": 116,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 9,
+      "characters_match": true,
+      "source_characters": 36513,
+      "rendered_characters": 36513,
+      "images_source": 100,
+      "images_site": 100,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 10,
+      "characters_match": true,
+      "source_characters": 34896,
+      "rendered_characters": 34896,
+      "images_source": 120,
+      "images_site": 120,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 11,
+      "characters_match": true,
+      "source_characters": 37907,
+      "rendered_characters": 37907,
+      "images_source": 133,
+      "images_site": 133,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 12,
+      "characters_match": true,
+      "source_characters": 39234,
+      "rendered_characters": 39234,
+      "images_source": 120,
+      "images_site": 120,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 13,
+      "characters_match": true,
+      "source_characters": 33035,
+      "rendered_characters": 33035,
+      "images_source": 73,
+      "images_site": 73,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 14,
+      "characters_match": true,
+      "source_characters": 35181,
+      "rendered_characters": 35181,
+      "images_source": 71,
+      "images_site": 71,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 15,
+      "characters_match": true,
+      "source_characters": 32760,
+      "rendered_characters": 32760,
+      "images_source": 68,
+      "images_site": 68,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 16,
+      "characters_match": true,
+      "source_characters": 33683,
+      "rendered_characters": 33683,
+      "images_source": 58,
+      "images_site": 58,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 17,
+      "characters_match": true,
+      "source_characters": 38023,
+      "rendered_characters": 38023,
+      "images_source": 69,
+      "images_site": 69,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 18,
+      "characters_match": true,
+      "source_characters": 35704,
+      "rendered_characters": 35704,
+      "images_source": 66,
+      "images_site": 66,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 19,
+      "characters_match": true,
+      "source_characters": 37131,
+      "rendered_characters": 37131,
+      "images_source": 64,
+      "images_site": 64,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 20,
+      "characters_match": true,
+      "source_characters": 39152,
+      "rendered_characters": 39152,
+      "images_source": 62,
+      "images_site": 62,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 21,
+      "characters_match": true,
+      "source_characters": 39220,
+      "rendered_characters": 39220,
+      "images_source": 58,
+      "images_site": 58,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 22,
+      "characters_match": true,
+      "source_characters": 40042,
+      "rendered_characters": 40042,
+      "images_source": 79,
+      "images_site": 79,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 23,
+      "characters_match": true,
+      "source_characters": 32306,
+      "rendered_characters": 32306,
+      "images_source": 71,
+      "images_site": 71,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 24,
+      "characters_match": true,
+      "source_characters": 35989,
+      "rendered_characters": 35989,
+      "images_source": 82,
+      "images_site": 82,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 25,
+      "characters_match": true,
+      "source_characters": 38950,
+      "rendered_characters": 38950,
+      "images_source": 71,
+      "images_site": 71,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 26,
+      "characters_match": true,
+      "source_characters": 36565,
+      "rendered_characters": 36565,
+      "images_source": 69,
+      "images_site": 69,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 27,
+      "characters_match": true,
+      "source_characters": 37381,
+      "rendered_characters": 37381,
+      "images_source": 66,
+      "images_site": 66,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 28,
+      "characters_match": true,
+      "source_characters": 36930,
+      "rendered_characters": 36930,
+      "images_source": 64,
+      "images_site": 64,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 29,
+      "characters_match": true,
+      "source_characters": 37687,
+      "rendered_characters": 37687,
+      "images_source": 53,
+      "images_site": 53,
+      "code_characters_match": true
+    },
+    {
+      "lesson": 30,
+      "characters_match": true,
+      "source_characters": 37101,
+      "rendered_characters": 37101,
+      "images_source": 56,
+      "images_site": 56,
+      "code_characters_match": true
+    }
+  ]
+}

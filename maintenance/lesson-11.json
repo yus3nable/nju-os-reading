@@ -1,0 +1,168 @@
+{
+  "number": 11,
+  "title": "链接和加载",
+  "source": "https://www.bilibili.com/video/BV1CoDzB5Eey",
+  "pdf": "11 - 链接和加载 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 167,
+  "images": 133,
+  "text_lines": 831,
+  "code_blocks": 18,
+  "sections": [
+    {
+      "lesson": 11,
+      "section": 1,
+      "title": "可执行文件与进程初始状态",
+      "time": "00:00:00—00:03:53",
+      "source_pages": [
+        3,
+        10
+      ],
+      "path": "chapters/11/001.md",
+      "route": "lessons/11/001.html"
+    },
+    {
+      "lesson": 11,
+      "section": 2,
+      "title": "从 a.out 到 ELF",
+      "time": "00:03:53—00:06:53",
+      "source_pages": [
+        10,
+        15
+      ],
+      "path": "chapters/11/002.md",
+      "route": "lessons/11/002.html"
+    },
+    {
+      "lesson": 11,
+      "section": 3,
+      "title": "ELF 为什么难读",
+      "time": "00:06:53—00:12:38",
+      "source_pages": [
+        16,
+        29
+      ],
+      "path": "chapters/11/003.md",
+      "route": "lessons/11/003.html"
+    },
+    {
+      "lesson": 11,
+      "section": 4,
+      "title": "FLE 与二进制文件的等价表示",
+      "time": "00:12:38—00:22:59",
+      "source_pages": [
+        30,
+        42
+      ],
+      "path": "chapters/11/004.md",
+      "route": "lessons/11/004.html"
+    },
+    {
+      "lesson": 11,
+      "section": 5,
+      "title": "学习方式与知识网络的反思",
+      "time": "00:22:59—00:28:58",
+      "source_pages": [
+        42,
+        46
+      ],
+      "path": "chapters/11/005.md",
+      "route": "lessons/11/005.html"
+    },
+    {
+      "lesson": 11,
+      "section": 6,
+      "title": "Linux 加载器与初始栈",
+      "time": "00:28:58—00:35:20",
+      "source_pages": [
+        47,
+        59
+      ],
+      "path": "chapters/11/006.md",
+      "route": "lessons/11/006.html"
+    },
+    {
+      "lesson": 11,
+      "section": 7,
+      "title": "Shebang：脚本如何执行",
+      "time": "00:35:20—00:43:42",
+      "source_pages": [
+        60,
+        73
+      ],
+      "path": "chapters/11/007.md",
+      "route": "lessons/11/007.html"
+    },
+    {
+      "lesson": 11,
+      "section": 8,
+      "title": "动态链接为什么有用",
+      "time": "00:43:42—00:49:00",
+      "source_pages": [
+        74,
+        79
+      ],
+      "path": "chapters/11/008.md",
+      "route": "lessons/11/008.html"
+    },
+    {
+      "lesson": 11,
+      "section": 9,
+      "title": "验证共享库在内存中共享",
+      "time": "00:49:00—00:57:20",
+      "source_pages": [
+        80,
+        96
+      ],
+      "path": "chapters/11/009.md",
+      "route": "lessons/11/009.html"
+    },
+    {
+      "lesson": 11,
+      "section": 10,
+      "title": "动态加载器与第一条指令",
+      "time": "00:57:20—01:09:44",
+      "source_pages": [
+        96,
+        118
+      ],
+      "path": "chapters/11/010.md",
+      "route": "lessons/11/010.html"
+    },
+    {
+      "lesson": 11,
+      "section": 11,
+      "title": "ld.so 手册与加载器环境变量",
+      "time": "01:09:44—01:16:04",
+      "source_pages": [
+        119,
+        136
+      ],
+      "path": "chapters/11/011.md",
+      "route": "lessons/11/011.html"
+    },
+    {
+      "lesson": 11,
+      "section": 12,
+      "title": "LD_PRELOAD 与变速齿轮",
+      "time": "01:16:04—01:22:17",
+      "source_pages": [
+        137,
+        156
+      ],
+      "path": "chapters/11/012.md",
+      "route": "lessons/11/012.html"
+    },
+    {
+      "lesson": 11,
+      "section": 13,
+      "title": "PLT、GOT 与位置无关代码",
+      "time": "01:22:17—01:29:20",
+      "source_pages": [
+        156,
+        167
+      ],
+      "path": "chapters/11/013.md",
+      "route": "lessons/11/013.html"
+    }
+  ]
+}

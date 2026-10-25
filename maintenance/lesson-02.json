@@ -1,0 +1,60 @@
+{
+  "number": 2,
+  "title": "应用视角的操作系统",
+  "source": "https://www.bilibili.com/video/BV1KNPHzPEra",
+  "pdf": "02 - 应用视角的操作系统 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 125,
+  "images": 92,
+  "text_lines": 721,
+  "code_blocks": 0,
+  "sections": [
+    {
+      "lesson": 2,
+      "section": 1,
+      "title": "什么是程序：解释执行与函数调用",
+      "time": "00:00:00—00:29:17",
+      "source_pages": [
+        3,
+        36
+      ],
+      "path": "chapters/02/001.md",
+      "route": "lessons/02/001.html"
+    },
+    {
+      "lesson": 2,
+      "section": 2,
+      "title": "编译与优化",
+      "time": "00:29:17—00:41:10",
+      "source_pages": [
+        36,
+        51
+      ],
+      "path": "chapters/02/002.md",
+      "route": "lessons/02/002.html"
+    },
+    {
+      "lesson": 2,
+      "section": 3,
+      "title": "操作系统上的最小 Hello World",
+      "time": "00:41:10—00:58:51",
+      "source_pages": [
+        51,
+        77
+      ],
+      "path": "chapters/02/003.md",
+      "route": "lessons/02/003.html"
+    },
+    {
+      "lesson": 2,
+      "section": 4,
+      "title": "观察真实应用程序",
+      "time": "00:58:51—01:27:55",
+      "source_pages": [
+        78,
+        125
+      ],
+      "path": "chapters/02/004.md",
+      "route": "lessons/02/004.html"
+    }
+  ]
+}

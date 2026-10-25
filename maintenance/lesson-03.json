@@ -1,0 +1,60 @@
+{
+  "number": 3,
+  "title": "硬件视角的操作系统",
+  "source": "https://www.bilibili.com/video/BV18fcozAEsy",
+  "pdf": "03 - 硬件视角的操作系统 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 116,
+  "images": 86,
+  "text_lines": 703,
+  "code_blocks": 0,
+  "sections": [
+    {
+      "lesson": 3,
+      "section": 1,
+      "title": "学习的方法",
+      "time": "00:00:00—00:09:19",
+      "source_pages": [
+        3,
+        13
+      ],
+      "path": "chapters/03/001.md",
+      "route": "lessons/03/001.html"
+    },
+    {
+      "lesson": 3,
+      "section": 2,
+      "title": "硬件视角的操作系统",
+      "time": "00:09:19—00:51:49",
+      "source_pages": [
+        13,
+        61
+      ],
+      "path": "chapters/03/002.md",
+      "route": "lessons/03/002.html"
+    },
+    {
+      "lesson": 3,
+      "section": 3,
+      "title": "固件和 CIH 病毒",
+      "time": "00:51:49—01:23:17",
+      "source_pages": [
+        61,
+        93
+      ],
+      "path": "chapters/03/003.md",
+      "route": "lessons/03/003.html"
+    },
+    {
+      "lesson": 3,
+      "section": 4,
+      "title": "调试 Firmware",
+      "time": "01:23:17—01:35:28",
+      "source_pages": [
+        94,
+        116
+      ],
+      "path": "chapters/03/004.md",
+      "route": "lessons/03/004.html"
+    }
+  ]
+}

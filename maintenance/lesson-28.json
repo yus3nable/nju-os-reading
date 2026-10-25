@@ -1,0 +1,876 @@
+{
+  "number": 28,
+  "title": "计算机系统安全",
+  "source": "https://www.bilibili.com/video/BV1qkEX6FEb5/",
+  "pdf": "28 - 计算机系统安全 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 121,
+  "images": 64,
+  "text_lines": 778,
+  "code_blocks": 9,
+  "sections": [
+    {
+      "lesson": 28,
+      "section": 1,
+      "title": "补充课程与文件系统考试范围",
+      "time": "00:00:00—00:00:58",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/28/001.md",
+      "route": "lessons/28/001.html"
+    },
+    {
+      "lesson": 28,
+      "section": 2,
+      "title": "8086 实模式与无保护的时代",
+      "time": "00:00:58—00:02:11",
+      "source_pages": [
+        9,
+        11
+      ],
+      "path": "chapters/28/002.md",
+      "route": "lessons/28/002.html"
+    },
+    {
+      "lesson": 28,
+      "section": 3,
+      "title": "给程序加壳与 CIH 病毒",
+      "time": "00:02:11—00:02:59",
+      "source_pages": [
+        11,
+        11
+      ],
+      "path": "chapters/28/003.md",
+      "route": "lessons/28/003.html"
+    },
+    {
+      "lesson": 28,
+      "section": 4,
+      "title": "小百合、水木与明文登录",
+      "time": "00:02:59—00:04:40",
+      "source_pages": [
+        11,
+        15
+      ],
+      "path": "chapters/28/004.md",
+      "route": "lessons/28/004.html"
+    },
+    {
+      "lesson": 28,
+      "section": 5,
+      "title": "十个十大与支付时代的安全要求",
+      "time": "00:04:40—00:06:03",
+      "source_pages": [
+        16,
+        16
+      ],
+      "path": "chapters/28/005.md",
+      "route": "lessons/28/005.html"
+    },
+    {
+      "lesson": 28,
+      "section": 6,
+      "title": "保密性与手机里的加密区域",
+      "time": "00:06:03—00:06:54",
+      "source_pages": [
+        16,
+        17
+      ],
+      "path": "chapters/28/006.md",
+      "route": "lessons/28/006.html"
+    },
+    {
+      "lesson": 28,
+      "section": 7,
+      "title": "完整性：教务系统与师兄的故事",
+      "time": "00:06:54—00:09:02",
+      "source_pages": [
+        18,
+        20
+      ],
+      "path": "chapters/28/007.md",
+      "route": "lessons/28/007.html"
+    },
+    {
+      "lesson": 28,
+      "section": 8,
+      "title": "安全边界与可用性",
+      "time": "00:09:02—00:10:44",
+      "source_pages": [
+        20,
+        22
+      ],
+      "path": "chapters/28/008.md",
+      "route": "lessons/28/008.html"
+    },
+    {
+      "lesson": 28,
+      "section": 9,
+      "title": "拒绝服务与超长数字请求",
+      "time": "00:10:44—00:11:29",
+      "source_pages": [
+        22,
+        22
+      ],
+      "path": "chapters/28/009.md",
+      "route": "lessons/28/009.html"
+    },
+    {
+      "lesson": 28,
+      "section": 10,
+      "title": "哈希表的算法复杂性攻击",
+      "time": "00:11:29—00:13:11",
+      "source_pages": [
+        22,
+        24
+      ],
+      "path": "chapters/28/010.md",
+      "route": "lessons/28/010.html"
+    },
+    {
+      "lesson": 28,
+      "section": 11,
+      "title": "操作系统安全与一分钟密码学",
+      "time": "00:13:11—00:13:52",
+      "source_pages": [
+        24,
+        25
+      ],
+      "path": "chapters/28/011.md",
+      "route": "lessons/28/011.html"
+    },
+    {
+      "lesson": 28,
+      "section": 12,
+      "title": "单向函数与密码学哈希",
+      "time": "00:13:52—00:15:30",
+      "source_pages": [
+        26,
+        27
+      ],
+      "path": "chapters/28/012.md",
+      "route": "lessons/28/012.html"
+    },
+    {
+      "lesson": 28,
+      "section": 13,
+      "title": "摘要校验与陷门函数",
+      "time": "00:15:30—00:16:34",
+      "source_pages": [
+        28,
+        28
+      ],
+      "path": "chapters/28/013.md",
+      "route": "lessons/28/013.html"
+    },
+    {
+      "lesson": 28,
+      "section": 14,
+      "title": "公私钥与加密",
+      "time": "00:16:34—00:18:01",
+      "source_pages": [
+        28,
+        29
+      ],
+      "path": "chapters/28/014.md",
+      "route": "lessons/28/014.html"
+    },
+    {
+      "lesson": 28,
+      "section": 15,
+      "title": "身份认证与数字签名",
+      "time": "00:18:01—00:19:01",
+      "source_pages": [
+        29,
+        30
+      ],
+      "path": "chapters/28/015.md",
+      "route": "lessons/28/015.html"
+    },
+    {
+      "lesson": 28,
+      "section": 16,
+      "title": "共同维护 append-only 数据结构",
+      "time": "00:19:01—00:20:20",
+      "source_pages": [
+        31,
+        32
+      ],
+      "path": "chapters/28/016.md",
+      "route": "lessons/28/016.html"
+    },
+    {
+      "lesson": 28,
+      "section": 17,
+      "title": "捡骨头的工作量证明",
+      "time": "00:20:20—00:21:34",
+      "source_pages": [
+        32,
+        32
+      ],
+      "path": "chapters/28/017.md",
+      "route": "lessons/28/017.html"
+    },
+    {
+      "lesson": 28,
+      "section": 18,
+      "title": "分叉、最长链与收敛",
+      "time": "00:21:34—00:22:24",
+      "source_pages": [
+        33,
+        34
+      ],
+      "path": "chapters/28/018.md",
+      "route": "lessons/28/018.html"
+    },
+    {
+      "lesson": 28,
+      "section": 19,
+      "title": "链上的程序与钱包状态",
+      "time": "00:22:24—00:23:12",
+      "source_pages": [
+        35,
+        35
+      ],
+      "path": "chapters/28/019.md",
+      "route": "lessons/28/019.html"
+    },
+    {
+      "lesson": 28,
+      "section": 20,
+      "title": "佛珠上的单词与传闻限定",
+      "time": "00:23:12—00:24:03",
+      "source_pages": [
+        35,
+        36
+      ],
+      "path": "chapters/28/020.md",
+      "route": "lessons/28/020.html"
+    },
+    {
+      "lesson": 28,
+      "section": 21,
+      "title": "进程隔离与操作系统 API",
+      "time": "00:24:03—00:25:31",
+      "source_pages": [
+        37,
+        38
+      ],
+      "path": "chapters/28/021.md",
+      "route": "lessons/28/021.html"
+    },
+    {
+      "lesson": 28,
+      "section": 22,
+      "title": "系统调用同时提供行为和访问控制",
+      "time": "00:25:31—00:27:00",
+      "source_pages": [
+        38,
+        38
+      ],
+      "path": "chapters/28/022.md",
+      "route": "lessons/28/022.html"
+    },
+    {
+      "lesson": 28,
+      "section": 23,
+      "title": "机制、策略与访问控制大表",
+      "time": "00:27:00—00:28:37",
+      "source_pages": [
+        39,
+        41
+      ],
+      "path": "chapters/28/023.md",
+      "route": "lessons/28/023.html"
+    },
+    {
+      "lesson": 28,
+      "section": 24,
+      "title": "矩阵过大与低秩分解",
+      "time": "00:28:37—00:29:27",
+      "source_pages": [
+        42,
+        42
+      ],
+      "path": "chapters/28/024.md",
+      "route": "lessons/28/024.html"
+    },
+    {
+      "lesson": 28,
+      "section": 25,
+      "title": "用户、组与 UID 0",
+      "time": "00:29:27—00:31:07",
+      "source_pages": [
+        42,
+        44
+      ],
+      "path": "chapters/28/025.md",
+      "route": "lessons/28/025.html"
+    },
+    {
+      "lesson": 28,
+      "section": 26,
+      "title": "setuid、登录与进程继承",
+      "time": "00:31:07—00:32:00",
+      "source_pages": [
+        44,
+        44
+      ],
+      "path": "chapters/28/026.md",
+      "route": "lessons/28/026.html"
+    },
+    {
+      "lesson": 28,
+      "section": 27,
+      "title": "文件权限与 /etc/passwd",
+      "time": "00:32:00—00:33:00",
+      "source_pages": [
+        44,
+        46
+      ],
+      "path": "chapters/28/027.md",
+      "route": "lessons/28/027.html"
+    },
+    {
+      "lesson": 28,
+      "section": 28,
+      "title": "用 Agent 追问和复习课件",
+      "time": "00:33:00—00:34:26",
+      "source_pages": [
+        47,
+        47
+      ],
+      "path": "chapters/28/028.md",
+      "route": "lessons/28/028.html"
+    },
+    {
+      "lesson": 28,
+      "section": 29,
+      "title": "七个字段与可复用的学习 Skill",
+      "time": "00:34:26—00:35:11",
+      "source_pages": [
+        47,
+        48
+      ],
+      "path": "chapters/28/029.md",
+      "route": "lessons/28/029.html"
+    },
+    {
+      "lesson": 28,
+      "section": 30,
+      "title": "chsh 与修改登录 shell",
+      "time": "00:35:11—00:36:06",
+      "source_pages": [
+        49,
+        49
+      ],
+      "path": "chapters/28/030.md",
+      "route": "lessons/28/030.html"
+    },
+    {
+      "lesson": 28,
+      "section": 31,
+      "title": "passwd 为什么能修改只读文件",
+      "time": "00:36:06—00:36:42",
+      "source_pages": [
+        49,
+        49
+      ],
+      "path": "chapters/28/031.md",
+      "route": "lessons/28/031.html"
+    },
+    {
+      "lesson": 28,
+      "section": 32,
+      "title": "短密码被拒绝，再改成功",
+      "time": "00:36:42—00:37:27",
+      "source_pages": [
+        49,
+        51
+      ],
+      "path": "chapters/28/032.md",
+      "route": "lessons/28/032.html"
+    },
+    {
+      "lesson": 28,
+      "section": 33,
+      "title": "多种 UID 与系统里的历史补丁",
+      "time": "00:37:27—00:38:02",
+      "source_pages": [
+        51,
+        52
+      ],
+      "path": "chapters/28/033.md",
+      "route": "lessons/28/033.html"
+    },
+    {
+      "lesson": 28,
+      "section": 34,
+      "title": "红色的 passwd 与 setuid 位",
+      "time": "00:38:02—00:38:59",
+      "source_pages": [
+        53,
+        54
+      ],
+      "path": "chapters/28/034.md",
+      "route": "lessons/28/034.html"
+    },
+    {
+      "lesson": 28,
+      "section": 35,
+      "title": "程序提权与漏洞风险",
+      "time": "00:38:59—00:39:40",
+      "source_pages": [
+        55,
+        57
+      ],
+      "path": "chapters/28/035.md",
+      "route": "lessons/28/035.html"
+    },
+    {
+      "lesson": 28,
+      "section": 36,
+      "title": "Setuid Demystified 与论文标题",
+      "time": "00:39:40—00:40:47",
+      "source_pages": [
+        57,
+        58
+      ],
+      "path": "chapters/28/036.md",
+      "route": "lessons/28/036.html"
+    },
+    {
+      "lesson": 28,
+      "section": 37,
+      "title": "回到访问控制矩阵",
+      "time": "00:40:47—00:41:36",
+      "source_pages": [
+        59,
+        59
+      ],
+      "path": "chapters/28/037.md",
+      "route": "lessons/28/037.html"
+    },
+    {
+      "lesson": 28,
+      "section": 38,
+      "title": "ACL 与文件的扩展属性",
+      "time": "00:41:36—00:43:00",
+      "source_pages": [
+        59,
+        62
+      ],
+      "path": "chapters/28/038.md",
+      "route": "lessons/28/038.html"
+    },
+    {
+      "lesson": 28,
+      "section": 39,
+      "title": "程序继承权限与 AppArmor",
+      "time": "00:43:00—00:44:30",
+      "source_pages": [
+        63,
+        66
+      ],
+      "path": "chapters/28/039.md",
+      "route": "lessons/28/039.html"
+    },
+    {
+      "lesson": 28,
+      "section": 40,
+      "title": "程序的虚拟世界与访问控制函数",
+      "time": "00:44:30—00:45:30",
+      "source_pages": [
+        66,
+        66
+      ],
+      "path": "chapters/28/040.md",
+      "route": "lessons/28/040.html"
+    },
+    {
+      "lesson": 28,
+      "section": 41,
+      "title": "seccomp、BPF 与内核检查",
+      "time": "00:45:30—00:46:33",
+      "source_pages": [
+        66,
+        67
+      ],
+      "path": "chapters/28/041.md",
+      "route": "lessons/28/041.html"
+    },
+    {
+      "lesson": 28,
+      "section": 42,
+      "title": "细粒度检查与效率取舍",
+      "time": "00:46:33—00:47:30",
+      "source_pages": [
+        68,
+        68
+      ],
+      "path": "chapters/28/042.md",
+      "route": "lessons/28/042.html"
+    },
+    {
+      "lesson": 28,
+      "section": 43,
+      "title": "访问控制还不能解决什么",
+      "time": "00:47:30—00:49:00",
+      "source_pages": [
+        68,
+        70
+      ],
+      "path": "chapters/28/043.md",
+      "route": "lessons/28/043.html"
+    },
+    {
+      "lesson": 28,
+      "section": 44,
+      "title": "非预期输入与模糊测试",
+      "time": "00:49:00—00:50:02",
+      "source_pages": [
+        70,
+        73
+      ],
+      "path": "chapters/28/044.md",
+      "route": "lessons/28/044.html"
+    },
+    {
+      "lesson": 28,
+      "section": 45,
+      "title": "整数下溢、OSS-Fuzz 与 LLM 找漏洞",
+      "time": "00:50:02—00:50:54",
+      "source_pages": [
+        74,
+        74
+      ],
+      "path": "chapters/28/045.md",
+      "route": "lessons/28/045.html"
+    },
+    {
+      "lesson": 28,
+      "section": 46,
+      "title": "栈溢出的经典论文与示例",
+      "time": "00:50:54—00:51:52",
+      "source_pages": [
+        74,
+        74
+      ],
+      "path": "chapters/28/046.md",
+      "route": "lessons/28/046.html"
+    },
+    {
+      "lesson": 28,
+      "section": 47,
+      "title": "栈帧、缓冲区与返回地址",
+      "time": "00:51:52—00:53:06",
+      "source_pages": [
+        75,
+        77
+      ],
+      "path": "chapters/28/047.md",
+      "route": "lessons/28/047.html"
+    },
+    {
+      "lesson": 28,
+      "section": 48,
+      "title": "覆盖地址与 root shell",
+      "time": "00:53:06—00:54:00",
+      "source_pages": [
+        78,
+        79
+      ],
+      "path": "chapters/28/048.md",
+      "route": "lessons/28/048.html"
+    },
+    {
+      "lesson": 28,
+      "section": 49,
+      "title": "旧式编译选项与现代防御",
+      "time": "00:54:00—00:54:51",
+      "source_pages": [
+        80,
+        82
+      ],
+      "path": "chapters/28/049.md",
+      "route": "lessons/28/049.html"
+    },
+    {
+      "lesson": 28,
+      "section": 50,
+      "title": "栈上的代码与 payload",
+      "time": "00:54:51—00:55:32",
+      "source_pages": [
+        82,
+        83
+      ],
+      "path": "chapters/28/050.md",
+      "route": "lessons/28/050.html"
+    },
+    {
+      "lesson": 28,
+      "section": 51,
+      "title": "泄露地址、零字节与攻击流程",
+      "time": "00:55:32—00:56:30",
+      "source_pages": [
+        84,
+        86
+      ],
+      "path": "chapters/28/051.md",
+      "route": "lessons/28/051.html"
+    },
+    {
+      "lesson": 28,
+      "section": 52,
+      "title": "NX 与已有代码中的 gadgets",
+      "time": "00:56:30—00:58:02",
+      "source_pages": [
+        87,
+        90
+      ],
+      "path": "chapters/28/052.md",
+      "route": "lessons/28/052.html"
+    },
+    {
+      "lesson": 28,
+      "section": 53,
+      "title": "金丝雀与栈保护",
+      "time": "00:58:02—00:59:39",
+      "source_pages": [
+        91,
+        93
+      ],
+      "path": "chapters/28/053.md",
+      "route": "lessons/28/053.html"
+    },
+    {
+      "lesson": 28,
+      "section": 54,
+      "title": "控制流完整性与 endbr64",
+      "time": "00:59:39—01:01:05",
+      "source_pages": [
+        94,
+        94
+      ],
+      "path": "chapters/28/054.md",
+      "route": "lessons/28/054.html"
+    },
+    {
+      "lesson": 28,
+      "section": 55,
+      "title": "审计、开销与攻防演进",
+      "time": "01:01:05—01:02:10",
+      "source_pages": [
+        94,
+        95
+      ],
+      "path": "chapters/28/055.md",
+      "route": "lessons/28/055.html"
+    },
+    {
+      "lesson": 28,
+      "section": 56,
+      "title": "看起来正确的密码验证",
+      "time": "01:02:10—01:03:30",
+      "source_pages": [
+        96,
+        99
+      ],
+      "path": "chapters/28/056.md",
+      "route": "lessons/28/056.html"
+    },
+    {
+      "lesson": 28,
+      "section": 57,
+      "title": "页面边界与换出内存",
+      "time": "01:03:30—01:05:12",
+      "source_pages": [
+        100,
+        100
+      ],
+      "path": "chapters/28/057.md",
+      "route": "lessons/28/057.html"
+    },
+    {
+      "lesson": 28,
+      "section": 58,
+      "title": "用时间差逐位猜密码",
+      "time": "01:05:12—01:06:48",
+      "source_pages": [
+        100,
+        102
+      ],
+      "path": "chapters/28/058.md",
+      "route": "lessons/28/058.html"
+    },
+    {
+      "lesson": 28,
+      "section": 59,
+      "title": "Meltdown 与异常后的访问",
+      "time": "01:06:48—01:08:30",
+      "source_pages": [
+        102,
+        104
+      ],
+      "path": "chapters/28/059.md",
+      "route": "lessons/28/059.html"
+    },
+    {
+      "lesson": 28,
+      "section": 60,
+      "title": "投机执行与 cache 的痕迹",
+      "time": "01:08:30—01:10:31",
+      "source_pages": [
+        104,
+        107
+      ],
+      "path": "chapters/28/060.md",
+      "route": "lessons/28/060.html"
+    },
+    {
+      "lesson": 28,
+      "section": 61,
+      "title": "访问延迟图与偷出的字节",
+      "time": "01:10:31—01:11:32",
+      "source_pages": [
+        108,
+        108
+      ],
+      "path": "chapters/28/061.md",
+      "route": "lessons/28/061.html"
+    },
+    {
+      "lesson": 28,
+      "section": 62,
+      "title": "地址空间隔离与更多侧信道",
+      "time": "01:11:32—01:12:20",
+      "source_pages": [
+        108,
+        110
+      ],
+      "path": "chapters/28/062.md",
+      "route": "lessons/28/062.html"
+    },
+    {
+      "lesson": 28,
+      "section": 63,
+      "title": "天线、屏幕与饼中的设备",
+      "time": "01:12:20—01:13:58",
+      "source_pages": [
+        111,
+        114
+      ],
+      "path": "chapters/28/063.md",
+      "route": "lessons/28/063.html"
+    },
+    {
+      "lesson": 28,
+      "section": 64,
+      "title": "冻结内存与冷启动攻击",
+      "time": "01:13:58—01:14:56",
+      "source_pages": [
+        115,
+        115
+      ],
+      "path": "chapters/28/064.md",
+      "route": "lessons/28/064.html"
+    },
+    {
+      "lesson": 28,
+      "section": 65,
+      "title": "AI 时代的奶奶漏洞",
+      "time": "01:14:56—01:16:03",
+      "source_pages": [
+        115,
+        116
+      ],
+      "path": "chapters/28/065.md",
+      "route": "lessons/28/065.html"
+    },
+    {
+      "lesson": 28,
+      "section": 66,
+      "title": "伪造聊天历史与提示注入",
+      "time": "01:16:03—01:17:00",
+      "source_pages": [
+        117,
+        117
+      ],
+      "path": "chapters/28/066.md",
+      "route": "lessons/28/066.html"
+    },
+    {
+      "lesson": 28,
+      "section": 67,
+      "title": "Agent 工具与恶意文件",
+      "time": "01:17:00—01:17:58",
+      "source_pages": [
+        117,
+        117
+      ],
+      "path": "chapters/28/067.md",
+      "route": "lessons/28/067.html"
+    },
+    {
+      "lesson": 28,
+      "section": 68,
+      "title": "网页注入与最小权限的矛盾",
+      "time": "01:17:58—01:19:04",
+      "source_pages": [
+        118,
+        118
+      ],
+      "path": "chapters/28/068.md",
+      "route": "lessons/28/068.html"
+    },
+    {
+      "lesson": 28,
+      "section": 69,
+      "title": "Axios 与供应链攻击",
+      "time": "01:19:04—01:20:04",
+      "source_pages": [
+        118,
+        120
+      ],
+      "path": "chapters/28/069.md",
+      "route": "lessons/28/069.html"
+    },
+    {
+      "lesson": 28,
+      "section": 70,
+      "title": "伪装依赖与安装 hook",
+      "time": "01:20:04—01:21:11",
+      "source_pages": [
+        120,
+        120
+      ],
+      "path": "chapters/28/070.md",
+      "route": "lessons/28/070.html"
+    },
+    {
+      "lesson": 28,
+      "section": 71,
+      "title": "API key、灰产与依赖传播",
+      "time": "01:21:11—01:22:44",
+      "source_pages": [
+        120,
+        121
+      ],
+      "path": "chapters/28/071.md",
+      "route": "lessons/28/071.html"
+    },
+    {
+      "lesson": 28,
+      "section": 72,
+      "title": "XZ Utils 的后门与性能问题",
+      "time": "01:22:44—01:24:13",
+      "source_pages": [
+        121,
+        121
+      ],
+      "path": "chapters/28/072.md",
+      "route": "lessons/28/072.html"
+    }
+  ]
+}

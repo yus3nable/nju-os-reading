@@ -1,0 +1,360 @@
+{
+  "number": 18,
+  "title": "并行算法和数据结构",
+  "source": "https://www.bilibili.com/video/BV1WqdTBiEkN/",
+  "pdf": "18 - 并行算法和数据结构 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 109,
+  "images": 66,
+  "text_lines": 765,
+  "code_blocks": 14,
+  "sections": [
+    {
+      "lesson": 18,
+      "section": 1,
+      "title": "期中测验的情况",
+      "time": "00:00:00—00:01:04",
+      "source_pages": [
+        4,
+        5
+      ],
+      "path": "chapters/18/001.md",
+      "route": "lessons/18/001.html"
+    },
+    {
+      "lesson": 18,
+      "section": 2,
+      "title": "从设计者的角度回看文件描述符与进程",
+      "time": "00:01:04—00:05:17",
+      "source_pages": [
+        5,
+        11
+      ],
+      "path": "chapters/18/002.md",
+      "route": "lessons/18/002.html"
+    },
+    {
+      "lesson": 18,
+      "section": 3,
+      "title": "用调试工具回答程序运行的问题",
+      "time": "00:05:17—00:07:44",
+      "source_pages": [
+        11,
+        18
+      ],
+      "path": "chapters/18/003.md",
+      "route": "lessons/18/003.html"
+    },
+    {
+      "lesson": 18,
+      "section": 4,
+      "title": "预处理、fork 与管道",
+      "time": "00:07:44—00:11:12",
+      "source_pages": [
+        18,
+        23
+      ],
+      "path": "chapters/18/004.md",
+      "route": "lessons/18/004.html"
+    },
+    {
+      "lesson": 18,
+      "section": 5,
+      "title": "AI 时代怎样教学和考试",
+      "time": "00:11:12—00:14:31",
+      "source_pages": [
+        24,
+        27
+      ],
+      "path": "chapters/18/005.md",
+      "route": "lessons/18/005.html"
+    },
+    {
+      "lesson": 18,
+      "section": 6,
+      "title": "回到 sum++：正确性与性能",
+      "time": "00:14:31—00:18:28",
+      "source_pages": [
+        27,
+        32
+      ],
+      "path": "chapters/18/006.md",
+      "route": "lessons/18/006.html"
+    },
+    {
+      "lesson": 18,
+      "section": 7,
+      "title": "可见性的保证与 scalability",
+      "time": "00:18:28—00:20:30",
+      "source_pages": [
+        32,
+        32
+      ],
+      "path": "chapters/18/007.md",
+      "route": "lessons/18/007.html"
+    },
+    {
+      "lesson": 18,
+      "section": 8,
+      "title": "计算图与任务划分",
+      "time": "00:20:30—00:24:16",
+      "source_pages": [
+        33,
+        36
+      ],
+      "path": "chapters/18/008.md",
+      "route": "lessons/18/008.html"
+    },
+    {
+      "lesson": 18,
+      "section": 9,
+      "title": "高性能计算的任务从哪里来",
+      "time": "00:24:16—00:27:50",
+      "source_pages": [
+        36,
+        38
+      ],
+      "path": "chapters/18/009.md",
+      "route": "lessons/18/009.html"
+    },
+    {
+      "lesson": 18,
+      "section": 10,
+      "title": "从 CRAY-1 到今天的计算能力",
+      "time": "00:27:50—00:32:04",
+      "source_pages": [
+        38,
+        44
+      ],
+      "path": "chapters/18/010.md",
+      "route": "lessons/18/010.html"
+    },
+    {
+      "lesson": 18,
+      "section": 11,
+      "title": "空间局部性、网格与线性方程组",
+      "time": "00:32:04—00:35:45",
+      "source_pages": [
+        44,
+        47
+      ],
+      "path": "chapters/18/011.md",
+      "route": "lessons/18/011.html"
+    },
+    {
+      "lesson": 18,
+      "section": 12,
+      "title": "几乎不需要通信的并行任务",
+      "time": "00:35:45—00:40:32",
+      "source_pages": [
+        48,
+        50
+      ],
+      "path": "chapters/18/012.md",
+      "route": "lessons/18/012.html"
+    },
+    {
+      "lesson": 18,
+      "section": 13,
+      "title": "从递归序列走到 Julia 集",
+      "time": "00:40:32—00:43:38",
+      "source_pages": [
+        50,
+        55
+      ],
+      "path": "chapters/18/013.md",
+      "route": "lessons/18/013.html"
+    },
+    {
+      "lesson": 18,
+      "section": 14,
+      "title": "Mandelbrot 集与逐像素计算",
+      "time": "00:43:38—00:46:54",
+      "source_pages": [
+        56,
+        61
+      ],
+      "path": "chapters/18/014.md",
+      "route": "lessons/18/014.html"
+    },
+    {
+      "lesson": 18,
+      "section": 15,
+      "title": "用 OpenMP 表达并行计算",
+      "time": "00:46:54—00:49:05",
+      "source_pages": [
+        61,
+        63
+      ],
+      "path": "chapters/18/015.md",
+      "route": "lessons/18/015.html"
+    },
+    {
+      "lesson": 18,
+      "section": 16,
+      "title": "Mandelbrot 的代码与运行结果",
+      "time": "00:49:05—00:54:01",
+      "source_pages": [
+        63,
+        75
+      ],
+      "path": "chapters/18/016.md",
+      "route": "lessons/18/016.html"
+    },
+    {
+      "lesson": 18,
+      "section": 17,
+      "title": "集群中更困难的事情",
+      "time": "00:54:01—00:55:32",
+      "source_pages": [
+        75,
+        75
+      ],
+      "path": "chapters/18/017.md",
+      "route": "lessons/18/017.html"
+    },
+    {
+      "lesson": 18,
+      "section": 18,
+      "title": "gpt.c 实验与性能工具",
+      "time": "00:55:32—00:59:08",
+      "source_pages": [
+        76,
+        79
+      ],
+      "path": "chapters/18/018.md",
+      "route": "lessons/18/018.html"
+    },
+    {
+      "lesson": 18,
+      "section": 19,
+      "title": "频繁操作共享数据结构时怎么办",
+      "time": "00:59:08—01:01:44",
+      "source_pages": [
+        79,
+        81
+      ],
+      "path": "chapters/18/019.md",
+      "route": "lessons/18/019.html"
+    },
+    {
+      "lesson": 18,
+      "section": 20,
+      "title": "让修改立即可见要付出什么代价",
+      "time": "01:01:44—01:04:00",
+      "source_pages": [
+        81,
+        82
+      ],
+      "path": "chapters/18/020.md",
+      "route": "lessons/18/020.html"
+    },
+    {
+      "lesson": 18,
+      "section": 21,
+      "title": "在本地积累，再合并计数",
+      "time": "01:04:00—01:06:22",
+      "source_pages": [
+        82,
+        85
+      ],
+      "path": "chapters/18/021.md",
+      "route": "lessons/18/021.html"
+    },
+    {
+      "lesson": 18,
+      "section": 22,
+      "title": "thread_local：每个线程一份变量",
+      "time": "01:06:22—01:08:30",
+      "source_pages": [
+        86,
+        90
+      ],
+      "path": "chapters/18/022.md",
+      "route": "lessons/18/022.html"
+    },
+    {
+      "lesson": 18,
+      "section": 23,
+      "title": "编译器怎样访问线程局部变量",
+      "time": "01:08:30—01:10:30",
+      "source_pages": [
+        90,
+        93
+      ],
+      "path": "chapters/18/023.md",
+      "route": "lessons/18/023.html"
+    },
+    {
+      "lesson": 18,
+      "section": 24,
+      "title": "线程局部变量的初值由谁复制",
+      "time": "01:10:30—01:13:45",
+      "source_pages": [
+        94,
+        97
+      ],
+      "path": "chapters/18/024.md",
+      "route": "lessons/18/024.html"
+    },
+    {
+      "lesson": 18,
+      "section": 25,
+      "title": "读取 ELF 和反汇编得到的 TLS 布局",
+      "time": "01:13:45—01:16:04",
+      "source_pages": [
+        97,
+        100
+      ],
+      "path": "chapters/18/025.md",
+      "route": "lessons/18/025.html"
+    },
+    {
+      "lesson": 18,
+      "section": 26,
+      "title": "数据结构的局部性与锁的划分",
+      "time": "01:16:04—01:20:00",
+      "source_pages": [
+        100,
+        103
+      ],
+      "path": "chapters/18/026.md",
+      "route": "lessons/18/026.html"
+    },
+    {
+      "lesson": 18,
+      "section": 27,
+      "title": "原子计数器与分配日志",
+      "time": "01:20:00—01:21:56",
+      "source_pages": [
+        104,
+        104
+      ],
+      "path": "chapters/18/027.md",
+      "route": "lessons/18/027.html"
+    },
+    {
+      "lesson": 18,
+      "section": 28,
+      "title": "读写锁的不同权限",
+      "time": "01:21:56—01:23:00",
+      "source_pages": [
+        104,
+        105
+      ],
+      "path": "chapters/18/028.md",
+      "route": "lessons/18/028.html"
+    },
+    {
+      "lesson": 18,
+      "section": 29,
+      "title": "哈希表分段加锁与扩容的困难",
+      "time": "01:23:00—01:26:43",
+      "source_pages": [
+        105,
+        109
+      ],
+      "path": "chapters/18/029.md",
+      "route": "lessons/18/029.html"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "number": 14,
+  "title": "并发控制：互斥",
+  "source": "https://www.bilibili.com/video/BV1hNdhB1Efe/",
+  "pdf": "14 - 并发控制：互斥 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 116,
+  "images": 71,
+  "text_lines": 760,
+  "code_blocks": 14,
+  "sections": [
+    {
+      "lesson": 14,
+      "section": 1,
+      "title": "从线程与系统调用回顾共享内存",
+      "time": "00:00:00—00:03:15",
+      "source_pages": [
+        4,
+        8
+      ],
+      "path": "chapters/14/001.md",
+      "route": "lessons/14/001.html"
+    },
+    {
+      "lesson": 14,
+      "section": 2,
+      "title": "希望一段代码能够原子执行",
+      "time": "00:03:15—00:06:24",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/14/002.md",
+      "route": "lessons/14/002.html"
+    },
+    {
+      "lesson": 14,
+      "section": 3,
+      "title": "在用户态尝试关闭中断",
+      "time": "00:06:24—00:10:15",
+      "source_pages": [
+        9,
+        14
+      ],
+      "path": "chapters/14/003.md",
+      "route": "lessons/14/003.html"
+    },
+    {
+      "lesson": 14,
+      "section": 4,
+      "title": "用 lock 和 unlock 表达互斥",
+      "time": "00:10:15—00:15:59",
+      "source_pages": [
+        15,
+        18
+      ],
+      "path": "chapters/14/004.md",
+      "route": "lessons/14/004.html"
+    },
+    {
+      "lesson": 14,
+      "section": 5,
+      "title": "多把锁与 sum 的互斥实验",
+      "time": "00:15:59—00:19:16",
+      "source_pages": [
+        18,
+        24
+      ],
+      "path": "chapters/14/005.md",
+      "route": "lessons/14/005.html"
+    },
+    {
+      "lesson": 14,
+      "section": 6,
+      "title": "正确使用锁时怎样理解并发程序",
+      "time": "00:19:16—00:24:05",
+      "source_pages": [
+        25,
+        30
+      ],
+      "path": "chapters/14/006.md",
+      "route": "lessons/14/006.html"
+    },
+    {
+      "lesson": 14,
+      "section": 7,
+      "title": "链表和相似锁名中的使用错误",
+      "time": "00:24:05—00:28:52",
+      "source_pages": [
+        31,
+        34
+      ],
+      "path": "chapters/14/007.md",
+      "route": "lessons/14/007.html"
+    },
+    {
+      "lesson": 14,
+      "section": 8,
+      "title": "先用一把大锁，再寻找瓶颈",
+      "time": "00:28:52—00:32:17",
+      "source_pages": [
+        34,
+        35
+      ],
+      "path": "chapters/14/008.md",
+      "route": "lessons/14/008.html"
+    },
+    {
+      "lesson": 14,
+      "section": 9,
+      "title": "串行部分限制了多少性能",
+      "time": "00:32:17—00:34:51",
+      "source_pages": [
+        35,
+        38
+      ],
+      "path": "chapters/14/009.md",
+      "route": "lessons/14/009.html"
+    },
+    {
+      "lesson": 14,
+      "section": 10,
+      "title": "局部性与能够并行的计算",
+      "time": "00:34:51—00:39:07",
+      "source_pages": [
+        39,
+        42
+      ],
+      "path": "chapters/14/010.md",
+      "route": "lessons/14/010.html"
+    },
+    {
+      "lesson": 14,
+      "section": 11,
+      "title": "Dekker 与 Peterson 的早期算法",
+      "time": "00:39:07—00:41:59",
+      "source_pages": [
+        42,
+        47
+      ],
+      "path": "chapters/14/011.md",
+      "route": "lessons/14/011.html"
+    },
+    {
+      "lesson": 14,
+      "section": 12,
+      "title": "两位同学演示举旗与贴名字",
+      "time": "00:41:59—00:44:14",
+      "source_pages": [
+        48,
+        53
+      ],
+      "path": "chapters/14/012.md",
+      "route": "lessons/14/012.html"
+    },
+    {
+      "lesson": 14,
+      "section": 13,
+      "title": "从协议直觉走向状态空间",
+      "time": "00:44:14—00:47:27",
+      "source_pages": [
+        54,
+        58
+      ],
+      "path": "chapters/14/013.md",
+      "route": "lessons/14/013.html"
+    },
+    {
+      "lesson": 14,
+      "section": 14,
+      "title": "用模型检查器检验算法变体",
+      "time": "00:47:27—00:49:48",
+      "source_pages": [
+        59,
+        65
+      ],
+      "path": "chapters/14/014.md",
+      "route": "lessons/14/014.html"
+    },
+    {
+      "lesson": 14,
+      "section": 15,
+      "title": "证明、自动化与计算机科学",
+      "time": "00:49:48—00:53:14",
+      "source_pages": [
+        65,
+        68
+      ],
+      "path": "chapters/14/015.md",
+      "route": "lessons/14/015.html"
+    },
+    {
+      "lesson": 14,
+      "section": 16,
+      "title": "简化模型与实际机器的差异",
+      "time": "00:53:14—00:57:52",
+      "source_pages": [
+        69,
+        77
+      ],
+      "path": "chapters/14/016.md",
+      "route": "lessons/14/016.html"
+    },
+    {
+      "lesson": 14,
+      "section": 17,
+      "title": "让硬件提供不可分割的操作",
+      "time": "00:57:52—01:04:47",
+      "source_pages": [
+        77,
+        84
+      ],
+      "path": "chapters/14/017.md",
+      "route": "lessons/14/017.html"
+    },
+    {
+      "lesson": 14,
+      "section": 18,
+      "title": "用原子交换实现自旋锁",
+      "time": "01:04:47—01:07:51",
+      "source_pages": [
+        84,
+        88
+      ],
+      "path": "chapters/14/018.md",
+      "route": "lessons/14/018.html"
+    },
+    {
+      "lesson": 14,
+      "section": 19,
+      "title": "自旋等待为什么浪费处理器",
+      "time": "01:07:51—01:11:52",
+      "source_pages": [
+        88,
+        91
+      ],
+      "path": "chapters/14/019.md",
+      "route": "lessons/14/019.html"
+    },
+    {
+      "lesson": 14,
+      "section": 20,
+      "title": "让内核帮助等待：futex",
+      "time": "01:11:52—01:15:08",
+      "source_pages": [
+        92,
+        96
+      ],
+      "path": "chapters/14/020.md",
+      "route": "lessons/14/020.html"
+    },
+    {
+      "lesson": 14,
+      "section": 21,
+      "title": "比较四种求和方式的实际性能",
+      "time": "01:15:08—01:22:42",
+      "source_pages": [
+        97,
+        110
+      ],
+      "path": "chapters/14/021.md",
+      "route": "lessons/14/021.html"
+    },
+    {
+      "lesson": 14,
+      "section": 22,
+      "title": "选择性数据怎样掩盖性能问题",
+      "time": "01:22:42—01:25:38",
+      "source_pages": [
+        111,
+        116
+      ],
+      "path": "chapters/14/022.md",
+      "route": "lessons/14/022.html"
+    }
+  ]
+}

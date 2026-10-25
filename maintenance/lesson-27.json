@@ -1,0 +1,780 @@
+{
+  "number": 27,
+  "title": "数据库系统",
+  "source": "https://www.bilibili.com/video/BV1eqEA6JEZA/",
+  "pdf": "27 - 数据库系统 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 121,
+  "images": 66,
+  "text_lines": 767,
+  "code_blocks": 7,
+  "sections": [
+    {
+      "lesson": 27,
+      "section": 1,
+      "title": "回顾：文件系统与应用数据",
+      "time": "00:00:00—00:02:34",
+      "source_pages": [
+        8,
+        9
+      ],
+      "path": "chapters/27/001.md",
+      "route": "lessons/27/001.html"
+    },
+    {
+      "lesson": 27,
+      "section": 2,
+      "title": "从个人到全球用户的数据需求",
+      "time": "00:02:34—00:03:04",
+      "source_pages": [
+        9,
+        10
+      ],
+      "path": "chapters/27/002.md",
+      "route": "lessons/27/002.html"
+    },
+    {
+      "lesson": 27,
+      "section": 3,
+      "title": "应用程序是物理过程的投影",
+      "time": "00:03:04—00:04:00",
+      "source_pages": [
+        10,
+        11
+      ],
+      "path": "chapters/27/003.md",
+      "route": "lessons/27/003.html"
+    },
+    {
+      "lesson": 27,
+      "section": 4,
+      "title": "教务系统中的增删改查",
+      "time": "00:04:00—00:05:54",
+      "source_pages": [
+        12,
+        14
+      ],
+      "path": "chapters/27/004.md",
+      "route": "lessons/27/004.html"
+    },
+    {
+      "lesson": 27,
+      "section": 5,
+      "title": "PPTX 也是数据结构",
+      "time": "00:05:54—00:06:44",
+      "source_pages": [
+        14,
+        20
+      ],
+      "path": "chapters/27/005.md",
+      "route": "lessons/27/005.html"
+    },
+    {
+      "lesson": 27,
+      "section": 6,
+      "title": "解包演示文稿与提取图片",
+      "time": "00:06:44—00:07:31",
+      "source_pages": [
+        21,
+        23
+      ],
+      "path": "chapters/27/006.md",
+      "route": "lessons/27/006.html"
+    },
+    {
+      "lesson": 27,
+      "section": 7,
+      "title": "开放格式与文稿标准",
+      "time": "00:07:31—00:08:00",
+      "source_pages": [
+        24,
+        24
+      ],
+      "path": "chapters/27/007.md",
+      "route": "lessons/27/007.html"
+    },
+    {
+      "lesson": 27,
+      "section": 8,
+      "title": "让 Agent 修改幻灯片标题",
+      "time": "00:08:00—00:08:56",
+      "source_pages": [
+        24,
+        28
+      ],
+      "path": "chapters/27/008.md",
+      "route": "lessons/27/008.html"
+    },
+    {
+      "lesson": 27,
+      "section": 9,
+      "title": "文件格式、查询语言与 API",
+      "time": "00:08:56—00:09:30",
+      "source_pages": [
+        29,
+        29
+      ],
+      "path": "chapters/27/009.md",
+      "route": "lessons/27/009.html"
+    },
+    {
+      "lesson": 27,
+      "section": 10,
+      "title": "用目录和文件保存应用数据",
+      "time": "00:09:30—00:11:01",
+      "source_pages": [
+        29,
+        31
+      ],
+      "path": "chapters/27/010.md",
+      "route": "lessons/27/010.html"
+    },
+    {
+      "lesson": 27,
+      "section": 11,
+      "title": "用文件系统组织论文与 Agent Harness",
+      "time": "00:11:01—00:12:30",
+      "source_pages": [
+        31,
+        31
+      ],
+      "path": "chapters/27/011.md",
+      "route": "lessons/27/011.html"
+    },
+    {
+      "lesson": 27,
+      "section": 12,
+      "title": "符号链接与引用关系",
+      "time": "00:12:30—00:13:48",
+      "source_pages": [
+        32,
+        32
+      ],
+      "path": "chapters/27/012.md",
+      "route": "lessons/27/012.html"
+    },
+    {
+      "lesson": 27,
+      "section": 13,
+      "title": "课程网站怎样保存提交",
+      "time": "00:13:48—00:15:01",
+      "source_pages": [
+        32,
+        33
+      ],
+      "path": "chapters/27/013.md",
+      "route": "lessons/27/013.html"
+    },
+    {
+      "lesson": 27,
+      "section": 14,
+      "title": "评测结果与 Accepted 数量",
+      "time": "00:15:01—00:16:00",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/27/014.md",
+      "route": "lessons/27/014.html"
+    },
+    {
+      "lesson": 27,
+      "section": 15,
+      "title": "重新评测与可靠性的取舍",
+      "time": "00:16:00—00:17:29",
+      "source_pages": [
+        37,
+        39
+      ],
+      "path": "chapters/27/015.md",
+      "route": "lessons/27/015.html"
+    },
+    {
+      "lesson": 27,
+      "section": 16,
+      "title": "多文件写入的一致性",
+      "time": "00:17:29—00:18:32",
+      "source_pages": [
+        39,
+        39
+      ],
+      "path": "chapters/27/016.md",
+      "route": "lessons/27/016.html"
+    },
+    {
+      "lesson": 27,
+      "section": 17,
+      "title": "系统调用与额外元数据的代价",
+      "time": "00:18:32—00:19:31",
+      "source_pages": [
+        39,
+        40
+      ],
+      "path": "chapters/27/017.md",
+      "route": "lessons/27/017.html"
+    },
+    {
+      "lesson": 27,
+      "section": 18,
+      "title": "在文件上直接构造数据结构",
+      "time": "00:19:31—00:21:00",
+      "source_pages": [
+        40,
+        42
+      ],
+      "path": "chapters/27/018.md",
+      "route": "lessons/27/018.html"
+    },
+    {
+      "lesson": 27,
+      "section": 19,
+      "title": "教务系统的 superblock 与链表",
+      "time": "00:21:00—00:21:55",
+      "source_pages": [
+        42,
+        42
+      ],
+      "path": "chapters/27/019.md",
+      "route": "lessons/27/019.html"
+    },
+    {
+      "lesson": 27,
+      "section": 20,
+      "title": "固定映射地址与持久化指针",
+      "time": "00:21:55—00:23:02",
+      "source_pages": [
+        42,
+        43
+      ],
+      "path": "chapters/27/020.md",
+      "route": "lessons/27/020.html"
+    },
+    {
+      "lesson": 27,
+      "section": 21,
+      "title": "查看学生链表与分配器代码",
+      "time": "00:23:02—00:24:00",
+      "source_pages": [
+        44,
+        45
+      ],
+      "path": "chapters/27/021.md",
+      "route": "lessons/27/021.html"
+    },
+    {
+      "lesson": 27,
+      "section": 22,
+      "title": "mmap：每次映射到同一地址",
+      "time": "00:24:00—00:24:59",
+      "source_pages": [
+        46,
+        49
+      ],
+      "path": "chapters/27/022.md",
+      "route": "lessons/27/022.html"
+    },
+    {
+      "lesson": 27,
+      "section": 23,
+      "title": "启动、退出与再次打开数据库",
+      "time": "00:24:59—00:26:23",
+      "source_pages": [
+        50,
+        52
+      ],
+      "path": "chapters/27/023.md",
+      "route": "lessons/27/023.html"
+    },
+    {
+      "lesson": 27,
+      "section": 24,
+      "title": "mmap 写回时机带来的问题",
+      "time": "00:26:23—00:28:00",
+      "source_pages": [
+        53,
+        53
+      ],
+      "path": "chapters/27/024.md",
+      "route": "lessons/27/024.html"
+    },
+    {
+      "lesson": 27,
+      "section": 25,
+      "title": "msync、fdatasync 与 madvise",
+      "time": "00:28:00—00:29:33",
+      "source_pages": [
+        53,
+        56
+      ],
+      "path": "chapters/27/025.md",
+      "route": "lessons/27/025.html"
+    },
+    {
+      "lesson": 27,
+      "section": 26,
+      "title": "在 superblock 中放一条日志",
+      "time": "00:29:33—00:30:28",
+      "source_pages": [
+        57,
+        58
+      ],
+      "path": "chapters/27/026.md",
+      "route": "lessons/27/026.html"
+    },
+    {
+      "lesson": 27,
+      "section": 27,
+      "title": "先保存命令，再更新数据结构",
+      "time": "00:30:28—00:31:31",
+      "source_pages": [
+        59,
+        61
+      ],
+      "path": "chapters/27/027.md",
+      "route": "lessons/27/027.html"
+    },
+    {
+      "lesson": 27,
+      "section": 28,
+      "title": "手工修改日志并重启恢复",
+      "time": "00:31:31—00:33:01",
+      "source_pages": [
+        61,
+        66
+      ],
+      "path": "chapters/27/028.md",
+      "route": "lessons/27/028.html"
+    },
+    {
+      "lesson": 27,
+      "section": 29,
+      "title": "从持久化指针想到整个进程",
+      "time": "00:33:01—00:34:00",
+      "source_pages": [
+        67,
+        67
+      ],
+      "path": "chapters/27/029.md",
+      "route": "lessons/27/029.html"
+    },
+    {
+      "lesson": 27,
+      "section": 30,
+      "title": "single-level store 的设想",
+      "time": "00:34:00—00:35:01",
+      "source_pages": [
+        67,
+        67
+      ],
+      "path": "chapters/27/030.md",
+      "route": "lessons/27/030.html"
+    },
+    {
+      "lesson": 27,
+      "section": 31,
+      "title": "关系数据库需要满足什么",
+      "time": "00:35:01—00:38:02",
+      "source_pages": [
+        68,
+        70
+      ],
+      "path": "chapters/27/031.md",
+      "route": "lessons/27/031.html"
+    },
+    {
+      "lesson": 27,
+      "section": 32,
+      "title": "用关系描述学生、课程与选课",
+      "time": "00:38:02—00:40:00",
+      "source_pages": [
+        70,
+        72
+      ],
+      "path": "chapters/27/032.md",
+      "route": "lessons/27/032.html"
+    },
+    {
+      "lesson": 27,
+      "section": 33,
+      "title": "二维表与多对多关系",
+      "time": "00:40:00—00:41:30",
+      "source_pages": [
+        72,
+        74
+      ],
+      "path": "chapters/27/033.md",
+      "route": "lessons/27/033.html"
+    },
+    {
+      "lesson": 27,
+      "section": 34,
+      "title": "选课表、学号与课程号",
+      "time": "00:41:30—00:42:01",
+      "source_pages": [
+        75,
+        75
+      ],
+      "path": "chapters/27/034.md",
+      "route": "lessons/27/034.html"
+    },
+    {
+      "lesson": 27,
+      "section": 35,
+      "title": "关系模型与笛卡尔积",
+      "time": "00:42:01—00:43:31",
+      "source_pages": [
+        75,
+        77
+      ],
+      "path": "chapters/27/035.md",
+      "route": "lessons/27/035.html"
+    },
+    {
+      "lesson": 27,
+      "section": 36,
+      "title": "三重循环怎样完成 join",
+      "time": "00:43:31—00:45:01",
+      "source_pages": [
+        77,
+        77
+      ],
+      "path": "chapters/27/036.md",
+      "route": "lessons/27/036.html"
+    },
+    {
+      "lesson": 27,
+      "section": 37,
+      "title": "事实与实现方式的分离",
+      "time": "00:45:01—00:46:00",
+      "source_pages": [
+        77,
+        78
+      ],
+      "path": "chapters/27/037.md",
+      "route": "lessons/27/037.html"
+    },
+    {
+      "lesson": 27,
+      "section": 38,
+      "title": "primary key 与 SQL 查询",
+      "time": "00:46:00—00:47:33",
+      "source_pages": [
+        79,
+        83
+      ],
+      "path": "chapters/27/038.md",
+      "route": "lessons/27/038.html"
+    },
+    {
+      "lesson": 27,
+      "section": 39,
+      "title": "表达能力与索引优化",
+      "time": "00:47:33—00:48:31",
+      "source_pages": [
+        83,
+        83
+      ],
+      "path": "chapters/27/039.md",
+      "route": "lessons/27/039.html"
+    },
+    {
+      "lesson": 27,
+      "section": 40,
+      "title": "ACID 与可串行化",
+      "time": "00:48:31—00:49:58",
+      "source_pages": [
+        83,
+        87
+      ],
+      "path": "chapters/27/040.md",
+      "route": "lessons/27/040.html"
+    },
+    {
+      "lesson": 27,
+      "section": 41,
+      "title": "转账中的多次写入",
+      "time": "00:49:58—00:51:02",
+      "source_pages": [
+        87,
+        87
+      ],
+      "path": "chapters/27/041.md",
+      "route": "lessons/27/041.html"
+    },
+    {
+      "lesson": 27,
+      "section": 42,
+      "title": "transaction、abort 与 commit",
+      "time": "00:51:02—00:52:01",
+      "source_pages": [
+        87,
+        88
+      ],
+      "path": "chapters/27/042.md",
+      "route": "lessons/27/042.html"
+    },
+    {
+      "lesson": 27,
+      "section": 43,
+      "title": "大锁的效果与并行的性能",
+      "time": "00:52:01—00:53:31",
+      "source_pages": [
+        88,
+        90
+      ],
+      "path": "chapters/27/043.md",
+      "route": "lessons/27/043.html"
+    },
+    {
+      "lesson": 27,
+      "section": 44,
+      "title": "查询优化就是程序改写",
+      "time": "00:53:31—00:55:04",
+      "source_pages": [
+        91,
+        91
+      ],
+      "path": "chapters/27/044.md",
+      "route": "lessons/27/044.html"
+    },
+    {
+      "lesson": 27,
+      "section": 45,
+      "title": "数据库里的编译器",
+      "time": "00:55:04—00:56:00",
+      "source_pages": [
+        91,
+        93
+      ],
+      "path": "chapters/27/045.md",
+      "route": "lessons/27/045.html"
+    },
+    {
+      "lesson": 27,
+      "section": 46,
+      "title": "事务请求交错执行的问题",
+      "time": "00:56:00—00:57:31",
+      "source_pages": [
+        94,
+        94
+      ],
+      "path": "chapters/27/046.md",
+      "route": "lessons/27/046.html"
+    },
+    {
+      "lesson": 27,
+      "section": 47,
+      "title": "Two-phase Locking 与死锁检测",
+      "time": "00:57:31—00:59:31",
+      "source_pages": [
+        94,
+        96
+      ],
+      "path": "chapters/27/047.md",
+      "route": "lessons/27/047.html"
+    },
+    {
+      "lesson": 27,
+      "section": 48,
+      "title": "MVCC：快照、分支与合并",
+      "time": "00:59:31—01:02:01",
+      "source_pages": [
+        96,
+        98
+      ],
+      "path": "chapters/27/048.md",
+      "route": "lessons/27/048.html"
+    },
+    {
+      "lesson": 27,
+      "section": 49,
+      "title": "数据库如何服务应用程序",
+      "time": "01:02:01—01:02:59",
+      "source_pages": [
+        98,
+        99
+      ],
+      "path": "chapters/27/049.md",
+      "route": "lessons/27/049.html"
+    },
+    {
+      "lesson": 27,
+      "section": 50,
+      "title": "SQLite 与持久化设置",
+      "time": "01:02:59—01:05:06",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/27/050.md",
+      "route": "lessons/27/050.html"
+    },
+    {
+      "lesson": 27,
+      "section": 51,
+      "title": "聊天记录与国民级应用",
+      "time": "01:05:06—01:07:01",
+      "source_pages": [
+        102,
+        105
+      ],
+      "path": "chapters/27/051.md",
+      "route": "lessons/27/051.html"
+    },
+    {
+      "lesson": 27,
+      "section": 52,
+      "title": "复杂查询与性能问题",
+      "time": "01:07:01—01:09:00",
+      "source_pages": [
+        105,
+        105
+      ],
+      "path": "chapters/27/052.md",
+      "route": "lessons/27/052.html"
+    },
+    {
+      "lesson": 27,
+      "section": 53,
+      "title": "分库分表与分布式",
+      "time": "01:09:00—01:10:01",
+      "source_pages": [
+        106,
+        106
+      ],
+      "path": "chapters/27/053.md",
+      "route": "lessons/27/053.html"
+    },
+    {
+      "lesson": 27,
+      "section": 54,
+      "title": "缩小接口，支持 scale out",
+      "time": "01:10:01—01:11:02",
+      "source_pages": [
+        106,
+        107
+      ],
+      "path": "chapters/27/054.md",
+      "route": "lessons/27/054.html"
+    },
+    {
+      "lesson": 27,
+      "section": 55,
+      "title": "用 key 管理用户与选课",
+      "time": "01:11:02—01:13:00",
+      "source_pages": [
+        108,
+        108
+      ],
+      "path": "chapters/27/055.md",
+      "route": "lessons/27/055.html"
+    },
+    {
+      "lesson": 27,
+      "section": 56,
+      "title": "追加记录与当前视图",
+      "time": "01:13:00—01:13:59",
+      "source_pages": [
+        108,
+        109
+      ],
+      "path": "chapters/27/056.md",
+      "route": "lessons/27/056.html"
+    },
+    {
+      "lesson": 27,
+      "section": 57,
+      "title": "hash、负载均衡与 LSM Tree",
+      "time": "01:13:59—01:15:00",
+      "source_pages": [
+        110,
+        111
+      ],
+      "path": "chapters/27/057.md",
+      "route": "lessons/27/057.html"
+    },
+    {
+      "lesson": 27,
+      "section": 58,
+      "title": "用内存缓冲大量点赞请求",
+      "time": "01:15:00—01:16:32",
+      "source_pages": [
+        112,
+        114
+      ],
+      "path": "chapters/27/058.md",
+      "route": "lessons/27/058.html"
+    },
+    {
+      "lesson": 27,
+      "section": 59,
+      "title": "Redis 与数据库缓存",
+      "time": "01:16:32—01:17:33",
+      "source_pages": [
+        115,
+        116
+      ],
+      "path": "chapters/27/059.md",
+      "route": "lessons/27/059.html"
+    },
+    {
+      "lesson": 27,
+      "section": 60,
+      "title": "MongoDB、Cassandra 与 NewSQL",
+      "time": "01:17:33—01:19:01",
+      "source_pages": [
+        117,
+        117
+      ],
+      "path": "chapters/27/060.md",
+      "route": "lessons/27/060.html"
+    },
+    {
+      "lesson": 27,
+      "section": 61,
+      "title": "向量数据库与课程 embedding",
+      "time": "01:19:01—01:20:00",
+      "source_pages": [
+        117,
+        118
+      ],
+      "path": "chapters/27/061.md",
+      "route": "lessons/27/061.html"
+    },
+    {
+      "lesson": 27,
+      "section": 62,
+      "title": "近邻搜索与课程关系图",
+      "time": "01:20:00—01:21:33",
+      "source_pages": [
+        119,
+        121
+      ],
+      "path": "chapters/27/062.md",
+      "route": "lessons/27/062.html"
+    },
+    {
+      "lesson": 27,
+      "section": 63,
+      "title": "结构化数据与智能查询",
+      "time": "01:21:33—01:22:32",
+      "source_pages": [
+        121,
+        121
+      ],
+      "path": "chapters/27/063.md",
+      "route": "lessons/27/063.html"
+    },
+    {
+      "lesson": 27,
+      "section": 64,
+      "title": "回到数据结构的增删改查",
+      "time": "01:22:32—01:23:10",
+      "source_pages": [
+        121,
+        121
+      ],
+      "path": "chapters/27/064.md",
+      "route": "lessons/27/064.html"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "number": 4,
+  "title": "(Aside) LLM, Agents 和 Scaling Law",
+  "source": "https://www.bilibili.com/video/BV1gEcmzzE4P",
+  "pdf": "04 (Aside) - LLM, Agents 和 Scaling Law [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 117,
+  "images": 90,
+  "text_lines": 643,
+  "code_blocks": 6,
+  "sections": [
+    {
+      "lesson": 4,
+      "section": 1,
+      "title": "大、语言与模型",
+      "time": "00:00:00—00:18:24",
+      "source_pages": [
+        3,
+        17
+      ],
+      "path": "chapters/04/001.md",
+      "route": "lessons/04/001.html"
+    },
+    {
+      "lesson": 4,
+      "section": 2,
+      "title": "Agents：推理、工具与工作区",
+      "time": "00:18:24—00:38:09",
+      "source_pages": [
+        17,
+        40
+      ],
+      "path": "chapters/04/002.md",
+      "route": "lessons/04/002.html"
+    },
+    {
+      "lesson": 4,
+      "section": 3,
+      "title": "Scaling Law 与计算的规模",
+      "time": "00:38:09—00:58:29",
+      "source_pages": [
+        40,
+        64
+      ],
+      "path": "chapters/04/003.md",
+      "route": "lessons/04/003.html"
+    },
+    {
+      "lesson": 4,
+      "section": 4,
+      "title": "抽象设计与现场构建操作系统",
+      "time": "00:58:29—01:22:22",
+      "source_pages": [
+        64,
+        117
+      ],
+      "path": "chapters/04/004.md",
+      "route": "lessons/04/004.html"
+    }
+  ]
+}

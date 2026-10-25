@@ -1,0 +1,1068 @@
+{
+  "number": 30,
+  "title": "Agentic AI 和我们的未来；课程总结",
+  "source": "https://www.bilibili.com/video/BV1q2jh6FEhX/",
+  "pdf": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 123,
+  "images": 56,
+  "text_lines": 843,
+  "code_blocks": 14,
+  "sections": [
+    {
+      "lesson": 30,
+      "section": 1,
+      "title": "期末答疑的安排",
+      "time": "00:00:00—00:00:29",
+      "source_pages": [
+        10,
+        11
+      ],
+      "path": "chapters/30/001.md",
+      "route": "lessons/30/001.html"
+    },
+    {
+      "lesson": 30,
+      "section": 2,
+      "title": "应用视角的操作系统",
+      "time": "00:00:29—00:01:28",
+      "source_pages": [
+        11,
+        12
+      ],
+      "path": "chapters/30/002.md",
+      "route": "lessons/30/002.html"
+    },
+    {
+      "lesson": 30,
+      "section": 3,
+      "title": "进程、地址空间与系统调用",
+      "time": "00:01:28—00:02:56",
+      "source_pages": [
+        13,
+        13
+      ],
+      "path": "chapters/30/003.md",
+      "route": "lessons/30/003.html"
+    },
+    {
+      "lesson": 30,
+      "section": 4,
+      "title": "设备上的操作系统与 Agent OS",
+      "time": "00:02:56—00:04:04",
+      "source_pages": [
+        13,
+        13
+      ],
+      "path": "chapters/30/004.md",
+      "route": "lessons/30/004.html"
+    },
+    {
+      "lesson": 30,
+      "section": 5,
+      "title": "高级语言、运行时与虚拟机",
+      "time": "00:04:04—00:04:56",
+      "source_pages": [
+        14,
+        14
+      ],
+      "path": "chapters/30/005.md",
+      "route": "lessons/30/005.html"
+    },
+    {
+      "lesson": 30,
+      "section": 6,
+      "title": "硬件视角：执行指令的 CPU",
+      "time": "00:04:56—00:06:24",
+      "source_pages": [
+        14,
+        14
+      ],
+      "path": "chapters/30/006.md",
+      "route": "lessons/30/006.html"
+    },
+    {
+      "lesson": 30,
+      "section": 7,
+      "title": "硬件和操作系统共同进化",
+      "time": "00:06:24—00:07:07",
+      "source_pages": [
+        15,
+        15
+      ],
+      "path": "chapters/30/007.md",
+      "route": "lessons/30/007.html"
+    },
+    {
+      "lesson": 30,
+      "section": 8,
+      "title": "考试该怎样复习",
+      "time": "00:07:07—00:08:32",
+      "source_pages": [
+        15,
+        17
+      ],
+      "path": "chapters/30/008.md",
+      "route": "lessons/30/008.html"
+    },
+    {
+      "lesson": 30,
+      "section": 9,
+      "title": "理解代码案例与基本原理",
+      "time": "00:08:32—00:09:57",
+      "source_pages": [
+        17,
+        18
+      ],
+      "path": "chapters/30/009.md",
+      "route": "lessons/30/009.html"
+    },
+    {
+      "lesson": 30,
+      "section": 10,
+      "title": "下载课程代码的门槛",
+      "time": "00:09:57—00:11:24",
+      "source_pages": [
+        18,
+        18
+      ],
+      "path": "chapters/30/010.md",
+      "route": "lessons/30/010.html"
+    },
+    {
+      "lesson": 30,
+      "section": 11,
+      "title": "跨出第一步与 UNIX philosophy",
+      "time": "00:11:24—00:12:02",
+      "source_pages": [
+        18,
+        19
+      ],
+      "path": "chapters/30/011.md",
+      "route": "lessons/30/011.html"
+    },
+    {
+      "lesson": 30,
+      "section": 12,
+      "title": "API 之上的应用生态",
+      "time": "00:12:02—00:13:00",
+      "source_pages": [
+        19,
+        19
+      ],
+      "path": "chapters/30/012.md",
+      "route": "lessons/30/012.html"
+    },
+    {
+      "lesson": 30,
+      "section": 13,
+      "title": "Windows 上的大型应用",
+      "time": "00:13:00—00:14:10",
+      "source_pages": [
+        19,
+        20
+      ],
+      "path": "chapters/30/013.md",
+      "route": "lessons/30/013.html"
+    },
+    {
+      "lesson": 30,
+      "section": 14,
+      "title": "命令行对新手的门槛",
+      "time": "00:14:10—00:15:10",
+      "source_pages": [
+        20,
+        20
+      ],
+      "path": "chapters/30/014.md",
+      "route": "lessons/30/014.html"
+    },
+    {
+      "lesson": 30,
+      "section": 15,
+      "title": "管道与应用之间的合作",
+      "time": "00:15:10—00:16:38",
+      "source_pages": [
+        20,
+        21
+      ],
+      "path": "chapters/30/015.md",
+      "route": "lessons/30/015.html"
+    },
+    {
+      "lesson": 30,
+      "section": 16,
+      "title": "content as code 与复习课件",
+      "time": "00:16:38—00:17:00",
+      "source_pages": [
+        21,
+        22
+      ],
+      "path": "chapters/30/016.md",
+      "route": "lessons/30/016.html"
+    },
+    {
+      "lesson": 30,
+      "section": 17,
+      "title": "find：先找到课程文件",
+      "time": "00:17:00—00:17:33",
+      "source_pages": [
+        23,
+        24
+      ],
+      "path": "chapters/30/017.md",
+      "route": "lessons/30/017.html"
+    },
+    {
+      "lesson": 30,
+      "section": 18,
+      "title": "sort：按课程次序排序",
+      "time": "00:17:33—00:18:18",
+      "source_pages": [
+        25,
+        27
+      ],
+      "path": "chapters/30/018.md",
+      "route": "lessons/30/018.html"
+    },
+    {
+      "lesson": 30,
+      "section": 19,
+      "title": "grep：筛出代码案例",
+      "time": "00:18:18—00:19:00",
+      "source_pages": [
+        27,
+        27
+      ],
+      "path": "chapters/30/019.md",
+      "route": "lessons/30/019.html"
+    },
+    {
+      "lesson": 30,
+      "section": 20,
+      "title": "去重、剪贴板与 Agent",
+      "time": "00:19:00—00:20:01",
+      "source_pages": [
+        27,
+        27
+      ],
+      "path": "chapters/30/020.md",
+      "route": "lessons/30/020.html"
+    },
+    {
+      "lesson": 30,
+      "section": 21,
+      "title": "现场尝试用 AI 帮助复习",
+      "time": "00:20:01—00:20:32",
+      "source_pages": [
+        28,
+        29
+      ],
+      "path": "chapters/30/021.md",
+      "route": "lessons/30/021.html"
+    },
+    {
+      "lesson": 30,
+      "section": 22,
+      "title": "长任务、Plan mode 与注意力",
+      "time": "00:20:32—00:21:36",
+      "source_pages": [
+        30,
+        31
+      ],
+      "path": "chapters/30/022.md",
+      "route": "lessons/30/022.html"
+    },
+    {
+      "lesson": 30,
+      "section": 23,
+      "title": "临时提问与出题风格",
+      "time": "00:21:36—00:22:21",
+      "source_pages": [
+        32,
+        33
+      ],
+      "path": "chapters/30/023.md",
+      "route": "lessons/30/023.html"
+    },
+    {
+      "lesson": 30,
+      "section": 24,
+      "title": "AI 试卷：Quick Quiz",
+      "time": "00:22:21—00:23:04",
+      "source_pages": [
+        34,
+        36
+      ],
+      "path": "chapters/30/024.md",
+      "route": "lessons/30/024.html"
+    },
+    {
+      "lesson": 30,
+      "section": 25,
+      "title": "fork 的输出与缓冲区",
+      "time": "00:23:04—00:24:01",
+      "source_pages": [
+        36,
+        37
+      ],
+      "path": "chapters/30/025.md",
+      "route": "lessons/30/025.html"
+    },
+    {
+      "lesson": 30,
+      "section": 26,
+      "title": "父子进程共享文件描述符",
+      "time": "00:24:01—00:25:01",
+      "source_pages": [
+        38,
+        41
+      ],
+      "path": "chapters/30/026.md",
+      "route": "lessons/30/026.html"
+    },
+    {
+      "lesson": 30,
+      "section": 27,
+      "title": "从应用需求理解 API 设计",
+      "time": "00:25:01—00:25:50",
+      "source_pages": [
+        42,
+        42
+      ],
+      "path": "chapters/30/027.md",
+      "route": "lessons/30/027.html"
+    },
+    {
+      "lesson": 30,
+      "section": 28,
+      "title": "地址空间与没有魔法的世界",
+      "time": "00:25:50—00:26:42",
+      "source_pages": [
+        42,
+        44
+      ],
+      "path": "chapters/30/028.md",
+      "route": "lessons/30/028.html"
+    },
+    {
+      "lesson": 30,
+      "section": 29,
+      "title": "条件变量与并发编程题",
+      "time": "00:26:42—00:27:34",
+      "source_pages": [
+        44,
+        46
+      ],
+      "path": "chapters/30/029.md",
+      "route": "lessons/30/029.html"
+    },
+    {
+      "lesson": 30,
+      "section": 30,
+      "title": "检查并发控制的交错执行",
+      "time": "00:27:34—00:28:02",
+      "source_pages": [
+        46,
+        47
+      ],
+      "path": "chapters/30/030.md",
+      "route": "lessons/30/030.html"
+    },
+    {
+      "lesson": 30,
+      "section": 31,
+      "title": "链表中的资源泄漏与死锁",
+      "time": "00:28:02—00:28:46",
+      "source_pages": [
+        48,
+        50
+      ],
+      "path": "chapters/30/031.md",
+      "route": "lessons/30/031.html"
+    },
+    {
+      "lesson": 30,
+      "section": 32,
+      "title": "文件系统、崩溃一致性与调度题",
+      "time": "00:28:46—00:30:05",
+      "source_pages": [
+        50,
+        50
+      ],
+      "path": "chapters/30/032.md",
+      "route": "lessons/30/032.html"
+    },
+    {
+      "lesson": 30,
+      "section": 33,
+      "title": "模拟卷与穷尽知识点",
+      "time": "00:30:05—00:31:08",
+      "source_pages": [
+        51,
+        51
+      ],
+      "path": "chapters/30/033.md",
+      "route": "lessons/30/033.html"
+    },
+    {
+      "lesson": 30,
+      "section": 34,
+      "title": "用 AI 构建题库",
+      "time": "00:31:08—00:32:31",
+      "source_pages": [
+        51,
+        51
+      ],
+      "path": "chapters/30/034.md",
+      "route": "lessons/30/034.html"
+    },
+    {
+      "lesson": 30,
+      "section": 35,
+      "title": "共同复习与知识的用途",
+      "time": "00:32:31—00:33:39",
+      "source_pages": [
+        52,
+        52
+      ],
+      "path": "chapters/30/035.md",
+      "route": "lessons/30/035.html"
+    },
+    {
+      "lesson": 30,
+      "section": 36,
+      "title": "从数字逻辑电路开始回顾",
+      "time": "00:33:39—00:35:15",
+      "source_pages": [
+        52,
+        54
+      ],
+      "path": "chapters/30/036.md",
+      "route": "lessons/30/036.html"
+    },
+    {
+      "lesson": 30,
+      "section": 37,
+      "title": "RISC-V 处理器与 CPU 状态",
+      "time": "00:35:15—00:36:04",
+      "source_pages": [
+        55,
+        56
+      ],
+      "path": "chapters/30/037.md",
+      "route": "lessons/30/037.html"
+    },
+    {
+      "lesson": 30,
+      "section": 38,
+      "title": "从递归汉诺塔理解程序",
+      "time": "00:36:04—00:37:00",
+      "source_pages": [
+        56,
+        58
+      ],
+      "path": "chapters/30/038.md",
+      "route": "lessons/30/038.html"
+    },
+    {
+      "lesson": 30,
+      "section": 39,
+      "title": "小步执行与栈帧中的 PC",
+      "time": "00:37:00—00:38:23",
+      "source_pages": [
+        58,
+        62
+      ],
+      "path": "chapters/30/039.md",
+      "route": "lessons/30/039.html"
+    },
+    {
+      "lesson": 30,
+      "section": 40,
+      "title": "Simple C 与编译优化",
+      "time": "00:38:23—00:39:01",
+      "source_pages": [
+        62,
+        62
+      ],
+      "path": "chapters/30/040.md",
+      "route": "lessons/30/040.html"
+    },
+    {
+      "lesson": 30,
+      "section": 41,
+      "title": "syscall 是优化的边界",
+      "time": "00:39:01—00:40:00",
+      "source_pages": [
+        62,
+        63
+      ],
+      "path": "chapters/30/041.md",
+      "route": "lessons/30/041.html"
+    },
+    {
+      "lesson": 30,
+      "section": 42,
+      "title": "CPU Reset 到第一个应用",
+      "time": "00:40:00—00:41:00",
+      "source_pages": [
+        64,
+        64
+      ],
+      "path": "chapters/30/042.md",
+      "route": "lessons/30/042.html"
+    },
+    {
+      "lesson": 30,
+      "section": 43,
+      "title": "进程树与进程管理 API",
+      "time": "00:41:00—00:42:09",
+      "source_pages": [
+        64,
+        65
+      ],
+      "path": "chapters/30/043.md",
+      "route": "lessons/30/043.html"
+    },
+    {
+      "lesson": 30,
+      "section": 44,
+      "title": "地址空间、malloc 与 mmap",
+      "time": "00:42:09—00:42:58",
+      "source_pages": [
+        66,
+        66
+      ],
+      "path": "chapters/30/044.md",
+      "route": "lessons/30/044.html"
+    },
+    {
+      "lesson": 30,
+      "section": 45,
+      "title": "Everything is a file",
+      "time": "00:42:58—00:43:59",
+      "source_pages": [
+        66,
+        66
+      ],
+      "path": "chapters/30/045.md",
+      "route": "lessons/30/045.html"
+    },
+    {
+      "lesson": 30,
+      "section": 46,
+      "title": "文件描述符、管道和继承",
+      "time": "00:43:59—00:44:47",
+      "source_pages": [
+        67,
+        67
+      ],
+      "path": "chapters/30/046.md",
+      "route": "lessons/30/046.html"
+    },
+    {
+      "lesson": 30,
+      "section": 47,
+      "title": "终端、可执行文件与动态加载",
+      "time": "00:44:47—00:45:40",
+      "source_pages": [
+        67,
+        68
+      ],
+      "path": "chapters/30/047.md",
+      "route": "lessons/30/047.html"
+    },
+    {
+      "lesson": 30,
+      "section": 48,
+      "title": "提前占据 libc 符号",
+      "time": "00:45:40—00:47:00",
+      "source_pages": [
+        69,
+        69
+      ],
+      "path": "chapters/30/048.md",
+      "route": "lessons/30/048.html"
+    },
+    {
+      "lesson": 30,
+      "section": 49,
+      "title": "变速齿轮与再一层操作系统",
+      "time": "00:47:00—00:47:40",
+      "source_pages": [
+        69,
+        70
+      ],
+      "path": "chapters/30/049.md",
+      "route": "lessons/30/049.html"
+    },
+    {
+      "lesson": 30,
+      "section": 50,
+      "title": "共享内存与多线程",
+      "time": "00:47:40—00:48:30",
+      "source_pages": [
+        71,
+        72
+      ],
+      "path": "chapters/30/050.md",
+      "route": "lessons/30/050.html"
+    },
+    {
+      "lesson": 30,
+      "section": 51,
+      "title": "并发控制与操作系统内核",
+      "time": "00:48:30—00:49:30",
+      "source_pages": [
+        73,
+        73
+      ],
+      "path": "chapters/30/051.md",
+      "route": "lessons/30/051.html"
+    },
+    {
+      "lesson": 30,
+      "section": 52,
+      "title": "并发错误与新的编程模型",
+      "time": "00:49:30—00:50:42",
+      "source_pages": [
+        73,
+        74
+      ],
+      "path": "chapters/30/052.md",
+      "route": "lessons/30/052.html"
+    },
+    {
+      "lesson": 30,
+      "section": 53,
+      "title": "设备寄存器与驱动程序",
+      "time": "00:50:42—00:51:45",
+      "source_pages": [
+        75,
+        75
+      ],
+      "path": "chapters/30/053.md",
+      "route": "lessons/30/053.html"
+    },
+    {
+      "lesson": 30,
+      "section": 54,
+      "title": "块设备、数据结构与崩溃安全",
+      "time": "00:51:45—00:52:31",
+      "source_pages": [
+        75,
+        75
+      ],
+      "path": "chapters/30/054.md",
+      "route": "lessons/30/054.html"
+    },
+    {
+      "lesson": 30,
+      "section": 55,
+      "title": "虚拟文件系统与 Galgame",
+      "time": "00:52:31—00:53:30",
+      "source_pages": [
+        76,
+        78
+      ],
+      "path": "chapters/30/055.md",
+      "route": "lessons/30/055.html"
+    },
+    {
+      "lesson": 30,
+      "section": 56,
+      "title": "用抽象屏蔽硬件复杂性",
+      "time": "00:53:30—00:54:30",
+      "source_pages": [
+        79,
+        80
+      ],
+      "path": "chapters/30/056.md",
+      "route": "lessons/30/056.html"
+    },
+    {
+      "lesson": 30,
+      "section": 57,
+      "title": "从应用需求选择抽象",
+      "time": "00:54:30—00:55:14",
+      "source_pages": [
+        81,
+        81
+      ],
+      "path": "chapters/30/057.md",
+      "route": "lessons/30/057.html"
+    },
+    {
+      "lesson": 30,
+      "section": 58,
+      "title": "Teaching is a powerful tool to learn",
+      "time": "00:55:14—00:56:31",
+      "source_pages": [
+        81,
+        83
+      ],
+      "path": "chapters/30/058.md",
+      "route": "lessons/30/058.html"
+    },
+    {
+      "lesson": 30,
+      "section": 59,
+      "title": "深蓝、算力与 Scaling law",
+      "time": "00:56:31—00:58:01",
+      "source_pages": [
+        83,
+        85
+      ],
+      "path": "chapters/30/059.md",
+      "route": "lessons/30/059.html"
+    },
+    {
+      "lesson": 30,
+      "section": 60,
+      "title": "存储的增长与 Google",
+      "time": "00:58:01—00:58:31",
+      "source_pages": [
+        86,
+        87
+      ],
+      "path": "chapters/30/060.md",
+      "route": "lessons/30/060.html"
+    },
+    {
+      "lesson": 30,
+      "section": 61,
+      "title": "CPU、GPU 与指数增长",
+      "time": "00:58:31—00:59:30",
+      "source_pages": [
+        88,
+        89
+      ],
+      "path": "chapters/30/061.md",
+      "route": "lessons/30/061.html"
+    },
+    {
+      "lesson": 30,
+      "section": 62,
+      "title": "模型参数、训练数据与收敛",
+      "time": "00:59:30—01:00:30",
+      "source_pages": [
+        90,
+        90
+      ],
+      "path": "chapters/30/062.md",
+      "route": "lessons/30/062.html"
+    },
+    {
+      "lesson": 30,
+      "section": 63,
+      "title": "从需求推导系统设计",
+      "time": "01:00:30—01:01:30",
+      "source_pages": [
+        90,
+        91
+      ],
+      "path": "chapters/30/063.md",
+      "route": "lessons/30/063.html"
+    },
+    {
+      "lesson": 30,
+      "section": 64,
+      "title": "从地址空间推导 ELF",
+      "time": "01:01:30—01:02:31",
+      "source_pages": [
+        92,
+        92
+      ],
+      "path": "chapters/30/064.md",
+      "route": "lessons/30/064.html"
+    },
+    {
+      "lesson": 30,
+      "section": 65,
+      "title": "重新设计，再与已有设计对照",
+      "time": "01:02:31—01:03:16",
+      "source_pages": [
+        92,
+        92
+      ],
+      "path": "chapters/30/065.md",
+      "route": "lessons/30/065.html"
+    },
+    {
+      "lesson": 30,
+      "section": 66,
+      "title": "Git 要解决什么问题",
+      "time": "01:03:16—01:04:00",
+      "source_pages": [
+        93,
+        93
+      ],
+      "path": "chapters/30/066.md",
+      "route": "lessons/30/066.html"
+    },
+    {
+      "lesson": 30,
+      "section": 67,
+      "title": "快照、commit DAG 与 worktree",
+      "time": "01:04:00—01:05:14",
+      "source_pages": [
+        93,
+        93
+      ],
+      "path": "chapters/30/067.md",
+      "route": "lessons/30/067.html"
+    },
+    {
+      "lesson": 30,
+      "section": 68,
+      "title": "AI 作业与自己的训练",
+      "time": "01:05:14—01:06:23",
+      "source_pages": [
+        94,
+        95
+      ],
+      "path": "chapters/30/068.md",
+      "route": "lessons/30/068.html"
+    },
+    {
+      "lesson": 30,
+      "section": 69,
+      "title": "预训练、后训练和推理的 Scaling",
+      "time": "01:06:23—01:07:31",
+      "source_pages": [
+        96,
+        97
+      ],
+      "path": "chapters/30/069.md",
+      "route": "lessons/30/069.html"
+    },
+    {
+      "lesson": 30,
+      "section": 70,
+      "title": "代码的反馈信号",
+      "time": "01:07:31—01:08:30",
+      "source_pages": [
+        97,
+        97
+      ],
+      "path": "chapters/30/070.md",
+      "route": "lessons/30/070.html"
+    },
+    {
+      "lesson": 30,
+      "section": 71,
+      "title": "Reasoning effort 与检查",
+      "time": "01:08:30—01:09:08",
+      "source_pages": [
+        98,
+        98
+      ],
+      "path": "chapters/30/071.md",
+      "route": "lessons/30/071.html"
+    },
+    {
+      "lesson": 30,
+      "section": 72,
+      "title": "为每个知识点出题的 Test-time scaling",
+      "time": "01:09:08—01:10:29",
+      "source_pages": [
+        98,
+        98
+      ],
+      "path": "chapters/30/072.md",
+      "route": "lessons/30/072.html"
+    },
+    {
+      "lesson": 30,
+      "section": 73,
+      "title": "枚举题解与 AGI 的判断",
+      "time": "01:10:29—01:11:01",
+      "source_pages": [
+        99,
+        100
+      ],
+      "path": "chapters/30/073.md",
+      "route": "lessons/30/073.html"
+    },
+    {
+      "lesson": 30,
+      "section": 74,
+      "title": "信息差、Agent 与教育",
+      "time": "01:11:01—01:12:09",
+      "source_pages": [
+        100,
+        100
+      ],
+      "path": "chapters/30/074.md",
+      "route": "lessons/30/074.html"
+    },
+    {
+      "lesson": 30,
+      "section": 75,
+      "title": "公开课、Genie 3 与变化的交互",
+      "time": "01:12:09—01:13:00",
+      "source_pages": [
+        100,
+        100
+      ],
+      "path": "chapters/30/075.md",
+      "route": "lessons/30/075.html"
+    },
+    {
+      "lesson": 30,
+      "section": 76,
+      "title": "课堂播放：Vibe OS 演示",
+      "time": "01:13:00—01:14:02",
+      "source_pages": [
+        101,
+        102
+      ],
+      "path": "chapters/30/076.md",
+      "route": "lessons/30/076.html"
+    },
+    {
+      "lesson": 30,
+      "section": 77,
+      "title": "Vibe OS 与 Hyper-V 启动",
+      "time": "01:14:02—01:14:59",
+      "source_pages": [
+        103,
+        106
+      ],
+      "path": "chapters/30/077.md",
+      "route": "lessons/30/077.html"
+    },
+    {
+      "lesson": 30,
+      "section": 78,
+      "title": "没有应用代码的计算器",
+      "time": "01:14:59—01:15:41",
+      "source_pages": [
+        107,
+        108
+      ],
+      "path": "chapters/30/078.md",
+      "route": "lessons/30/078.html"
+    },
+    {
+      "lesson": 30,
+      "section": 79,
+      "title": "生成的浏览器与维基页面",
+      "time": "01:15:41—01:16:41",
+      "source_pages": [
+        109,
+        110
+      ],
+      "path": "chapters/30/079.md",
+      "route": "lessons/30/079.html"
+    },
+    {
+      "lesson": 30,
+      "section": 80,
+      "title": "按需生成 Encarta",
+      "time": "01:16:41—01:17:28",
+      "source_pages": [
+        110,
+        112
+      ],
+      "path": "chapters/30/080.md",
+      "route": "lessons/30/080.html"
+    },
+    {
+      "lesson": 30,
+      "section": 81,
+      "title": "会挖苦用户的命令行",
+      "time": "01:17:28—01:18:09",
+      "source_pages": [
+        113,
+        114
+      ],
+      "path": "chapters/30/081.md",
+      "route": "lessons/30/081.html"
+    },
+    {
+      "lesson": 30,
+      "section": 82,
+      "title": "现场点播 Microsoft Money 95",
+      "time": "01:18:09—01:18:59",
+      "source_pages": [
+        115,
+        115
+      ],
+      "path": "chapters/30/082.md",
+      "route": "lessons/30/082.html"
+    },
+    {
+      "lesson": 30,
+      "section": 83,
+      "title": "Paint、肖像与 Copilot SDK",
+      "time": "01:18:59—01:19:41",
+      "source_pages": [
+        115,
+        117
+      ],
+      "path": "chapters/30/083.md",
+      "route": "lessons/30/083.html"
+    },
+    {
+      "lesson": 30,
+      "section": 84,
+      "title": "嵌套操作系统与 iOS 界面",
+      "time": "01:19:41—01:20:30",
+      "source_pages": [
+        118,
+        119
+      ],
+      "path": "chapters/30/084.md",
+      "route": "lessons/30/084.html"
+    },
+    {
+      "lesson": 30,
+      "section": 85,
+      "title": "回到课堂：未来取决于想象力",
+      "time": "01:20:30—01:21:22",
+      "source_pages": [
+        120,
+        121
+      ],
+      "path": "chapters/30/085.md",
+      "route": "lessons/30/085.html"
+    },
+    {
+      "lesson": 30,
+      "section": 86,
+      "title": "课程的延续与新课计划",
+      "time": "01:21:22—01:22:43",
+      "source_pages": [
+        122,
+        122
+      ],
+      "path": "chapters/30/086.md",
+      "route": "lessons/30/086.html"
+    },
+    {
+      "lesson": 30,
+      "section": 87,
+      "title": "保研、大厂与自己的位置",
+      "time": "01:22:43—01:23:36",
+      "source_pages": [
+        122,
+        122
+      ],
+      "path": "chapters/30/087.md",
+      "route": "lessons/30/087.html"
+    },
+    {
+      "lesson": 30,
+      "section": 88,
+      "title": "变化时代与没有边界的梦想",
+      "time": "01:23:36—01:24:24",
+      "source_pages": [
+        123,
+        123
+      ],
+      "path": "chapters/30/088.md",
+      "route": "lessons/30/088.html"
+    }
+  ]
+}

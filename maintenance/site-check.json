@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "html_pages": 943,
+  "reading_pages": 942,
+  "errors": [],
+  "scope": "Static href/src, HTML anchors, image alt presence, canonical h1 and prev/next paths. Excludes remote URLs, CSS URLs, srcset, JavaScript behavior and content accuracy."
+}

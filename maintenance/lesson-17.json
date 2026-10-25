@@ -1,0 +1,336 @@
+{
+  "number": 17,
+  "title": "并发 Bugs 和应对",
+  "source": "https://www.bilibili.com/video/BV1Jg96BjE68/",
+  "pdf": "17 - 并发 Bugs 和应对 [2026 南京大学操作系统原理].pdf",
+  "pdf_pages": 107,
+  "images": 69,
+  "text_lines": 765,
+  "code_blocks": 8,
+  "sections": [
+    {
+      "lesson": 17,
+      "section": 1,
+      "title": "期中测验安排",
+      "time": "00:00:00—00:00:44",
+      "source_pages": [
+        4,
+        5
+      ],
+      "path": "chapters/17/001.md",
+      "route": "lessons/17/001.html"
+    },
+    {
+      "lesson": 17,
+      "section": 2,
+      "title": "从并发机制回到顺序执行的直觉",
+      "time": "00:00:44—00:02:53",
+      "source_pages": [
+        5,
+        5
+      ],
+      "path": "chapters/17/002.md",
+      "route": "lessons/17/002.html"
+    },
+    {
+      "lesson": 17,
+      "section": 3,
+      "title": "死锁与同一线程重复获得一把锁",
+      "time": "00:02:53—00:05:32",
+      "source_pages": [
+        6,
+        10
+      ],
+      "path": "chapters/17/003.md",
+      "route": "lessons/17/003.html"
+    },
+    {
+      "lesson": 17,
+      "section": 4,
+      "title": "AA 型死锁演示与观察 AI 写代码",
+      "time": "00:05:32—00:10:22",
+      "source_pages": [
+        11,
+        15
+      ],
+      "path": "chapters/17/004.md",
+      "route": "lessons/17/004.html"
+    },
+    {
+      "lesson": 17,
+      "section": 5,
+      "title": "ABBA：线程之间的循环等待",
+      "time": "00:10:22—00:12:30",
+      "source_pages": [
+        16,
+        19
+      ],
+      "path": "chapters/17/005.md",
+      "route": "lessons/17/005.html"
+    },
+    {
+      "lesson": 17,
+      "section": 6,
+      "title": "死锁发生的四个必要条件",
+      "time": "00:12:30—00:15:21",
+      "source_pages": [
+        19,
+        21
+      ],
+      "path": "chapters/17/006.md",
+      "route": "lessons/17/006.html"
+    },
+    {
+      "lesson": 17,
+      "section": 7,
+      "title": "从百科表述谈到中文语料和 tokenizer",
+      "time": "00:15:21—00:18:35",
+      "source_pages": [
+        21,
+        26
+      ],
+      "path": "chapters/17/007.md",
+      "route": "lessons/17/007.html"
+    },
+    {
+      "lesson": 17,
+      "section": 8,
+      "title": "逐条考虑打破条件的代价",
+      "time": "00:18:35—00:24:01",
+      "source_pages": [
+        26,
+        30
+      ],
+      "path": "chapters/17/008.md",
+      "route": "lessons/17/008.html"
+    },
+    {
+      "lesson": 17,
+      "section": 9,
+      "title": "Lock ordering 为什么能避免循环等待",
+      "time": "00:24:01—00:27:19",
+      "source_pages": [
+        30,
+        33
+      ],
+      "path": "chapters/17/009.md",
+      "route": "lessons/17/009.html"
+    },
+    {
+      "lesson": 17,
+      "section": 10,
+      "title": "内核中的锁顺序与文档的局限",
+      "time": "00:27:19—00:29:37",
+      "source_pages": [
+        34,
+        38
+      ],
+      "path": "chapters/17/010.md",
+      "route": "lessons/17/010.html"
+    },
+    {
+      "lesson": 17,
+      "section": 11,
+      "title": "防御性编程、资源清理与 RAII",
+      "time": "00:29:37—00:34:06",
+      "source_pages": [
+        38,
+        40
+      ],
+      "path": "chapters/17/011.md",
+      "route": "lessons/17/011.html"
+    },
+    {
+      "lesson": 17,
+      "section": 12,
+      "title": "从不信任程序员到检查上锁顺序",
+      "time": "00:34:06—00:38:02",
+      "source_pages": [
+        41,
+        42
+      ],
+      "path": "chapters/17/012.md",
+      "route": "lessons/17/012.html"
+    },
+    {
+      "lesson": 17,
+      "section": 13,
+      "title": "LD_PRELOAD、锁依赖图和 LockDep 演示",
+      "time": "00:38:02—00:42:30",
+      "source_pages": [
+        42,
+        53
+      ],
+      "path": "chapters/17/013.md",
+      "route": "lessons/17/013.html"
+    },
+    {
+      "lesson": 17,
+      "section": 14,
+      "title": "数据竞争：读写的快慢改变结果",
+      "time": "00:42:30—00:46:55",
+      "source_pages": [
+        54,
+        59
+      ],
+      "path": "chapters/17/014.md",
+      "route": "lessons/17/014.html"
+    },
+    {
+      "lesson": 17,
+      "section": 15,
+      "title": "常见错误：上错锁和忘记上锁",
+      "time": "00:46:55—00:49:45",
+      "source_pages": [
+        59,
+        63
+      ],
+      "path": "chapters/17/015.md",
+      "route": "lessons/17/015.html"
+    },
+    {
+      "lesson": 17,
+      "section": 16,
+      "title": "线程迁移、中断返回与栈上的数据竞争",
+      "time": "00:49:45—00:53:40",
+      "source_pages": [
+        63,
+        65
+      ],
+      "path": "chapters/17/016.md",
+      "route": "lessons/17/016.html"
+    },
+    {
+      "lesson": 17,
+      "section": 17,
+      "title": "把内存访问和锁操作画成 happens-before 图",
+      "time": "00:53:40—00:56:15",
+      "source_pages": [
+        66,
+        69
+      ],
+      "path": "chapters/17/017.md",
+      "route": "lessons/17/017.html"
+    },
+    {
+      "lesson": 17,
+      "section": 18,
+      "title": "ThreadSanitizer 的现场尝试",
+      "time": "00:56:15—01:00:30",
+      "source_pages": [
+        69,
+        76
+      ],
+      "path": "chapters/17/018.md",
+      "route": "lessons/17/018.html"
+    },
+    {
+      "lesson": 17,
+      "section": 19,
+      "title": "程序分析工具与 AI 协作",
+      "time": "01:00:30—01:02:30",
+      "source_pages": [
+        77,
+        78
+      ],
+      "path": "chapters/17/019.md",
+      "route": "lessons/17/019.html"
+    },
+    {
+      "lesson": 17,
+      "section": 20,
+      "title": "Therac-25：伤人性命的并发 bug",
+      "time": "01:02:30—01:04:30",
+      "source_pages": [
+        78,
+        82
+      ],
+      "path": "chapters/17/020.md",
+      "route": "lessons/17/020.html"
+    },
+    {
+      "lesson": 17,
+      "section": 21,
+      "title": "模拟器里的异步移动、告警和继续操作",
+      "time": "01:04:30—01:06:45",
+      "source_pages": [
+        82,
+        88
+      ],
+      "path": "chapters/17/021.md",
+      "route": "lessons/17/021.html"
+    },
+    {
+      "lesson": 17,
+      "section": 22,
+      "title": "软件状态与物理状态之间的缺口",
+      "time": "01:06:45—01:09:30",
+      "source_pages": [
+        89,
+        91
+      ],
+      "path": "chapters/17/022.md",
+      "route": "lessons/17/022.html"
+    },
+    {
+      "lesson": 17,
+      "section": 23,
+      "title": "顺序执行直觉与原子性、顺序违反",
+      "time": "01:09:30—01:14:30",
+      "source_pages": [
+        91,
+        95
+      ],
+      "path": "chapters/17/023.md",
+      "route": "lessons/17/023.html"
+    },
+    {
+      "lesson": 17,
+      "section": 24,
+      "title": "真实系统中的并发 bugs 与 ABA",
+      "time": "01:14:30—01:17:40",
+      "source_pages": [
+        96,
+        99
+      ],
+      "path": "chapters/17/024.md",
+      "route": "lessons/17/024.html"
+    },
+    {
+      "lesson": 17,
+      "section": 25,
+      "title": "TOCTTOU：检查与使用之间文件变了",
+      "time": "01:17:40—01:21:00",
+      "source_pages": [
+        100,
+        101
+      ],
+      "path": "chapters/17/025.md",
+      "route": "lessons/17/025.html"
+    },
+    {
+      "lesson": 17,
+      "section": 26,
+      "title": "顺序违反、use-after-free 与 GhostRace",
+      "time": "01:21:00—01:25:30",
+      "source_pages": [
+        101,
+        105
+      ],
+      "path": "chapters/17/026.md",
+      "route": "lessons/17/026.html"
+    },
+    {
+      "lesson": 17,
+      "section": 27,
+      "title": "让程序的执行过程能够解释和审计",
+      "time": "01:25:30—01:28:49",
+      "source_pages": [
+        106,
+        107
+      ],
+      "path": "chapters/17/027.md",
+      "route": "lessons/17/027.html"
+    }
+  ]
+}
