@@ -1,0 +1,506 @@
+{
+  "lesson": 30,
+  "status": "reviewed_with_fixes",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/30/001.md",
+    "chapters/30/002.md",
+    "chapters/30/003.md",
+    "chapters/30/004.md",
+    "chapters/30/005.md",
+    "chapters/30/006.md",
+    "chapters/30/007.md",
+    "chapters/30/008.md",
+    "chapters/30/009.md",
+    "chapters/30/010.md",
+    "chapters/30/011.md",
+    "chapters/30/012.md",
+    "chapters/30/013.md",
+    "chapters/30/014.md",
+    "chapters/30/015.md",
+    "chapters/30/016.md",
+    "chapters/30/017.md",
+    "chapters/30/018.md",
+    "chapters/30/019.md",
+    "chapters/30/020.md",
+    "chapters/30/021.md",
+    "chapters/30/022.md",
+    "chapters/30/023.md",
+    "chapters/30/024.md",
+    "chapters/30/025.md",
+    "chapters/30/026.md",
+    "chapters/30/027.md",
+    "chapters/30/028.md",
+    "chapters/30/029.md",
+    "chapters/30/030.md",
+    "chapters/30/031.md",
+    "chapters/30/032.md",
+    "chapters/30/033.md",
+    "chapters/30/034.md",
+    "chapters/30/035.md",
+    "chapters/30/036.md",
+    "chapters/30/037.md",
+    "chapters/30/038.md",
+    "chapters/30/039.md",
+    "chapters/30/040.md",
+    "chapters/30/041.md",
+    "chapters/30/042.md",
+    "chapters/30/043.md",
+    "chapters/30/044.md",
+    "chapters/30/045.md",
+    "chapters/30/046.md",
+    "chapters/30/047.md",
+    "chapters/30/048.md",
+    "chapters/30/049.md",
+    "chapters/30/050.md",
+    "chapters/30/051.md",
+    "chapters/30/052.md",
+    "chapters/30/053.md",
+    "chapters/30/054.md",
+    "chapters/30/055.md",
+    "chapters/30/056.md",
+    "chapters/30/057.md",
+    "chapters/30/058.md",
+    "chapters/30/059.md",
+    "chapters/30/060.md",
+    "chapters/30/061.md",
+    "chapters/30/062.md",
+    "chapters/30/063.md",
+    "chapters/30/064.md",
+    "chapters/30/065.md",
+    "chapters/30/066.md",
+    "chapters/30/067.md",
+    "chapters/30/068.md",
+    "chapters/30/069.md",
+    "chapters/30/070.md",
+    "chapters/30/071.md",
+    "chapters/30/072.md",
+    "chapters/30/073.md",
+    "chapters/30/074.md",
+    "chapters/30/075.md",
+    "chapters/30/076.md",
+    "chapters/30/077.md",
+    "chapters/30/078.md",
+    "chapters/30/079.md",
+    "chapters/30/080.md",
+    "chapters/30/081.md",
+    "chapters/30/082.md",
+    "chapters/30/083.md",
+    "chapters/30/084.md",
+    "chapters/30/085.md",
+    "chapters/30/086.md",
+    "chapters/30/087.md",
+    "chapters/30/088.md"
+  ],
+  "scope": "独立复核全部88节；逐节完整通读baseline原稿和当前润色稿，逐段核对信息、条件、否定、范围、归因、说话者和段落衔接；仅对明确语义偏移作局部散文修复。",
+  "findings": [
+    {
+      "path": "chapters/30/003.md",
+      "kind": "判断强度",
+      "finding": "“公理、一定有办法”被改为“应该”。",
+      "fix": "恢复讲述者关于合理应用需求一定有实现办法的原判断，并保留其归属。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/004.md",
+      "kind": "段落关系",
+      "finding": "原稿从移动系统封装联想到早期Unix，润色稿明确改成“有所不同”。",
+      "fix": "改为“让人想到”，保留向早期Unix的原有衔接，避免另下相反的比较判断。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/007.md",
+      "kind": "不确定性",
+      "finding": "“最早可能只有一个处理器”被写成确定陈述。",
+      "fix": "恢复“可能”。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/008.md",
+      "kind": "时间范围",
+      "finding": "短期内为考试记住、将来遗忘，被改为短期内遗忘。",
+      "fix": "恢复短期修饰记忆行为、将来修饰遗忘的关系。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/009.md",
+      "kind": "适用范围",
+      "finding": "“每种机制都有demo”增加原稿没有明确给出的全称范围。",
+      "fix": "改为课堂上有相应的code demo。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/022.md",
+      "kind": "结果限定",
+      "finding": "复习效果“可能没有起到”变成“达不到”。",
+      "fix": "恢复结果的“可能”限定。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/023.md",
+      "kind": "施事者",
+      "finding": "提问中的“我会出什么题”被改为“AI会出什么题”。",
+      "fix": "恢复讲述者为问题所指的出题者。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/025.md",
+      "kind": "状态与对象",
+      "finding": "fork复制状态中的操作系统对象，只被写成“需要考虑”。",
+      "fix": "明确复制涉及应用运行时库的全部状态，以及进程对操作系统对象的持有关系；与026父子持有同一对象衔接，未宣称底层对象各克隆一份。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/035.md",
+      "kind": "操作对象",
+      "finding": "每位同学生成两套试卷，被写成“每人做两套”，容易读成答卷。",
+      "fix": "明确为每人生成两套。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/038.md",
+      "kind": "个人经历",
+      "finding": "原稿忘带Hanoi模型的经历被删掉。",
+      "fix": "在实物递归演示之前恢复忘带模型的原有说明。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/039.md",
+      "kind": "课程名称",
+      "finding": "“计算机系统基础课”被改为“计组课”。",
+      "fix": "恢复原课程名称。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/048.md",
+      "kind": "范围",
+      "finding": "替换所有系统调用实现，缩成“替换这些”。",
+      "fix": "恢复“所有”范围，保留原讲述模型。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/049.md",
+      "kind": "范围",
+      "finding": "变速齿轮改变所有时间相关系统调用的范围被省去。",
+      "fix": "明确为所有时间相关调用，gettimeofday和alarm仍作为例子。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/053.md",
+      "kind": "完成状态",
+      "finding": "讲解过的设备被写成已访问过。",
+      "fix": "保留写过驱动的状态，把设备范围写回讲过，避免额外断言运行经历。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/059.md",
+      "kind": "判断强度",
+      "finding": "原讲述“统治业余互联网象棋”被弱化成占据优势。",
+      "fix": "恢复原讲述的判断强度，未用外部事实重新裁定。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/072.md",
+      "kind": "新增读者经验",
+      "finding": "添加了题解思路让读者感到熟悉的引导性判断。",
+      "fix": "改为回想怎样阅读题解，保留原稿引向高三题解的衔接。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/075.md",
+      "kind": "预测范围",
+      "finding": "“最适合”和未来不再需要服从性考试，被缩成适合、减少。",
+      "fix": "恢复最适合和不必再接受该种学习方式的预测，承接开头的未来可能语境。",
+      "status": "fixed"
+    },
+    {
+      "path": "chapters/30/080.md",
+      "kind": "独立演示信息",
+      "finding": "定制Encarta列出许多关于Mark的事实与数字，被省去。",
+      "fix": "恢复该演示信息，随后“假设是真的、自己也不知道”仍保留。",
+      "status": "fixed"
+    }
+  ],
+  "fixes": {
+    "sections_modified": 18,
+    "paths": [
+      "chapters/30/003.md",
+      "chapters/30/004.md",
+      "chapters/30/007.md",
+      "chapters/30/008.md",
+      "chapters/30/009.md",
+      "chapters/30/022.md",
+      "chapters/30/023.md",
+      "chapters/30/025.md",
+      "chapters/30/035.md",
+      "chapters/30/038.md",
+      "chapters/30/039.md",
+      "chapters/30/048.md",
+      "chapters/30/049.md",
+      "chapters/30/053.md",
+      "chapters/30/059.md",
+      "chapters/30/072.md",
+      "chapters/30/075.md",
+      "chapters/30/080.md"
+    ]
+  },
+  "specific_checks": [
+    "039—041的Simple C、顺序执行意义下的X++优化、当前模型中的syscall边界连续可读，没有扩展成所有真实编译器的无条件普遍断言。",
+    "025—026保留6/8、buffer、运行时库全部状态、对象持有关系及父子持有同一操作系统对象的说明。",
+    "029的20分与十几分说明、031持锁返回的错误代码、072的100个知识点均保留。",
+    "069的Anthropic绝版书传闻仍有“据说”“按这个说法”；073—075的AGI和教育预测仍属讲述者观点和未来语境。",
+    "076—084中文译写身份说明、角色标记和原有名字保持；独立检查合并连续同角色后的切换序列，与baseline一致。",
+    "078保留原演示5除以3显示1.6，没有用数学答案覆盖；079照片的不确定性与080假设真实但不知道的限定保留。",
+    "085回到课堂讲述者，086的新课、内容延续和国产模型保持计划状态。"
+  ],
+  "verification": {
+    "audit_command": "/Users/welch/anaconda3/bin/python scripts/audit_editorial.py --lessons 30 --report maintenance/editorial/lesson-30-second-check.json",
+    "audit_status": "passed",
+    "protected_errors": [],
+    "number_differences": [],
+    "term_prompt_sections_reviewed": 28,
+    "speaker_sequence": "076—084合并连续同角色后，全部一致"
+  },
+  "reviewed_term_prompts": [
+    {
+      "path": "chapters/30/004.md",
+      "removed": [
+        "agent"
+      ],
+      "added": [],
+      "review": "agent/Agent大小写差异，概念保留。"
+    },
+    {
+      "path": "chapters/30/007.md",
+      "removed": [
+        "overview"
+      ],
+      "added": [],
+      "review": "overview译为概括。"
+    },
+    {
+      "path": "chapters/30/008.md",
+      "removed": [
+        "battle",
+        "somehow"
+      ],
+      "added": [],
+      "review": "battle译为讨论；somehow为口头插语。"
+    },
+    {
+      "path": "chapters/30/010.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/012.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/018.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [
+        "AI"
+      ],
+      "review": "代词依上下文明确为AI；删除OK。"
+    },
+    {
+      "path": "chapters/30/020.md",
+      "removed": [
+        "collect",
+        "ok",
+        "tap"
+      ],
+      "added": [],
+      "review": "collect译为收集，tap译为串接；删除ok。"
+    },
+    {
+      "path": "chapters/30/021.md",
+      "removed": [
+        "AI"
+      ],
+      "added": [],
+      "review": "AI所指在上下文明确为Coding Agent，未改变未试过状态。"
+    },
+    {
+      "path": "chapters/30/022.md",
+      "removed": [
+        "list"
+      ],
+      "added": [],
+      "review": "list译为列出，to-do步骤保留。"
+    },
+    {
+      "path": "chapters/30/024.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/025.md",
+      "removed": [
+        "library"
+      ],
+      "added": [
+        "AI"
+      ],
+      "review": "library译为运行时库，AI指向明确且保留我猜。"
+    },
+    {
+      "path": "chapters/30/026.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/028.md",
+      "removed": [
+        "OK",
+        "get"
+      ],
+      "added": [],
+      "review": "get译为抓住思路；删除OK。"
+    },
+    {
+      "path": "chapters/30/031.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/032.md",
+      "removed": [
+        "ok"
+      ],
+      "added": [],
+      "review": "删除无信息ok口头插语。"
+    },
+    {
+      "path": "chapters/30/036.md",
+      "removed": [
+        "through",
+        "walk"
+      ],
+      "added": [
+        "code"
+      ],
+      "review": "walk through译为逐一回顾；代码demo表述统一为code demo。"
+    },
+    {
+      "path": "chapters/30/039.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/041.md",
+      "removed": [
+        "X++"
+      ],
+      "added": [],
+      "review": "重复的X++例子已在040保留，此节继续说明System Call边界。"
+    },
+    {
+      "path": "chapters/30/043.md",
+      "removed": [
+        "OS"
+      ],
+      "added": [],
+      "review": "OS译为操作系统。"
+    },
+    {
+      "path": "chapters/30/047.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/057.md",
+      "removed": [
+        "OK",
+        "systems"
+      ],
+      "added": [],
+      "review": "systems主题已在056表明，删重复引子；删除OK。"
+    },
+    {
+      "path": "chapters/30/059.md",
+      "removed": [
+        "lecture"
+      ],
+      "added": [],
+      "review": "lecture译为课程。"
+    },
+    {
+      "path": "chapters/30/062.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/063.md",
+      "removed": [
+        "message"
+      ],
+      "added": [],
+      "review": "message为引出观点的口头表述，观点保留。"
+    },
+    {
+      "path": "chapters/30/064.md",
+      "removed": [
+        "memory"
+      ],
+      "added": [],
+      "review": "memory译为人的记忆负担。"
+    },
+    {
+      "path": "chapters/30/070.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "删除无信息OK口头插语。"
+    },
+    {
+      "path": "chapters/30/079.md",
+      "removed": [
+        "Google"
+      ],
+      "added": [],
+      "review": "Google搜索过程保留，地址google.com保留，删除重复品牌词。"
+    },
+    {
+      "path": "chapters/30/088.md",
+      "removed": [
+        "scale"
+      ],
+      "added": [],
+      "review": "scale译为增长，三类Scaling名称保留。"
+    }
+  ],
+  "known_limits": [
+    "未重新听录、未进行外部事实核验；技术、历史、预测主张按原讲述保留，未借外部知识静默修正。",
+    "原有听辨缺口、源图和原示例错误保留；未运行课堂示例程序。"
+  ]
+}

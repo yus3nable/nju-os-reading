@@ -1,0 +1,43 @@
+{
+  "lesson": 9,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/09/001.md",
+    "chapters/09/002.md",
+    "chapters/09/003.md",
+    "chapters/09/004.md",
+    "chapters/09/005.md",
+    "chapters/09/006.md",
+    "chapters/09/007.md",
+    "chapters/09/008.md",
+    "chapters/09/009.md",
+    "chapters/09/010.md",
+    "chapters/09/011.md",
+    "chapters/09/012.md",
+    "chapters/09/013.md",
+    "chapters/09/014.md"
+  ],
+  "scope": "001沿用前代理已完成的逐段润色；本次逐节通读并逐段润色002—014，对照原文核查独立信息、原序、条件、否定、范围、归因、数值及不确定性。",
+  "reviewed_differences": [
+    "001沿用已有完成记录：保留3月30号/昨天、缺include导致提交环境变量缺失、COURSE/MODULE/token、Online Judge预计开放但尚未确认、AI练习与考试责任；本次未改写001。",
+    "002保留进程/内存/对象访问接口、6587及proc/mem、PTS与手册管道、非阻塞/信号、五万多个手册、Lynx/Socket/HTML与libc生态原序。minimal译为最小，OK为无信息口头插语。",
+    "003保留SimpleC、所有语言具有FFI的原课范围、Python mmap/CPython双向调用、foo/x/y、RDI/RSI、ABI及X86代码在ARM编译失败；仅删除OK。",
+    "004保留DSL设计缘由、格式占位、等号/加号读写约束、X0至X5与clobber、漏报副作用及编译器升级触发、2019年论文经历、Self Play与点积例子。aggressive译为积极，tedious译为繁琐，OK删除。",
+    "005保留1950/1970/2010年代推进、结构化设计与refine、ISO C/POSIX、dependency风险、1KB/16/32bit、所有原平台与工具集名；C语言生态原课判断未外部校正。",
+    "006保留Sonnet 3.7失败/手工Fix与2026年变化、glibc调试历史、musl/Bionic候选、TAR核弹笑话、豆包编译、版本包名、4096与-g3/静态调试。stdio含义保留在stdio.h，Anyway/OK删除。",
+    "007保留Int/Long字长、int64_t/int32_t/intptr_t、hosted/freestanding、PRI宏展开、ab写法、offsetof零指针演示和原课合法性判断、stdarg及32位/现代参数传递。call/cast分别译为调用/强制转换，members以成员表述。",
+    "008保留随机seed重复序列、atoi/qsort比较函数结构体、sine/cosine与IEEE 754/NaN比较、输出1；必要的比较否定完整保留。",
+    "009保留非递归tower of Hanoi、main/f1/f2与xx、栈高度3/h/pc、100/10000函数、goto资源释放、协程实验、setjmp返回0与longjmp返回42、宿舍/教学楼/逸夫楼/食堂例子。",
+    "010保留fd/pipefd/pid、buffer与函数指针后端、sprintf FILE、printf/fprintf/stdout/va_list/printf_core；按同段只有一份代码的明确含义将口误减少代码复用顺为通过代码复用。",
+    "011保留atexit临时文件及异常退出容忍、SIGABRT/SIGINT/core dump与磁心来源、system开销、popen单向与两个FILE*取舍。python规范为Python，OK删除。",
+    "012保留fork返回PID/零/负1、EAGAIN/ENOMEM、EACCES/EEXIST与O_CREAT的原课叙述、LANGUAGE、三个文件重试、perror/errno；system error message自然译为错误信息，无API删除。",
+    "013保留exec族e/envp与默认继承、LANGUAGE进程树、end赋NULL、environ地址及取址类型、0x420108、8个bit改口8个byte、watchpoint命令失败与缺源码演示、__init_libc赋值。仅删除OK。",
+    "014保留_start/_start_c/CRT入口、argc/argv/envp计算、System V初始栈、crt对象名、Arm64/0x400168、main返回后atexit/flush/_Exit，所有受保护内容与图序原样。",
+    "全课数值检查均无增删；术语提示逐项核查，命令/API/专名/示例变量及听辨标记保持。protected_errors为空。"
+  ],
+  "known_limits": [
+    "本次为阅读版语义润色，未运行原课代码，未以外部资料验证或改写原课技术主张。",
+    "保留原课关于musl/Linux/POSIX、Int/Long字长、offsetof零地址操作合法性、EAGAIN稍后肯定成功、EEXIST/O_CREAT、信号退出值与_Exit系统调用等陈述；技术细节如需勘误应另行依据原课与来源核验。"
+  ]
+}

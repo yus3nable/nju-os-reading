@@ -1,0 +1,85 @@
+{
+  "status": "reviewed_and_fixed",
+  "repairs": [
+    {
+      "path": "chapters/21/035.md",
+      "resolution": "将Scaling Law只证明Transformer与可能在长上下文上比LSTM更好合成完整句；词义、限定、数值保持。"
+    }
+  ],
+  "remaining_candidates": [],
+  "reviewed_code_labels": [
+    {
+      "path": "chapters/09/001.md",
+      "tail": "课件中的 Makefile 片段"
+    },
+    {
+      "path": "chapters/09/002.md",
+      "tail": "终端中的命令"
+    },
+    {
+      "path": "chapters/09/003.md",
+      "tail": "课件中的退出程序"
+    },
+    {
+      "path": "chapters/09/004.md",
+      "tail": "课件中的内联汇编片段"
+    },
+    {
+      "path": "chapters/09/006.md",
+      "tail": "dummy.c"
+    },
+    {
+      "path": "chapters/09/007.md",
+      "tail": "inttypes.c 中的格式宏片段"
+    },
+    {
+      "path": "chapters/09/007.md",
+      "tail": "预处理后的一行代码"
+    },
+    {
+      "path": "chapters/09/007.md",
+      "tail": "现场尚未写完的声明"
+    },
+    {
+      "path": "chapters/09/008.md",
+      "tail": "现场草写片段，类型声明与结尾尚未补全"
+    },
+    {
+      "path": "chapters/09/008.md",
+      "tail": "nan.c 的比较与打印片段"
+    },
+    {
+      "path": "chapters/09/009.md",
+      "tail": "setjmp.c 中的 second 函数"
+    },
+    {
+      "path": "chapters/09/009.md",
+      "tail": "终端中的运行结果"
+    },
+    {
+      "path": "chapters/09/013.md",
+      "tail": "env.c 中新增的三行"
+    },
+    {
+      "path": "chapters/09/013.md",
+      "tail": "GDB 中两次缩写命令失败后设置观察点"
+    },
+    {
+      "path": "chapters/09/014.md",
+      "tail": "crt1.c 中的 _start_c"
+    },
+    {
+      "path": "chapters/09/014.md",
+      "tail": "__libc_start_main 中的初始化片段"
+    },
+    {
+      "path": "chapters/09/014.md",
+      "tail": "libc_start_main_stage2 结尾"
+    },
+    {
+      "path": "chapters/09/014.md",
+      "tail": "exit 结尾的清理与退出"
+    }
+  ],
+  "resolution": "代码前的短标签或文件名保留；21/035的实际半句已修复。"
+}

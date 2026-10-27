@@ -1,0 +1,29 @@
+{
+  "lesson": 5,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/05/001.md",
+    "chapters/05/002.md",
+    "chapters/05/003.md",
+    "chapters/05/004.md",
+    "chapters/05/005.md",
+    "chapters/05/006.md",
+    "chapters/05/007.md"
+  ],
+  "scope": "通读七节并逐段语义改写全部散文，保留原讲述顺序、第一人称、程序语义、演示出错与修复、条件及归因。",
+  "reviewed_differences": [
+    "七节数值审计均无新增或删除；保留型号、版本、模型参数规模、循环次数与寄存器值，以及所有路径和命令。",
+    "001：clarifications 译为澄清；VGA 到 RS-232 的口头纠正和并行口的猜测继续保留。",
+    "002：OK 为插语删除，raise question 自然译为提出问题；保留无全局状态限制、GNU Make 删除中间文件的发现与 .PRECIOUS 修复、round robin 策略和 69/61 循环差异。",
+    "003：fundamental、comprehensive 分别译为基本、全面，OK 删除；Prompt Engineering 的感叹合入实际 strace 追问操作。程序/进程、独立副本、操作系统状态、procfs 两条查询途径和模型可信性归因保留。",
+    "004：ABC 连写改为 A、B、C 分列，Process 自然译为进程；OK 删除，unix 已保留。PID 100 万的应该限定、根进程 PPID 设计选项、托孤、fork 仍在调试的状态保留。",
+    "005：未新增英文术语；保留 fork bomb 的原有解释，未添加执行步骤；素数表只读共享、Android 首机有无 Zygote 的不确定性、DFS 各步路径和故障快照例子完整保留。",
+    "006：debug、systems 自然译为调试、系统；OK 删除。保留先得 6、wc 得 8、模型实验后再得 6 的顺序，展开后的 PC/i 状态和缓冲区复制推导保留。",
+    "007：shell 的重复指代改为环境变量操作本身；OK 删除。保留 execve 参数/环境、43 到 45、继承 API key 风险的条件与不确定性，以及 PATH 顺序失败与成功、fork/execve/exit 的区别。",
+    "所有 protected_errors 为空；受保护 front matter、标题、围栏代码、行内代码、图片图注、链接和听辨标记逐字保留。"
+  ],
+  "known_limits": [
+    "未重新听录音频、未运行程序；原讲述中 fork/OOM、系统状态、Zygote 与环境继承等技术主张按原稿保留，未自行验证或纠正。"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "lesson": 10,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/10/001.md",
+    "chapters/10/002.md",
+    "chapters/10/003.md",
+    "chapters/10/004.md",
+    "chapters/10/005.md",
+    "chapters/10/006.md",
+    "chapters/10/007.md",
+    "chapters/10/008.md",
+    "chapters/10/009.md",
+    "chapters/10/010.md",
+    "chapters/10/011.md",
+    "chapters/10/012.md"
+  ],
+  "scope": "逐节通读001—012，逐段进行阅读版语义润色，清理口头重复与无信息控场，理顺跨PDF换页语句；核对独立信息、原序、数值、术语、条件、否定、比较、归因及不确定性。",
+  "reviewed_differences": [
+    "001保留Online Judge已发布而旧提交应该完成评测的状态、reject与空测试/角色扮演、豆包编译安装报告与实际apt版本不一致、复核不足及后续逐命令确认；仅删OK。",
+    "002保留syscall对象访问和svc例外预告、write三个参数、FILE与Unix、freestanding从0接管、main签名考试经历及入口代码、两种FFI与不绝对严谨限定、Pico/手表/手环的平台抽象。minimal译为最小，OK删除。",
+    "003保留-g到系统glibc仍无源码的失败、静态musl成功、ELF节/GOT/PLT/DWARF、命名梗、符号表与PC/源行/优化限制、全部地址与addr2line参数、寄存器/算术/优化掉变量和C++展开。elf在ELF命名梗中保留含义，lib以库文件译述，OK删除。",
+    "004保留-O1/-Og/-ggdb与ASFLAGS/CFLAGS抢救、C调试信息不含源码的明确说明、TypeScript逐级transpiler/async/20年前兼容、浏览器沙盒与Next.js、五十几兆cli.js.map、Vim与死代码不确定性、依赖投毒安装不确定性、credentials/check in/Agent扫描局限。",
+    "005保留RDI/RSI/RIP/argc/低32位、32个一位bit field、bt恢复完整栈、musl与glibc静态strace差异、每一毫秒均匀采样/火焰图原课解释/perfetto、快照/改PC、use-after-free与Sanitizer。所有数值、变量和受保护示例保留。",
+    "006保留dummy返回1、_start无源码与_start_c/p[0]/argv/envp推导、负1/0与VS Code环境、ARM64而非x86、AI图高低地址写反、26行environ赋值、辅助向量、stage2/exit/_Exit全过程。for译述循环，AI泛称具体为豆包，OK删除。",
+    "007保留gdb/IDE选择、LSP、树莓派键盘无F11/鼠标操作、musl1.2.6/src/stdio、X=%d、buffer空/1024/fd1、printf_core试探检查与实际输出、一次writev；删除无信息的剪视频旁白。",
+    "008保留cdecl栈数组仅适用x86-32、x86-64/ARM/RISC-V寄存器传参、所有不同参数值与w0/w1/w6/w7/0xb、x1/x2到sp+56、x3/x4到sp+72、va_arg参数数据结构。",
+    "009保留昨天/AI实验、宿舍例子、x0到x28两次不同值、其余寄存器不能乱改、buffer/x0与x19到x30保存、x0到x18不恢复和x19到x28恢复、puts/fputs/fwrite、caller-saved/callee-saved/call-clobbered及x20保存例子。",
+    "010保留gettimeofday/t1/t2/second/microsecond、200ms与200.062误差、变速齿轮十分之一/十倍、strace无调用与三个nanosleep、先称200微秒后200毫秒的原始口述、timespec、register/__asm__/abcdef、VDSO_CGT_SYM/vvar/cycle count、100/250/一千次中断、lazy cgt_init、Linux2.6.39/auxv/AT_SYSINFO_EHDR/全部地址与ELF符号查找。sleep自然译为睡眠，int保留在argc说明。",
+    "011保留首次跟踪报错图片与循环日志、未装Linux内核DebugInfo和gdb script、__kernel_clock_gettime范围、clock tick两次读取/sequence count重试、+32/+92与延迟导致循环；删去空泛复述结尾，指令片段逐字保持。",
+    "012保留calloc/realloc/reallocarray/零内存原课说法、malloc(0)唯一指针与可free及避免依赖、1GB/4KB/sbrk/mmap内存池、Tony Hoare1934—2026/billion dollar mistake、write/Unicode/ASCII对比、free置空/crash、RAII/锁/提前return/Rust ownership、100兆/区间集合/Balanced Binary Search Tree与1995综述。malloc(0)英文口述自然译述，be/can/is/later/passed/returns/successfully/that/then并非API删除。",
+    "全课数值无增删；6处术语提示逐项核查，命令/API/专名/变量与听辨标记完整保留。front matter、标题、围栏/行内代码、图片、图注、链接和图序检查通过，protected_errors为空。"
+  ],
+  "known_limits": [
+    "本次只润色原课，不运行代码、不据外部知识改写原课技术结论。",
+    "保留原课对于DebugInfo打包源代码与后文C调试信息不含源码、DWARF图灵完备及异常展开、火焰图时间轴、x0至x18可任意用、caller-saved/callee-saved称谓、时钟tick/vvar实现、malloc返回零内存、C/RAII适用范围、free置空及Tony Hoare时间的说法；如需技术勘误应单独核验。",
+    "010保留200微秒与随后200毫秒的口述不一致，未推测统一单位；首次指令跟踪失败与后续重试机制按原顺序保留。"
+  ]
+}

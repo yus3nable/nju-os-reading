@@ -1,0 +1,471 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/17/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 250,
+      "after_characters": 168,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 828,
+      "after_characters": 525,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1041,
+      "after_characters": 665,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "make",
+          "progress"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2032,
+      "after_characters": 1186,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "you"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/005.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 788,
+      "after_characters": 456,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "bug",
+          "make",
+          "philosopher",
+          "progress"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/006.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1040,
+      "after_characters": 644,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/007.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1175,
+      "after_characters": 762,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/008.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2044,
+      "after_characters": 1245,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "lock"
+        ],
+        "added": [
+          "Wikipedia"
+        ]
+      }
+    },
+    {
+      "path": "chapters/17/009.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1216,
+      "after_characters": 696,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "eventually",
+          "yes"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/010.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 824,
+      "after_characters": 502,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/011.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1753,
+      "after_characters": 961,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/012.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1372,
+      "after_characters": 752,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "frustration"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/013.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1609,
+      "after_characters": 934,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "hack"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/014.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1632,
+      "after_characters": 917,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Alipay",
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/015.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1086,
+      "after_characters": 605,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Case",
+          "Data",
+          "Structure",
+          "make",
+          "sense"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/016.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1398,
+      "after_characters": 807,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/017.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1039,
+      "after_characters": 562,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "bug"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/018.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1357,
+      "after_characters": 899,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Bug",
+          "anyway",
+          "problem",
+          "solver"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/019.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 876,
+      "after_characters": 543,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/020.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 681,
+      "after_characters": 440,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "Behavior",
+          "Undefined"
+        ]
+      }
+    },
+    {
+      "path": "chapters/17/021.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 896,
+      "after_characters": 520,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "continue"
+        ],
+        "added": [
+          "Continue"
+        ]
+      }
+    },
+    {
+      "path": "chapters/17/022.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1085,
+      "after_characters": 696,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/023.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1897,
+      "after_characters": 1103,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "eventually",
+          "expectation"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/024.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1295,
+      "after_characters": 800,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/025.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1240,
+      "after_characters": 647,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "atomicity"
+        ]
+      }
+    },
+    {
+      "path": "chapters/17/026.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1661,
+      "after_characters": 840,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/17/027.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1335,
+      "after_characters": 703,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    }
+  ]
+}

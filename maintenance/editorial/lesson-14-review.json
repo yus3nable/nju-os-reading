@@ -1,0 +1,163 @@
+{
+  "lesson": 14,
+  "status": "reviewed",
+  "sections": [
+    "chapters/14/001.md",
+    "chapters/14/002.md",
+    "chapters/14/003.md",
+    "chapters/14/004.md",
+    "chapters/14/005.md",
+    "chapters/14/006.md",
+    "chapters/14/007.md",
+    "chapters/14/008.md",
+    "chapters/14/009.md",
+    "chapters/14/010.md",
+    "chapters/14/011.md",
+    "chapters/14/012.md",
+    "chapters/14/013.md",
+    "chapters/14/014.md",
+    "chapters/14/015.md",
+    "chapters/14/016.md",
+    "chapters/14/017.md",
+    "chapters/14/018.md",
+    "chapters/14/019.md",
+    "chapters/14/020.md",
+    "chapters/14/021.md",
+    "chapters/14/022.md"
+  ],
+  "scope": "通读全部 22 节并逐段润色散文正文；删除无意义填充、结巴和同句复说，理顺跨页续句；保留技术范围、原顺序、第一人称、教学比喻、提问、例子、推导、条件、否定、归因和不确定性。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/14/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，保留 flags、体系结构差异、用户态关中断失败、SIGILL 与 segmentation fault。"
+    },
+    {
+      "path": "chapters/14/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，完整保留临界区互斥、等待顺序、可见性、房间/钥匙解释与所有访问须遵循锁协议的条件。"
+    },
+    {
+      "path": "chapters/14/006.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，保留“正确使用锁”前提，以及不同锁保护互不干扰的数据时可用 stop-the-world 理解的推导。"
+    },
+    {
+      "path": "chapters/14/010.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，保留物理网格、图书馆、互联网索引、神经网络和 fork based DFS 等独立例子。"
+    },
+    {
+      "path": "chapters/14/011.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "publicly"
+        ],
+        "added": []
+      },
+      "resolution": "publicly 已译作“公开”，保留 1965/1981 年及 Dekker/Peterson 两种协议的判断描述、退出条件与 barrier 提醒。"
+    },
+    {
+      "path": "chapters/14/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，保留 systems/Computer Science 范围、2007 年、有限/无限状态空间、scalable 智能及作者经历和立场。"
+    },
+    {
+      "path": "chapters/14/016.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": [
+          "100"
+        ]
+      },
+      "terms_to_review": {
+        "removed": [
+          "python",
+          "spawn100",
+          "work"
+        ],
+        "added": [
+          "Python"
+        ]
+      },
+      "resolution": "原文 spawn100 是 API 与数值连写；改为 spawn 与 100 分开，审计把原来连写的数值新识别为 100，实际没有新增或改动数值。python 统一为专名 Python；work 的否定含义保留在“只适合两个线程同步”及动态线程数限制。保留原课年代与事实主张，保留 barrier 有无、assert fail 与讲者机器无法复现的观察。"
+    },
+    {
+      "path": "chapters/14/017.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认，保留推翻 load/store 假设、原子操作、X86 lock 前缀与 80486 总线锁的原课讲述。"
+    },
+    {
+      "path": "chapters/14",
+      "difference": "除 spawn100 的连写识别差异外，其余数字无增删。",
+      "resolution": "核对全部日期、线程数、设备数、百分比、代码值和命令。保留原课 X 乘以 2 与“左移两位”的示例表述，未按常识静默修正；保留最初三种实验提示词与后续四种实现展示的区别，保留后来更换 Prompt 导致最终图无 error bar 的状态。"
+    },
+    {
+      "path": "chapters/14",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、标题、围栏和行内代码、所有图片与图注、链接、听辨不清标记通过逐字核查；图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "受保护结构由审计脚本精确核查，数字/术语提示逐项人工复核，语义保真依据逐段对照。",
+    "未执行互斥代码、模型检查器或性能实验；未重新验证原课硬件年代、实现细节、性能、历史和 AI 判断，原讲述事实主张与确定程度保持。"
+  ]
+}

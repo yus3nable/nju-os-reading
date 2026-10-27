@@ -1,0 +1,421 @@
+{
+  "lesson": 28,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/28/001.md",
+    "chapters/28/002.md",
+    "chapters/28/003.md",
+    "chapters/28/004.md",
+    "chapters/28/005.md",
+    "chapters/28/006.md",
+    "chapters/28/007.md",
+    "chapters/28/008.md",
+    "chapters/28/009.md",
+    "chapters/28/010.md",
+    "chapters/28/011.md",
+    "chapters/28/012.md",
+    "chapters/28/013.md",
+    "chapters/28/014.md",
+    "chapters/28/015.md",
+    "chapters/28/016.md",
+    "chapters/28/017.md",
+    "chapters/28/018.md",
+    "chapters/28/019.md",
+    "chapters/28/020.md",
+    "chapters/28/021.md",
+    "chapters/28/022.md",
+    "chapters/28/023.md",
+    "chapters/28/024.md",
+    "chapters/28/025.md",
+    "chapters/28/026.md",
+    "chapters/28/027.md",
+    "chapters/28/028.md",
+    "chapters/28/029.md",
+    "chapters/28/030.md",
+    "chapters/28/031.md",
+    "chapters/28/032.md",
+    "chapters/28/033.md",
+    "chapters/28/034.md",
+    "chapters/28/035.md",
+    "chapters/28/036.md",
+    "chapters/28/037.md",
+    "chapters/28/038.md",
+    "chapters/28/039.md",
+    "chapters/28/040.md",
+    "chapters/28/041.md",
+    "chapters/28/042.md",
+    "chapters/28/043.md",
+    "chapters/28/044.md",
+    "chapters/28/045.md",
+    "chapters/28/046.md",
+    "chapters/28/047.md",
+    "chapters/28/048.md",
+    "chapters/28/049.md",
+    "chapters/28/050.md",
+    "chapters/28/051.md",
+    "chapters/28/052.md",
+    "chapters/28/053.md",
+    "chapters/28/054.md",
+    "chapters/28/055.md",
+    "chapters/28/056.md",
+    "chapters/28/057.md",
+    "chapters/28/058.md",
+    "chapters/28/059.md",
+    "chapters/28/060.md",
+    "chapters/28/061.md",
+    "chapters/28/062.md",
+    "chapters/28/063.md",
+    "chapters/28/064.md",
+    "chapters/28/065.md",
+    "chapters/28/066.md",
+    "chapters/28/067.md",
+    "chapters/28/068.md",
+    "chapters/28/069.md",
+    "chapters/28/070.md",
+    "chapters/28/071.md",
+    "chapters/28/072.md"
+  ],
+  "scope": "全部72节逐段语义润色、去口水与重复、衔接换页断句；保留第一人称、观点范围、技术主张、例子和有信息的更正过程；逐字保护规定结构。",
+  "reviewed_differences": [
+    {
+      "sections": "001-010",
+      "check": "保留补充课不考及文件系统考试范围、8086地址计算与无保护模型、加壳跳转、BBS个人经历、保密/完整/可用三方面、师兄故事中的未改成绩及考卷是否看过的不确定性、DeepSeek 100K实验和哈希碰撞攻击条件。"
+    },
+    {
+      "sections": "011-020",
+      "check": "保留单向函数正反向难度、hash碰撞、公开摘要、trapdoor与公私钥、认证签名、区块链append-only共识、狗与骨头比方、分叉收敛与智能合约；佛珠24词/1.3亿美元保留传闻归因及真假不确定。"
+    },
+    {
+      "sections": "021-030",
+      "check": "保留进程隔离和API访问、机制/策略、访问控制矩阵、用户组/root例外、登录与继承、/etc/passwd格式、AI学习个人建议及chsh第七字段；拆开长句并合顺跨节断句。"
+    },
+    {
+      "sections": "031-042",
+      "check": "保留passwd 1234→5678被拒→12345678成功的实际过程、不能passwd root、各UID与setuid权限、AppArmor程序上限、seccomp/eBPF/LSM及Kernel 5.7、图灵完备检查的原课技术主张。"
+    },
+    {
+      "sections": "043-054",
+      "check": "保留低权限nginx、setuid漏洞、fuzz输入、24年150个GCC/LLVM bug、64字节buffer、返回地址覆盖、root shell、旧编译行为、AA/无0 payload、NX/ROP、Canary及CFI；围栏代码原样保护。"
+    },
+    {
+      "sections": "055-064",
+      "check": "保留auditd与开销判断、内核1234/用户4567逐字比较、冷页/换出/时间差逐位猜测、多项式与指数比较、Meltdown原课路径、40和4096 cache推导、Tenex、物理电磁及液氮攻击；未外部纠正技术观点。"
+    },
+    {
+      "sections": "065-072",
+      "check": "保留早期奶奶/绝症提示及训练归因不确定性、DeepSeek V3伪造对话、权重与工具注入、最小权限矛盾、Axios上半年归因、plain-crypto-js/install hook与API key、XZ两到三年信任、构建检测与performance bug发现过程。"
+    },
+    {
+      "path": "chapters/28/007.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "anyway"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "anyway",
+          "difference": "removed",
+          "check": "删除转接插语。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/010.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/011.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "narrow"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "narrow",
+          "difference": "removed",
+          "check": "译为范围很窄，保留简介范围。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/026.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/029.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "offline"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "offline",
+          "difference": "removed",
+          "check": "译为课后，保留脱离课堂自行阅读的场景。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/035.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/036.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK",
+          "about",
+          "care"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        },
+        {
+          "term": "about",
+          "difference": "removed",
+          "check": "care about译为关心，保留作者标题使用条件。"
+        },
+        {
+          "term": "care",
+          "difference": "removed",
+          "check": "care about译为关心，保留作者标题使用条件。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/038.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [],
+        "added": [
+          "AI"
+        ]
+      },
+      "term_checks": [
+        {
+          "term": "AI",
+          "difference": "added",
+          "check": "原段向AI提问的上下文明确，以AI补明指代。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/039.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "user"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "user",
+          "difference": "removed",
+          "check": "按所在语境译为用户；用户身份及权限对象保留。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/043.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "etc"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "etc",
+          "difference": "removed",
+          "check": "原口头重启“-etc”后明确修正为/bin/passwd，按后句合顺。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/047.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/054.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK",
+          "integrity"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        },
+        {
+          "term": "integrity",
+          "difference": "removed",
+          "check": "完整名称Control Flow Integrity与控制流完整性保留，删除重复integrity。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/28/056.md",
+      "numbers": {
+        "removed": [
+          "34"
+        ],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK",
+          "user"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        },
+        {
+          "term": "user",
+          "difference": "removed",
+          "check": "按所在语境译为用户；用户身份及权限对象保留。"
+        }
+      ],
+      "number_check": "“1234，好，34”中34为同一密码末尾的口头重复，合并为1234；同段4567、0和三秒比较完整保留。"
+    },
+    {
+      "path": "chapters/28/059.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    }
+  ],
+  "known_limits": [
+    "仅审校文本，未运行课堂代码或验证攻击。",
+    "原课关于技术、安全事件和历史叙述保持原有归因及不确定性，未使用外部资料修正。"
+  ]
+}

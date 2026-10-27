@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/02/001.md",
+    "chapters/02/002.md",
+    "chapters/02/003.md",
+    "chapters/02/004.md"
+  ],
+  "scope": "通读并逐段润色全部四节正文；保持原讲解顺序、第一人称、合理提问和先说错再更正的过程。",
+  "reviewed_differences": [
+    "四节数字审计均无新增或删除；42/4、1/10、24/25、0x400000/0x400078、2249/1700、模型版本与 200B 等已对照原文。",
+    "001 删除 OK、sorry、and then 等插语；ifq 调整为 if q 的正常间隔，保留 q 不等于 0 的判断；else、FG、bug 已保留。",
+    "002 删除 Anyway、OK 等插语；编译正确性的输入、输出序列要求及原讲述的不严谨限定保留。",
+    "003 删除 OK、anyway 插语；保留 X8 到 X0 的口头更正、空 _start 返回崩溃、寄存器参数原序、手术与祈祷比方及共享内存限定。",
+    "004 删除 Anyway、anyway 插语；保留首次二进制修改失败及后续修复、童年存档逆向经历、编译器外部进程两种实现选择、daemon 和图形服务的原有归因。",
+    "protected_errors 全为空；front matter、标题、图文顺序、图片、图注、链接、听辨不清标记逐字保持。"
+  ],
+  "known_limits": [
+    "未重新听录音频，原稿技术主张和听辨缺口按原稿保留；未运行课件示例。"
+  ]
+}

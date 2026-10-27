@@ -1,0 +1,463 @@
+{
+  "lesson": 20,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/20/001.md",
+    "chapters/20/002.md",
+    "chapters/20/003.md",
+    "chapters/20/004.md",
+    "chapters/20/005.md",
+    "chapters/20/006.md",
+    "chapters/20/007.md",
+    "chapters/20/008.md",
+    "chapters/20/009.md",
+    "chapters/20/010.md",
+    "chapters/20/011.md",
+    "chapters/20/012.md",
+    "chapters/20/013.md",
+    "chapters/20/014.md",
+    "chapters/20/015.md",
+    "chapters/20/016.md",
+    "chapters/20/017.md",
+    "chapters/20/018.md",
+    "chapters/20/019.md",
+    "chapters/20/020.md",
+    "chapters/20/021.md",
+    "chapters/20/022.md",
+    "chapters/20/023.md",
+    "chapters/20/024.md",
+    "chapters/20/025.md",
+    "chapters/20/026.md",
+    "chapters/20/027.md",
+    "chapters/20/028.md",
+    "chapters/20/029.md",
+    "chapters/20/030.md",
+    "chapters/20/031.md",
+    "chapters/20/032.md",
+    "chapters/20/033.md"
+  ],
+  "scope": "逐节通读全部33节并逐段语义润色；删除结巴、无信息口头插语与复说，理顺跨PDF页悬句及相邻节接续。保留第一人称、原序、独立技术信息、定义、例子、推导、条件、否定、量词、范围、归因与不确定性；逐字保护front matter、标题、围栏/行内代码、图片/图注/链接和听辨标记。",
+  "semantic_review": [
+    {
+      "path": "chapters/20/001.md",
+      "review": "计算图回顾，保留Spawn、锁/信号量/条件变量、generators/协程/Goroutine和Promise.all两个方案。"
+    },
+    {
+      "path": "chapters/20/002.md",
+      "review": "逻辑门、依赖、双口寄存器和指令队列的推导及分支预测条件完整。"
+    },
+    {
+      "path": "chapters/20/003.md",
+      "review": "每时钟周期多指令的开放测量题及Counter推理完整。"
+    },
+    {
+      "path": "chapters/20/004.md",
+      "review": "BogoMIPS/固定频率/粗计时器/delay20毫秒/nop与cpu_relax例子完整。"
+    },
+    {
+      "path": "chapters/20/005.md",
+      "review": "ILP测试的依赖链、独立寄存器、perf/IPC实测与AI写码过程完整。"
+    },
+    {
+      "path": "chapters/20/006.md",
+      "review": "ALU与队列/数据流电路开销、Nsquare与聪明方法、逻辑门翻转功耗关系完整。"
+    },
+    {
+      "path": "chapters/20/007.md",
+      "review": "制程与功耗/频率/内存/IO墙以及协议税的原论证完整。"
+    },
+    {
+      "path": "chapters/20/008.md",
+      "review": "performance/watt、大核小核、同面积同功耗条件和big.LITTLE完整。"
+    },
+    {
+      "path": "chapters/20/009.md",
+      "review": "SIMD/MMX、寄存器分组、溢出和多媒体演示完整。"
+    },
+    {
+      "path": "chapters/20/010.md",
+      "review": "bitset的0到32子集和01267示例、uint32_t/数组索引完整，未修正原范围。"
+    },
+    {
+      "path": "chapters/20/011.md",
+      "review": "popcount掩码/移位/相加推导、口述更正、查表条件完整。"
+    },
+    {
+      "path": "chapters/20/012.md",
+      "review": "MMX到SSE/AVX/AVX512、寄存器命名、降频与第十代等不确定性完整。"
+    },
+    {
+      "path": "chapters/20/013.md",
+      "review": "FMA/A乘B加C、SIMD共用缓存和流水线调度限制完整。"
+    },
+    {
+      "path": "chapters/20/014.md",
+      "review": "VLIW的256byte打包、16/8条、编译器依赖保证/NOP、IA-64市场失败与复活判断完整。"
+    },
+    {
+      "path": "chapters/20/015.md",
+      "review": "简化CPU到共享译码器、ALU独立副本和CUDA/GPU思路完整。"
+    },
+    {
+      "path": "chapters/20/016.md",
+      "review": "早期游戏机、NES与塞尔达历史演示完整。"
+    },
+    {
+      "path": "chapters/20/017.md",
+      "review": "星号画图经历、Mandelbrot 6400乘6400、MOS6502/0.43与60fps预算完整。"
+    },
+    {
+      "path": "chapters/20/018.md",
+      "review": "ROM八乘八贴块/四种颜色/调色板、卷轴/不能回头/sprite和全局换色完整。"
+    },
+    {
+      "path": "chapters/20/019.md",
+      "review": "Sprite属性/翻转、圆与蘑菇两帧动画完整。"
+    },
+    {
+      "path": "chapters/20/020.md",
+      "review": "状态描述到像素、Line/Chunk固定电路与hash例子完整。"
+    },
+    {
+      "path": "chapters/20/021.md",
+      "review": "2D引擎、bitmap变换、V-Rally 3和缺失深度的限制完整。"
+    },
+    {
+      "path": "chapters/20/022.md",
+      "review": "齐次坐标和四乘四矩阵的原解释完整。"
+    },
+    {
+      "path": "chapters/20/023.md",
+      "review": "挤压梯形与深度透视的区分，以及游戏/动画/电影需求完整。"
+    },
+    {
+      "path": "chapters/20/024.md",
+      "review": "可编程shader、T_vertex修改顶点、水波和毛发计算完整。"
+    },
+    {
+      "path": "chapters/20/025.md",
+      "review": "raw照片、XYRGB曝光/mask、法线贴图与近景穿帮的限制完整。"
+    },
+    {
+      "path": "chapters/20/026.md",
+      "review": "法线无法表达遮挡、shader字符串编译与原课未运行状态完整。"
+    },
+    {
+      "path": "chapters/20/027.md",
+      "review": "论文把科学计算转图片、矩阵外积和及GPU快于CPU的收益条件完整。"
+    },
+    {
+      "path": "chapters/20/028.md",
+      "review": "CUDA每像素线程、设备内存、kernel语法与相同代码要求完整。"
+    },
+    {
+      "path": "chapters/20/029.md",
+      "review": "SIMT独立ALU/寄存器、共享PC和译码器的原教学模型完整。"
+    },
+    {
+      "path": "chapters/20/030.md",
+      "review": "单步执行、相邻线程地址、coalescing和带宽解释完整；原单位疑点保留。"
+    },
+    {
+      "path": "chapters/20/031.md",
+      "review": "不连续访存仍可执行、多个warp隐藏等待的例子完整。"
+    },
+    {
+      "path": "chapters/20/032.md",
+      "review": "访存布局变更与性能、Condition寄存器和disable分支过程完整。"
+    },
+    {
+      "path": "chapters/20/033.md",
+      "review": "enable/线性执行、GPU汇编、课件性能记录及实验建议完整。"
+    }
+  ],
+  "reviewed_differences": [
+    {
+      "path": "chapters/20/002.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除口头插语 OK；保留CPU state、rv32ima_step、逻辑门并行、双口寄存器、依赖分析及分支预测/执行速度的条件。"
+    },
+    {
+      "path": "chapters/20/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "open"
+        ],
+        "added": []
+      },
+      "resolution": "open 译为开放；保留cpuinfo、主频/时钟周期、无冲突汇编组合、Counter和请AI协助测量的思路。"
+    },
+    {
+      "path": "chapters/20/005.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "dependent"
+        ],
+        "added": []
+      },
+      "resolution": "dependent 与 dependency 指向同一依赖含义，合并后保留 dependency、DEP、dep。保留先估计接近1与现场1.50/3.00结果的区别及AI先出错后修复。"
+    },
+    {
+      "path": "chapters/20/007.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "facts",
+          "systems",
+          "wall"
+        ],
+        "added": []
+      },
+      "resolution": "facts 译为事实，systems 译为系统，wall 的含义以墙/极限表达。保留所有年份、制程、队列大小、散热数值以及频率/内存/IO限制和HTTP各层协议额外开销。"
+    },
+    {
+      "path": "chapters/20/008.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "bookkeep"
+        ],
+        "added": []
+      },
+      "resolution": "bookkeep 译为维护数据结构。保留两个大核、四/八/十六个小核，同等面积或功耗的前提，以及单核应用变卡、并行任务更快、2005/2011和big.LITTLE的原说法及不确定性。"
+    },
+    {
+      "path": "chapters/20/009.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "bit",
+          "bookkeep",
+          "gap"
+        ],
+        "added": []
+      },
+      "resolution": "bookkeep 译为维护指令，gap 译为差距；原溢出的 bit 改写为进位，其含义保留。保留100/99交税例子、32条指令与32分之一、物理规则限制、MMX的1997/64位/四个16bit、饱和与普通加法的原讲述。"
+    },
+    {
+      "path": "chapters/20/011.md",
+      "numbers_to_review": {
+        "removed": [
+          "555"
+        ],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "and555",
+          "andAA"
+        ],
+        "added": []
+      },
+      "resolution": "删除555这一口头重启简称，以及and555/andAA的英语口述；5555/AA、5=0101、A=1010、按0编号后应称偶数位的更正和与运算均保留。第009节受保护popcount代码逐字不变，实际掩码未改。保留分治依赖较多的评价、随后有所收回的措辞，以及查表四次load在缓存足够且为热数据时的并行条件。"
+    },
+    {
+      "path": "chapters/20/016.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "GPU"
+        ]
+      },
+      "resolution": "GPU 是承接上一节讲GPU的对象名称，未新增产品或能力。保留1972/Magnavox/Odyssey、无声光点、乒乓挡板、NES/1983、1986塞尔达及计算危机。"
+    },
+    {
+      "path": "chapters/20/019.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "trick"
+        ],
+        "added": []
+      },
+      "resolution": "trick 以编程技巧表达。保留四帧、任意X/Y、tile/8bit属性、调色板/优先级/翻转、一个tile拼圆及蘑菇两帧动画的例子。"
+    },
+    {
+      "path": "chapters/20/020.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "trick"
+        ],
+        "added": []
+      },
+      "resolution": "trick 以技巧含义融入上下文。保留寄存器/内存映射两种描述、Struct CPU State/Struct GPU State、时序Line与Chunk、背景/前景匹配、10个Chunk和20或32像素、1983和hash固化电路。"
+    },
+    {
+      "path": "chapters/20/021.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "PPU"
+        ]
+      },
+      "resolution": "PPU 为前节已明确的画图硬件，替代开头跨节代词。保留生成描述的一帧预算、硬件支持两个条件，bitmap各坐标/ROM编号、2D变换和3D深度失真、Gameboy Advance示例。"
+    },
+    {
+      "path": "chapters/20/022.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "trick"
+        ],
+        "added": []
+      },
+      "resolution": "trick 以增加维度的办法表达。保留平移无法用二维矩阵表达、增加值为1的坐标、000与T的原矩阵口述、四乘四变换和投影的原主张。"
+    },
+    {
+      "path": "chapters/20/024.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "gpu"
+        ],
+        "added": [
+          "CPU"
+        ]
+      },
+      "resolution": "gpu/GPU、cpu/CPU仅统一同一硬件名称的大小写；T_vertex、tvertex、this.x/this.y等原名称保持。保留基础场景、编译、每顶点同程序、水波/毛发、t和可能的上一时刻状态条件。"
+    },
+    {
+      "path": "chapters/20/026.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除口头插语OK。保留依赖未装完而未运行、字符串编译、每pixel改色、system call编译错误及计算/分支/load/store能力，代码不作执行验证。"
+    },
+    {
+      "path": "chapters/20/027.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "make",
+          "sense"
+        ],
+        "added": []
+      },
+      "resolution": "make sense 自然译为在图像意义上合理，保留原否定。保留大约2001、digital library网络未打开、论文归因、外积和/秩1、BMP以及显卡足够快才可能有收益的条件。"
+    },
+    {
+      "path": "chapters/20/028.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "crazy",
+          "idea"
+        ],
+        "added": []
+      },
+      "resolution": "crazy idea 的口头评价合并为刚才的设想。保留device内存、1920x1080与200万线程、row/column/fcolor/color、运行相同代码、CUDA缺失导致未运行以及对sample存在的推测。"
+    },
+    {
+      "path": "chapters/20/029.md",
+      "numbers_to_review": {
+        "removed": [
+          "01"
+        ],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "01 出现在“比如说01，我用这个例子”的放弃重启中，删除后保留实际参数(3,0)/(3,1)/(3,2)；OK仅口头插语。保留1kb/200万、各自ALU和registers、Thread warp 32线程共享PC的原模型、译码部件与32个字节原说法。"
+    },
+    {
+      "path": "chapters/20/030.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除OK。保留同一步不同寄存器值、Row/Column地址计算、连续Store与带宽关系、AVX512/ZMM及原512字节、128bit/256bit单位和32乘4/乘8算式；未依据外部知识改数字或单位。"
+    },
+    {
+      "path": "chapters/20/031.md",
+      "numbers_to_review": {
+        "removed": [
+          "3"
+        ],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "resolution": "3 出现在“从算3，从4乘1920”中的未完成口头重启，后续实际例子4乘1920加0/加1保留；上一节中第3行例子完整保留。保留连续最佳但不连续也可执行、最多32个地址、多个warp切换和全局内存等待条件。"
+    }
+  ],
+  "known_limits": [
+    "结构审计33节全部通过、protected_errors为空。数字和术语提示逐项对照原段人工核查；语义保真仍依赖逐段阅读，结构审计不能证明所有技术主张正确。",
+    "原课BogoMIPS大于主频可说明IPC、Counter/时钟中断描述、静止电路无功耗、1995—2005制程范围与Tick-Tock时间、NES时代多处理器/IPC/帧率/图元字节数、MMX溢出以及齐次坐标和投影的概括存在需另核实之处，按原讲述保留。",
+    "原课SIMT共享一个PC、每个执行单元ALU/寄存器独立、Thread warp与Stream Processor关系、CUDA编译结果没有二选一分支的表述是原教学模型；没有用外部知识替换或补充架构结论。",
+    "第030节原讲述将AVX512称作512字节、将32乘4/乘8的存储称作128bit/256bit，第029节将指令称32个字节，单位和数字保留原说法，未静默校正。",
+    "原课OpenGL与CUDA示例未在当前设备运行；本次仅保护并润色文本，没有执行课内代码、重测性能、确认论文或历史事实。第033节课件时间/功耗图与GPU速度判断不表示本次重新验证。"
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "lesson": 29,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/29/001.md",
+    "chapters/29/002.md",
+    "chapters/29/003.md",
+    "chapters/29/004.md",
+    "chapters/29/005.md",
+    "chapters/29/006.md",
+    "chapters/29/007.md",
+    "chapters/29/008.md",
+    "chapters/29/009.md",
+    "chapters/29/010.md",
+    "chapters/29/011.md",
+    "chapters/29/012.md",
+    "chapters/29/013.md",
+    "chapters/29/014.md",
+    "chapters/29/015.md",
+    "chapters/29/016.md",
+    "chapters/29/017.md",
+    "chapters/29/018.md",
+    "chapters/29/019.md",
+    "chapters/29/020.md",
+    "chapters/29/021.md",
+    "chapters/29/022.md",
+    "chapters/29/023.md",
+    "chapters/29/024.md",
+    "chapters/29/025.md",
+    "chapters/29/026.md",
+    "chapters/29/027.md",
+    "chapters/29/028.md",
+    "chapters/29/029.md",
+    "chapters/29/030.md",
+    "chapters/29/031.md",
+    "chapters/29/032.md",
+    "chapters/29/033.md",
+    "chapters/29/034.md",
+    "chapters/29/035.md",
+    "chapters/29/036.md",
+    "chapters/29/037.md",
+    "chapters/29/038.md",
+    "chapters/29/039.md",
+    "chapters/29/040.md",
+    "chapters/29/041.md",
+    "chapters/29/042.md",
+    "chapters/29/043.md",
+    "chapters/29/044.md",
+    "chapters/29/045.md",
+    "chapters/29/046.md",
+    "chapters/29/047.md",
+    "chapters/29/048.md",
+    "chapters/29/049.md",
+    "chapters/29/050.md",
+    "chapters/29/051.md",
+    "chapters/29/052.md",
+    "chapters/29/053.md",
+    "chapters/29/054.md",
+    "chapters/29/055.md",
+    "chapters/29/056.md",
+    "chapters/29/057.md",
+    "chapters/29/058.md",
+    "chapters/29/059.md",
+    "chapters/29/060.md",
+    "chapters/29/061.md",
+    "chapters/29/062.md",
+    "chapters/29/063.md",
+    "chapters/29/064.md",
+    "chapters/29/065.md",
+    "chapters/29/066.md",
+    "chapters/29/067.md",
+    "chapters/29/068.md",
+    "chapters/29/069.md",
+    "chapters/29/070.md",
+    "chapters/29/071.md",
+    "chapters/29/072.md"
+  ],
+  "scope": "全部72节逐段通读语义润色，删除无信息控场与重复，处理口头重启、长句和换页断句；保留讲述者第一人称、立场、例子、推导、条件、否定、归因及不确定性；受保护结构逐字保持。",
+  "reviewed_differences": [
+    {
+      "sections": "001-007",
+      "check": "保留NEMU性能十分之一、仙剑/FC/Galgame示例、60帧与JIT实现不确定性、基本块顺序、GCC/.so/dlopen/重定位、100毫秒外部编译代价、1万/10万阈值和Java/Node.js；逐段理顺取指—编译—计数—跳转过程。"
+    },
+    {
+      "sections": "008-013",
+      "check": "保留QEMU 03-04/05 dyngen、跨体系结构目的、addi R1/R2加16、12字节模板、T0寄存器绑定、32位占位符与四字节0、relocation patch、十二/十六中文数写法及原课patch次数叙述。"
+    },
+    {
+      "sections": "014-022",
+      "check": "保留WSL与VMware个人经历、SOSP 97和1970需求、Disco/Thin OS、dot-com/ISP/CPU空闲率、超卖120/140及课程网站0%模式、创业/估值归因、Y Combinator阶乘与投资机构评价；代码原样。"
+    },
+    {
+      "sections": "023-035",
+      "check": "保留科研实践反思、benchmark crime/cherry picking与明确披露性能、作者对语料污染的判断、LFS/Herrod/Transmeta/Emmett Witchel/SimOS/Tom Anderson归因、Differential Testing设计、证明CPU的计划与短期不可实现、IPADS/20年经历和分数动力观点。"
+    },
+    {
+      "sections": "036-045",
+      "check": "保留同架构用户态进程与跨架构模拟差异、Ring0/1/2/3、关中断死循环、CR3/PTE页表改写、99.99%和99%普通代码、Shadow Page Table两级映射示例、2005硬件虚拟化/08 EPT/四加四级及VirtIO/VirtGPU。"
+    },
+    {
+      "sections": "046-054",
+      "check": "保留VM exit记录重放与迁移的单CPU条件、600亿估值不确定性及收购顺序、讲述者对容器路线的判断、OSID/XV6/initramfs思想实验、PID kill复用风险、pidfd引用原课主张、四字节field/4GB/8GB共享资源、1979 Version 7 chroot。"
+    },
+    {
+      "sections": "055-063",
+      "check": "保留chroot实际失败及缺/bin/bash原因、PID隔离权限限定、用户组/1000与5000端口、lsns/strace/proc命令路径、全套10命名空间/198进程、20% CPU与分组调度、cgroup树及正交关系、OverlayFS千实例、FreeBSD Jail与容器安全例外。"
+    },
+    {
+      "sections": "064-072",
+      "check": "保留06/08 LXC时间、The Bitter Lesson及钱驱动的作者观点、startup与分数的玩笑、ESX/vSphere管理一万VM、Kubernetes无状态/100份策略、Gateway路由、NP-hard多维装包、静态假设与动态调度限制、阿里云三副本小于一写放大归因。"
+    },
+    {
+      "path": "chapters/29/005.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/011.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/012.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/017.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/020.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "paper"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "paper",
+          "difference": "removed",
+          "check": "译为论文，保留SOSP/VEE及年份和名称。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/021.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "paper"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "paper",
+          "difference": "removed",
+          "check": "译为论文，保留SOSP/VEE及年份和名称。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/022.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/032.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "paper"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "paper",
+          "difference": "removed",
+          "check": "译为论文，保留SOSP/VEE及年份和名称。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/039.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK",
+          "in",
+          "sign"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        },
+        {
+          "term": "in",
+          "difference": "removed",
+          "check": "原“sign in”是页表改写时口头转录，改成映射变化，具体CR3/PTE操作保留。"
+        },
+        {
+          "term": "sign",
+          "difference": "removed",
+          "check": "原“sign in”是页表改写时口头转录，改成映射变化，具体CR3/PTE操作保留。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/040.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "call",
+          "system"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "call",
+          "difference": "removed",
+          "check": "system call并入系统调用表述，未删调用含义。"
+        },
+        {
+          "term": "system",
+          "difference": "removed",
+          "check": "system call并入系统调用表述，未删调用含义。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/050.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "kill3"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "kill3",
+          "difference": "removed",
+          "check": "分词为kill 3，保持5号要kill3号的例子和OSID差异。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/051.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK",
+          "aside"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        },
+        {
+          "term": "aside",
+          "difference": "removed",
+          "check": "译为补充，保留PID复用讨论。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/052.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/053.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/058.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "MountNet"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "MountNet",
+          "difference": "removed",
+          "check": "按上下文分为Mount、Net两个独立Namespace，保留可分别配置的含义。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/062.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "overlay"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "overlay",
+          "difference": "removed",
+          "check": "OverlayFS已在同段明确，删除重复口头overlay。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/069.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "problem"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "problem",
+          "difference": "removed",
+          "check": "译为问题，保留NP-hard/动机评价等语义。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/29/071.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "problem"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "problem",
+          "difference": "removed",
+          "check": "译为问题，保留NP-hard/动机评价等语义。"
+        }
+      ]
+    }
+  ],
+  "known_limits": [
+    "未运行课内程序、命令或虚拟化实验，只验证文本及受保护结构。",
+    "保留历史技术及作者评价的原课说法，未据外部知识纠正。"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "date": "2026-10-27",
+  "status": "passed_local",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "lessons": [
+    {
+      "lesson": 1,
+      "sections": 5,
+      "review": "lesson-01-review.json",
+      "protected_check": "lesson-01-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 2,
+      "sections": 4,
+      "review": "lesson-02-review.json",
+      "protected_check": "lesson-02-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 3,
+      "sections": 4,
+      "review": "lesson-03-review.json",
+      "protected_check": "lesson-03-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 4,
+      "sections": 4,
+      "review": "lesson-04-review.json",
+      "protected_check": "lesson-04-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 5,
+      "sections": 7,
+      "review": "lesson-05-review.json",
+      "protected_check": "lesson-05-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 6,
+      "sections": 9,
+      "review": "lesson-06-review.json",
+      "protected_check": "lesson-06-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 7,
+      "sections": 14,
+      "review": "lesson-07-review.json",
+      "protected_check": "lesson-07-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 8,
+      "sections": 19,
+      "review": "lesson-08-review.json",
+      "protected_check": "lesson-08-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 9,
+      "sections": 14,
+      "review": "lesson-09-review.json",
+      "protected_check": "lesson-09-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 10,
+      "sections": 12,
+      "review": "lesson-10-review.json",
+      "protected_check": "lesson-10-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 11,
+      "sections": 13,
+      "review": "lesson-11-review.json",
+      "protected_check": "lesson-11-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 12,
+      "sections": 15,
+      "review": "lesson-12-review.json",
+      "protected_check": "lesson-12-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 13,
+      "sections": 17,
+      "review": "lesson-13-review.json",
+      "protected_check": "lesson-13-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 14,
+      "sections": 22,
+      "review": "lesson-14-review.json",
+      "protected_check": "lesson-14-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 15,
+      "sections": 24,
+      "review": "lesson-15-review.json",
+      "protected_check": "lesson-15-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 16,
+      "sections": 28,
+      "review": "lesson-16-review.json",
+      "protected_check": "lesson-16-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 17,
+      "sections": 27,
+      "review": "lesson-17-review.json",
+      "protected_check": "lesson-17-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 18,
+      "sections": 29,
+      "review": "lesson-18-review.json",
+      "protected_check": "lesson-18-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 19,
+      "sections": 28,
+      "review": "lesson-19-review.json",
+      "protected_check": "lesson-19-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 20,
+      "sections": 33,
+      "review": "lesson-20-review.json",
+      "protected_check": "lesson-20-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 21,
+      "sections": 35,
+      "review": "lesson-21-review.json",
+      "protected_check": "lesson-21-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 22,
+      "sections": 53,
+      "review": "lesson-22-review.json",
+      "protected_check": "lesson-22-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 23,
+      "sections": 52,
+      "review": "lesson-23-review.json",
+      "protected_check": "lesson-23-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 24,
+      "sections": 59,
+      "review": "lesson-24-review.json",
+      "protected_check": "lesson-24-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 25,
+      "sections": 60,
+      "review": "lesson-25-review.json",
+      "protected_check": "lesson-25-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 26,
+      "sections": 59,
+      "review": "lesson-26-review.json",
+      "protected_check": "lesson-26-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 27,
+      "sections": 64,
+      "review": "lesson-27-review.json",
+      "protected_check": "lesson-27-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 28,
+      "sections": 72,
+      "review": "lesson-28-review.json",
+      "protected_check": "lesson-28-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 29,
+      "sections": 72,
+      "review": "lesson-29-review.json",
+      "protected_check": "lesson-29-check.json",
+      "status": "reviewed"
+    },
+    {
+      "lesson": 30,
+      "sections": 88,
+      "review": "lesson-30-review.json",
+      "protected_check": "lesson-30-check.json",
+      "status": "reviewed"
+    }
+  ],
+  "section_count": 942,
+  "changed_sections": 942,
+  "protected_errors": [],
+  "protected_counts": {
+    "code_blocks": 365,
+    "inline_code": 0,
+    "images": 2479,
+    "captions": 2472,
+    "uncertain_markers": 51
+  },
+  "flow_review_reports": [
+    "flow-09-10-review.json",
+    "flow-27-28-review.json",
+    "flow-29-review.json"
+  ],
+  "independent_second_review": "lesson-30-second-review.json",
+  "integration_repairs": [
+    "21/035句间分页接续。",
+    "08/001、08/002恢复被误当作空白的字面转义字符。",
+    "10处文件末尾空行与空白规范化，围栏代码原样。"
+  ],
+  "number_prompts": [
+    {
+      "path": "chapters/14/016.md",
+      "removed": [],
+      "added": [
+        "100"
+      ]
+    },
+    {
+      "path": "chapters/20/011.md",
+      "removed": [
+        "555"
+      ],
+      "added": []
+    },
+    {
+      "path": "chapters/20/029.md",
+      "removed": [
+        "01"
+      ],
+      "added": []
+    },
+    {
+      "path": "chapters/20/031.md",
+      "removed": [
+        "3"
+      ],
+      "added": []
+    },
+    {
+      "path": "chapters/28/056.md",
+      "removed": [
+        "34"
+      ],
+      "added": []
+    }
+  ],
+  "number_prompt_review": [
+    "14/016的spawn100分开为spawn 100，原100线程未变，属分词差异。",
+    "20/011保留5555/AA掩码及奇偶位更正，删除口头重启555。",
+    "20/029删除放弃的01重启，保留实际参数(3,0)/(3,1)/(3,2)。",
+    "20/031删除从算3的重启，保留实际4乘1920加0/加1例子。",
+    "28/056删除1234后的重复尾巴34，1234/4567、终止符及1与4比较保持。"
+  ],
+  "integration_term_review": [
+    "09/008的freestanding承接09/007已明确环境。",
+    "27/007的specification补足27/006的原主语。",
+    "27/026与027将跨小节的log entry连为完整术语，顺序和对象未变。",
+    "28/027的AI承接下一小节明确的解释文件演示。",
+    "30/023独立复核恢复原出题者，移除错误加入的AI主语。"
+  ],
+  "final_diagnostics": {
+    "dangling_paragraphs": 0,
+    "style_matches": 0,
+    "unpunctuated_candidates": 0,
+    "escape_differences": 0,
+    "unexpected_controls": 0,
+    "prose_tab_candidates": 0,
+    "unexpected_html_tags": 0,
+    "reviewed_non_sentence_code_labels": 18
+  },
+  "static_site_check": "../site-check.json",
+  "browser_checks": {
+    "viewports": [
+      390,
+      1200
+    ],
+    "whole_page_overflow": false,
+    "search_query": "运行时库里的全部状态",
+    "search_result": "lessons/30/025.html",
+    "image_zoom": "passed",
+    "next_page": "lessons/30/026.html",
+    "code_container_scroll": "passed",
+    "viewport_restored": true,
+    "screenshots": [
+      "../screenshots/editorial-reading-mobile.png",
+      "../screenshots/editorial-reading-desktop.png"
+    ]
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "published": false,
+    "local_preview": "http://127.0.0.1:8765/nju-os-reading/"
+  },
+  "known_limits": [
+    "未重新听录或补齐原稿听辨缺口。",
+    "未外部核实原讲述的技术、历史及预测主张；具体疑点见每课 known_limits。",
+    "未运行课程示例代码；代码校验只说明文本与原稿保持。",
+    "结构检查、数值集合及段落标点扫描不能自动证明语义完全保真；语义复核范围以逐课记录及独立复核记录为准。",
+    "PDF未重新生成；线上仍为初次发布稿，等待本任务的commit/push/发布授权。"
+  ],
+  "verification": {
+    "editorial_audit": "passed, 942/942, protected_errors=0",
+    "build": "30 lessons, 942 sections, 2479 images",
+    "static_reader": "passed, 943 HTML pages, 942 reading pages, error_count=0",
+    "git_diff_check": "passed",
+    "escape_sequences": "passed, no set differences or unexpected controls/tabs",
+    "all_rendered_prose": "no unexpected HTML tags"
+  }
+}

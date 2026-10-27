@@ -1,0 +1,78 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/03/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3186,
+      "after_characters": 1837,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Anyway",
+          "expert",
+          "slide"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/03/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 13820,
+      "after_characters": 7100,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "ok",
+          "somehow"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/03/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 10802,
+      "after_characters": 5530,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "anyway"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/03/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3741,
+      "after_characters": 2034,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    }
+  ]
+}

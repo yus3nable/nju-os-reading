@@ -1,0 +1,1123 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/28/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 344,
+      "after_characters": 213,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 463,
+      "after_characters": 295,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 329,
+      "after_characters": 189,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 561,
+      "after_characters": 341,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/005.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 498,
+      "after_characters": 275,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/006.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 349,
+      "after_characters": 187,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/007.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 749,
+      "after_characters": 471,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "anyway"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/008.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 659,
+      "after_characters": 389,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/009.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 261,
+      "after_characters": 161,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/010.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 654,
+      "after_characters": 419,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/011.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 253,
+      "after_characters": 134,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "narrow"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/012.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 693,
+      "after_characters": 368,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/013.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 408,
+      "after_characters": 237,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/014.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 538,
+      "after_characters": 289,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/015.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 368,
+      "after_characters": 228,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/016.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 520,
+      "after_characters": 283,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/017.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 511,
+      "after_characters": 276,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/018.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 268,
+      "after_characters": 131,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/019.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 354,
+      "after_characters": 218,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/020.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 360,
+      "after_characters": 235,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/021.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 544,
+      "after_characters": 294,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/022.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 637,
+      "after_characters": 342,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/023.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 553,
+      "after_characters": 270,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/024.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 330,
+      "after_characters": 168,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/025.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 571,
+      "after_characters": 297,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/026.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 294,
+      "after_characters": 133,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/027.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 356,
+      "after_characters": 214,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "path": "chapters/28/028.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 506,
+      "after_characters": 269,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/029.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 307,
+      "after_characters": 153,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "offline"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/030.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 348,
+      "after_characters": 187,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/031.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 190,
+      "after_characters": 111,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/032.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 290,
+      "after_characters": 230,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/033.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 218,
+      "after_characters": 154,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/034.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 307,
+      "after_characters": 205,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/035.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 232,
+      "after_characters": 131,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/036.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 522,
+      "after_characters": 351,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "about",
+          "care"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/037.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 221,
+      "after_characters": 111,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/038.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 458,
+      "after_characters": 279,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "path": "chapters/28/039.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 579,
+      "after_characters": 319,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "user"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/040.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 376,
+      "after_characters": 189,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/041.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 387,
+      "after_characters": 229,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/042.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 338,
+      "after_characters": 200,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/043.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 503,
+      "after_characters": 256,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "etc"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/044.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 288,
+      "after_characters": 155,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/045.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 322,
+      "after_characters": 206,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/046.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 331,
+      "after_characters": 197,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/047.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 515,
+      "after_characters": 315,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/048.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 309,
+      "after_characters": 158,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/049.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 322,
+      "after_characters": 186,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/050.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 278,
+      "after_characters": 151,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/051.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 338,
+      "after_characters": 188,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/052.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 654,
+      "after_characters": 372,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/053.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 665,
+      "after_characters": 305,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/054.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 596,
+      "after_characters": 314,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "integrity"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/055.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 355,
+      "after_characters": 151,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/056.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 530,
+      "after_characters": 305,
+      "numbers_to_review": {
+        "removed": [
+          "34"
+        ],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "user"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/057.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 653,
+      "after_characters": 252,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/058.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 621,
+      "after_characters": 312,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/059.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 668,
+      "after_characters": 389,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/060.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 721,
+      "after_characters": 334,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/061.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 385,
+      "after_characters": 225,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/062.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 302,
+      "after_characters": 186,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/063.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 565,
+      "after_characters": 302,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/064.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 382,
+      "after_characters": 198,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/065.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 387,
+      "after_characters": 242,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/066.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 310,
+      "after_characters": 180,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/067.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 386,
+      "after_characters": 220,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/068.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 428,
+      "after_characters": 216,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/069.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 408,
+      "after_characters": 229,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/070.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 480,
+      "after_characters": 256,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/071.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 706,
+      "after_characters": 369,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/072.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 583,
+      "after_characters": 359,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    }
+  ]
+}

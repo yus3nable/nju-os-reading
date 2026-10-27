@@ -1,0 +1,310 @@
+{
+  "lesson": 17,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/17/001.md",
+    "chapters/17/002.md",
+    "chapters/17/003.md",
+    "chapters/17/004.md",
+    "chapters/17/005.md",
+    "chapters/17/006.md",
+    "chapters/17/007.md",
+    "chapters/17/008.md",
+    "chapters/17/009.md",
+    "chapters/17/010.md",
+    "chapters/17/011.md",
+    "chapters/17/012.md",
+    "chapters/17/013.md",
+    "chapters/17/014.md",
+    "chapters/17/015.md",
+    "chapters/17/016.md",
+    "chapters/17/017.md",
+    "chapters/17/018.md",
+    "chapters/17/019.md",
+    "chapters/17/020.md",
+    "chapters/17/021.md",
+    "chapters/17/022.md",
+    "chapters/17/023.md",
+    "chapters/17/024.md",
+    "chapters/17/025.md",
+    "chapters/17/026.md",
+    "chapters/17/027.md"
+  ],
+  "scope": "逐节通读全部27节、逐段改写散文并冷读跨页接续，删除结巴、重复与无信息控场；保留第一人称、独立信息、例子、推导、条件、否定、量词、归因和不确定性，以及演示先失败后继续尝试的过程。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/17/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "make",
+          "progress"
+        ],
+        "added": []
+      },
+      "resolution": "make progress 译为继续前进；保留原文计数器第二次 lock 减一与后续 unlock 减一的叙述，不擅自修正。"
+    },
+    {
+      "path": "chapters/17/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "you"
+        ],
+        "added": []
+      },
+      "resolution": "删除重复的 you 口头重启，保留 AI 原话及 Ctrl+C、权限、学习观察的完整例子。"
+    },
+    {
+      "path": "chapters/17/005.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "bug",
+          "make",
+          "philosopher",
+          "progress"
+        ],
+        "added": []
+      },
+      "resolution": "OK 删除；make progress、bug、philosopher 的含义分别保留为继续前进、死锁检查、哲学家程序。"
+    },
+    {
+      "path": "chapters/17/006.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK，保留必要条件结论中原文“不会/可能不会”的不确定性。"
+    },
+    {
+      "path": "chapters/17/008.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "lock"
+        ],
+        "added": [
+          "Wikipedia"
+        ]
+      },
+      "resolution": "lock 动作以锁/互斥锁表达；Wikipedia 来自前节明确主语；保留通信底层仍用锁、atomic/transaction memory 与系统调用回滚限制。"
+    },
+    {
+      "path": "chapters/17/009.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "eventually",
+          "yes"
+        ],
+        "added": []
+      },
+      "resolution": "yes 译为能，eventually 译为最终，OK 删除；保留 T2 等待与换一种取锁情形，不推断额外状态。"
+    },
+    {
+      "path": "chapters/17/012.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "frustration"
+        ],
+        "added": []
+      },
+      "resolution": "frustration 译为困扰，OK 删除；保留所有概率、用户规模、创建关系和复用后出错风险。"
+    },
+    {
+      "path": "chapters/17/013.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "hack"
+        ],
+        "added": []
+      },
+      "resolution": "hack 语义保留在 LD_PRELOAD 替换 API/修改器叙述，OK 删除；保留依赖图原文 A/C/D 与成环主张、两次运行结果区别。"
+    },
+    {
+      "path": "chapters/17/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Alipay",
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "Alipay 已以支付宝表达，OK 删除；保留读写/写写/weak memory、C/C++ 与 Java 的原主张。"
+    },
+    {
+      "path": "chapters/17/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Case",
+          "Data",
+          "Structure",
+          "make",
+          "sense"
+        ],
+        "added": []
+      },
+      "resolution": "Data Structure 译为数据结构，Case 译为情况，make sense 译为理解；保留链表三节点锁与隐蔽路径例子。"
+    },
+    {
+      "path": "chapters/17/016.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留 CPU2/iret 栈竞争、调度完成之后才能迁移的同步办法。"
+    },
+    {
+      "path": "chapters/17/017.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "bug"
+        ],
+        "added": []
+      },
+      "resolution": "bug 以问题/竞争表述；保留全部事件、全序/线程间先后关系与无 happens-before 的判据。"
+    },
+    {
+      "path": "chapters/17/018.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Bug",
+          "anyway",
+          "problem",
+          "solver"
+        ],
+        "added": []
+      },
+      "resolution": "Bug、anyway 为普通插语；problem solver 的评价保留为解决问题能力；保留每次失败和后续尝试，未把启动程序写成演示成功。"
+    },
+    {
+      "path": "chapters/17/020.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "Behavior",
+          "Undefined"
+        ]
+      },
+      "resolution": "Undefined Behavior 仅规范既有 undefined behavior 大小写；保留事故时间、死亡数和讲述者对反射镜的不确定性。"
+    },
+    {
+      "path": "chapters/17/021.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "continue"
+        ],
+        "added": [
+          "Continue"
+        ]
+      },
+      "resolution": "continue 统一成界面 Continue；OK 删除；保留模式往返、异步移动和未到位时恢复照射的完整链条。"
+    },
+    {
+      "path": "chapters/17/023.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "eventually",
+          "expectation"
+        ],
+        "added": []
+      },
+      "resolution": "eventually、expectation 分别译为最终、预期；保留无 data race 仍有 atomicity violation 的两个锁例子。"
+    },
+    {
+      "path": "chapters/17/025.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "atomicity"
+        ]
+      },
+      "resolution": "atomicity 来自原文“原子性 violation”，合为既有术语；保留原课对系统调用和 root 架构的主张，不用外部 API 知识修正。"
+    },
+    {
+      "path": "chapters/17",
+      "difference": "全部数值提示无增删，protected_errors 为空。",
+      "resolution": "核对线程/锁顺序、百分比与运行轮数、实验失败链、患者事故数、时间与编号；front matter、标题、围栏/行内代码、图片、图注、链接目标与听辨标记保持。"
+    }
+  ],
+  "known_limits": [
+    "结构审计精确检查受保护内容；语义保真依据逐段对照，未运行课中代码或重做课堂实验。",
+    "原文计数器 lock/unlock 加减叙述、A/C/D 依赖图成环示例、RAII 的 Resource Allocation Is Initialization 全称、Rice theorem 与 Turing complete 的表述、Therac-25 死亡数与机械装置描述、sendmail/system call 安全主张存在需另核实的事实或技术疑点；按授权保留原意，未据外部知识修正。",
+    "原文关于 AI 能力、时代和课程日期为讲述者原有判断，润色未将其作为当前核实事实。"
+  ]
+}

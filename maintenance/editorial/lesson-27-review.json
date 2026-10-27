@@ -1,0 +1,544 @@
+{
+  "lesson": 27,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/27/001.md",
+    "chapters/27/002.md",
+    "chapters/27/003.md",
+    "chapters/27/004.md",
+    "chapters/27/005.md",
+    "chapters/27/006.md",
+    "chapters/27/007.md",
+    "chapters/27/008.md",
+    "chapters/27/009.md",
+    "chapters/27/010.md",
+    "chapters/27/011.md",
+    "chapters/27/012.md",
+    "chapters/27/013.md",
+    "chapters/27/014.md",
+    "chapters/27/015.md",
+    "chapters/27/016.md",
+    "chapters/27/017.md",
+    "chapters/27/018.md",
+    "chapters/27/019.md",
+    "chapters/27/020.md",
+    "chapters/27/021.md",
+    "chapters/27/022.md",
+    "chapters/27/023.md",
+    "chapters/27/024.md",
+    "chapters/27/025.md",
+    "chapters/27/026.md",
+    "chapters/27/027.md",
+    "chapters/27/028.md",
+    "chapters/27/029.md",
+    "chapters/27/030.md",
+    "chapters/27/031.md",
+    "chapters/27/032.md",
+    "chapters/27/033.md",
+    "chapters/27/034.md",
+    "chapters/27/035.md",
+    "chapters/27/036.md",
+    "chapters/27/037.md",
+    "chapters/27/038.md",
+    "chapters/27/039.md",
+    "chapters/27/040.md",
+    "chapters/27/041.md",
+    "chapters/27/042.md",
+    "chapters/27/043.md",
+    "chapters/27/044.md",
+    "chapters/27/045.md",
+    "chapters/27/046.md",
+    "chapters/27/047.md",
+    "chapters/27/048.md",
+    "chapters/27/049.md",
+    "chapters/27/050.md",
+    "chapters/27/051.md",
+    "chapters/27/052.md",
+    "chapters/27/053.md",
+    "chapters/27/054.md",
+    "chapters/27/055.md",
+    "chapters/27/056.md",
+    "chapters/27/057.md",
+    "chapters/27/058.md",
+    "chapters/27/059.md",
+    "chapters/27/060.md",
+    "chapters/27/061.md",
+    "chapters/27/062.md",
+    "chapters/27/063.md",
+    "chapters/27/064.md"
+  ],
+  "scope": "逐节通读并逐段语义润色全部散文，保留技术信息、例子、步骤、顺序、第一人称、条件、否定及不确定性；逐字保护规定的结构。",
+  "reviewed_differences": [
+    {
+      "sections": "001-004",
+      "check": "保留文件系统一致性与应用一致性的差异、物理世界投影观点、HTTP/CGI/JSON交互与教务隐私示例；删除口头重启并衔接跨节句。"
+    },
+    {
+      "sections": "005-009",
+      "check": "保留PPTX解包、图片导出、XML与开放标准归因、Agent翻译标题与COM评价；图片、代码及图注顺序逐字保护。"
+    },
+    {
+      "sections": "010-016",
+      "check": "保留目录方案、个人论文处理流程、符号链接引用、OJ环境变量及154份提交、多文件100/50写入和rename原子性；未改变可靠性预期或提交人数限定。"
+    },
+    {
+      "sections": "017-023",
+      "check": "保留metadata代价、映射地址与32字节推导、学生链表操作、固定映射与基址重定位、退出重开和sync；修顺跨页断句。"
+    },
+    {
+      "sections": "024-030",
+      "check": "保留mmap/msync/fdatasync/madvise原课主张及性能限制、一条WAL日志的写入/落盘/清除顺序、99号重放、single-level store设想与SOSP 21归因；未对原课技术观点做外部修正。"
+    },
+    {
+      "sections": "031-039",
+      "check": "保留通用性性能一致性要求、磁盘损坏例外、多副本及批量导入、二维表关系模型、Codd引文、笛卡尔积与三循环筛选、primary key查询和索引优化。"
+    },
+    {
+      "sections": "040-048",
+      "check": "保留ACID、全局顺序、strong crash consistency、转账两个load/store、abort/commit任意计算、一把大锁效果、查询改写、死锁检测回滚及MVCC分支比方；保留可能性与Git冲突处理差异。"
+    },
+    {
+      "sections": "049-056",
+      "check": "保留SQLite的文件/library/零配置描述、微信XML消息兼容机制、SQL扩展压力与50表查询、keyvalue用户编号/选退课列表和重放缓存；原有范围和风险判断不变。"
+    },
+    {
+      "sections": "057-064",
+      "check": "保留hash取模负载均衡、append-only并行合并、Redis分钟/百万点赞缓冲、NoSQL/NewSQL专名、Qwen3 8B不确定归因、4096维embedding和课程关联编号、未来查询设想。"
+    },
+    {
+      "path": "chapters/27/009.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/010.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "friendly"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "friendly",
+          "difference": "removed",
+          "check": "译为友好，保留对Agent使用目录结构的评价。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/013.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/014.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/019.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/021.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "allocated",
+          "allocation"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "allocated",
+          "difference": "removed",
+          "check": "与allocation合并为一次分配操作。"
+        },
+        {
+          "term": "allocation",
+          "difference": "removed",
+          "check": "译为分配，保留student_t分配操作。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/022.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "hack"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "hack",
+          "difference": "removed",
+          "check": "并入固定映射机制的具体描述，未删操作。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/023.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "CGI",
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "CGI",
+          "difference": "removed",
+          "check": "与同段HTTP CGI-bin描述合并。"
+        },
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/025.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "mapped"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "mapped",
+          "difference": "removed",
+          "check": "memory-mapped file完整保留，删除后面重复的memory mapped。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/038.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/039.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/041.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "if"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "if",
+          "difference": "removed",
+          "check": "译为检查条件，筛选条件和yield保留。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/043.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "per"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "per",
+          "difference": "removed",
+          "check": "译为为每个表加锁，范围保留。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/047.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "database"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "database",
+          "difference": "removed",
+          "check": "同节已有Database，大小写重复词合并。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/048.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "Check",
+          "GitCheckout",
+          "OK"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "Check",
+          "difference": "removed",
+          "check": "统一为Checkout，保留每事务独立分支操作。"
+        },
+        {
+          "term": "GitCheckout",
+          "difference": "removed",
+          "check": "分词为Git Checkout，保留比方。"
+        },
+        {
+          "term": "OK",
+          "difference": "removed",
+          "check": "删除无信息的口头应答。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/049.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "Anyway"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "Anyway",
+          "difference": "removed",
+          "check": "删除转接插语。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/055.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "append"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "append",
+          "difference": "removed",
+          "check": "已对照原段保留其具体技术含义。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/057.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "list",
+          "somehow"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "list",
+          "difference": "removed",
+          "check": "已对照原段保留其具体技术含义。"
+        },
+        {
+          "term": "somehow",
+          "difference": "removed",
+          "check": "译为在一定程度上，保留scale结论的限定。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/058.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "inmemory"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "inmemory",
+          "difference": "removed",
+          "check": "分词为in memory，保留内存缓冲位置。"
+        }
+      ]
+    },
+    {
+      "path": "chapters/27/063.md",
+      "numbers": {
+        "removed": [],
+        "added": []
+      },
+      "terms": {
+        "removed": [
+          "efficient"
+        ],
+        "added": []
+      },
+      "term_checks": [
+        {
+          "term": "efficient",
+          "difference": "removed",
+          "check": "译为高效，保留结构化存储效率评价。"
+        }
+      ]
+    }
+  ],
+  "known_limits": [
+    "仅进行文本与语义审校，未运行课中示例。",
+    "保留原课的技术主张及疑似听辨内容，未使用外部知识修正。"
+  ]
+}

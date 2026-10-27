@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "escape_set_differences": [],
+  "unexpected_control_characters": [],
+  "prose_tab_candidates": [],
+  "repairs": [
+    "08/001恢复按原稿字面显示的回车、换行符；08/002恢复回车、制表符。"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "lesson": 12,
+  "status": "reviewed",
+  "sections": [
+    "chapters/12/001.md",
+    "chapters/12/002.md",
+    "chapters/12/003.md",
+    "chapters/12/004.md",
+    "chapters/12/005.md",
+    "chapters/12/006.md",
+    "chapters/12/007.md",
+    "chapters/12/008.md",
+    "chapters/12/009.md",
+    "chapters/12/010.md",
+    "chapters/12/011.md",
+    "chapters/12/012.md",
+    "chapters/12/013.md",
+    "chapters/12/014.md",
+    "chapters/12/015.md"
+  ],
+  "scope": "通读全部 15 节并逐段润色散文正文，理顺跨页续句，删除口头填充、结巴、同句复说和无信息转场，保留第一人称、有效提问、独立信息、例子、推导、条件、否定、归因、不确定性与原推进顺序。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/12/001.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "message"
+        ],
+        "added": []
+      },
+      "resolution": "OK 为课堂确认语，message 的含义保留为课程想传递的内容；保留 execve、初始栈、interpreter 与后续 mmap 加载的过程。"
+    },
+    {
+      "path": "chapters/12/002.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "message"
+        ],
+        "added": []
+      },
+      "resolution": "message 的含义保留为论文讲述的 Unix 发展过程；保留早期 shell 轮换、27 行汇编 fork、Minix 兼容性和讲述者读书经历。"
+    },
+    {
+      "path": "chapters/12/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "ok"
+        ],
+        "added": []
+      },
+      "resolution": "OK/ok 为口头确认或可行性重复，内容已用自然中文表达；保留 Minix 镜像、16 位实验、工具、源码、自举及打印机例子。"
+    },
+    {
+      "path": "chapters/12/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Anyway"
+        ],
+        "added": []
+      },
+      "resolution": "Anyway 为无信息转场，删除；保留 Minix 微内核性能动机、Linus 及感知机的原课叙述与归因。"
+    },
+    {
+      "path": "chapters/12/005.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "be",
+          "born",
+          "can",
+          "managed",
+          "planned"
+        ],
+        "added": []
+      },
+      "resolution": "be/born/can/managed/planned 来自课堂夹杂英文的“革命无法预先制造、规划或管理”，整句改为中文，否定和 happen/just happen 的意思保留。保留所有年代、人物、个人评价及政策与创新的讨论。"
+    },
+    {
+      "path": "chapters/12/008.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "OK 为口头确认，删除；保留 CPU Reset、Firmware、Bootloader 与控制第一个进程的问题。"
+    },
+    {
+      "path": "chapters/12/012.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "ok"
+        ],
+        "added": []
+      },
+      "resolution": "ok 为口头确认，删除；保留 BusyBox 初始化前后状态、驱动、命令链接、进程与日志。"
+    },
+    {
+      "path": "chapters/12/013.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "list"
+        ],
+        "added": []
+      },
+      "resolution": "list 是普通“列出”动词，译为中文；原设备号、命令、系统调用及 procfs 条件保持。"
+    },
+    {
+      "path": "chapters/12/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "http",
+          "ko"
+        ],
+        "added": []
+      },
+      "resolution": "独立 http 是口头重启，语义由同段 httpd、网络服务器、浏览器访问完整保留；独立 ko 的“网卡驱动”解释合并到 e1000.ko 前，文件名保持。保留切换终端、根文件系统、404 和访问 init 的验证顺序。"
+    },
+    {
+      "path": "chapters/12",
+      "difference": "全部 numbers_to_review 的 removed/added 均为空。",
+      "resolution": "核查全部数值、版本、命令、路径；保留 AI 初次解包 7.3 兆对 23 兆、发现 19 兆尾部数据并补解的失败与更正过程，保留最小 init 退出导致 panic、404 后访问 init 等教学过程。"
+    },
+    {
+      "path": "chapters/12",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、所有标题、围栏及行内代码、图片行、图注、链接与听辨不清标记均通过逐字审计，图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "脚本核对受保护结构并提供数字、术语差异提示，语义保真依据逐段人工对照。",
+    "未运行课堂代码、重演模拟器或查询外部历史资料；保留原课堂关于系统实现、历史事件、政策、AI 能力和时间的主张及其原有归因，未将润色视作事实验证。"
+  ]
+}

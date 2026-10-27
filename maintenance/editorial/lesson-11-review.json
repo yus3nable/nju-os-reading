@@ -1,0 +1,61 @@
+{
+  "lesson": 11,
+  "status": "reviewed",
+  "sections": [
+    "chapters/11/001.md",
+    "chapters/11/002.md",
+    "chapters/11/003.md",
+    "chapters/11/004.md",
+    "chapters/11/005.md",
+    "chapters/11/006.md",
+    "chapters/11/007.md",
+    "chapters/11/008.md",
+    "chapters/11/009.md",
+    "chapters/11/010.md",
+    "chapters/11/011.md",
+    "chapters/11/012.md",
+    "chapters/11/013.md"
+  ],
+  "scope": "通读全部 13 节并逐段润色散文正文；删除口头填充、结巴和同义复说，理顺跨页续句；保留原顺序、第一人称、独立信息、提问、纠错、例子、推导、条件、否定、归因及不确定性。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/11/004.md",
+      "difference": "术语提示移除 OK。",
+      "resolution": "此处为视觉效果的口头认可，改为“视觉上就比较容易读”；保留 JSON/FLE 设计、指令字节、符号与链接加载推导。"
+    },
+    {
+      "path": "chapters/11/005.md",
+      "difference": "术语提示移除 anyway、ok、propose。",
+      "resolution": "anyway 为话题切换填充；ok 的可行判断保留为“agent 完全可以做”；propose 的含义保留在“每个人都可以提出自己的设计”。保留作者对学习、大学未来的判断与尚未想清楚的状态。"
+    },
+    {
+      "path": "chapters/11/007.md",
+      "difference": "术语提示移除 OK。",
+      "resolution": "删除纯口头确认。保留 Linux/mac 对参数 B C 的不同处理、argv 各位置、脚本路径原样传入与解释器错误示例。"
+    },
+    {
+      "path": "chapters/11/008.md",
+      "difference": "术语提示移除 OK。",
+      "resolution": "删除静态库复制例子中的口头确认，保留 libc 体积、文件数、升级动机、NEMU 例子和只读内存共享问题。"
+    },
+    {
+      "path": "chapters/11/010.md",
+      "difference": "术语提示移除 OK、ok。",
+      "resolution": "删除调试过程中的口头确认。保留 interpreter 加载先后、musl/glibc 差异、64 改 65 的路径实验、初始栈和断点观察。"
+    },
+    {
+      "path": "chapters/11",
+      "difference": "全部小节 numbers_to_review 的 removed/added 均为空。",
+      "resolution": "逐节核对全部数字、版本、路径及关键术语；保留 009 中先说 4 兆再按 ARM 四字节 NOP 得到 40 兆的原讲述过程，以及 013 中“2 兆——2G”的自我更正，未据常识改写事实主张。"
+    },
+    {
+      "path": "chapters/11",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、标题、代码、行内代码、图片行、图注、链接和不确定标记通过原文对照；原图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "审计脚本核对受保护结构并提供数字、术语提示；语义保真依据逐段人工对照。",
+    "本次仅润色逐字稿，未执行课堂代码或验证原课技术与时效性主张。"
+  ]
+}

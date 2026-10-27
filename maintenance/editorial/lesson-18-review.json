@@ -1,0 +1,250 @@
+{
+  "lesson": 18,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/18/001.md",
+    "chapters/18/002.md",
+    "chapters/18/003.md",
+    "chapters/18/004.md",
+    "chapters/18/005.md",
+    "chapters/18/006.md",
+    "chapters/18/007.md",
+    "chapters/18/008.md",
+    "chapters/18/009.md",
+    "chapters/18/010.md",
+    "chapters/18/011.md",
+    "chapters/18/012.md",
+    "chapters/18/013.md",
+    "chapters/18/014.md",
+    "chapters/18/015.md",
+    "chapters/18/016.md",
+    "chapters/18/017.md",
+    "chapters/18/018.md",
+    "chapters/18/019.md",
+    "chapters/18/020.md",
+    "chapters/18/021.md",
+    "chapters/18/022.md",
+    "chapters/18/023.md",
+    "chapters/18/024.md",
+    "chapters/18/025.md",
+    "chapters/18/026.md",
+    "chapters/18/027.md",
+    "chapters/18/028.md",
+    "chapters/18/029.md"
+  ],
+  "scope": "通读全部29节，逐段润色期中题目回顾、并行算法、Mandelbrot/OpenMP演示、TLS及并行数据结构。保留全部独立信息、第一人称、例子、推导、范围、条件、否定、数值、归因与不确定性；合并口头复说，理顺跨PDF页接续。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/18/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留 FILE typedef/预处理、锁状态随 fork 复制、多线程 fork 的推荐及管道描述符操作。"
+    },
+    {
+      "path": "chapters/18/006.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Anyway",
+          "lock",
+          "overly",
+          "simplified"
+        ],
+        "added": []
+      },
+      "resolution": "Anyway 删除，overly simplified 译为过度简化，lock 的含义保留为锁；保留原实验的性能判断、所有核数/耗时与饱和现象。"
+    },
+    {
+      "path": "chapters/18/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留固定 x0、不改变 c 的原叙述以及逐像素独立性，未静默修正原文数学表述。"
+    },
+    {
+      "path": "chapters/18/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "bug",
+          "computer",
+          "science"
+        ],
+        "added": []
+      },
+      "resolution": "bug 的含义以 data race 表达，computer science 以计算机专业表达；OK 删除。保留学模拟器的个人评价及限制线程/同步自由的理由。"
+    },
+    {
+      "path": "chapters/18/016.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "care",
+          "mess",
+          "promptAI",
+          "up"
+        ],
+        "added": [
+          "worker"
+        ]
+      },
+      "resolution": "care、mess up 分别译为不管、把代码弄乱的含义，promptAI 规范为给 AI 的 prompt；worker 是 T_worker 的简称。保留线程库与OpenMP对比、全部行号/尺寸/耗时及推测语气。"
+    },
+    {
+      "path": "chapters/18/019.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "data",
+          "race"
+        ],
+        "added": []
+      },
+      "resolution": "分写 data race 统一采用原文同段 Data Race；保留内核/数据库点赞/游戏/量化交易全部例子。"
+    },
+    {
+      "path": "chapters/18/021.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "local"
+        ],
+        "added": []
+      },
+      "resolution": "local 译为本地；保留阈值100、归零、读到旧值、每毫秒刷新与有界延迟的主张。"
+    },
+    {
+      "path": "chapters/18/022.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "worker"
+        ],
+        "added": [
+          "T_worker"
+        ]
+      },
+      "resolution": "worker 改为同段代码原有标识符 T_worker；明确保留数组置0、初值100、四个101与各线程地址不同。原文局部 thread_local 编译错误主张按原意保留。"
+    },
+    {
+      "path": "chapters/18/023.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "It",
+          "just",
+          "matter",
+          "of"
+        ],
+        "added": []
+      },
+      "resolution": "It just a matter of prompt 普通插语译为提好 prompt；保留 IP/PC、RSP、FS 的相对寻址与 musl GCC 静态演示。"
+    },
+    {
+      "path": "chapters/18/025.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "anyway"
+        ],
+        "added": []
+      },
+      "resolution": "OK、anyway 删除；保留主线程初始化TLS、pthread_create/mmap/__copy_tls/.tdata的先后，Buffer不够的展示限制与 system prompt 不确定性。"
+    },
+    {
+      "path": "chapters/18/026.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "idea",
+          "structure"
+        ],
+        "added": []
+      },
+      "resolution": "idea、structure 普通插语以想法/数据结构表达，保留每次+1、100节点合并、局部并行与同元素争锁条件。"
+    },
+    {
+      "path": "chapters/18/027.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "atomic"
+        ],
+        "added": []
+      },
+      "resolution": "atomic 译为原子；保留日志slot的原子分配、双指针与讲述者“有data race但正确”的原判断。"
+    },
+    {
+      "path": "chapters/18/029.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留所有 hash 例子、锁划分、线性/二次探测、tombstone、1.5倍扩容与秒级不可用。"
+    },
+    {
+      "path": "chapters/18",
+      "difference": "数值无增删，protected_errors 为空。",
+      "resolution": "初次提示的0与1均恢复原数字写法，逐段核对线程数/尺寸/时间/功耗/倍率/初值/阈值。标题、front matter、代码、图片/图注、链接及听辨标记逐字保护，图序保持。"
+    }
+  ],
+  "known_limits": [
+    "结构审计检查受保护片段，语义核查依赖逐段对照；未编译或运行课中代码，未重新验证性能测试。",
+    "原课有关 XAI 当天消息、CRAY-1/M4/ASIC 算力与功耗、Linpack/牛顿法概括、Julia/Mandelbrot 收敛/固定参数说明、函数局部 thread_local 编译错误及 onlinejudge data race 正确性等主张保留原意，需另行事实核查，未据外部知识修正。",
+    "课中关于 AI 能力、未来教学、API/并发规则及“128倍”等均为原讲述范围内的主张，不代表润色阶段已核实。"
+  ]
+}

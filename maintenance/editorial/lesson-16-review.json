@@ -1,0 +1,272 @@
+{
+  "lesson": 16,
+  "status": "reviewed",
+  "sections": [
+    "chapters/16/001.md",
+    "chapters/16/002.md",
+    "chapters/16/003.md",
+    "chapters/16/004.md",
+    "chapters/16/005.md",
+    "chapters/16/006.md",
+    "chapters/16/007.md",
+    "chapters/16/008.md",
+    "chapters/16/009.md",
+    "chapters/16/010.md",
+    "chapters/16/011.md",
+    "chapters/16/012.md",
+    "chapters/16/013.md",
+    "chapters/16/014.md",
+    "chapters/16/015.md",
+    "chapters/16/016.md",
+    "chapters/16/017.md",
+    "chapters/16/018.md",
+    "chapters/16/019.md",
+    "chapters/16/020.md",
+    "chapters/16/021.md",
+    "chapters/16/022.md",
+    "chapters/16/023.md",
+    "chapters/16/024.md",
+    "chapters/16/025.md",
+    "chapters/16/026.md",
+    "chapters/16/027.md",
+    "chapters/16/028.md"
+  ],
+  "scope": "通读全部 28 节后逐段润色散文、冷读同步条件和推导；删除口头填充、结巴、复说和无信息转场，保留全部独立信息、第一人称、有效提问、比喻、例子、推导、纠错、条件、否定、量词、锁范围、边界、归因与不确定性。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/16/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "lock"
+        ],
+        "added": []
+      },
+      "resolution": "lock 的动作含义保留为 acquire、上锁；保留 main 初始化持锁、A 释放、X 等待的尝试与理论可行限定，后文仍说明线程库不允许这样用。"
+    },
+    {
+      "path": "chapters/16/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "lock"
+        ],
+        "added": []
+      },
+      "resolution": "独立 lock 的动作含义保留在 acquire 和受保护代码 mutex_lock；保留 26/32 行、演示顺序、fast path 假设和 undefined behavior 限制。"
+    },
+    {
+      "path": "chapters/16/006.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "while"
+        ],
+        "added": []
+      },
+      "resolution": "while 的含义保留为“条件未满足、count 不大于 0 就等待”；保留所有计数变化、P/V 别名、第五个线程与仅控制入口的边界。"
+    },
+    {
+      "path": "chapters/16/007.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "count",
+          "token"
+        ]
+      },
+      "resolution": "count 与 token 是受保护代码中 sem->count 及其注释已有的字段/术语，散文也采用相同说法，无新增概念；保留初值 1、P/V 配对及重复 unlock 会破坏互斥的条件。"
+    },
+    {
+      "path": "chapters/16/008.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "token"
+        ]
+      },
+      "resolution": "token 是本课前文已有的交接凭证，与 Token/玩具同义；保留初值 0、任意释放线程以及取得对应 token 才建立前后关系的范围。"
+    },
+    {
+      "path": "chapters/16/010.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认；保留按边/按节点两种实现，保留原文先说四个玩具、再以三把钥匙和三次 P 为例的不同计数，未静默统一。"
+    },
+    {
+      "path": "chapters/16/012.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "eventually",
+          "produce",
+          "slot"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK，eventually/produce/slot 的含义分别用最终、生产、空槽位表达；保留 token 在生产中、写 buffer、V(fill) 和反向消费中的各状态及先后约束。"
+    },
+    {
+      "path": "chapters/16/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "buffer"
+        ],
+        "added": []
+      },
+      "resolution": "buffer 用“缓冲区”表达；保留 T1 小于号/T1 大于号的原讲述、复杂条件中的“或”、二分之一随机许可方案及计数模型的限制。"
+    },
+    {
+      "path": "chapters/16/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "Dijkstra"
+        ]
+      },
+      "resolution": "Dijkstra 是紧接前节已指明的主语，本节用专名补足“他”，无新增归因；保留五人五叉、N 个线程、ID-1/mod N 的编号及双叉同时可用的条件。"
+    },
+    {
+      "path": "chapters/16/018.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认；保留先各拿一把、循环等待、首次 T2 吃过与后续第一轮即停止的不同运行现象。"
+    },
+    {
+      "path": "chapters/16/019.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认；保留 table=n-1、五叉四人、至少一人可继续、长时间运行未死锁和理论可证明的区别。"
+    },
+    {
+      "path": "chapters/16/022.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "ok"
+        ],
+        "added": []
+      },
+      "resolution": "删除 ok 口头确认；保留关闭后正在进行的任务先完成、最终 empty/fill 状态、closing 标记、报告 close 等待，以及原文 consume 使用 empty 大于 0 的表述，不据常识修正。"
+    },
+    {
+      "path": "chapters/16/023.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认；保留 nwait、先释放 mutex 再 P(sleep)、醒后重取锁的错误实现设想和为什么不能持锁先 P 的推导。"
+    },
+    {
+      "path": "chapters/16/024.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "condition",
+          "tricky",
+          "wait"
+        ],
+        "added": [
+          "token"
+        ]
+      },
+      "resolution": "condition/wait 的含义用条件/等待表达，tricky 作为无独立信息的引语衔接删除；token 是前文已经定义的凭证。保留 nwait 增加但 P 延迟、其他线程取得 token、while 仍检查失败却少唤醒一人的完整失效链。"
+    },
+    {
+      "path": "chapters/16/025.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "ad",
+          "hoc",
+          "while"
+        ],
+        "added": []
+      },
+      "resolution": "删除 OK 口头确认；while 用“循环”表达；分写 ad hoc 的意思保留在自行设计协议，原文 self-organize/ad-hoc 仍保留。保留 waiter 唯一管理叉子、消息队列、431/134 示例和 PV 交接。"
+    },
+    {
+      "path": "chapters/16",
+      "difference": "全部 numbers_to_review 无增删。",
+      "resolution": "逐段核查初值、P/V 计数、线程与叉子编号、实验深度、考试分值、延迟和规模。原文 234 执行次序、消费条件 empty 大于 0、三/四把钥匙等按原讲述保留，未据外部知识静默修正。"
+    },
+    {
+      "path": "chapters/16",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、全部标题、围栏和行内代码、图片、图注、链接和不确定标记均通过精确审计，原图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "结构审计只精确检查受保护内容并提示数字/术语差异；语义保真依据逐段对照。",
+    "未运行线程库、信号量、哲学家或条件变量实现，未重新验证原课对 undefined behavior、正确性、复杂度、性能或 API 的事实主张。原文条件与数值保持，不能将润色视为算法验证。"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lesson": 6,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/06/001.md",
+    "chapters/06/002.md",
+    "chapters/06/003.md",
+    "chapters/06/004.md",
+    "chapters/06/005.md",
+    "chapters/06/006.md",
+    "chapters/06/007.md",
+    "chapters/06/008.md",
+    "chapters/06/009.md"
+  ],
+  "scope": "九节全部通读并逐段语义改写，保留顺序、第一人称、独立信息、原课事实主张和不确定性；跨页悬句按原意衔接。",
+  "reviewed_differences": [
+    "九节数值审计均无新增或删除；64 位与 63 次方、地址、8GB/1.62 毫秒、位移、4950/5100、392/9910、10 倍时间和全部命令路径已逐项核对。",
+    "002：OK 插语删除；地址空间、指针、volatile/const 的原有主张保留，不将原课 volatile 指针解释改为新的技术结论。",
+    "003：OK、somehow 插语删除；保留未测代码的判断、ASLR/GDB 地址现象、PT_LOAD、pie、ABI/auxv 的归因。",
+    "004：Anyway、OK 删除，单独 get 译为取得；保留 vvar/vdso、gettimeofday 与假设每进程一页 getpid 的条件，不把设想写成已实现。",
+    "005：OK 删除；新增 AI 只是承接原稿让模型实现 mmap 的指代，未新增知识；保留 brk/sbrk 历史、mmap/munmap/mprotect 例子和 CrazyOS 尚未实现的计划状态。",
+    "006：数值术语无差异；保留过量申请与延迟分配推导、磁盘误清空经历和还原卡原因不明、共享内存与 JIT 例子；普通数据不可读的原说法未自行改正。",
+    "007：Value 和 if 的重复条件写法并入 address/Data 条件及初始化示例，条件和 3 到 99 变化未删；VR 引用保留；GDB/mmap/ptrace 原有解释按稿保留。",
+    "008：数值术语无差异；保留修改仅影响显示值的失败及一分钟未修复、state 每次重分配导致扫描失效、Hanoi 脚本、三角形透视、变速齿轮；T0 加 T-T0 的原公式保留，未补乘数。",
+    "009：OK 删除，mindset 自然译为相信任务可行，prompt 的重复措辞并入提问操作；Copilot 保留。版权与虚拟化的讲述保持可能性，硬件 DMA/CXL 的设想保留。",
+    "protected_errors 均为空；front matter、标题、代码、图片图注、链接、听辨标记保持原样。"
+  ],
+  "known_limits": [
+    "未重新听音频，未运行代码，未外部核验事实；原课地址范围、volatile、GDB 断点、普通数据权限和虚拟时间公式中的潜在错误未在润色中改正。"
+  ]
+}

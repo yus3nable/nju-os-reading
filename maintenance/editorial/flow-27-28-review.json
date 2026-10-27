@@ -1,0 +1,1333 @@
+{
+  "lessons": [
+    27,
+    28
+  ],
+  "initial_dangling_paragraphs": {
+    "27": 53,
+    "28": 69
+  },
+  "sections": [
+    {
+      "path": "chapters/27/001.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/002.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/003.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/004.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/27/005.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/006.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/007.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/008.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/009.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/010.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/011.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/012.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/013.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/014.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/015.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/016.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/017.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/018.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/019.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/020.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/021.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/022.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/023.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 4
+    },
+    {
+      "path": "chapters/27/024.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/025.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/026.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/027.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/028.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/029.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/27/030.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/031.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/032.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/033.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/034.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/035.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/036.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/037.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/038.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/039.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/040.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/041.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/27/042.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/043.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/044.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/045.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/046.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/047.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/048.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/049.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/27/050.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/27/051.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/052.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/053.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/054.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/055.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/27/056.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/27/057.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/058.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/059.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/27/060.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/061.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/27/062.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/063.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/27/064.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/001.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/002.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/003.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/004.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/005.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/28/006.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/007.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/008.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/009.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/010.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/011.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/012.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/013.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/014.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/015.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/016.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/017.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/018.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/019.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/020.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/021.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/022.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/28/023.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/024.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/025.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/026.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/027.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/28/028.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/029.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/030.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/031.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/032.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/28/033.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/034.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/035.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/036.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/28/037.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/038.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/039.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/040.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/041.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/28/042.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/043.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/044.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/045.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/046.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/047.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 4
+    },
+    {
+      "path": "chapters/28/048.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/049.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/050.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/051.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/052.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/053.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/054.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/055.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/056.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 5
+    },
+    {
+      "path": "chapters/28/057.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/058.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/059.md",
+      "adjacent_prose_joins": 2,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/060.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 3
+    },
+    {
+      "path": "chapters/28/061.md",
+      "adjacent_prose_joins": 0
+    },
+    {
+      "path": "chapters/28/062.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/063.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/064.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/065.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/066.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/067.md",
+      "adjacent_prose_joins": 1,
+      "local_flow_repairs": 1
+    },
+    {
+      "path": "chapters/28/068.md",
+      "adjacent_prose_joins": 1
+    },
+    {
+      "path": "chapters/28/069.md",
+      "adjacent_prose_joins": 0,
+      "local_flow_repairs": 2
+    },
+    {
+      "path": "chapters/28/070.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/28/071.md",
+      "adjacent_prose_joins": 2
+    },
+    {
+      "path": "chapters/28/072.md",
+      "adjacent_prose_joins": 2
+    }
+  ],
+  "notes": [
+    "逐小节通读，合并相邻普通散文中的分页断句；围栏代码、图片、图注及其他受保护结构不参与拼接。",
+    "第27课：图片/代码夹断处和跨小节残句逐处补足主谓、条件或承接对象，保留原信息顺序；完整句仅调整句末标点。",
+    "第28课：逐处补足访问控制、栈溢出、侧信道和供应链叙述中的断句；保留条件、否定、归因及不确定性。28/056 未补回口头重复尾巴 34，1234、4567 及 1 与 4 的比较保留。"
+  ],
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "reviewed",
+  "resolved_initial_dangling_paragraphs": 122,
+  "resolved_items": [
+    {
+      "path": "chapters/27/001.md",
+      "original_tail": "件系统一致，应用如果有 data loss，使用者也很难接受。我们一直用文件系统管理应用数据，PPTX、DOCX、电影和 OS Labs 都在文件、目录这套目录树 API 上工作。今天讨论有没有更好的方法：应用程序如果要服务一万人、十万人，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/004.md",
+      "original_tail": "同。这是一个典型的应用程序，以 HTTP server 的方式在后台运行，和你们做 lab 时一样。我访问的 URL 比较小，看不清，但可以把任何网站想象成你们的 CGI bin：底下有一个应用程序，会启动一个进程。如果是服务全世界的服务，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/006.md",
+      "original_tail": "这个数据结构用 XML 描述，是 Open XML format 下的 Office document，有一套 specification，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/008.md",
+      "original_tail": "每一页的标题都变成了英文，完全是文本修改，可以这样做 hack。这里还有 slide layouts、layout masters、slide master，也就是幻灯片模板。在 PowerPoint 里看到的所有东西，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/009.md",
+      "original_tail": "PPTX skill，它会解析这些文件。我一直觉得这未必是个很好的想法，因为文件格式并不很规整，也许需要更好的查询语言来修改。实际上有像 COM 这样的 API，可以修改 PowerPoint 文件。这些都是应用的数据。所有应用程序的数据，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/011.md",
+      "original_tail": "，这个向量能帮助我找到相关的 paper。它还有短、中、长等文本摘要。这样就在文件系统里形成了一个数据库系统，也是由很多 struct paper 组成的数据结构，类似实现内存中的业务系统，但数据都以文件方式访问。我可以很容易地查看、修改，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/019.md",
+      "original_tail": "统，可以像在文件上实现文件系统一样，在文件开头放一个 struct 的 superblock，类似 ELF 的 header。它有两个部分：students，由很多 struct student 组成；还有很多 course。实现教务系统，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/019.md",
+      "original_tail": "就是做增删改查：往学生链表加学生，往课程链表加课程，再通过 enrollment，或者学生内部保存全部选课的链表，把它们关联起来。还可以做一个 hack：虽然这个 byte array 是磁盘上 persistent 的文件，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/020.md",
+      "original_tail": "针？比如始终把 superblock 映射到 0x10000，它占 32 个字节，第一个学生紧接在后面，地址就是 0x10020，也就是 10020。假设 superblock 有一个 struct student \\*s pointer，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/021.md",
+      "original_tail": "还有一个 free 空闲链表用于分配，数据可以初始化。往链表插入学生的代码，就是数据结构课上学过的：先分配一个 student\\_t，再让 s 的 next 等于 superblock 的 head，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/022.md",
+      "original_tail": "映射到同一个位置就无须修改，即使数据库很大也不要紧。现在数据库还是空的，可以启动教务系统。界面比较简陋，你们大一学 C\\+\\+ 时，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/031.md",
+      "original_tail": "BA 能很快写点东西修复数据，或调整配置。它还要有极致性能：全校同学一起选课不能崩，全世界的人用微信聊天也要扛住。目标是好用、高性能和 crash consistency，永远不丢数据。对单机数据库来说，磁盘坏了肯定没有办法；只要磁盘没坏，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/031.md",
+      "original_tail": "何时候断电再重启，数据都要正确。这当然不容易。要兼顾易用和性能，数据结构必须支持 multi\\-write。比如教务经常批量导入选课信息或成绩。我可以向系统提交一个 excel 表格，系统解析每个同学的分数，再一次性登上去，避免登到一半时，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/031.md",
+      "original_tail": "一半同学看到分数，另一半看不到。即使系统随时可能 crash，也要避免这种情况。分布式场景还希望：有三个副本，即使一份或两份数据所在的机器物理损坏，数据库依然能正确提供服务，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/033.md",
+      "original_tail": "实现 data structure 时，直觉上会在 struct student 中放一个 list，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/033.md",
+      "original_tail": "在 structure 里再添一张选课表。选课表当然也可以有选课 id，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/035.md",
+      "original_tail": "uture users of large data banks，Must be protected from having to know，how the data is organized in the machine。只要在概念层次上，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/036.md",
+      "original_tail": "高效完成这个操作，哪怕写五十层嵌套循环，也能高效算出来，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/041.md",
+      "original_tail": "山寨支付宝时，要先判断钱够不够，再扣钱。两个线程同时判断就会出问题；并发场景下，我们会加锁。database 还要保证 crash consistency，应对线程随时消失的错误。比如从一个账户扣掉 100 块，给另一个账户加 100 块，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/043.md",
+      "original_tail": "看到的是一把大锁的效果，性能却可能优于细粒度锁，还有完全自动的崩溃恢复。这一直是商用数据库相对文件系统最大的优势：文件系统上的应用总容易出现不一致。现在我们对操作系统理解较好，也知道怎么教 crash consistency；20 年以前，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/044.md",
+      "original_tail": "ent 数据，天然就很困难。数据库把这些事情接管下来，背后有大量实现优化，包括查询优化。查询是一段程序，就可以 rewriting。今天 GCC\\-O0\\-O1\\-O2 的编译优化，也有很多 rewriting rules。数据库与编译器，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/044.md",
+      "original_tail": "查询中很少涉及的内容。但两者都有大量 rewriting rules。比如把查询里的一个循环提到外面，就能提升性能：剩下两个循环可以直接查 key，因而消除。不断 rewrite 后，得到高效的执行 plan，再访问磁盘上的高性能数据结构，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/044.md",
+      "original_tail": "比如 Btree 索引，配合缓存、分库分表、并发控制、读写分离等优化。只要应用没大到国民级，单机数据库都能处理。现在一台服务器或 PC，就支持高并发，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/045.md",
+      "original_tail": "另一个与操作系统更相关的问题，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/046.md",
+      "original_tail": "ry Language，结构化查询语言。并发控制很难，因为每个请求会读写数据库的不同部分。数据库可能有几百张表，有些请求读这些部分，再往其中写一个值；另一些请求读其他部分，再写另一个值。情况很复杂，为了 crash consistency，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/047.md",
+      "original_tail": "第一种叫 Two\\-phase Locking：读 x 时加读锁，写 x 时加写锁，一边读写一边加锁。如果 transaction 只读写一张表，就加这张表的锁；还可以分区、分 column，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/047.md",
+      "original_tail": "ix。数据库没法这样避免，因为查询由别人编写，业务逻辑可能就要求这种顺序：先执行一个 Turing Complete、图灵完备的计算，算出结果后才知道要写表里的哪个值。有的业务要求先写 A 再写 B，另一些要求先写 B 再写 A。一般来说，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/047.md",
+      "original_tail": "这里很复杂，比如回滚到什么程度，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/048.md",
+      "original_tail": "个好的 Data Base System，对程序世界产生了多大的冲击。Two\\-phase Locking 的想法很直观：读时加读锁，写时加写锁。另一种是多版本并发控制，我用一个比方说明。我觉得这样概括挺好：任何时候，数据结构都有一个快照，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/048.md",
+      "original_tail": "个世界，别人怎么改都无关；写也写到自己的世界，不修改 Main 分支。多个线程并发做 Database Transaction，每个都 Checkout 新分支，各做各的，完成后试图向 Main 分支发起 Merge。比如 T1 改这一行，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/049.md",
+      "original_tail": "就。在云计算、分布式数据库出现之前，新浪、网易、Yahoo 等网站背后，都有这样的 Database System。它能服务很大的人群，也服务我们每个人。Database 很大的好处是 Crash Consistency，提供很强的一致性，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/050.md",
+      "original_tail": "persistence 时，首先就会求助于 SQLite Database。它是 zero configuration，只需 libsqlite3\\.so，就能享受数据库的好处。比如要做 preference 界面，获取动态构建的设置列表，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/051.md",
+      "original_tail": "聊天记录就是界面里的一个气泡，里面是一个 XML 文档，也有一些 hard code 的 encode 规则。比如微信长按回复消息，做法是把原消息复制一份，在复制的消息下面加很多减号，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/051.md",
+      "original_tail": "录，查看最近十条，只需一个 SQL 查询：知道自己和对方是谁，在全世界的微信聊天记录里 select \\*，用 filter 要求 sender ID 是你、receiver ID 是对方，再按时间排序，取最近十条。微信在百万、千万用户时，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/052.md",
+      "original_tail": "ver，比如 postgres，处理这些请求。到了微信的量级，SQL database 压力就很大。正确性可以保证，性能压力则交给数据库引擎，需要分库分表、读写分离、正确的索引、缓存等各种优化。SQL 的查询优化让程序员只需写好 fact，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/052.md",
+      "original_tail": "管理查询怎么执行。但永远无法预知程序员能写出多糟的 query。在互联网公司，尤其面向企业服务的公司，比如处理淘宝或京东的一次下单，看起来只有一单，背后却涉及大量业务逻辑和表。查询可能把 50 个表 join 起来，再带上日期、limit，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/052.md",
+      "original_tail": "根据查询的实际执行生成好的 plan。提供了这些功能，就很难避免滥用，滥用会带来 performance bug。公司里交付产品总在第一位，用户量小时，复杂查询的 performance bug 可能不致命；数据库不断增长后，它就越来越慢，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/053.md",
+      "original_tail": "何 systems 都无法避免的 tech debt。互联网大厂用 SQL 开发微信等应用，最终也会面对复杂性，需要很好的架构师管理数据库。总有一天还要走向分布式，因为一台机器装不下全国人民的微信聊天记录。办法包括先把不同表放在不同机器上，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/053.md",
+      "original_tail": "一张表大到单机放不下时，再切成多个部分，比如把聊天记录分到不同机器。理论上，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/054.md",
+      "original_tail": "传统 SQL database 也可以 scale 到多台机器。如果想一劳永逸地解决 scalability，一个想法是提供够用、又能 scale out 的子集。大家踩过很多坑以后，会觉得 SQL 给得太多，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/055.md",
+      "original_tail": "还可以扩展 key value：比如 user1、user2 的 key 各指向一个 json，保存用户自己的 metadata 等信息，1 号 user 也这样保存；enrollment 则可以指向一个 append\\-only 列表，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/055.md",
+      "original_tail": "选课和退选记录放进去，也就能实现教务系统。当然还可以有 course。一个学生通常不会选一万个课、退一万个课，即使有，我相信也是自己写脚本时出了 bug。这就是对系统中某些数据的 knowledge。append\\-only 比较容易实现，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/057.md",
+      "original_tail": "模机器数量，就能送到一台随机机器，自动实现 load balance，也就能在一定程度上 scale。因此，对 key 做 hash 就能把负载分到多台机器。又因为 everything is append\\-only，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/058.md",
+      "original_tail": "key value 还可以做成 in memory 的结构。所有请求到来后，先进入这个 in memory key value，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/058.md",
+      "original_tail": "次请求进入 in memory 后都加 1，可以用 list append，也可以 atomic 加 1，让 key 映射到 integer。每隔一分钟或其他时长，知道 list 长度后，再写 SQL，从 database 取出原点赞数据，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/059.md",
+      "original_tail": "内存中并行完成，性能、scalability 较好，也减少了瓶颈数据库所需的带宽。上面可以放这样一层 redis，也是 keyvalue，支持 string、list、set、hash，可以作为高性能缓存，为数据库做缓存，或先缓冲大量点赞，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/059.md",
+      "original_tail": "减轻底层数据库压力。这样已经很接近今天的高性能架构。但 keyvalue 用起来终究没有 SQL 方便：SQL 可以写 50 层循环，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/059.md",
+      "original_tail": "由数据库自动处理。如果扩展 keyvalue，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/060.md",
+      "original_tail": " 的 column database。Cassandra 有 cql 查询语言，也是 table 模型，但没有 full SQL support。mongodb 的操作都是 document based，类似 json、key\\.json，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/060.md",
+      "original_tail": "好用。也有数据库想提供几乎完整的 SQL 支持，代表之一是 TiDB，是国产 startup 出海的经典案例；还有 google 的 spanner、CockroachDB 等。它们也算不上今天的版本答案。这是一个巨大的 industry，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/27/060.md",
+      "original_tail": "也许有同学会加入。今天还有一种新兴 database，和它们都不同。前面这些都是程序和数据结构，目的类似于刚才的示例，希望在 infrastructure 上，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/061.md",
+      "original_tail": "istency、分布式等复杂性，只暴露 API，调用后就能处理这些事情。还有一种是 vector database，向量数据库。课前我特意让一个小模型，应该是 Qwen3 的 8B，可能是 Qwen3，把每次上课的文档做了处理。可以看一下，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/27/063.md",
+      "original_tail": "统里。结构化数据结构肯定不会消失，因为它是高效保存数据的办法，微信聊天记录用前面两种方式保存都合适。同时，数据库也不可避免会有向量部分。理论上，每张表的每个 record 都能有一个向量，我们也许可以智能地查询这个世界。比如构建论文数据库，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/002.md",
+      "original_tail": "早期计算机系统可以说毫无安全可言。比如一台 8086 的 real mode PC，CS 和 IP 都是 16 位，有 20 位地址空间，会把 CS 左移 4 位，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/003.md",
+      "original_tail": "全可言，病毒可以复制自己，感染更多计算机。有个 term 叫加壳：在 ELF 文件里 patch 一段代码，把 ELF entry 改成这段代码。应用启动时先运行壳，运行完再跳回原来的 ELF entry。打开游戏仍像游戏，打开文本编辑器，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/005.md",
+      "original_tail": "没有防护，可以写脚本不断尝试密码和登录。我发现小百合有个功能，能爬到全部用户列表。有了用户列表，再配上密码库，就能得到很多小百合账号。拿账号做什么？我们想上十个十大。每天有十大热门话题，最厉害的人可能一天能上六个，就已经很厉害。当时我们想，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/008.md",
+      "original_tail": "tegrity。入侵系统、篡改数据会损害安全，也可能入刑，应该是破坏信息系统的罪，会去踩缝纫机，确实不要做。上十个十大也不可以，所以我们没有做这件事，好像也没吃过处分。前两个方面分别要求别人看不到不想公开的内容，以及改不了不允许修改的内容，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/009.md",
+      "original_tail": "，应该可能是 100K 的随机数字，让 DeepSeek 从一数到这个数。很多模型会拒绝，表示数字太大，无法数。但 DeepSeek V3 开启思考时，思维链会先重复问题：用户给我的问题是从一数到……然后把整个数字抄一遍。如果有一万台肉机，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/010.md",
+      "original_tail": "thmic Complexity Attack，算法复杂性攻击。比如 Hash Table 有很多 slot，字符串 Hello 经过 Hash Function，被送到某个 slot。平均而言，Hash Operation 是 O(1)，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/010.md",
+      "original_tail": " 映射到同一个地址，无论用开放寻址还是链表，Hash Table 都会退化成线性时间的数据结构。一个办法是换成二叉树等 worst case 比线性好的结构，受到攻击也不至于那么糟。后来 Standard Library 应该做过这种调整，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/010.md",
+      "original_tail": "数据大到一定程度就换成树。这个漏洞很早就有，后来才修。比如攻击 Apache，像刚才对 DeepSeek 的攻击，甚至不需要一万台肉机，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/011.md",
+      "original_tail": "这只是范围很窄的简介，我讲几个觉得重要的小点。首先有 one way function，单向函数：它是函数 fx，正向很好算，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/012.md",
+      "original_tail": " 就加 1，比较 predictable。密码学 hash function，比如 MD5、SHA\\-256，首先要求很难逆向：fx 等于 y 时，正向容易，像 sha1sum 可以处理很大的文件；但给定 y，比如一串随机数字，求一个 x，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/014.md",
+      "original_tail": "里会生成 id\\_rsa 和 id\\_rsa\\.pub。pub 代表这个函数，当然还带着算法本身；private key，私钥，就是 t。有 t，逆向就容易了。f 加上 \\.pub 是公开的，可以用来验证内容是不是由某一方发布。作为发布方，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/016.md",
+      "original_tail": "d only，数据结构课的含金量还在上升。如果有一个每次能 append 字符串的 append only 数据结构，由全世界共同维护共识，就可以用它记账。虽然叫 blockchain，区块链，可以把每个块理解为字符串，对它计算 hash，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/017.md",
+      "original_tail": "保捡到的骨头对应足够小的 hash value。这叫 proof of work：证明投入了时间，找到了骨头。找到后，按协议记录在哪里找到、骨头是什么，所有内容都签名。借助 one way function 和 proof of work，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/022.md",
+      "original_tail": "个入口。应用程序可以自由计算，访问对象时则必须经过操作系统 API，因而可以实现访问控制。API 一方面有具体行为，比如 fork 复制程序、Map、read/write、Mount 文件系统；另一方面还承担访问控制。应用调用 API 时，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/022.md",
+      "original_tail": "比如 Open 文件，操作系统知道应返回指向明确对象的文件描述符，也有权拒绝访问。拒绝越权的读，就能实现 Confidentiality：操作系统认为程序无权读取这个对象，就拒绝 API 请求。如果程序请求写入，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/024.md",
+      "original_tail": "系统不能直接存下整张表：几千几万个进程、几百万个对象，再乘上很多访问方式，规模过大。但这张表是一个矩阵，可以做 low rank decomposition，rank 对应的信息量很少。低权限用户对几乎所有内容的访问都应被拒绝，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/025.md",
+      "original_tail": "UNIX 用整数表示身份，将权限表归纳为几个要素：系统中有一些身份，每个身份对每个对象有相应权限。这沿用了现实世界的模型：冤有头债有主，每件物品基本都有 owner，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/027.md",
+      "original_tail": "用户、同一组、其他人三类，分别设置访问控制权限。这样，大表就化成每个文件的几个字节，再配上一张用户和组的表。这里涉及一个重要文件 /etc/passwd，普通用户也能打开。可以把密码通过 one way function 得到的 hash，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/028.md",
+      "original_tail": "，我都会用 coding agent 检查，应该没有这种 factual error。AI 能在课件上下文里提供补充，还可以提供情绪价值。问室友，可能得到“这个都不知道吗”，让人伤心；同样的问题问 AI，它会先说问题确实很难，不理解很正常，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/029.md",
+      "original_tail": "比如想知道 /etc/passwd 的格式，课件里写了 username、password、uid、gid、comment、home、shell。课后感兴趣，可以很低成本地追问，连复制粘贴幻灯片都不需要。还可以把它做成 skill，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/030.md",
+      "original_tail": "很多常用功能都涉及这个文件。比如 chsh，即 change shell，可以改用户的 login shell。我开新终端时默认是 fish，系统创建用户时默认应该是 bash。要改 login shell，就用 change shell，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/032.md",
+      "original_tail": "，current password 是 1234，改成 5678，程序拒绝了。那就改成 12345678，再输入 12345678，update successfully。全程没有 sudo，为什么能改？但肯定不能 passwd root，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/032.md",
+      "original_tail": "它提示不允许。这就是刚才的悖论，access control 比想象中复杂。通常我们知道系统里有用户、UID、GID，操作系统根据这些编号判断能否读、写、执行文件，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/036.md",
+      "original_tail": "X Security 03 年的 setuid demystified。我喜欢这个 paper 标题，因为当时大家知道 unix 的 mode bit，却不知道系统为什么还需要这么多 UID，这篇 paper 确实讲清了。最近看到很多文章，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/038.md",
+      "original_tail": "可以从访问控制矩阵中选出关心的部分。比如系统中的 access control list，能以文件为单位，分别为用户和组设置细粒度访问控制，超出 mode 的能力。可以指定哪个用户能访问，或者只有某个用户能读，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/038.md",
+      "original_tail": "理解各种机制是在选择哪些方面，就能提高学习效率。我会直接问 AI：把任意一种访问控制机制看成整个 access control matrix 的投影，从这个角度解释。比如 Posix access control list，仍以文件为主体，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/039.md",
+      "original_tail": "这类更新的机制有不同思路。执行一个 Binary，比如 LS 或 A\\.out 时，程序通常会获得执行者的用户身份。刚才的 passwd 会知道当前用户，sudo passwd 时也知道自己是 root。程序代码不变，但继承父进程 UID，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/039.md",
+      "original_tail": "也就继承权限：root shell 启动的程序具有 root 权限，当前用户启动的就有当前用户权限。但 access control 还可以采用其他依据，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/039.md",
+      "original_tail": "AppArmor 把权限限制施加在 program 上。比如 nginx，无论由什么用户运行，都能设置权限上限，只允许访问几个目录里的文件，因为它理论上不该调用系统其他部分。如果偷偷调用 passwd，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/040.md",
+      "original_tail": "就很危险。可以像构建虚拟世界一样，把禁止访问的对象从它眼中抹去，让它永远看不到其他部分，类似虚拟化。这是 access control 的一种思路。顺着权限表，还能想到直接写 access control function，可以针对用户，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/041.md",
+      "original_tail": "拒绝访问。seccomp 允许编写这样的访问控制代码，放入内核，生效后拒绝相应访问。类似地，从 Kernel 5\\.7 起，也有用 LSM 的 BPF 实现访问控制。这些内容看起来离大家很远，通常操作系统课也不会讲这么多今天实际能用的东西，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/042.md",
+      "original_tail": "行程序对每个对象执行各个 API 调用的 yes 或 no。最细粒度可以对每次访问运行一个 turing complete、图灵完备的程序检查，乃至调用大语言模型决定接受或拒绝。追求效率时，则只关注常用部分，比如 AppArmor 的想法，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/043.md",
+      "original_tail": "，也无法破坏系统其他部分。android 中每个应用是独立用户，权限限于自己的数据，以及操作系统允许它看到的共享部分。再看 /bin/passwd，因为 setuid bit，也就是加 s，它以 root 权限运行。正常情况下程序没有问题，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/047.md",
+      "original_tail": "栈从高地址向低地址增长，方向其实无所谓。执行 call 时，先 push 一个 return address，再建立属于 main 或其他函数的 stack frame，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/047.md",
+      "original_tail": "buffer。低地址这边是 buffer 的 0，另一端是 63。buffer overflow 是 undefined behavior，未定义行为。输入很长的 a 字符串，就会从低地址向高地址不断写 a。如果用 memory copy，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/048.md",
+      "original_tail": "这样就可能获得 shell 访问。刚才说的 /etc/passwd 以 root 权限运行，如果跳过去执行 execve，就会得到 root shell。本来只是低权限用户启动 setuid 程序，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/050.md",
+      "original_tail": "普通 AA 字符串之外，这次输入采用精心构造的字符串，通过 buffer overflow 覆盖返回地址，让它指向栈上注入的代码。PC 执行 return 时，CPU 机械地跳到这个地址，开始执行代码，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/051.md",
+      "original_tail": "就被攻破了。攻击先要知道 buffer 地址，这里我作弊了：main\\.c 打印了栈地址，相当于绕过地址空间随机化。如果不知道，攻击会很困难。然后发送一个精心构造、看起来奇怪的 payload 字符串。如果包含 0、\\\\0，可能就无法工作，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/052.md",
+      "original_tail": "入代码，跳过去也会触发越权访问，CPU 给出 segmentation fault，程序 crash。它也能被绕过：从已有代码里找 return 结尾的片段，作为 gadget。栈上可以放多个数据和地址，比如 pop rdi return，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/052.md",
+      "original_tail": "控制第一个参数，再用 pop rsi return 控制第二个参数。先 return 到地址空间中的 pop rdi，再依次 return 到后续地址，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/053.md",
+      "original_tail": "仍然有很多办法减少攻击面，比如 stack protector、地址空间随机化、Canary。Canary 是金丝雀。以前矿井里会有一氧化碳泄漏，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/054.md",
+      "original_tail": "先复制内存，再检查内容、用户名、密码，最后返回。严格遵循写好的逻辑就没问题。CFI 的想法是只允许程序规定的控制流，其他跳转都拒绝。endbr64 标记分支跳转目标，跳过去时，如果目标是 endbr64 就允许；否则，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/056.md",
+      "original_tail": "还不完全。可以检查分支跳转是否合法、Canary 是否损坏，但下面这个例子有不同思路。操作系统内核里有个 check\\_password，从功能看没问题。内核保存一个密码，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/056.md",
+      "original_tail": "比如 1234，后面还有 \\\\0。用户空间指针指向给出的 password，比如 4567。先比较 correct\\_pass 的 0 和 given\\_pass 的 0，1 不等于 4，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/056.md",
+      "original_tail": "就睡三秒，再返回 access denied。sleep 三秒还能防止不停尝试密码。但操作系统的各种组件都能相互关联，用户虽然只能向 API 提供 password，无法做其他事，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/057.md",
+      "original_tail": "却能改变 password 在内存里的排布，进而影响时间。地址空间按页面划分，假设这边低、那边高。现在我对密码一无所知，想试第一个字符是不是 1，其他字符可以错，只要知道这个 1 是否猜对，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/057.md",
+      "original_tail": "就把 1 放到页面边界，并想办法让下一页换出内存。课上没展开讲这个机制。进程申请大量内存是合法的，可以大量申请页面，不断读写其他内存，再伙同其他进程增加系统内存压力。操作系统发现某页从未被访问，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/059.md",
+      "original_tail": "timing side channel 还引出一个更严重的问题：Meltdown。代码与刚才的例子类似，先触发 segmentation fault，做一个非法操作，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/059.md",
+      "original_tail": "它会让程序 crash，或者是 hardware transactional memory abort。按理执行到这里就该终止或跳到其他地方，后面的代码不应执行，因为程序按指定顺序执行。我作为一个进程，可以用指针访问自己的内存，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/059.md",
+      "original_tail": "程内存映射在一起，一部分由 OS 访问，一部分由进程访问。如果进程拿 pointer 直接 de\\-reference 内核部分，mmu 会判断非法，杀掉进程。我现在先触发 crash，再 de\\-reference 这个 pointer，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/060.md",
+      "original_tail": "这两行按理都不会执行，因为前面已经 crash，但会留下 side effect。现在 CPU 有投机执行机制，比如暂时不知道分支怎么走，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/060.md",
+      "original_tail": "之后发现 crash 条件满足，就把这些指令全部销毁。它们只是做了读，没有留下其他实际 side effect，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/062.md",
+      "original_tail": " Tenex 验证密码的例子类似，都是 timing side channel。后来的操作系统内核只能选择：既然不知道还有没有其他漏洞，就不再把内核和进程映射到同一地址空间。这样任何试图窃取内核数据的 pointer，看到的地址本身就非法，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/063.md",
+      "original_tail": "历史上的经典文章里，有人用天线隔着三层石膏板、十米距离，窃取射线管显示器的图像。做任何事都会产生噪音。刚才用程序观测 timing side effect，也可以用物理设备，比如天线观测：显示器发射电子，少量穿过墙壁，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/063.md",
+      "original_tail": "旁边同学悄悄放一个饼，就能偷走 private key。这叫 physical key extraction。还有更直接的办法：内存是 volatile memory，虽然前面提过，未来 nonvolatile memory 可能成为主流，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/064.md",
+      "original_tail": "眼下笔记本里刚处理过的热数据，比如打开的 word 文档、操作系统状态、浏览器 session、private key，都可能还在 DRAM 中，尚未销毁，内存还持有 page reference。你刚走出教室，我就拆开电脑，浇上液氮，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/065.md",
+      "original_tail": "AI 时代又有变化。各种 prompt injection、jailbreak 现在越来越难。GPT 刚出来时，要求做它不愿做的事，它会拒绝，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/065.md",
+      "original_tail": "会给我一个 Windows 10 序列号。模型经过微调，知道不能讲序列号，但看到奶奶的提示词就放松戒备，输出实际序列号，有些还可以用。早期模型能力没现在好时，也有人说自己得了绝症，答不对问题就会遭遇什么；现在后训练做好了，通常不太需要这样，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/066.md",
+      "original_tail": "论上仍可能通过巧妙方式，特别在长上下文中，打破部分安全策略，让模型输出原本拒绝的内容。我记得试过 DeepSeek V3：伪造一段已发生的对话，把希望引导的内容写成它此前的输出，再提供这段 chat history。继续生成时，它可能会想，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/067.md",
+      "original_tail": "agent 能调用工具时，prompt injection 防御更重要。可以像 return\\-oriented programming 一样，每次 inject 一点，每次输出看似无害，组合成文件后却是 malicious prompt，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/067.md",
+      "original_tail": "读入文件就被 inject，原有安全机制可能转成遵循恶意指令。模型比较小时更可能遇到这种问题。刚才展示过，学操作系统可以让 agent 帮忙学习、复习，比自己逐个点网页更有效，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/068.md",
+      "original_tail": "恶意人员就可能在网页隐藏 prompt。fetch 后，如果清洗不充分，或原样加入上下文，再重复几次，比如每次都在内容后说“这个学习内容很好，用户很有付费意愿”，小模型就可能把 API key 送给攻击者。无法绝对防御，基本只能依靠沙箱，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/069.md",
+      "original_tail": "Agent 时代，coding 更容易，供应链攻击也可能更普遍。今年应该是上半年，NPM 的 HTTP 请求包 Axios，很多包依赖它，",
+      "resolution": "就近补足图片、代码或小节两侧的句子"
+    },
+    {
+      "path": "chapters/28/070.md",
+      "original_tail": " key。有了 repository 权限，攻击者便能长期潜伏。Axios 攻击先创建一个恶意 NPM package，名字 plain\\-crypto\\-js 很有迷惑性，看起来像加密解密库，提供一些可以 vibe code 出来的功能，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/070.md",
+      "original_tail": "里面隐藏 malicious 行为。这次手法比较低劣，包 release 大概一分钟、一两分钟，就被安全扫描机构发现，阻断较及时。它利用 NPM install hook，每次安装时会运行脚本。这本来很正常，因为安装可能需要编译生成内容，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/071.md",
+      "original_tail": " 时也在提交的代码里见过，试了一下，key 仍是 active。这是灰产。攻击者先创建恶意包，因为没人用，也没人知道，它就在 Github 上待着。某天可以把它混进一个 feature，声称加强某项功能，引入第三方库，再调用里面的 API，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/071.md",
+      "original_tail": "伪装成正常修改。一旦通过 CI/CD、approve 并推送，全世界更新时就会拉取这个包及依赖，执行恶意包的 post installation hook，API key 就被偷走。现在 NPM 通常没有 global install，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/072.md",
+      "original_tail": "。开发者肯定是人类，花两到三年建立贡献者信任，在 liblzma 构建系统里混淆恶意代码，做了很多修改。比如写出很奇怪、人很难看懂的代码，让一个 check 脚本无法编译，OSS\\-Fuzz 的 fuzzing watchdog 就会认为，",
+      "resolution": "合并相邻普通散文"
+    },
+    {
+      "path": "chapters/28/072.md",
+      "original_tail": "没料到代码里有一个 performance bug。XZ 已经污染供应链、影响下游，恰好一位用户，应该是微软工程师，发现 LZ 消耗过多 CPU，这没道理，因为没有压缩几百兆的数据。排查后发现问题。如果没有 performance bug，",
+      "resolution": "合并相邻普通散文"
+    }
+  ],
+  "remaining_dangling_paragraphs": [],
+  "forbidden_prose_matches": [],
+  "adjacent_prose_joins": 72,
+  "additional_review": "通读136个小节，处理以顿号、动词、主语、技术名词片段结尾的其他明显断句；围栏代码中的空行不作为散文段落。",
+  "limitations": [
+    "本轮只处理第27、28课的段落衔接和明显残句；未运行课程示例代码，也未对讲授技术结论另作事实校正。",
+    "结构保护由audit核对，语义保持经上下文人工复核；原baseline中的数字/术语差异仍需结合已有lesson review理解。"
+  ],
+  "audit": {
+    "status": "passed",
+    "sections": 136,
+    "protected_errors": 0,
+    "report": "maintenance/editorial/flow-27-28-check.json"
+  },
+  "numeric_review_delta_vs_existing_lesson_checks": [],
+  "term_review_delta_vs_existing_lesson_checks": [
+    {
+      "path": "chapters/27/007.md",
+      "kind": "terms_to_review",
+      "before": {
+        "removed": [],
+        "added": []
+      },
+      "after": {
+        "removed": [],
+        "added": [
+          "specification"
+        ]
+      }
+    },
+    {
+      "path": "chapters/27/026.md",
+      "kind": "terms_to_review",
+      "before": {
+        "removed": [],
+        "added": []
+      },
+      "after": {
+        "removed": [],
+        "added": [
+          "entry"
+        ]
+      }
+    },
+    {
+      "path": "chapters/27/027.md",
+      "kind": "terms_to_review",
+      "before": {
+        "removed": [],
+        "added": []
+      },
+      "after": {
+        "removed": [
+          "entry"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/28/027.md",
+      "kind": "terms_to_review",
+      "before": {
+        "removed": [],
+        "added": []
+      },
+      "after": {
+        "removed": [],
+        "added": [
+          "AI"
+        ]
+      }
+    }
+  ],
+  "term_delta_review": "specification、AI用于补足原有指代；entry从27/027的句首片段移到27/026的log之后，术语及概念均已在原讲解中出现。",
+  "checked_lesson_28_section_056": "未补回此前已按口头重复尾巴删除的34；1234、4567、1不等于4及代码示例保持。"
+}

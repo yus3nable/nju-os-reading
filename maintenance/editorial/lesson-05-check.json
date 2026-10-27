@@ -1,0 +1,135 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/05/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2283,
+      "after_characters": 1292,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "clarifications"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 4580,
+      "after_characters": 2375,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "question",
+          "raise"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 4545,
+      "after_characters": 2125,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "Engineering",
+          "OK",
+          "Prompt",
+          "comprehensive",
+          "fundamental"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 5176,
+      "after_characters": 2239,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "ABC",
+          "OK",
+          "Process"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/005.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3907,
+      "after_characters": 1714,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/006.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3139,
+      "after_characters": 1417,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "debug",
+          "systems"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/05/007.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 4163,
+      "after_characters": 2036,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "shell"
+        ],
+        "added": []
+      }
+    }
+  ]
+}

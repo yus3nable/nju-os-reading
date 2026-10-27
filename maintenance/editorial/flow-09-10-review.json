@@ -1,0 +1,322 @@
+{
+  "lessons": [
+    9,
+    10
+  ],
+  "status": "reviewed",
+  "scope": "通读第09、10课26个小节，仅修复分页残句、段落衔接及邻接图片和代码前后的句法；本轮修改24个正文文件，09/001与10/001保持本轮开始时内容。",
+  "original_dangling_paragraphs": {
+    "09": 43,
+    "10": 40,
+    "total": 83
+  },
+  "remaining_comma_ended_prose_lines": [],
+  "method": "相邻散文按讲解关系合并；图片或代码夹断的句子，把最短的接续成分接到前句，后句保留完整主语与指代。全部受保护结构及图片顺序保持原样。围栏内空行未参与拼接。",
+  "sections": [
+    {
+      "path": "chapters/09/001.md",
+      "identified_comma_paragraphs": 0,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/002.md",
+      "identified_comma_paragraphs": 1,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/003.md",
+      "identified_comma_paragraphs": 4,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/004.md",
+      "identified_comma_paragraphs": 4,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/005.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/006.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/007.md",
+      "identified_comma_paragraphs": 7,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/008.md",
+      "identified_comma_paragraphs": 0,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/009.md",
+      "identified_comma_paragraphs": 4,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/010.md",
+      "identified_comma_paragraphs": 5,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/011.md",
+      "identified_comma_paragraphs": 4,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/012.md",
+      "identified_comma_paragraphs": 3,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/013.md",
+      "identified_comma_paragraphs": 5,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/09/014.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/001.md",
+      "identified_comma_paragraphs": 0,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/002.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/003.md",
+      "identified_comma_paragraphs": 3,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/004.md",
+      "identified_comma_paragraphs": 5,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/005.md",
+      "identified_comma_paragraphs": 5,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/006.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/007.md",
+      "identified_comma_paragraphs": 1,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/008.md",
+      "identified_comma_paragraphs": 1,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/009.md",
+      "identified_comma_paragraphs": 5,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/010.md",
+      "identified_comma_paragraphs": 8,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/011.md",
+      "identified_comma_paragraphs": 2,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/012.md",
+      "identified_comma_paragraphs": 6,
+      "protected_errors": [],
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      }
+    }
+  ],
+  "additional_incomplete_sentences": [
+    {
+      "path": "chapters/09/003.md",
+      "fragment": "意味着",
+      "repair": "与 ARM 上汇编失败的后句合并。"
+    },
+    {
+      "path": "chapters/09/004.md",
+      "fragment": "例如，Inline Assembly",
+      "repair": "与追求优化时的用途说明合并。"
+    },
+    {
+      "path": "chapters/09/005.md",
+      "fragment": "ISO C 标准规定了",
+      "repair": "与 SimpleC 语法语义说明合并。"
+    },
+    {
+      "path": "chapters/09/005.md",
+      "fragment": "才能编译",
+      "repair": "与别人写的代码及其可移植性说明合并。"
+    },
+    {
+      "path": "chapters/09/006.md",
+      "fragment": "不会解压缩",
+      "repair": "将也没关系提前接成完整句，图片后续讲 TAR。"
+    },
+    {
+      "path": "chapters/09/011.md",
+      "fragment": "最终 API 设计者选择了这种",
+      "repair": "前句明确作了妥协，图片后保留讲述者对妥协的判断。"
+    },
+    {
+      "path": "chapters/09/012.md",
+      "fragment": "ls 为什么能区分",
+      "repair": "将不同语言提前接成完整问题，图片后解释 libc 的作用。"
+    },
+    {
+      "path": "chapters/09/014.md",
+      "fragment": "最终看到",
+      "repair": "补成调用 main 并退出的代码引导，代码后明确参数和返回值流程。"
+    },
+    {
+      "path": "chapters/10/004.md",
+      "fragment": "相当于 C 中",
+      "repair": "与 readelf 显示源码的比较合并。"
+    },
+    {
+      "path": "chapters/10/006.md",
+      "fragment": "不过这段代码应该",
+      "repair": "将没有执行实质内容提前接齐，保持应该这一不确定判断。"
+    },
+    {
+      "path": "chapters/10/012.md",
+      "fragment": "理想情况是",
+      "repair": "将 Rust 拒绝编译的期望接齐，图片后续讲作用域访问约束。"
+    }
+  ],
+  "cross_section_repair": "09/007末尾的 freestanding 环境之上移至09/008首个散文段，与还可以实现一些适合作练习的函数连成完整句；两节图片和元信息保持原位置。",
+  "forbidden_prose_patterns": "通读并扫描本质上、不是…而是…、而不是、成立，未发现需要修改的实际禁用句式；09/012的是不是为正常疑问，保持。",
+  "validation": {
+    "command": "/Users/welch/anaconda3/bin/python scripts/audit_editorial.py --lessons 9 10 --report maintenance/editorial/flow-09-10-check.json",
+    "status": "passed",
+    "sections": 26,
+    "protected_errors_total": 0,
+    "number_review_differences_unchanged_from_existing_checks": true
+  },
+  "known_limits": [
+    "本轮为阅读版衔接修复，未执行课程代码，未以外部资料校正原课技术主张。此前lesson-09-review.json、lesson-10-review.json中记录的技术限制继续适用。",
+    "第10课gettimeofday演示中，先称200微秒、随后称200毫秒的口述不一致保留；未统一推测。",
+    "保留第09课关于EEXIST/O_CREAT、EAGAIN等，以及第10课关于调试信息、寄存器约定、vvar/时钟和malloc/free等原课主张；本轮未将文本编辑结果表述成技术验证。"
+  ]
+}

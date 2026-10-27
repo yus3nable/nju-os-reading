@@ -1,0 +1,21 @@
+{
+  "lesson": 1,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/01/001.md",
+    "chapters/01/002.md",
+    "chapters/01/003.md",
+    "chapters/01/004.md",
+    "chapters/01/005.md"
+  ],
+  "scope": "All prose paragraphs read and rewritten for continuity. Original front matter, headings, images, captions, links and uncertainty markers checked separately.",
+  "reviewed_differences": [
+    "OK 等口头插语删除，open、critical 的态度含义改为自然中文；原有建议与批评回应保留。",
+    "数字、版本、技术名词与不确定性逐段对照；0101、print、token 等示例标识保留。",
+    "保留课程评分、日程、个人经历、推测、历史示例和先说错再更正的 Fortran 过程。"
+  ],
+  "known_limits": [
+    "未重新听录音频；原稿的听辨缺口与技术主张按原稿保留。"
+  ]
+}

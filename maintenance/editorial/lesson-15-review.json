@@ -1,0 +1,196 @@
+{
+  "lesson": 15,
+  "status": "reviewed",
+  "sections": [
+    "chapters/15/001.md",
+    "chapters/15/002.md",
+    "chapters/15/003.md",
+    "chapters/15/004.md",
+    "chapters/15/005.md",
+    "chapters/15/006.md",
+    "chapters/15/007.md",
+    "chapters/15/008.md",
+    "chapters/15/009.md",
+    "chapters/15/010.md",
+    "chapters/15/011.md",
+    "chapters/15/012.md",
+    "chapters/15/013.md",
+    "chapters/15/014.md",
+    "chapters/15/015.md",
+    "chapters/15/016.md",
+    "chapters/15/017.md",
+    "chapters/15/018.md",
+    "chapters/15/019.md",
+    "chapters/15/020.md",
+    "chapters/15/021.md",
+    "chapters/15/022.md",
+    "chapters/15/023.md",
+    "chapters/15/024.md"
+  ],
+  "scope": "通读全部 24 节并逐段改写散文正文、冷读条件与推导；删除口头填充、结巴、同句重复及纯转场，保留全部独立信息、技术范围、第一人称、有效提问、例子、推导、纠错、条件、否定、量词、归因、不确定性与原顺序。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/15/007.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "OK 是重复确认，删除；保留指挥发布拍子、ffplay/Fork/system 的实现及原生产代码提示。"
+    },
+    {
+      "path": "chapters/15/009.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "sorry"
+        ],
+        "added": []
+      },
+      "resolution": "OK、sorry 为口头确认和重启，删除；保留每次持同一把锁读取/更新拍号、释放后重试与 release/acquire 可见性。"
+    },
+    {
+      "path": "chapters/15/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "condition"
+        ],
+        "added": []
+      },
+      "resolution": "condition 的含义用“条件”表达；保留 count 初始化与增减、同一把锁、所有可能满足条件的更新后 broadcast。原段苹果“大于一”的边界保持，未静默改成大于零。"
+    },
+    {
+      "path": "chapters/15/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "play"
+        ],
+        "added": []
+      },
+      "resolution": "play 为普通演奏动词，译为中文；note 及生产消费的先后约束、有限容量、两个阈值与 99% 的原课判断保留。"
+    },
+    {
+      "path": "chapters/15/018.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "check"
+        ],
+        "added": []
+      },
+      "resolution": "check 为普通检查动词，译为中文；check.py 文件名与命令、参数、先正常运行后缩小上限报错的演示保留。"
+    },
+    {
+      "path": "chapters/15/020.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "OK 为口头确认，删除；保留水分子、苹果香蕉、鱼状态机的全部规则、quota、打印前后两段锁定和状态更新。"
+    },
+    {
+      "path": "chapters/15/021.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "the"
+        ],
+        "added": []
+      },
+      "resolution": "happens-before the dependency 中的 the 为夹杂英文的冠词，删除；保留依赖边方向、共享内存中间结果、计算与管理图开销的条件和动态任务生成。"
+    },
+    {
+      "path": "chapters/15/022.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": [
+          "DAG"
+        ]
+      },
+      "resolution": "OK 删除；DAG 是本课已定义的有向无环图缩写，用于同义表述。保留 AA/AACA/ABAC 字符串、两次 A 匹配和 C 匹配例子、二维网格及 90 度分层说法，未以常识校正原课事实。"
+    },
+    {
+      "path": "chapters/15/023.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "DAG"
+        ]
+      },
+      "resolution": "DAG 为有向无环图的已定义缩写，无新增概念；保留每节点一线程的全部入边完成条件，以及 executor pool 队列非空、完成任务后激活新任务的不同条件。"
+    },
+    {
+      "path": "chapters/15/024.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "happens-before1",
+          "happens-before4",
+          "happens-before5",
+          "while"
+        ],
+        "added": [
+          "lock",
+          "unlock"
+        ]
+      },
+      "resolution": "happens-before1/4/5 是原文 API 关系与节点编号连写，现分开排写，原依赖关系和数字保持；while 循环含义改用中文“条件未满足就 wait”；新增 lock/unlock 是原文上锁/解锁的同义表述。保留所有前驱计数归零、唯一互斥锁、每任务条件变量、解锁后独立计算和重新持锁更新依赖的范围。"
+    },
+    {
+      "path": "chapters/15",
+      "difference": "全部 numbers_to_review 无增删。",
+      "resolution": "逐段核查全部时间、百分比、容量、计数、节点与状态编号。同步例子保留 11 点 50 的原表述；014 的“大于一”与后续“大于零”按原讲述分别保持，017 的“大于 n——大于 0”更正保留。"
+    },
+    {
+      "path": "chapters/15",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、所有标题、代码围栏和行内代码、图片、图注、链接与不确定标记精确核查通过，原图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "脚本仅精确检查受保护文本并列出数值/术语差异，语义保真依据逐段对照。",
+    "未运行乐团、括号检查器、鱼或计算图代码；未重新验证原课音乐延迟、性能和其他事实主张。同步语义按原课润色，保留原有阈值与确定程度。"
+  ]
+}

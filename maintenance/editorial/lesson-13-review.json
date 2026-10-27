@@ -1,0 +1,127 @@
+{
+  "lesson": 13,
+  "status": "reviewed",
+  "sections": [
+    "chapters/13/001.md",
+    "chapters/13/002.md",
+    "chapters/13/003.md",
+    "chapters/13/004.md",
+    "chapters/13/005.md",
+    "chapters/13/006.md",
+    "chapters/13/007.md",
+    "chapters/13/008.md",
+    "chapters/13/009.md",
+    "chapters/13/010.md",
+    "chapters/13/011.md",
+    "chapters/13/012.md",
+    "chapters/13/013.md",
+    "chapters/13/014.md",
+    "chapters/13/015.md",
+    "chapters/13/016.md",
+    "chapters/13/017.md"
+  ],
+  "scope": "通读全部 17 节后逐段润色散文正文，删除口头填充、结巴和同句重复，理顺跨页续句，保持第一人称、教学提问、独立信息、例子、有效纠错、推导、条件、否定、归因、不确定性和原有顺序。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/13/005.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "straightforward"
+        ],
+        "added": []
+      },
+      "resolution": "straightforward 改为“直接”，保留 POSIX 线程库的实现关系、main 返回时自动 join 与 pthread 的区别。"
+    },
+    {
+      "path": "chapters/13/007.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "OK 是口头确认，删除；保留 scheduler-locking on 导致 main 等待卡住、手动中断及切换线程调试的全过程。"
+    },
+    {
+      "path": "chapters/13/008.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "existence"
+        ],
+        "added": []
+      },
+      "resolution": "OK 是口头确认；existence 的意思保留在“存在并确定下来”。保留数学函数、状态迁移、系统调用例外和线程选择路径增长的推导。"
+    },
+    {
+      "path": "chapters/13/009.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "OK 是余额足够的口头确认，删除；保留先正常运行再出现扣款溢出的顺序、unsigned integer、讲述者不确定的机器经历和游戏复制演示。"
+    },
+    {
+      "path": "chapters/13/012.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "clear",
+          "cut"
+        ],
+        "added": []
+      },
+      "resolution": "clear cut 译为“模型很清楚”，保留 SimpleC 解释器设想、性能和成本例子、纯计算合并及 system call 边界的原课主张。"
+    },
+    {
+      "path": "chapters/13/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "play",
+          "with"
+        ],
+        "added": []
+      },
+      "resolution": "play with shared memory 的警告改为“不要随意依赖共享内存的行为”，保留 compiler barrier、volatile、内存映射设备读取和 O1/O2 差异。"
+    },
+    {
+      "path": "chapters/13",
+      "difference": "全部 numbers_to_review 无新增、删除。",
+      "resolution": "逐节核对线程编号、栈大小、程序值、模型名与版本、sum 最小值构造、事件顺序、优化选项和观测统计；保留 1234/1243/1324/1342 的次序讨论及 10 万次先写后读实验。"
+    },
+    {
+      "path": "chapters/13",
+      "difference": "protected_errors 为空。",
+      "resolution": "front matter、标题、围栏和行内代码、图片、图注、链接与不确定标记逐字审计通过；原图文顺序保持。"
+    }
+  ],
+  "known_limits": [
+    "结构审计只核对受保护文本并列出数字与术语差异；语义保真依据逐段对照。",
+    "未运行代码或重新验证讲述者关于默认栈大小、线程安全、编译器边界、内存模型及 AI 能力的事实主张；本次按原课知识范围润色，保留其原有判断和归因。"
+  ]
+}

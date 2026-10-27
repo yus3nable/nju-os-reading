@@ -1,0 +1,656 @@
+{
+  "lesson": 29,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "scope": "仅修复第29课分页遗留的散文段落衔接；通读72节，修改55个正文文件，保留既有语义润色结果及讲述顺序。",
+  "counts": {
+    "reviewed_sections": 72,
+    "changed_sections": 55,
+    "integration_comma_endings_reviewed": 78,
+    "integration_comma_endings_resolved": 78,
+    "additional_enumeration_endings_resolved": 2,
+    "remaining_prose_comma_or_enumeration_endings": 0,
+    "protected_errors": 0,
+    "number_review_changes": 0,
+    "term_review_changes": 0
+  },
+  "changed_sections": [
+    "chapters/29/003.md",
+    "chapters/29/004.md",
+    "chapters/29/005.md",
+    "chapters/29/007.md",
+    "chapters/29/009.md",
+    "chapters/29/010.md",
+    "chapters/29/011.md",
+    "chapters/29/012.md",
+    "chapters/29/013.md",
+    "chapters/29/014.md",
+    "chapters/29/015.md",
+    "chapters/29/016.md",
+    "chapters/29/017.md",
+    "chapters/29/018.md",
+    "chapters/29/019.md",
+    "chapters/29/020.md",
+    "chapters/29/021.md",
+    "chapters/29/022.md",
+    "chapters/29/023.md",
+    "chapters/29/024.md",
+    "chapters/29/025.md",
+    "chapters/29/026.md",
+    "chapters/29/027.md",
+    "chapters/29/028.md",
+    "chapters/29/029.md",
+    "chapters/29/030.md",
+    "chapters/29/034.md",
+    "chapters/29/036.md",
+    "chapters/29/040.md",
+    "chapters/29/041.md",
+    "chapters/29/043.md",
+    "chapters/29/044.md",
+    "chapters/29/045.md",
+    "chapters/29/046.md",
+    "chapters/29/047.md",
+    "chapters/29/049.md",
+    "chapters/29/050.md",
+    "chapters/29/052.md",
+    "chapters/29/053.md",
+    "chapters/29/054.md",
+    "chapters/29/056.md",
+    "chapters/29/057.md",
+    "chapters/29/058.md",
+    "chapters/29/059.md",
+    "chapters/29/060.md",
+    "chapters/29/061.md",
+    "chapters/29/063.md",
+    "chapters/29/064.md",
+    "chapters/29/065.md",
+    "chapters/29/066.md",
+    "chapters/29/067.md",
+    "chapters/29/068.md",
+    "chapters/29/069.md",
+    "chapters/29/070.md",
+    "chapters/29/071.md"
+  ],
+  "method": "53处相邻散文边界按上下文合并；22处图片、图注或代码前后的断句补足主语、谓语或承接成分；3处节末半句与下节开头就近理顺。围栏内空行未参与拼接。",
+  "reviewed_findings": [
+    {
+      "id": 1,
+      "path": "chapters/29/003.md",
+      "original_tail": "me 技术。everything is a state machine，CPU 也是状态机，执行指令就是改变状态。在 NEMU 的 while 大循环里取指时，遇到非跳转指令，就继续向后取，多取几条，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 2,
+      "path": "chapters/29/003.md",
+      "original_tail": "mov EBX，直到最后一条可能是跳转。这样一段连续执行、以跳转结束的指令叫 basic block，基本块，编译课也会遇到。为什么取这些连续指令？因为跳转可能带条件，比如 branch equal，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 3,
+      "path": "chapters/29/004.md",
+      "original_tail": "出来。比如已知指令是把 1 mov 到 EAX，它的行为就是 register of EAX 等于 1，再有 register of EBX 等于 2。解释执行时，每次都有 CPU state 指针，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 4,
+      "path": "chapters/29/005.md",
+      "original_tail": " 代码。把它交给 GCC，编译成 \\.so，再用 dlopen 加载到地址空间，就像你们做过的实验。加载后代码进来，符号正确解析，可能还要处理 relocation，因为 CPU state 的位置，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 5,
+      "path": "chapters/29/005.md",
+      "original_tail": "这个 Just\\-in\\-time 函数，就执行了 basic block。它可以是 highly optimized code，比如立即数已硬编码进指令，无须每次 decode 后，再用 load，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 6,
+      "path": "chapters/29/007.md",
+      "original_tail": "用解释模式，逐条执行，虽然慢，但持续取得进展。同时为 basic block 计数，每执行一次加 1；只执行过一次的，计数器始终为 1，也可以配合 hash 等机制。如果一个 basic block，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 7,
+      "path": "chapters/29/007.md",
+      "original_tail": "不断执行，达到 1 万次或 10 万次等阈值，认为后续执行收益能抵消编译开销，就在后台，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 8,
+      "path": "chapters/29/007.md",
+      "original_tail": "e 系统内部，无须创建进程调用外部编译器。编译完成后，下次遇到这个 basic block，就通过指针跳到编译后的代码。现在的 language VM，包括 Java Virtual Machine，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 9,
+      "path": "chapters/29/009.md",
+      "original_tail": " and portable dynamic translator，介绍这个实现。相当于为 NEMU 做这种优化。当时有 PowerPC、ARM、X86、X86\\-64 等体系结构，模拟器既要模拟它们，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 10,
+      "path": "chapters/29/009.md",
+      "original_tail": "那样，Just\\-in\\-time 时调用外部 GCC。GCC 本来就能运行在 PowerPC、ARM、x86 上，也能为不同目标生成代码。能否借助它生成一个还算优化的模拟器？可以，方法很聪明。比如，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 11,
+      "path": "chapters/29/010.md",
+      "original_tail": "16，立即数编码在指令里。NEMU 会先译码，从指定 bit 中取立即数，复制到变量，这样会拖慢模拟器。这里希望识别出 addi 后，从预先生成好的地方找模板，直接复制这段代码。假设有 12 个字节，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 12,
+      "path": "chapters/29/011.md",
+      "original_tail": " addi 中的 T0 加立即数，写成 C 函数。这个函数能编译，但暂时不能链接，因为立即数未知。这几行代码适用于所有运行模拟器的体系结构，用不同宏定义 T0。比如在 ARM 上模拟 PowerPC，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 13,
+      "path": "chapters/29/011.md",
+      "original_tail": "定 ARM 寄存器；在 X86 模拟 PowerPC，则找 EAX 或 EDX。编译器通过宏知道 T0 绑定哪个寄存器，再生成加一个未知数字的指令。X86 上会是 add 立即数，比如目标是 EBX，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 14,
+      "path": "chapters/29/012.md",
+      "original_tail": "再根据二进制文件中的 relocation 重定位。比如要加十六，模板中该做 relocation 的地方就 patch 为实际立即数十六，其他部分保留指令二进制序列，完成轻量级编译。第一次预编译时，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 15,
+      "path": "chapters/29/012.md",
+      "original_tail": "的 arm 或 x86 汇编片段。它用来复制到 basic block 的编译结果中，再重定位、patch 立即数。得到译码后的 basic block 后，每条指令只需一次 memory copy，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 16,
+      "path": "chapters/29/013.md",
+      "original_tail": "NEMU 的译码执行循环中，可能有多次函数调用，执行几十、几百条指令。这里一次译码取出多条指令，开销被平摊，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 17,
+      "path": "chapters/29/014.md",
+      "original_tail": "我上学时的办法是装 vmware，在 windows 里模拟完整的 x86 裸机，bare metal。再从网上下载 linux 光盘镜像，假装插入虚拟机，里面的 firmware 就开始执行，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 18,
+      "path": "chapters/29/015.md",
+      "original_tail": "70 年时，操作系统设计者就试图提出 virtual machine monitor。three easy pieces 的第一个主题就是 virtualization，虚拟化。操作系统课里的虚拟化，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 19,
+      "path": "chapters/29/015.md",
+      "original_tail": "和时间片，看起来独占计算机的计算部分。访问 Io 设备等对象时，仍须通过操作系统接口受控访问。能否直接 virtualize 一台计算机？Io 接口也是一组 API，虚拟化 Io，再用中断或其他机制，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 20,
+      "path": "chapters/29/016.md",
+      "original_tail": "个应用，有的多处理器操作系统只运行一个应用，有的运行数据库或 NFS Server。还有很小的 Thin OS，类似今天的 unikernel，很薄，能与复杂 Application 基本连接在一起，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 21,
+      "path": "chapters/29/017.md",
+      "original_tail": "年代互联网刚兴起时，大家不知道它能带来什么，但从没见过点一下鼠标就能访问远端服务，便认为世界上所有服务都能搬到网上，商机很大，也带来泡沫。很多投资人入场，我记得当时纳指可能翻了五倍。到 2000 年，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 22,
+      "path": "chapters/29/017.md",
+      "original_tail": "用时，CPU 空闲率很可能在 90%以上。一方面多数时间没人访问，另一方面即使访问多些，逻辑也很简单：HTTP 请求到来，运行 CGI\\-bin，从文件系统读一个文件，缓存可能还是热的，无须经过磁盘，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 23,
+      "path": "chapters/29/018.md",
+      "original_tail": "以做虚拟机，类似 NEMU。作为 ISP，或者黑心商人，我可以卖虚拟机，承诺用起来与物理机一样好，最快时几乎同样快。大家同时使用时，偶尔可能稍慢，可以补偿。然后在一台物理机上运行五个、十个 NEMU，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 24,
+      "path": "chapters/29/018.md",
+      "original_tail": "把 NEMU 实例卖给用户。在使用上，虚拟机与物理机看不出差别，BBS 后端、邮件、web 服务器都能正常运行。我不告诉你有多少物理机，一台悄悄当十台卖，再把每台服务打对折。你只付物理机一半价格，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 25,
+      "path": "chapters/29/019.md",
+      "original_tail": "100%的算力，至少会卖到 120 或 140，赌所有人不会同时拉满。比如课程网站，CPU 长时间几乎是 0%，只有推送更新、服务器重新编译时，可能在不到一分钟内拉满一点；考试 deadline 前，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 26,
+      "path": "chapters/29/020.md",
+      "original_tail": "他们找到了致富机会。稍后再讲 SOSP 97 中怎样实现更高性能的虚拟化。QEMU 还要模拟虚拟内存等内容，性能大约只有真机十分之一，这对商人难以接受。做 disco 时，他们发现了财富自由的机会，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 27,
+      "path": "chapters/29/021.md",
+      "original_tail": "。HP、Cisco——Francisco 的 Cisco，以及 Yahoo、Google、Sun，都是这样。黑客与画家的作者 Paul Graham，还创办了天使轮投资机构 Y Combinator，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 28,
+      "path": "chapters/29/022.md",
+      "original_tail": "很多办法，Y Combinator 是其中一种。比如算阶乘，Python Lambda 无法直接引用自己，用 Y Combinator 就可以实现。名字很有意义。国内同类投资机构叫创新工厂、奇绩创坛，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 29,
+      "path": "chapters/29/023.md",
+      "original_tail": "他们研究、实现一个超高性能虚拟机，性能比前面编译方案还高，里面也有 Just\\-in\\-time 编译。因为做了这个研究，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 30,
+      "path": "chapters/29/023.md",
+      "original_tail": "时可能挣到很多钱。不知道同学是在这学期还是下学期上科研实践课，或者已经上完，课上读什么 paper，又怎么理解科研？我有种感觉，大家似乎忘了为什么读论文、写论文，以及做东西时应该做什么。老师通常会问，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 31,
+      "path": "chapters/29/023.md",
+      "original_tail": "文章的动机是什么、怎么做的，whatsoever。我觉得现在进入了一个怪圈：老板可能，",
+      "boundary": "section",
+      "status": "resolved"
+    },
+    {
+      "id": 32,
+      "path": "chapters/29/024.md",
+      "original_tail": "目或项目，需要一帮打手，看到这个同学会写代码，就凑个数，启动论文流水线工厂。结果做不出来，就去 benchmark crime。课上应该讲过那个例子，看起来效果很好，其实隐藏了一些东西。性能可以不好，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 33,
+      "path": "chapters/29/024.md",
+      "original_tail": "系统可以不 scale，也可以明确说最佳配置就是与 CPU 数量相同，这都 OK。不要隐瞒，给别人制造幻觉，特别在自己知道的情况下做 benchmark crime、cherry picking，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 34,
+      "path": "chapters/29/024.md",
+      "original_tail": "只选有利的 benchmark，忽略其他。读过 benchmark crime 就会知道。最后我发现，",
+      "boundary": "section",
+      "status": "resolved"
+    },
+    {
+      "id": 35,
+      "path": "chapters/29/025.md",
+      "original_tail": "f art，在某种程度上形成污染人类语料库的垃圾。我发现大语言模型比我更能容忍这些内容。经常让 LM review 已发表或 arXiv 上的 paper，要求概括贡献时，它仍会夸大。有时我觉得文章，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 36,
+      "path": "chapters/29/026.md",
+      "original_tail": "r，有一句 bring back an idea，popular in 1970s：1970 年想做的事情，受硬件、软件或技术成熟度限制没做成，今天把它实现了。我觉得这体现了发论文的意义。后来又发现，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 37,
+      "path": "chapters/29/026.md",
+      "original_tail": "File System。operating system，Three Easy Pieces 有一章讲 LFS，大家读过吗？我讲完文件系统实现后，应该想到去读 OSTEP 对应章节。除了 disco，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 38,
+      "path": "chapters/29/027.md",
+      "original_tail": "过好的东西，我可以理解。但这不代表世界上没有好东西。他们读书时，Stanford 的人已经在 97 年做这些领先工作。我们做得还不够，也在努力。为古法编程时代设计的计算机系统基础，做了一些不错的东西，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 39,
+      "path": "chapters/29/028.md",
+      "original_tail": "ential Testing 可能给大家很大影响。我们故意等到快扛不住时才提供它：PA 中指令多了，手写代码不可避免有小错，很难 debug。程序大体能跑，某个很长的 Benchmark 却总算不对，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 40,
+      "path": "chapters/29/029.md",
+      "original_tail": "天的话说，这就是 Harness。驾驭软件复杂性，可以反复读 RISC\\-V 手册、调代码，找到实现错误的指令；也可以做 Differential Testing 工具，换个办法处理复杂性。我们希望，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 41,
+      "path": "chapters/29/030.md",
+      "original_tail": "离散数学、数字电路联动：离散数学用 proof assistant 编程语言形式化一个指令集，比如 RISC\\-V 的一小部分，再证明 CPU 正确，就无须 differential testing，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 42,
+      "path": "chapters/29/034.md",
+      "original_tail": "想想：保研成功，分数不再是评价标准时，人生会失去动力吗？假设回到起点，导师让你进入项目组，做 virtualization，实现 disco 这样的虚拟机，支持安装各种操作系统、光盘镜像，装好就能跑，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 43,
+      "path": "chapters/29/036.md",
+      "original_tail": "进程运行在用户态。同一体系结构上，模拟执行进程很容易：用 mmap 重建地址空间，就能直接放到 CPU 执行。QEMU 在 ARM 模拟 PowerPC、X86，则是另一个问题，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 44,
+      "path": "chapters/29/040.md",
+      "original_tail": "绝大多数内核代码执行普通指令。关中断可能在加锁、解锁时做，上下文切换可能只 mov 一次 CR3，其他系统调用中 99\\.99%的指令都很普通。随便 strace 一个 ls，read 的大部分代码，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 45,
+      "path": "chapters/29/041.md",
+      "original_tail": "6 模拟 X86，早期产品甚至没考虑其他体系结构，主打数量最大的 X86。Disco 应该在 MIPS 上，或其他体系结构上做，但 VMware 推出产品时聚焦 X86。进程仍放在用户态 Ring3，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 46,
+      "path": "chapters/29/043.md",
+      "original_tail": "第六页、第八页，即虚拟机第一物理页对应真实第四页，第二页对应第六页，第三页对应第八页。它据此重组页表，把虚拟的一二三四页直接映射到对应的实际位置，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 47,
+      "path": "chapters/29/043.md",
+      "original_tail": "这才是实际使用的页表。每次 mov 到 CR3，VMware 都会悄悄把 shadow page table，影子页表，换进去，相当于，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 48,
+      "path": "chapters/29/044.md",
+      "original_tail": "这个 trick 让操作系统 99%的代码以本地速度执行，只有涉及特权指令、IO 等操作才 trap 出去。这个想法带来了虚拟化的黄金时代。VMware 估值从零，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 49,
+      "path": "chapters/29/045.md",
+      "original_tail": "出首个硬件虚拟化机制，可以进入专门虚拟机模式，类似 Ring\\-1，无须 hack Ring1。很多特权指令能直接执行，免去 trap；IO 时仍可能 VM exit，也就是前面讲过的 KVM 机制，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 50,
+      "path": "chapters/29/045.md",
+      "original_tail": "因为 IO 设备是模拟的。08 年又有 EPT，用硬件实现影子页表。正常四级页表之外，虚拟化再有四级，合起来八级，就无须 VM 软件维护。学好操作系统和计算机系统基础，可以重走，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 51,
+      "path": "chapters/29/045.md",
+      "original_tail": "看这段历史，我才从不理解变成理解，感到很震撼。这是技术的力量。过程中还产生了 VirtIO 等虚拟 IO 标准，现在也能用 VirtIO 接入 VirtGPU、虚拟化 GPU。还有很多疯狂 idea，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 52,
+      "path": "chapters/29/046.md",
+      "original_tail": "能把里面打过的游戏完整回放。还有 optimizing migration of virtual computers：暂停虚拟机，drop 网络连接，假设所有设备都挂在可插拔总线，就像把设备全部拔掉，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 53,
+      "path": "chapters/29/046.md",
+      "original_tail": "启动。今天 agent 和沙箱很需要这些技术，它们又开始复活。虚拟化黄金时代里，VMware 从一篇 paper 起步，做到应该是 600 亿或其他数额的美元，先被 EMC 收购，再被戴尔收购。不过，",
+      "boundary": "section",
+      "status": "resolved"
+    },
+    {
+      "id": 54,
+      "path": "chapters/29/047.md",
+      "original_tail": "机器，也可以把一个操作系统当十个卖：启动时分成十份，提供十个空间。我觉得这段发展史被 VMware 带偏了。假如 97 年另一个人发表 SOSP 论文，叫 Lightweight Container，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 55,
+      "path": "chapters/29/049.md",
+      "original_tail": "Linux 启动时，最早由 Firmware 加载，处于 initramfs 状态，接着挂载根文件系统，执行 pivot\\_root，再从一个进程开始运行。既然能加载一个，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 56,
+      "path": "chapters/29/050.md",
+      "original_tail": "ID 等于 1 的进程，也有 OSID 等于 2、PID 等于 1 的进程。还可以让所有 PID 都不同，从同一个池子分配，比如依次得到 2、3、5、6，但每个 PID 都知道自己的 OSID。遍历，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 57,
+      "path": "chapters/29/052.md",
+      "original_tail": "比如 pidfd\\_open，可以打开 PID。这个 API 看起来诡异，想想又有道理：everything is a file，访问、引用操作系统对象需要文件描述符，要有一个指针指向 PID，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 58,
+      "path": "chapters/29/052.md",
+      "original_tail": "在某种意义上也指向进程，就需要 Open，也就是 pidfd\\_open。打开后持有 PID，引用计数加一，它知道还有引用，不能释放这个 PID。之后用 pidfd\\_send\\_signal，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 59,
+      "path": "chapters/29/053.md",
+      "original_tail": "出多个系统。虚拟机通常要预先分配 4GB 或 8GB 内存，这里所有对象的 allocation 都共享。比如 memory allocator，无论 OS ID 是 1 还是 2，要分配对象、进程，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 60,
+      "path": "chapters/29/053.md",
+      "original_tail": "都到同一个池子申请，随后给对象标记 OS ID 等于 1 或 2。想法很简单，也早已有人提出，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 61,
+      "path": "chapters/29/056.md",
+      "original_tail": "chroot 把进程的文件系统视图限制到一个子目录。与两个 initramfs 类似，可以在某个 OS 的文件系统里创建另一份 /bin/bash，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 62,
+      "path": "chapters/29/056.md",
+      "original_tail": "我不会直接读手册，大家今天应该用 AI 帮忙看：要实现这种 OS ID 虚拟化，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 63,
+      "path": "chapters/29/057.md",
+      "original_tail": "除了 PID，用户和组也要虚拟化。两个零号用户属于不同用户体系，不能互访；两边的 1000 号也各是不同用户，这有些复杂。文件系统方面，chroot 只处理一部分，还要管 MountPoint，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 64,
+      "path": "chapters/29/058.md",
+      "original_tail": "原理类似每个进程有一个 OSID，但实际可以分别设置 IPC、Mount、Net 等 Namespace。两个进程可以共享 Net Namespace，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 65,
+      "path": "chapters/29/059.md",
+      "original_tail": "TS,IPC,Net,Mount，相当于根容器，198 个进程默认共享。但有些守护进程运行在隔离的 Namespace，某些 Mount 服务拥有独立命名空间。回去启动 Docker 容器，就能看到，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 66,
+      "path": "chapters/29/060.md",
+      "original_tail": "离还不够，还要控制用量。前面的 OSID 只让进程看不到、不能通过 Syscall 访问其他 OSID 的对象，进程仍由原有操作系统实现。让 XV6 通过 vibe code 加 Namespace，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 67,
+      "path": "chapters/29/061.md",
+      "original_tail": "这样又得到了一个重要资源调度机制：cgroups。系统里有很多 control group，管理时形成树状结构，一个大组，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 68,
+      "path": "chapters/29/061.md",
+      "original_tail": "可以再分小组，分别配置资源 policy。比如大组之间公平分享 CPU，小组之间再设置不同策略。cgroup 与 namespace 正交，只是圈定一组对象、进程，",
+      "boundary": "figure_or_code",
+      "status": "resolved"
+    },
+    {
+      "id": 69,
+      "path": "chapters/29/063.md",
+      "original_tail": "但到 06 年才引入 Cgroups 和 Namespace，应该是 Google 工程师推动。我觉得他们也意识到，VMware 这种虚拟化带偏了方向：要两个隔离环境，无须付出这么大代价。当然前提是，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 70,
+      "path": "chapters/29/063.md",
+      "original_tail": "明显的安全优势。内核一旦有漏洞，可能越权，比如得到指向全局内存的指针，就能访问其他容器、窃取机密；Cgroups 资源控制不完善，也可能被未考虑的方式绕过，比如不断创建文件，耗尽系统文件描述符表资源，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 71,
+      "path": "chapters/29/064.md",
+      "original_tail": "强化学习、大语言模型都属于这种机制。人类及所有生命也类似：DNA 复制是简单机制，更底下是化学公理，生命在世界里不断竞争，考试追求好成绩也是 meta mechanisms 的结果。看重大的技术决策，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 72,
+      "path": "chapters/29/065.md",
+      "original_tail": "ware，也是因为我觉得钱驱动社会，财富自由的诱惑难以摆脱。Mendel 是做过许多代表工作、功成名就的教授，仍决定创办 VMware、改变世界。人类进步中，这些难以抗拒的诱惑推动大家把技术做到极致，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 73,
+      "path": "chapters/29/066.md",
+      "original_tail": "。如果服务都上云，就会有系统管理各种虚拟机。VMware 靠 Virtualization 挣了很多钱，提供 ESX、vSphere 这类商用数据中心管理软件，可以启动一万个虚拟机，克隆一万份并纳管，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 74,
+      "path": "chapters/29/067.md",
+      "original_tail": "生时代把虚拟机份额挤得很小。它动态、透明管理无状态容器。服务背后有分布式数据处理、存储、API，每个 POD 或独立小虚拟机都按随时可能被杀设计，但无妨：可以用 Policy 要求容器在多个数据中心，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 75,
+      "path": "chapters/29/067.md",
+      "original_tail": "提出要求后，Kubernetes 容器调度集群发现实例消失，就在另一台机器启动。Docker 基于 Hash 的 Deterministic Build，使它能在别处重新启动同一容器。哪台机器余量大，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 76,
+      "path": "chapters/29/068.md",
+      "original_tail": "声明式访问和路由的好处是，配置后只需访问 Gateway API，指定服务名，比如教务服务，再提供请求 body。编排、路由机制会把请求送到某个教务容器端口，容器，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 77,
+      "path": "chapters/29/069.md",
+      "original_tail": "要的 CPU、内存不同，可以见缝安排，有点像背包问题：小偷在博物馆里偷到很多东西，每件有 weight、value，怎样在容量有限的包里装下尽可能多的价值？这里每个容器需要多少 CPU、多少 mem，",
+      "boundary": "prose",
+      "status": "resolved"
+    },
+    {
+      "id": 78,
+      "path": "chapters/29/071.md",
+      "original_tail": "earch，因为假设未必符合实际。比如假设静态、瞬间知道全部容器，实际集群却不断扩缩容、增减。用户随时能用命令行把容器从一个数据中心移到另一个，或扩容、缩容；后台服务也会动态检查，发现容器很久不活跃，",
+      "boundary": "prose",
+      "status": "resolved"
+    }
+  ],
+  "additional_findings": [
+    {
+      "path": "chapters/29/043.md",
+      "original_tail": "知道分给这个操作系统的是第四页、",
+      "resolution": "与下一段的第六页、第八页合并，保持虚拟物理页和真实物理页的映射及顺序。"
+    },
+    {
+      "path": "chapters/29/070.md",
+      "original_tail": "也是改变世界、",
+      "resolution": "与下一段的影响人类进程合并，恢复完整并列成分。"
+    }
+  ],
+  "semantic_checks": [
+    "JIT的取指、基本块、解释执行、热点阈值、后台编译和跳转过程保持；CPU state、load、decode的关系未丢失。",
+    "模板复制、重定位、页表映射、虚拟化执行权限、单CPU回放条件、pidfd的原课说法及引用计数叙述保持。",
+    "科研评价和商业判断保留原讲述者立场、可能性及否定；老板可能有项目的半句接入024节开头；046与047节保留另一个看法的过渡。",
+    "Namespaces和cgroups的对象隔离、正交关系、资源策略及容器安全前提保持；Kubernetes复制策略、多维资源要求和动态负载限制保持。",
+    "通读后未发现本质上、不是…而是…、而不是或成立等指定禁用句式；必要否定和受保护内容原样保留。"
+  ],
+  "verification": {
+    "command": "/Users/welch/anaconda3/bin/python scripts/audit_editorial.py --lessons 29 --report maintenance/editorial/flow-29-check.json",
+    "report": "maintenance/editorial/flow-29-check.json",
+    "status": "passed",
+    "sections": 72,
+    "protected_errors": [],
+    "numbers": "本轮修改前后，全部72节阿拉伯数字出现顺序一致；对照lesson-29-check.json，数字差异提示保持不变，均为空。",
+    "terms": "对照lesson-29-check.json，术语差异提示保持不变；既有18个提示沿用lesson-29-review.json中的说明。",
+    "protected": "front matter、标题、全部围栏代码、行内代码、图片引用、图注、链接目标和不确定标记对照原始baseline逐字一致。"
+  },
+  "known_limits": [
+    "仅验证文字衔接与受保护结构，未执行课内命令、代码或虚拟化实验。",
+    "保留原课的历史技术说法、个人评价及不确定性，未使用外部资料改写事实。"
+  ]
+}

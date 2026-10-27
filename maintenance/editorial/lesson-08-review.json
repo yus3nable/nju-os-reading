@@ -1,0 +1,44 @@
+{
+  "lesson": 8,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/08/001.md",
+    "chapters/08/002.md",
+    "chapters/08/003.md",
+    "chapters/08/004.md",
+    "chapters/08/005.md",
+    "chapters/08/006.md",
+    "chapters/08/007.md",
+    "chapters/08/008.md",
+    "chapters/08/009.md",
+    "chapters/08/010.md",
+    "chapters/08/011.md",
+    "chapters/08/012.md",
+    "chapters/08/013.md",
+    "chapters/08/014.md",
+    "chapters/08/015.md",
+    "chapters/08/016.md",
+    "chapters/08/017.md",
+    "chapters/08/018.md",
+    "chapters/08/019.md"
+  ],
+  "scope": "全部十九节通读，逐段语义润色并冷读衔接。保持原序、第一人称、有效问题、技术推导、演示失败与更正及不确定性。",
+  "reviewed_differences": [
+    "全部十九节最终数值无增删；002 曾把 01 展开为 0 和 1，已恢复 01；年份、版本、80×24、Sixel 的 6、38400、18834、104 托孤、99% 等已对照。",
+    "001：OK 删除。键盘/打字机、Shift/Caps Lock、回车/换行、退格、tab stop、等宽字体信息及猜测保留。",
+    "002：whatsoever 插语删除，保留 Teletype Model 28/1951、五位编码、VT100/ANSI 与 Unicode/emoji/Powerline、ASCII 到 Unicode 的自我纠正。",
+    "003：OK、whatever 删除。保留 esc 033、Ctrl-C 03、Ctrl-D 04、方向键 41424443、Shift 不发送与需 Q 退出的演示；代码未改。",
+    "004—006：Demo 大小写保持；005 无新增术语。保留 PTY 分配/grantpt/unlockpt、minitty 转发、ttyrec/ttyplay、Sixel 未显示到出现 patch 的过程与版本不确定性；006 删除 OK。",
+    "007—008：call 并入 read 描述，terminal 译为终端，OK 删除。保留 canonical、启动/getty/login、sshd 权限切换自我修正、Textual 控件/游戏与多项式时间的原主张。",
+    "009：OK、demo/no 等口头词删除，保留驱动缓冲/回显、sudo 密码、stty、SIGQUIT/yes 对比及只有 canonical 才处理 Ctrl-C 的原有说法。",
+    "010—011：无数值术语差异。保留需结束哪些进程的追问、100—104 和托孤、handler 注册/默认处理/atexit 与 kill 等价的过程。",
+    "012：anyway 删除，bug 保留；保留会话/进程组与作业控制、99%、Ctrl-Z/jobs/fg、前台组 SIGINT、继承子进程进程组的原稿说法，未替换为新事实。",
+    "013—014：014 OK 删除；保留 SIGHUP 全 Session 的原说法、nohup/tmux、setsid/getsid/setpgid/tcsetpgrp、Android UID/强停、容器/cgroups/namespace 与 PGID 的原有主张。",
+    "015—019：015 OK 删除，其他最终术语无差异。保留 expr 参数空格与引用错误、进程替换/dev/fd/63、重定向、短路与 Fish 失败、手册学习、不同 shell 的管道重定向差异和 sudo 权限问题。",
+    "019 首次段落定位误触第二个代码围栏，已从 baseline 恢复全部保护内容，再按三段散文原文前缀改写；最终 protected_errors 全空。所有标题/front matter/图文顺序/图注/链接/听辨标记/代码均保持。"
+  ],
+  "known_limits": [
+    "未重新听音频、未运行示例、未外部核实历史与技术事实。QWERTY、ASCII、canonical/信号、Session/SIGHUP、组继承、Fish 等原课潜在错误保留；这里只做阅读稿语义润色。"
+  ]
+}

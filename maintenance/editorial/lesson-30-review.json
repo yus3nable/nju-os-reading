@@ -1,0 +1,364 @@
+{
+  "lesson": 30,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/30/001.md",
+    "chapters/30/002.md",
+    "chapters/30/003.md",
+    "chapters/30/004.md",
+    "chapters/30/005.md",
+    "chapters/30/006.md",
+    "chapters/30/007.md",
+    "chapters/30/008.md",
+    "chapters/30/009.md",
+    "chapters/30/010.md",
+    "chapters/30/011.md",
+    "chapters/30/012.md",
+    "chapters/30/013.md",
+    "chapters/30/014.md",
+    "chapters/30/015.md",
+    "chapters/30/016.md",
+    "chapters/30/017.md",
+    "chapters/30/018.md",
+    "chapters/30/019.md",
+    "chapters/30/020.md",
+    "chapters/30/021.md",
+    "chapters/30/022.md",
+    "chapters/30/023.md",
+    "chapters/30/024.md",
+    "chapters/30/025.md",
+    "chapters/30/026.md",
+    "chapters/30/027.md",
+    "chapters/30/028.md",
+    "chapters/30/029.md",
+    "chapters/30/030.md",
+    "chapters/30/031.md",
+    "chapters/30/032.md",
+    "chapters/30/033.md",
+    "chapters/30/034.md",
+    "chapters/30/035.md",
+    "chapters/30/036.md",
+    "chapters/30/037.md",
+    "chapters/30/038.md",
+    "chapters/30/039.md",
+    "chapters/30/040.md",
+    "chapters/30/041.md",
+    "chapters/30/042.md",
+    "chapters/30/043.md",
+    "chapters/30/044.md",
+    "chapters/30/045.md",
+    "chapters/30/046.md",
+    "chapters/30/047.md",
+    "chapters/30/048.md",
+    "chapters/30/049.md",
+    "chapters/30/050.md",
+    "chapters/30/051.md",
+    "chapters/30/052.md",
+    "chapters/30/053.md",
+    "chapters/30/054.md",
+    "chapters/30/055.md",
+    "chapters/30/056.md",
+    "chapters/30/057.md",
+    "chapters/30/058.md",
+    "chapters/30/059.md",
+    "chapters/30/060.md",
+    "chapters/30/061.md",
+    "chapters/30/062.md",
+    "chapters/30/063.md",
+    "chapters/30/064.md",
+    "chapters/30/065.md",
+    "chapters/30/066.md",
+    "chapters/30/067.md",
+    "chapters/30/068.md",
+    "chapters/30/069.md",
+    "chapters/30/070.md",
+    "chapters/30/071.md",
+    "chapters/30/072.md",
+    "chapters/30/073.md",
+    "chapters/30/074.md",
+    "chapters/30/075.md",
+    "chapters/30/076.md",
+    "chapters/30/077.md",
+    "chapters/30/078.md",
+    "chapters/30/079.md",
+    "chapters/30/080.md",
+    "chapters/30/081.md",
+    "chapters/30/082.md",
+    "chapters/30/083.md",
+    "chapters/30/084.md",
+    "chapters/30/085.md",
+    "chapters/30/086.md",
+    "chapters/30/087.md",
+    "chapters/30/088.md"
+  ],
+  "scope": "全部88节逐段通读、语义润色和冷读；图文与代码结构另以自动检查核对。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/30/004.md",
+      "removed": [
+        "agent"
+      ],
+      "added": [],
+      "review": "agent/Agent 统一大小写，不变更概念。"
+    },
+    {
+      "path": "chapters/30/007.md",
+      "removed": [
+        "overview"
+      ],
+      "added": [],
+      "review": "overview 译为概括。"
+    },
+    {
+      "path": "chapters/30/008.md",
+      "removed": [
+        "battle",
+        "somehow"
+      ],
+      "added": [],
+      "review": "battle 译为讨论；somehow 为口头插语。"
+    },
+    {
+      "path": "chapters/30/010.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/012.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/018.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [
+        "AI"
+      ],
+      "review": "结合上下文将代词所指明确为 AI，不新增已完成结果。"
+    },
+    {
+      "path": "chapters/30/020.md",
+      "removed": [
+        "collect",
+        "ok",
+        "tap"
+      ],
+      "added": [],
+      "review": "collect 译为收集，tap 为串接工具的口语，均未删除操作步骤。"
+    },
+    {
+      "path": "chapters/30/021.md",
+      "removed": [
+        "AI"
+      ],
+      "added": [],
+      "review": "AI 主体明确为 Coding Agent，保留尚未试过的状态。"
+    },
+    {
+      "path": "chapters/30/022.md",
+      "removed": [
+        "list"
+      ],
+      "added": [],
+      "review": "list 译为列出，plan mode 和 to-do 过程完整。"
+    },
+    {
+      "path": "chapters/30/023.md",
+      "removed": [],
+      "added": [
+        "AI"
+      ],
+      "review": "AI/ai 大小写和代词指向统一，alignment 原有判断保留。"
+    },
+    {
+      "path": "chapters/30/024.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/025.md",
+      "removed": [
+        "library"
+      ],
+      "added": [
+        "AI"
+      ],
+      "review": "library 译为运行时库；代词明确为 AI 且保留我猜的限定。"
+    },
+    {
+      "path": "chapters/30/026.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/028.md",
+      "removed": [
+        "OK",
+        "get"
+      ],
+      "added": [],
+      "review": "get 译为抓住思路，不作为 API 名处理。"
+    },
+    {
+      "path": "chapters/30/031.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/032.md",
+      "removed": [
+        "ok"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/036.md",
+      "removed": [
+        "through",
+        "walk"
+      ],
+      "added": [
+        "code"
+      ],
+      "review": "walk through 译为逐一回顾；代码 demo 统一写成 code demo。"
+    },
+    {
+      "path": "chapters/30/039.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/041.md",
+      "removed": [
+        "X++"
+      ],
+      "added": [],
+      "review": "算术对比例 X++ 及 X+=2 在前一节040完整保留，041省去重复引子，直接说明 System Call 在该模型中的边界。"
+    },
+    {
+      "path": "chapters/30/043.md",
+      "removed": [
+        "OS"
+      ],
+      "added": [],
+      "review": "OS 译为操作系统，进程树和 syscall 关系不变。"
+    },
+    {
+      "path": "chapters/30/047.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/057.md",
+      "removed": [
+        "OK",
+        "systems"
+      ],
+      "added": [],
+      "review": "systems 的主题已在前一节056完整说明，此处删同义复说。"
+    },
+    {
+      "path": "chapters/30/059.md",
+      "removed": [
+        "lecture"
+      ],
+      "added": [],
+      "review": "lecture 译为课程，不更改 scaling law 案例。"
+    },
+    {
+      "path": "chapters/30/062.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/063.md",
+      "removed": [
+        "message"
+      ],
+      "added": [],
+      "review": "message 为引出观点的口头表达，观点本身保留。"
+    },
+    {
+      "path": "chapters/30/064.md",
+      "removed": [
+        "memory"
+      ],
+      "added": [],
+      "review": "memory 在此表示人的记忆负担，译为中文，非存储 API。"
+    },
+    {
+      "path": "chapters/30/070.md",
+      "removed": [
+        "OK"
+      ],
+      "added": [],
+      "review": "OK/ok 等无信息口头插语删除。"
+    },
+    {
+      "path": "chapters/30/079.md",
+      "removed": [
+        "Google"
+      ],
+      "added": [],
+      "review": "Google 搜索过程与 google.com 地址均保留，省去重复品牌词。"
+    },
+    {
+      "path": "chapters/30/088.md",
+      "removed": [
+        "scale"
+      ],
+      "added": [],
+      "review": "普通动词 scale 译为增长，三类 Scaling 专名保留。"
+    }
+  ],
+  "specific_checks": [
+    "数字全节无增删；保留fork的6/8观测、20分考试说明、100个知识点、1.3GB和计算器5/3得到1.6的原演示。",
+    "保留父子进程文件位置、库状态复制、地址空间、条件变量、持锁返回错误以及syscall优化边界的原讲解和简化模型。",
+    "073—075的AGI和教育观点、069的据说归因及未来计划保持限定，未改成已核实事实。",
+    "060借助原图assets/images/30/0036.webp理顺Intel（1968）与NVIDIA的衔接，没有加入新日期。",
+    "Vibe OS译写按说话者拆段，连续同角色合并后的身份切换顺序与原稿一致，Mark/Scott/Scoot等名字未猜改；中文译写身份说明保持原样。"
+  ],
+  "speaker_sequence_checked": [
+    "chapters/30/076.md",
+    "chapters/30/077.md",
+    "chapters/30/078.md",
+    "chapters/30/079.md",
+    "chapters/30/080.md",
+    "chapters/30/081.md",
+    "chapters/30/082.md",
+    "chapters/30/083.md",
+    "chapters/30/084.md"
+  ],
+  "known_limits": [
+    "未重新听录，也未进行外部事实核验；原课程中的历史、技术和预测主张保留讲述者归因与不确定性。",
+    "原有听辨缺口、源图裁切和示例错误保留；未运行课堂示例程序。"
+  ]
+}

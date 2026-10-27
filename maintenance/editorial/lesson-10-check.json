@@ -1,0 +1,213 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/10/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 724,
+      "after_characters": 435,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2272,
+      "after_characters": 1389,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "minimal"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3988,
+      "after_characters": 2127,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "elf",
+          "lib"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2992,
+      "after_characters": 1719,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/005.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2952,
+      "after_characters": 1543,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/006.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1963,
+      "after_characters": 1132,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "AI",
+          "OK",
+          "for"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/007.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1195,
+      "after_characters": 658,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/008.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1179,
+      "after_characters": 700,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/009.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 2723,
+      "after_characters": 1462,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/010.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3382,
+      "after_characters": 1795,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "sleep"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/011.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1443,
+      "after_characters": 767,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/10/012.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3654,
+      "after_characters": 2024,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "be",
+          "can",
+          "is",
+          "later",
+          "passed",
+          "returns",
+          "successfully",
+          "that",
+          "then"
+        ],
+        "added": []
+      }
+    }
+  ]
+}

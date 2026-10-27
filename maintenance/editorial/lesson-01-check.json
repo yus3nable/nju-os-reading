@@ -1,0 +1,86 @@
+{
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "status": "passed",
+  "scope": "Exact front matter, headings, fenced and inline code, image references, captions, link targets and uncertainty markers. Number/term differences are review prompts; semantic fidelity requires paragraph review.",
+  "sections": [
+    {
+      "path": "chapters/01/001.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 3804,
+      "after_characters": 2357,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "critical",
+          "open"
+        ],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/01/002.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 7429,
+      "after_characters": 4351,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/01/003.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 7234,
+      "after_characters": 4147,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/01/004.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 7034,
+      "after_characters": 3975,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    },
+    {
+      "path": "chapters/01/005.md",
+      "changed": true,
+      "protected_errors": [],
+      "before_characters": 1155,
+      "after_characters": 696,
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": []
+      }
+    }
+  ]
+}

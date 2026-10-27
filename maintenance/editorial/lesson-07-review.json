@@ -1,0 +1,42 @@
+{
+  "lesson": 7,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/07/001.md",
+    "chapters/07/002.md",
+    "chapters/07/003.md",
+    "chapters/07/004.md",
+    "chapters/07/005.md",
+    "chapters/07/006.md",
+    "chapters/07/007.md",
+    "chapters/07/008.md",
+    "chapters/07/009.md",
+    "chapters/07/010.md",
+    "chapters/07/011.md",
+    "chapters/07/012.md",
+    "chapters/07/013.md",
+    "chapters/07/014.md"
+  ],
+  "scope": "通读十四节并逐段语义改写全部散文；保留讲述顺序、第一人称、接口细节、例子、推导、限制、失败与纠正过程。",
+  "reviewed_differences": [
+    "全部数值已逐项核查；009 初次将连续写入 1、2 合写为 12，已恢复原数字写法，最终无数值增删。",
+    "001：日期 21/22、3 月 22 中午、12 点及 git reset/reflog/cherry-pick 恢复过程保留，仅作为原课堂演示文本，未执行相关操作。",
+    "002：OK 插语删除，CPU 已保留；128 个进程聚合、msync、设备映射与主题衔接保留。",
+    "003：OK 删除；GetMemoryMap/ReadProcessMemory/VirtualQueryEx、pathlib、open flags 及 O_CREAT 拼写历史原主张保留，未改成新的事实断言。",
+    "004：小写 everything 的重复指代合入 Everything is a File，API 已保留；字节流/数组、HTTP 头、设备/锁/管道、用户与开发者对象暴露差异均保留。",
+    "005：OK 删除，hacking 已保留；提交打包、日期命名/秒内覆盖、watch/result、find 删除结果后重判、数据库性能与一致性代价、99.99999 判断、双实现交叉检查和云端设想保留。",
+    "006：OK/anyway 删除，token 已保留；FHS 例外、KISS 三项、2.369 GB、meminfo 来源、文件名空格与 make 问题、脚本语言未来判断和 strongly type Python 原说法保持。",
+    "007：OK 删除，process 自然译为进程；file/buffer/offset 模型、标准库与系统调用先后、SEEK_* 与 duplicate 保留。",
+    "008：OK 删除，AI 已保留；IO 的重复指代并入 I/O 端口和描述符空间说明。保留 return -1/perror、mmcblk0、从最小空编号分配、Handle 权限与句柄翻译的原主张。",
+    "009：IO 自然译为描述符空间，Paper 译为论文，return 译为返回值，OK 删除；深浅拷贝两个结果、日志覆盖取舍、继承敏感文件及 O_CLOEXEC 原说法保留，未静默校正 fork/exec 的细节。",
+    "010：OK 删除；命令管道、伪终端写入权限限定与设备类型保留。011：whatever 插语删除，管道容量、等待、命名管道两种先后演示保留。",
+    "012：OK/ok/claim 插语删除；匿名到命名的自我纠正、数组/读写端索引、39/42 行、4/5 与 fork 继承保留。",
+    "013：Word/sorry 的口头重启改为完整 WordCount，Unix 保留；22454、/dev/pts/4、3/4、48 行、父子关闭不同端和 duplicate 映射过程保留。",
+    "014：无数值术语差异；保留讲述者两个 test case pass 的原话含义，与图注 1/2 不一致处未自行改正。",
+    "所有 protected_errors 为空，front matter、标题、代码与命令围栏、图片图注、链接、听辨缺口逐字保持。"
+  ],
+  "known_limits": [
+    "未重新听录音、未运行代码、未核实原课历史与技术主张；Windows/UNIX、O_CLOEXEC、命名管道等待、testkit 输出等潜在不准确之处仅润色、不自行修正。"
+  ]
+}

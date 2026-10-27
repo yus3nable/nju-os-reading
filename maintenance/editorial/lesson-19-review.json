@@ -1,0 +1,341 @@
+{
+  "lesson": 19,
+  "status": "reviewed",
+  "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
+  "sections": [
+    "chapters/19/001.md",
+    "chapters/19/002.md",
+    "chapters/19/003.md",
+    "chapters/19/004.md",
+    "chapters/19/005.md",
+    "chapters/19/006.md",
+    "chapters/19/007.md",
+    "chapters/19/008.md",
+    "chapters/19/009.md",
+    "chapters/19/010.md",
+    "chapters/19/011.md",
+    "chapters/19/012.md",
+    "chapters/19/013.md",
+    "chapters/19/014.md",
+    "chapters/19/015.md",
+    "chapters/19/016.md",
+    "chapters/19/017.md",
+    "chapters/19/018.md",
+    "chapters/19/019.md",
+    "chapters/19/020.md",
+    "chapters/19/021.md",
+    "chapters/19/022.md",
+    "chapters/19/023.md",
+    "chapters/19/024.md",
+    "chapters/19/025.md",
+    "chapters/19/026.md",
+    "chapters/19/027.md",
+    "chapters/19/028.md"
+  ],
+  "scope": "通读全部28节，逐段润色malloc/slab、线程代价、用户态协程、Go channel、Web演化与JavaScript计算图。删除结巴、复说及无信息口头控场，理顺跨PDF页句子；保留第一人称、原顺序、独立信息、例子、推导、条件、否定、量词、归因、不确定性和有信息的失败演示。",
+  "reviewed_differences": [
+    {
+      "path": "chapters/19/001.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "prompt"
+        ],
+        "added": []
+      },
+      "resolution": "prompt 译为指令；保留 GPT-5 修复未过、RL reward 与 workload 必须联系的原判断。"
+    },
+    {
+      "path": "chapters/19/002.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留实际概率分布、最坏情况边界及 httpd hash 碰撞攻击全部步骤。"
+    },
+    {
+      "path": "chapters/19/003.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "simply"
+        ],
+        "added": []
+      },
+      "resolution": "OK、simply 删除；保留所有对象大小与生命周期推断、大对象低使用率的反例。"
+    },
+    {
+      "path": "chapters/19/004.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "ok"
+        ],
+        "added": []
+      },
+      "resolution": "ok 译为可以；保留一兆/4kb/8kb、每CPU与每线程两种范围、跨线程free竞争及O(1)主张。"
+    },
+    {
+      "path": "chapters/19/006.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "idea"
+        ],
+        "added": []
+      },
+      "resolution": "idea 译为方法；保留1964、10%成本与百万规模的比较和讲述者评价。"
+    },
+    {
+      "path": "chapters/19/007.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留 pmap/proc/read/environ、默认八兆按需分配及所有线程规模。"
+    },
+    {
+      "path": "chapters/19/009.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 OK；保留切换开销、LCS/Mandelbrot划分、100万线程与CPU上下文设想。"
+    },
+    {
+      "path": "chapters/19/013.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "xy"
+        ],
+        "added": []
+      },
+      "resolution": "xy 规范为前文已有 x、y，两个局部变量都保留；setjmp/longjmp/架构/无栈与有栈差异、闭包主张均按原意保留。"
+    },
+    {
+      "path": "chapters/19/014.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "IO",
+          "python"
+        ],
+        "added": [
+          "Python"
+        ]
+      },
+      "resolution": "python 规范为 Python，IO 的含义保留为 read I/O 操作；保留单OS线程、阻塞read与锁加yield造成AA死锁的完整因果。"
+    },
+    {
+      "path": "chapters/19/015.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "API",
+          "Blog",
+          "OK",
+          "iO"
+        ],
+        "added": []
+      },
+      "resolution": "API 以 epoll/open 等具体接口表达，Blog 普通阅读插语删除，iO 采用同文 Io；保留O_NONBLOCK/EAGAIN/epoll/FD/EventFD/TimerFD与跨协程同步的原主张。"
+    },
+    {
+      "path": "chapters/19/016.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "hack",
+          "while"
+        ],
+        "added": [
+          "OS"
+        ]
+      },
+      "resolution": "hack 译为改写，while 译为循环；OS 是同段操作系统线程的简称。保留标准库前提、自己写blocking reader的限制、多个OS worker与就绪/等待/返回队列过程。"
+    },
+    {
+      "path": "chapters/19/017.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "go"
+        ],
+        "added": []
+      },
+      "resolution": "go 规范为同段 Go/Golang，Effective Go原句完整保留；保留UNIX管道、生产者消费者同步、channel及全部人物归因。"
+    },
+    {
+      "path": "chapters/19/018.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "anyway"
+        ],
+        "added": []
+      },
+      "resolution": "仅删除 anyway；保留四个Goroutine并行与四千个发生同步bug的演示区别，未写成成功修复。"
+    },
+    {
+      "path": "chapters/19/019.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "go"
+        ],
+        "added": [
+          "Go"
+        ]
+      },
+      "resolution": "go 规范为 Go；保留1995/十天/语言融合、函数一等公民、this和弱类型相等判断的原讲述。"
+    },
+    {
+      "path": "chapters/19/020.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "fancy"
+        ],
+        "added": []
+      },
+      "resolution": "fancy 译为复杂；保留199X/HTTP1.1/Nginx/200/OK与table切图机制。"
+    },
+    {
+      "path": "chapters/19/021.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "web"
+        ],
+        "added": []
+      },
+      "resolution": "web 译为网页；保留1999/XMLHTTPRequest/Ajax/XML/JSON/DOM/jQuery及请求与界面更新两种能力。"
+    },
+    {
+      "path": "chapters/19/022.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [],
+        "added": [
+          "GUI"
+        ]
+      },
+      "resolution": "GUI 是原文图形界面的通用简称；保留06年、微软/Google产品名及ChromeOS/Edge原主张。"
+    },
+    {
+      "path": "chapters/19/023.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "floating"
+        ],
+        "added": []
+      },
+      "resolution": "floating 译为浮动；保留动态事件到达、低门槛语言定位、作者对设计的评价及run-to-completion阻塞后果。"
+    },
+    {
+      "path": "chapters/19/026.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "function"
+        ],
+        "added": []
+      },
+      "resolution": "function 以函数表达；保留async返回promise、await标量值与await Promise的用法，不修改字面量token代码。"
+    },
+    {
+      "path": "chapters/19/027.md",
+      "numbers_to_review": {
+        "removed": [],
+        "added": []
+      },
+      "terms_to_review": {
+        "removed": [
+          "OK",
+          "abc"
+        ],
+        "added": []
+      },
+      "resolution": "OK 删除，abc 的顺序含义保留在 A/B、a/b和Promise.resolve嵌套解释；保留等待花时间、两个succ:false与无效token的失败结果、原听辨注记。"
+    },
+    {
+      "path": "chapters/19",
+      "difference": "全部数值无增删，protected_errors 为空。",
+      "resolution": "核查所有对象大小/阈值、10%成本、线程规模、16.9KB、生成器线程编号、年份、API示例及失败结果；全部受保护内容与图序保持。"
+    }
+  ],
+  "known_limits": [
+    "结构审计精确保护front matter、标题、围栏/行内代码、图片、图注、链接与听辨标记；语义保真依赖逐段对照。未运行代码、重做内存实验或确认原课程的性能主张。",
+    "原课休眠线程16.9KB中内核资源归属、Goroutine依赖编译器改写/标准库的概括、nonblocking read负EAGAIN、FD跨进程访问及互斥锁限制、Go人物归因、JavaScript禁止全部blocking I/O与Promise/Future严格区分等存在需另核实的技术或事实主张，未用外部知识静默修正。",
+    "原课关于闭包语言可实现切换、所有事件原子性、Web/HTTP年代与API概括均按原讲述保留；章节润色不代表这些主张已经验证。"
+  ]
+}

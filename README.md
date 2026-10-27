@@ -8,7 +8,7 @@
 
 ## 内容与目录
 
-`chapters/01/001.md` 等文件是可编辑书稿。每篇顶部的 JSON front matter 记录标题、原片时间及来源 PDF 页码，正文保留课堂讲述、代码与图注。标题与时间的修改从 Markdown 进入网站，不需要修改页面模板。
+`chapters/01/001.md` 等文件是可编辑书稿。每篇顶部的 JSON front matter 记录标题、原片时间及来源 PDF 页码。阅读版保留讲解、例子、推导和第一人称，删去无意义的口头重复，理顺句子和段落；代码、图片、图注、原片时间与听辨缺口沿用原稿。标题与时间的修改从 Markdown 进入网站，不需要修改页面模板。
 
 `assets/images/` 保存正文所需的独立课件图片。`maintenance/lesson-*.json` 记录来源文件和课程顺序，`maintenance/reading-pages.json` 是唯一连续阅读顺序。源 PDF 保留在本地原目录，不随网站发布。
 
@@ -41,9 +41,26 @@ ln -s ../build .preview/nju-os-reading
 
 默认拒绝覆盖已有书稿。`--replace` 会重新生成对应课程的 Markdown 与图片，仅在明确需要放弃该课手工编辑时使用。
 
-`audit.py` 对全部生成正文与 PDF 文字层逐字符比对，忽略版面空白与时间标签前缀；另外核对图片数量、代码行与缩进。它验证转换是否漏字或改字，无法证明原始转写准确。源 PDF 中已有的听辨缺口、课堂口误和后续更正按原稿保留，未重新识别音频。
+`audit.py` 对初次提取稿与 PDF 文字层逐字符比对，忽略版面空白与时间标签前缀；另外核对图片数量、代码行与缩进。它验证提取是否漏字或改字，无法证明原始转写准确。阅读版经过语义润色，不再与 PDF 正文逐字相同，不使用这项比对判定润色质量。源 PDF 中已有的听辨缺口、课堂口误和后续更正按原稿保留，未重新识别音频。
 
 `maintenance/content-audit.json`、`maintenance/site-check.json` 和 `maintenance/QA.md` 记录内容、静态链接与浏览器抽查的实际范围。
+
+## 阅读版润色与复核
+
+初次提取的逐字稿保存在 Git revision `90cd258a51d0e3be111d8aeb716a1f3fa2f67c07`。可以在仓库根目录查看任一原始小节：
+
+```sh
+git show 90cd258a51d0e3be111d8aeb716a1f3fa2f67c07:chapters/01/001.md
+```
+
+`maintenance/editorial/protocol.md` 说明阅读版的编辑约束。每课的 `lesson-NN-review.json` 记录实际逐段复核范围和数值、术语差异的处理；`lesson-NN-check.json` 记录受保护内容检查。检查单课或全书：
+
+```sh
+.venv/bin/python scripts/audit_editorial.py --lessons 1 --report maintenance/editorial/lesson-01-check.json
+.venv/bin/python scripts/audit_editorial.py --report maintenance/editorial/all-sections-check.json
+```
+
+该检查逐字核对 front matter、标题、围栏代码、行内代码、图片、图注、链接目标与听辨缺口。数值和术语差异会列出供语义复核；程序通过只证明这些结构保持，不代表自动证明观点与推导完整。静态网页和搜索索引始终从阅读版 Markdown 重新构建。
 
 ## 发布
 
