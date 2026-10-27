@@ -31,7 +31,7 @@
 
 GitHub Pages 使用 `gh-pages` 根目录发布，HTTPS 已启用。部署 commit 为 `40833b2616f3612fb746c322f4b576b0d1884e24`，GitHub 报告构建成功。
 
-- 首页、30 课各自第一节、课程最后一节、CSS/JS、搜索和目录索引，以及 3 张代表图片，共 39 个 URL 均返回成功，内容与本地发布产物逐字节一致。详细记录见 `online-check.json`。
+- 首页、30 课各自第一节、课程最后一节、CSS/JS、搜索和目录索引，以及 3 张代表图片，共 39 个 URL 均返回成功，内容与本地发布产物逐字节一致。初次报告保存在原稿 revision `90cd258a51d0e3be111d8aeb716a1f3fa2f67c07` 的 `maintenance/online-check.json`；当前文件记录最近一次线上验收。
 - 线上手机首页显示 30 课、942 个阅读小节，无整页横向溢出。
 - 在线搜索“条件变量”返回 51 个小节；点击进入第 15 课“从忙等发明条件变量”，对应图片成功加载，弹窗放大正常。
 - 第 30 课“条件变量与并发编程题”的代码内容、缩进与图片正常显示。
@@ -55,4 +55,15 @@ GitHub Pages 使用 `gh-pages` 根目录发布，HTTPS 已启用。部署 commit
 
 本轮未重新听录、核实原课技术及历史主张或执行课堂示例代码。听辨缺口和原示例中的疑点继续保留，具体限制见各课复核记录。原 PDF 和配图文件未改动，PDF 未重新生成。
 
-阅读版尚未 commit、push 或更新 GitHub Pages；上方线上验收只对应初次发布版本。本地预览为 http://127.0.0.1:8765/nju-os-reading/ 。最终结构、构建和静态页面结果见 `editorial/integration-review.json`、`editorial/all-sections-check.json` 与 `site-check.json`。
+阅读版现已 commit、推送并更新 GitHub Pages；上方初次线上验收仍作为历史记录保留，本轮部署见下节。本地预览为 http://127.0.0.1:8765/nju-os-reading/ 。最终结构、构建和静态页面结果见 `editorial/integration-review.json`、`editorial/all-sections-check.json` 与 `site-check.json`。
+
+
+## 润色版上线验收（2026-10-27）
+
+地址：https://yus3nable.github.io/nju-os-reading/
+
+- 润色正文提交为 `042adb324d043dbe8f8fcecd47f974c107a0481e`，发布提交为 `136934cda9d3cd46e4b84536b6260314fe71ffd3`。GitHub Pages 报告该发布提交构建成功，HTTPS 正常。
+- 首页、30 课入口页、课程末节、转义字符及断句修复样例、fork 两节示例、CSS/JS、搜索与目录索引、3 张代表图片，共 43 个 URL 返回内容与本地构建逐字节一致。第 06 课首轮连接超时，单独重试后通过。详见 `online-check.json`。
+- 线上搜索“运行时库里的全部状态”返回第 30 课“fork 的输出与缓冲区”，打开后为润色后的正文；图片正常加载并可弹窗放大；下一节进入“父子进程共享文件描述符”，代码缩进保留，宽代码在独立容器内滚动。
+- 390 px 手机样例无整页横向溢出，临时视口已恢复。线上截图为 `screenshots/editorial-online-mobile.png`。
+- `main` 保存润色书稿及复核记录，`gh-pages` 保存发布网页；原 PDF 未改动或上传。

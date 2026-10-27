@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-27T03:51:35.131592+00:00",
+  "status": "published_and_verified",
+  "url": "https://yus3nable.github.io/nju-os-reading/",
+  "source_content_commit": "042adb324d043dbe8f8fcecd47f974c107a0481e",
+  "deploy_commit": "136934cda9d3cd46e4b84536b6260314fe71ffd3",
+  "pages_build_status": "built",
+  "pages_build_updated_at": "2026-10-27T03:40:41Z",
+  "lessons": 30,
+  "sections": 942,
+  "online_urls_verified": 43,
+  "online_report": "maintenance/online-check.json",
+  "browser_checks": {
+    "query": "运行时库里的全部状态",
+    "search_result": "lessons/30/025.html",
+    "body_matches_reading_edition": true,
+    "image_loaded": true,
+    "image_zoom": "passed",
+    "continuous_next": "lessons/30/026.html",
+    "mobile_width": 390,
+    "whole_page_overflow": false,
+    "code_indentation_preserved": true,
+    "code_horizontal_scroll_container": true,
+    "temporary_viewport_restored": true,
+    "screenshot": "maintenance/screenshots/editorial-online-mobile.png"
+  },
+  "transport": "main内容提交通过git推送。gh-pages的git连接两次失败后，通过GitHub API上传相同tree和commit，核对与本地对象一致，再以expected_sha更新分支；未强推。"
+}

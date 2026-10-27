@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "status": "passed_local",
+  "status": "passed_online",
   "baseline": "90cd258a51d0e3be111d8aeb716a1f3fa2f67c07",
   "lessons": [
     {
@@ -315,17 +315,23 @@
     ]
   },
   "publication": {
-    "committed": false,
-    "pushed": false,
-    "published": false,
-    "local_preview": "http://127.0.0.1:8765/nju-os-reading/"
+    "committed": true,
+    "pushed": true,
+    "published": true,
+    "local_preview": "http://127.0.0.1:8765/nju-os-reading/",
+    "url": "https://yus3nable.github.io/nju-os-reading/",
+    "content_commit": "042adb324d043dbe8f8fcecd47f974c107a0481e",
+    "deploy_commit": "136934cda9d3cd46e4b84536b6260314fe71ffd3",
+    "pages_build_status": "built",
+    "online_report": "maintenance/online-check.json",
+    "checked_urls": 43
   },
   "known_limits": [
     "未重新听录或补齐原稿听辨缺口。",
     "未外部核实原讲述的技术、历史及预测主张；具体疑点见每课 known_limits。",
     "未运行课程示例代码；代码校验只说明文本与原稿保持。",
     "结构检查、数值集合及段落标点扫描不能自动证明语义完全保真；语义复核范围以逐课记录及独立复核记录为准。",
-    "PDF未重新生成；线上仍为初次发布稿，等待本任务的commit/push/发布授权。"
+    "PDF未重新生成；本轮发布润色后的HTML阅读版。"
   ],
   "verification": {
     "editorial_audit": "passed, 942/942, protected_errors=0",
@@ -333,6 +339,7 @@
     "static_reader": "passed, 943 HTML pages, 942 reading pages, error_count=0",
     "git_diff_check": "passed",
     "escape_sequences": "passed, no set differences or unexpected controls/tabs",
-    "all_rendered_prose": "no unexpected HTML tags"
+    "all_rendered_prose": "no unexpected HTML tags",
+    "online": "passed: 43 URL responses match build; search, image zoom, continuous navigation and mobile code rendering verified"
   }
 }

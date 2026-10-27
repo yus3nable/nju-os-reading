@@ -33,9 +33,12 @@
     30
   ],
   "pending_lessons": [],
-  "published": false,
+  "published": true,
   "parallel_authorization": "granted",
   "active_assignments": {},
-  "integration_status": "passed_local",
-  "final_report": "maintenance/editorial/integration-review.json"
+  "integration_status": "passed_online",
+  "final_report": "maintenance/editorial/integration-review.json",
+  "url": "https://yus3nable.github.io/nju-os-reading/",
+  "content_commit": "042adb324d043dbe8f8fcecd47f974c107a0481e",
+  "deploy_commit": "136934cda9d3cd46e4b84536b6260314fe71ffd3"
 }
