@@ -30,3 +30,11 @@ const imageDialog=$('#image-dialog'),zoom=$('#zoom-image');
 function openImage(img){zoom.src=img.src;zoom.alt=img.alt;$('.image-scroll').classList.remove('expanded');$('#zoom-caption').textContent=img.alt+' · 点击图片查看原始尺寸';imageDialog.showModal()}
 document.querySelectorAll('.prose img').forEach(img=>{img.addEventListener('click',()=>openImage(img));img.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();openImage(img)}})});
 zoom.onclick=()=>$('.image-scroll').classList.toggle('expanded');
+
+// Use the same section copy controls as the other reading sites.
+const sectionCopyStyle = document.createElement('link');
+sectionCopyStyle.rel = 'stylesheet';
+sectionCopyStyle.href = 'https://yus3nable.github.io/assets/section-copy.css?v=20261113';
+const sectionCopyScript = document.createElement('script');
+sectionCopyScript.src = 'https://yus3nable.github.io/assets/section-copy.js?v=20261113';
+document.head.append(sectionCopyStyle, sectionCopyScript);
